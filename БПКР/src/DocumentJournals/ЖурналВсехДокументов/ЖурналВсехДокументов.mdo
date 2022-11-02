@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b73fdb8-8be7-4a2f-9032-9288b774b7ac">
+  <producedTypes>
+    <selectionType typeId="85b8a214-4128-41ca-9f62-27ad87568e93" valueTypeId="615af8ec-2ab5-4c53-bc5a-ded4e2b2efda"/>
+    <listType typeId="43b8e14b-b9ed-4a71-9a7a-8d0d36d75c80" valueTypeId="8b71c119-9639-4f27-b916-998a4725324f"/>
+    <managerType typeId="d9054fdc-6e73-4a4c-a191-594d4ea99d19" valueTypeId="8ffd5ca3-7c0a-49d2-a13d-7b4e01d4983e"/>
+  </producedTypes>
+  <name>ЖурналВсехДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал всех документов</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ЖурналВсехДокументов.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.АвансовыйОтчет</registeredDocuments>
+  <registeredDocuments>Document.АктСверкиВзаиморасчетов</registeredDocuments>
+  <registeredDocuments>Document.БольничныйЛист</registeredDocuments>
+  <registeredDocuments>Document.ВводНачальныхОстатков</registeredDocuments>
+  <registeredDocuments>Document.ВедомостьЗаработнойПлаты</registeredDocuments>
+  <registeredDocuments>Document.ВозвратТоваровОтПокупателя</registeredDocuments>
+  <registeredDocuments>Document.ВозвратТоваровПоставщику</registeredDocuments>
+  <registeredDocuments>Document.ВыработкаОС</registeredDocuments>
+  <registeredDocuments>Document.ГТДПоИмпорту</registeredDocuments>
+  <registeredDocuments>Document.ДвижениеМБП</registeredDocuments>
+  <registeredDocuments>Document.Доверенность</registeredDocuments>
+  <registeredDocuments>Document.ДополнительныеРасходы</registeredDocuments>
+  <registeredDocuments>Document.ЕдинаяНалоговаяДекларация</registeredDocuments>
+  <registeredDocuments>Document.ЗаказНаПроизводство</registeredDocuments>
+  <registeredDocuments>Document.ЗакрытиеЗаказовНаПроизводство</registeredDocuments>
+  <registeredDocuments>Document.ЗакрытиеМесяца</registeredDocuments>
+  <registeredDocuments>Document.ЗакрытиеМесяцаЗП</registeredDocuments>
+  <registeredDocuments>Document.ЗаявлениеОВвозеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ЗемельныйНалог</registeredDocuments>
+  <registeredDocuments>Document.ИнвентаризацияОС</registeredDocuments>
+  <registeredDocuments>Document.ИнвентаризацияТоваров</registeredDocuments>
+  <registeredDocuments>Document.ИсполнительныйЛист</registeredDocuments>
+  <registeredDocuments>Document.КадровоеПеремещение</registeredDocuments>
+  <registeredDocuments>Document.Командировка</registeredDocuments>
+  <registeredDocuments>Document.КомплектацияОС</registeredDocuments>
+  <registeredDocuments>Document.Конвертация</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаНУ</registeredDocuments>
+  <registeredDocuments>Document.МодернизацияОС</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоНалогуНаМусор</registeredDocuments>
+  <registeredDocuments>Document.НачислениеЗарплаты</registeredDocuments>
+  <registeredDocuments>Document.Неявка</registeredDocuments>
+  <registeredDocuments>Document.ОперацияБух</registeredDocuments>
+  <registeredDocuments>Document.ОприходованиеТоваров</registeredDocuments>
+  <registeredDocuments>Document.Отпуск</registeredDocuments>
+  <registeredDocuments>Document.ОтчетОВзаимнойТорговлеЕАЭС</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоБланкамСчетовФактур</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоЕдиномуНалогу</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоКосвеннымНалогам</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоНалогуНаИмущество</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоНДС</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоНСП</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоПроизводству</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПроизводстваЗаСмену</registeredDocuments>
+  <registeredDocuments>Document.ПеремещениеОС</registeredDocuments>
+  <registeredDocuments>Document.ПеремещениеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеПоручениеВходящее</registeredDocuments>
+  <registeredDocuments>Document.ПлатежноеПоручениеИсходящее</registeredDocuments>
+  <registeredDocuments>Document.ПлатежныйОрдерСписаниеДС</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеБланковСчетовФактур</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеТоваровУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПриемНаРаботу</registeredDocuments>
+  <registeredDocuments>Document.ПринятиеКУчетуОС</registeredDocuments>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.Профсоюз</registeredDocuments>
+  <registeredDocuments>Document.РаботаВВыходныеИПраздничныеДни</registeredDocuments>
+  <registeredDocuments>Document.РаботаСверхурочно</registeredDocuments>
+  <registeredDocuments>Document.РазовоеУдержание</registeredDocuments>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.РеализацияТоваровУслуг</registeredDocuments>
+  <registeredDocuments>Document.РегламентированныйОтчет</registeredDocuments>
+  <registeredDocuments>Document.СписаниеОС</registeredDocuments>
+  <registeredDocuments>Document.СписаниеТоваров</registeredDocuments>
+  <registeredDocuments>Document.ИзменениеСтатусовИДополнительныхВычетов</registeredDocuments>
+  <registeredDocuments>Document.СчетНаОплатуПокупателю</registeredDocuments>
+  <registeredDocuments>Document.СчетНаОплатуПоставщика</registeredDocuments>
+  <registeredDocuments>Document.СчетФактураВыписанный</registeredDocuments>
+  <registeredDocuments>Document.СчетФактураПолученный</registeredDocuments>
+  <registeredDocuments>Document.ТребованиеНакладная</registeredDocuments>
+  <registeredDocuments>Document.ТрудовоеСоглашение</registeredDocuments>
+  <registeredDocuments>Document.УведомлениеОПолученииТоваров</registeredDocuments>
+  <registeredDocuments>Document.Увольнение</registeredDocuments>
+  <registeredDocuments>Document.УдержаниеЗаПериод</registeredDocuments>
+  <registeredDocuments>Document.УстановкаТарифовКомандировочных</registeredDocuments>
+  <registeredDocuments>Document.УстановкаЦенНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.Отработка</registeredDocuments>
+  <registeredDocuments>Document.ПлановоеУдержание</registeredDocuments>
+  <registeredDocuments>Document.ТекущийРасчетНалогаНаПрибыль</registeredDocuments>
+  <registeredDocuments>Document.ИнвентаризацияНезавершенногоПроизводства</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоВыплатамИУдержаниямПН</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаДолга</registeredDocuments>
+  <registeredDocuments>Document.ОтчетыПоСоциальномуФонду</registeredDocuments>
+  <registeredDocuments>Document.ОтчетыПоПодоходномуНалогу</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоРоялти</registeredDocuments>
+  <registeredDocuments>Document.ИнвентаризацияМБП</registeredDocuments>
+  <registeredDocuments>Document.КомплектацияНоменклатуры</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПоЗакупочнымАктам</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеВПереработку</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронныйСчетФактураВыписанный</registeredDocuments>
+  <registeredDocuments>Document.НачислениеЗарплатыПоСреднемуЗаработку</registeredDocuments>
+  <registeredDocuments>Document.ОплатаПлатежнойКартой</registeredDocuments>
+  <registeredDocuments>Document.ОтчетОРозничныхПродажах</registeredDocuments>
+  <registeredDocuments>Document.РеализацияУслугПоПереработке</registeredDocuments>
+  <registeredDocuments>Document.ЭТТНИсходящая</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронныйСчетФактураПолученный</registeredDocuments>
+  <registeredDocuments>Document.ПередачаТоваров</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеИзПереработки</registeredDocuments>
+  <registeredDocuments>Document.АктОбОказанииПроизводственныхУслуг</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеАрендованныхОС</registeredDocuments>
+  <registeredDocuments>Document.ВозвратАрендованныхОС</registeredDocuments>
+  <registeredDocuments>Document.ОтчетыПоНалогамЗаработнойПлатыИТруду</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаСтоимостиПоступления</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаСтоимостиРеализации</registeredDocuments>
+  <registeredDocuments>Document.КорректировкаСтоимостиДополнительныхРасходов</registeredDocuments>
+  <registeredDocuments>Document.ВедомостьДепонированнойЗарплаты</registeredDocuments>
+  <registeredDocuments>Document.СписаниеЗарплатыДепонентов</registeredDocuments>
+  <registeredDocuments>Document.ОбщийСчетФактураВыписанный</registeredDocuments>
+  <registeredDocuments>Document.РозничнаяПродажа</registeredDocuments>
+  <registeredDocuments>Document.КассоваяСмена</registeredDocuments>
+  <registeredDocuments>Document.НачисленияПодоходногоНалогаПрочихФизЛиц</registeredDocuments>
+  <registeredDocuments>Document.ОтчетНалоговогоАгентаНДС</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <forms uuid="08315ad7-3185-48f4-a46b-f1bcd088a795">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

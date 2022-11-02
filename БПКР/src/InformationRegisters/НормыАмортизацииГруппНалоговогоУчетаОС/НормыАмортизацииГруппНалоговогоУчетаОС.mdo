@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68b3158c-5961-4acb-b258-77f88f6d61a8">
+  <producedTypes>
+    <selectionType typeId="749ba26d-e351-4092-8b5b-406d6c3fc43a" valueTypeId="d62c3afc-1412-4ff2-a48a-47c60caa4953"/>
+    <listType typeId="3b168523-22b9-43a4-a948-a372ca47bb58" valueTypeId="2597e0e7-fd8f-47c4-88b5-988f5103dbe1"/>
+    <managerType typeId="cbe0af5a-48b6-4604-8a1b-a3a3846e72fb" valueTypeId="25a7cce5-0f2d-452c-bdd4-3a898dbf27e5"/>
+    <recordSetType typeId="ead1da4a-9e46-4a75-b67e-3d14e9e96cf0" valueTypeId="b6071959-1a0a-491a-a732-ea5a068e62cf"/>
+    <recordKeyType typeId="a0e601ec-762e-4fe1-99b9-8da5af55891e" valueTypeId="8c0bfd34-1dd7-4bfe-9b0d-bcbc58dd09d9"/>
+    <recordType typeId="c9aa09d6-3ba1-4937-a730-f90e16a76ade" valueTypeId="33d95d17-7c2c-40dc-b4b0-e9120bc56585"/>
+    <recordManagerType typeId="e07527ec-6921-4183-9dff-7f5149131292" valueTypeId="be54a4ff-362d-40bb-b9ac-b5d041538ccb"/>
+  </producedTypes>
+  <name>НормыАмортизацииГруппНалоговогоУчетаОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы амортизации групп налогового учета ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fb990f84-ebc7-4b6f-b298-27be209f4826">
+    <name>НормаАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма амортизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="05b777ba-8b36-440c-baca-6422891d293f">
+    <name>НормаАмортизацииДополнительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма амортизации (доп.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для объектов группы 5 после 20 лет эксплуатации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d7563fbc-94fe-4d5a-99a4-e59321ba259e">
+    <name>ГруппаНалоговогоУчетаОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа налогового учета ОС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГруппыНалоговогоУчетаОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

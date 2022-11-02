@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b6160be-bfbd-44b1-b3a9-373097aa9a56">
+  <name>СтандартныеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ОборотыМеждуСубконто</content>
+  <content>Report.СводныеПроводки</content>
+  <content>Report.ШахматнаяВедомость</content>
+  <content>Report.АнализСубконто</content>
+  <content>Report.АнализСчета</content>
+  <content>Report.КарточкаСчета</content>
+  <content>Report.ОборотноСальдоваяВедомость</content>
+  <content>Report.ОборотноСальдоваяВедомостьПоСчету</content>
+  <content>Report.КарточкаСубконто</content>
+  <content>Report.ОборотыСчета</content>
+  <content>Report.ГлавнаяКнига</content>
+  <content>Report.ОтчетПоПроводкам</content>
+  <content>CommonCommand.УниверсальныйОтчет</content>
+  <content>Report.УниверсальныйОтчетПоМетаданным</content>
+  <content>Report.ОборотноСальдоваяВедомостьПоПарнымСчетам</content>
+  <content>CommonModule.БухгалтерскиеОтчеты</content>
+  <content>CommonModule.БухгалтерскиеОтчетыВызовСервера</content>
+  <content>CommonModule.БухгалтерскиеОтчетыПовтИсп</content>
+  <content>CommonModule.БухгалтерскиеОтчетыКлиент</content>
+  <content>CommonModule.БухгалтерскиеОтчетыКлиентСервер</content>
+  <content>CommonModule.БухгалтерскиеОтчетыРасшифровка</content>
+  <content>CommonModule.БухгалтерскиеОтчетыКлиентСерверПереопределяемый</content>
+  <content>CommonModule.БухгалтерскиеОтчетыКлиентСерверБП</content>
+  <content>Report.СводПоСчету</content>
+  <content>Report.ГлавнаяКнигаПоСчетам</content>
+  <content>DataProcessor.КарточкаОпераций</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

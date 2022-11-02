@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2138bcb5-9d2f-4cca-942d-b0ca703b9173">
+  <producedTypes>
+    <refType typeId="f7f1c615-4099-47ed-8e65-e9558fe5ed28" valueTypeId="3a21b289-a476-444c-a20c-03178661eefc"/>
+    <listType typeId="4a435251-867a-4d89-9600-addfc481354c" valueTypeId="fdc30ab4-0cf4-4071-b365-8cef9effee61"/>
+    <managerType typeId="d8c6cd04-effd-4e0e-a494-fc891195aaf3" valueTypeId="f4f6030d-26ed-4d02-8177-78682442df30"/>
+  </producedTypes>
+  <name>ВидыОперацийКомплектация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций комплектация</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="82e63dd6-15e0-47df-9442-fee7413765f7">
+    <name>Комплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9723eda5-51c6-43cf-9ac8-61aa965a393a">
+    <name>Разукомплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разукомплектация</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

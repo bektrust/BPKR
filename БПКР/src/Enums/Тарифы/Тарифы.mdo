@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc5a42d7-8f2b-4c00-9594-d64a026b1996">
+  <producedTypes>
+    <refType typeId="f3a307bc-05c6-42c2-b531-32d8143c6b9c" valueTypeId="0c918d48-1b4b-49dd-a53c-336f788ee952"/>
+    <listType typeId="8a593975-0ba9-4765-9947-84d7c62b3722" valueTypeId="a37c1eb0-b150-4ce5-b076-f25b17fb54f1"/>
+    <managerType typeId="8101e871-0d7e-4510-850c-f3ea74f65d8e" valueTypeId="78cbd7c1-2d3e-4783-8a41-604ff33270e0"/>
+  </producedTypes>
+  <name>Тарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f1e5aa8d-ef8f-4d71-822a-e32ecfbc279b">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной (для юридических лиц)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2e4dff4-ea32-48ed-8adf-3212a667058b">
+    <name>Некоммерческий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Некоммерческий, религиозные, общественные организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35b68317-5d0b-4ede-87b8-6a90387d16ae">
+    <name>Индивидуальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0733ca84-dda0-498a-91dd-a67f81c1ad08">
+    <name>НаемныеРаботники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наемные работники занятые в текстильном и швейном производствах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8253a8c-518a-4401-83d3-5bd88cfd7bcd">
+    <name>ПаркВысокихТехнологий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники Парка высоких технологий и его дирекция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf1ce920-c891-4ee6-8351-2ec149b8562b">
+    <name>Международный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Орг-и созданные в соотв. с международными соглашениями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43ab7acf-cfc7-4b70-8647-acd96716e744">
+    <name>Сельскохозяйственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сельскохозяйственные кооперативы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9a7d59e-59bb-463f-bec5-1272d111b7c9">
+    <name>ГосИлиФинансируемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гос или финансируемые из госбюджета предприятия, учреждения и организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e426c62c-b360-4bbc-84c7-cad4e8102eea">
+    <name>Общественный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общество слепых и глухих</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7cdceefa-389d-452c-92de-69b9f6bfe063">
+    <name>МеждународноДоговорной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации зарегестрированые согласно международным договорам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="545d4dcd-d9c5-44a1-b290-ae5ee89c60c3">
+    <name>ОбщиеКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие категории</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="60f8e81f-8973-44e3-a9e1-1298469ca570">
+    <name>ЗаграничныеУчреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посольства, консульства и другие заграничные учреждения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b90b6b-8d6c-42af-ba52-caedf8f22c65">
+  <producedTypes>
+    <objectType typeId="65d8ed89-1de0-4964-800d-3724e0afdef1" valueTypeId="bf1115f2-e19a-45cc-b9ba-32cfa4dff9dd"/>
+    <managerType typeId="31946168-4e9a-4b44-8eab-6a23b40e7d36" valueTypeId="f62d86a7-4ae4-4bf2-9dc5-346da865bdb9"/>
+  </producedTypes>
+  <name>ИзмененияОкладовСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Изменения окладов сотрудников</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИзмененияОкладовСотрудников.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="6bd4156f-82f2-4a46-9fdf-ad4ce3b52409">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

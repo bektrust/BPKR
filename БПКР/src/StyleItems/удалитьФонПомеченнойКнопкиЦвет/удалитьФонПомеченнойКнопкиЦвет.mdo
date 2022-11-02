@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f683b74e-89f3-41b5-be80-dc4c979aa69b">
+  <name>удалитьФонПомеченнойКнопкиЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить фон помеченной кнопки цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>235</red>
+      <green>231</green>
+      <blue>205</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

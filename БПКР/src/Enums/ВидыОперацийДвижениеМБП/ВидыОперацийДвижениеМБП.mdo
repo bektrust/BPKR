@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af3d6600-8259-4b7a-9878-1628e7bfe596">
+  <producedTypes>
+    <refType typeId="2838a1d1-736a-48b2-b82f-e38c3bbba136" valueTypeId="dfdaad06-8665-4f85-a255-1e3b68f40ee1"/>
+    <listType typeId="91189459-7f6e-4caa-989b-236fa0d3d9ad" valueTypeId="9b432bd9-194d-4ce1-9727-ce0f9395222b"/>
+    <managerType typeId="c0db1787-4ab6-47f1-b654-779cd25ba216" valueTypeId="82533d41-5a83-4cb2-aae6-a0a8e063324c"/>
+  </producedTypes>
+  <name>ВидыОперацийДвижениеМБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Движение МБП&quot;</value>
+  </synonym>
+  <comment>(Общ)</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee87f5f0-d7d3-4d1f-9b5e-4067fab7b371">
+    <name>ВводМБПВЭксплуатацию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод МБП в эксплуатацию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fa2d11e-2902-4c6e-a4af-c6b9974ddc84">
+    <name>ПеремещениеМБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение МБП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d1174ba-82ca-4345-8768-56cf046bd5ad">
+    <name>ПеремещениеМБППоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение МБП (по складам)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55793722-44c8-4aa2-800d-f17a4db01e71">
+    <name>СписаниеМБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание МБП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="35a7c883-9c6c-4150-bf2a-45e4fc2c74e4">
+    <name>РеализацияМБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация МБП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf7f2469-c18a-4a8b-b8f6-01119596883d">
+  <producedTypes>
+    <objectType typeId="7875e431-fa76-4643-9524-0d12e367446d" valueTypeId="e9c4d6e0-3aad-4997-b044-8b7f099ba009"/>
+    <managerType typeId="6634f26a-813e-4811-9a9e-a88713108c15" valueTypeId="49caa55b-bd09-4bb5-8ade-3d35f0c1cf8f"/>
+  </producedTypes>
+  <name>МониторВалютныхОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор валютных операций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторВалютныхОпераций.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="5cf31d38-8d27-4ddd-acba-063d718e855e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

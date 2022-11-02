@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6019e6ed-db4b-4359-a19f-34a2e173ce8b">
+  <producedTypes>
+    <refType typeId="ca7bbfec-ef22-4774-8df1-354951efc397" valueTypeId="572e7049-5c18-4cfe-92ab-e73d202a123c"/>
+    <listType typeId="37531d1d-61a0-4d28-8293-f245cd35c47d" valueTypeId="31e0bfd5-de76-4a1e-b770-d8c934efb4cb"/>
+    <managerType typeId="1c7caa05-481d-4302-b82a-28483effa34d" valueTypeId="92ed13d7-60fe-4c0f-9afe-9d85e3adcdf6"/>
+  </producedTypes>
+  <name>ВидыОперацийКомплектацияОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций комплектация ОС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="feee0c90-df29-4d44-bbcd-7e70a14561c0">
+    <name>Комплектация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69ea54a7-9f7f-42b7-9526-4020ce0807d1">
+    <name>Добавление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="384ac9c4-5671-4d23-b8c6-31b7faee746c">
+    <name>Ликвидация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68972c63-dd02-48a5-8814-1e8e2227d55a">
+    <name>ВыводИзКомплекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод из комплекта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

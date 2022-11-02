@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7716ab43-d25c-4765-8d78-270de28bb547">
+  <producedTypes>
+    <objectType typeId="e5c705ee-1c80-45a5-922a-ea7eec806755" valueTypeId="a8b9b8b3-8984-4180-9150-7be1eb55e9e6"/>
+    <managerType typeId="5d764c90-27d6-4250-9dcf-94eea23394ea" valueTypeId="32d81244-fd2f-48e3-8351-49a50fb72cb0"/>
+  </producedTypes>
+  <name>ЖурналОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал ОС</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ЖурналОС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="a120ca1e-0154-4ceb-9181-d6fc91b13aea">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

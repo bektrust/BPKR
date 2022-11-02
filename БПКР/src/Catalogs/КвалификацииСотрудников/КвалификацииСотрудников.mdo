@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33e995e8-2855-4776-a2d2-0dba8cbe6be3">
+  <producedTypes>
+    <objectType typeId="384c0175-38a9-449b-9e7a-b481f1cb4cc3" valueTypeId="3c4b627a-ddd4-4bcd-8c47-369c3fdaf479"/>
+    <refType typeId="94037242-3949-41ee-a709-cce1729c5ff7" valueTypeId="3128ef37-4145-45f8-ad6c-f1ad216b41f2"/>
+    <selectionType typeId="7b8e1d25-40e4-423c-ba71-f16e0bef28fb" valueTypeId="67ecf798-cbbc-4300-bc7c-6f09df2ef20d"/>
+    <listType typeId="52fa8fd1-a0bb-4d52-a788-a4f67e7f5766" valueTypeId="a47177b2-800f-45be-af48-b0f341d0d18f"/>
+    <managerType typeId="8217d4af-9db7-4c9b-8891-39a261109f29" valueTypeId="d1de262d-f5e6-482c-a761-8445ddd28a95"/>
+  </producedTypes>
+  <name>КвалификацииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квалификации сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КвалификацииСотрудников.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Квалификация</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="917100bf-3758-4df1-97ff-8074130c2cd0">
+  <producedTypes>
+    <managerType typeId="3213865f-5a34-49f5-9143-82c9a0dde96c" valueTypeId="1a0bdb99-213a-48f5-9881-13cde5f41df2"/>
+    <valueManagerType typeId="5b50365a-da76-4bc4-b604-d3583f7b4059" valueTypeId="572aaa14-77fd-4f00-bd8c-de3eb68e49ab"/>
+    <valueKeyType typeId="01cd82d3-15f7-45c6-8727-2ee4d4bcc729" valueTypeId="7010cde9-c002-4328-b474-f8882238dbcf"/>
+  </producedTypes>
+  <name>ОтдельнаяПроводкаПоСкидке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отдельная проводка по скидке</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

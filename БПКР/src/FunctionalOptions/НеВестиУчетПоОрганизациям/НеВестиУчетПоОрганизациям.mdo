@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c764c92a-1cbf-4da4-a3af-dcbbc03bce7f">
+  <name>НеВестиУчетПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не вести учет по организациям</value>
+  </synonym>
+  <location>Constant.НеВестиУчетПоОрганизациям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

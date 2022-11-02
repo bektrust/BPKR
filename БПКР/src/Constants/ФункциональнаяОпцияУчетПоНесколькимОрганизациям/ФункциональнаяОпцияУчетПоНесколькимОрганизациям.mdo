@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b0d77ad1-6b00-4471-b88e-0b9c0697d94c">
+  <producedTypes>
+    <managerType typeId="89b32a01-9c2b-45f7-9d5d-1c933b476884" valueTypeId="1756399d-57ce-410f-b7cc-b5de7d831384"/>
+    <valueManagerType typeId="240d7968-1543-4dfd-a256-855a71f31cd4" valueTypeId="cd069a24-191a-48e2-bd64-d193562a8e17"/>
+    <valueKeyType typeId="54da856e-c96a-506d-8999-450f51e5696e" valueTypeId="6b74daf7-396b-50bb-9fe3-1c2018064093"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетПоНесколькимОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет по нескольким организациям</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

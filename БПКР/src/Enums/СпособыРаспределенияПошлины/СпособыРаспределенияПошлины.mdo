@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8be8020-f634-4250-9d95-ad9d2898743b">
+  <producedTypes>
+    <refType typeId="36c2a6c4-deb8-4a38-b49e-1f8bfad26305" valueTypeId="c70b7c87-9015-47f9-ab53-6a2d32bb1529"/>
+    <listType typeId="11275851-edcd-4c98-87aa-c718f382b7ed" valueTypeId="facc809c-2493-44f1-8b7e-f1c1af15612b"/>
+    <managerType typeId="346f5d46-9db0-457b-86f0-b3ec4b65c242" valueTypeId="537da71f-b1e3-476c-b627-73a806bf6528"/>
+  </producedTypes>
+  <name>СпособыРаспределенияПошлины</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы распределения пошлины</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bea09ee2-1ebb-4a1c-91a0-3a0d99c4d659">
+    <name>ПоСумме</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac55af51-727b-4a28-ab86-958f4484f74b">
+    <name>ПоКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>По количеству</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

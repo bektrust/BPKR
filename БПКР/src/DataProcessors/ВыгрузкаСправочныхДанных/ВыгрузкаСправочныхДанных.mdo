@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a3e34be-6d39-485a-8360-ff385e160e17">
+  <producedTypes>
+    <objectType typeId="a134fa30-d8ed-4f10-a527-78f1dc043e5b" valueTypeId="4096dc0b-de47-4780-85ef-009dae837eba"/>
+    <managerType typeId="c37f7ed5-0c32-47d0-82e1-97f2005701cc" valueTypeId="2854da1e-a89f-4cc0-8566-54e48291d09e"/>
+  </producedTypes>
+  <name>ВыгрузкаСправочныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка справочных данных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыгрузкаСправочныхДанных.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="53603673-7510-41f1-8540-38b2e798a4cc">
+    <name>ДеревоЗначений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дерево значений</value>
+    </synonym>
+    <type>
+      <types>ValueTree</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a4bdf0e3-a7e4-41f7-8e1e-00c248ad1ca2">
+    <name>РегистрацияИзмененийНоменклатурыЭСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Регистрация изменений номенклатуры ЭСФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f77a307b-5670-40b0-b933-7c679516ca5d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="ce80471c-64f5-4707-815c-a87e150ee406">
+    <name>ПФ_MXL_ДанныеСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL данные справочников</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

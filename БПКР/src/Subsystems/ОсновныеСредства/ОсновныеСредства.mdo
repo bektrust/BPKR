@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f118d43e-330f-4025-8f64-29e358ca97cf">
+  <name>ОсновныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОС и НМА</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделОсновныеСредства</picture>
+  </picture>
+  <content>InformationRegister.удалитьКоэффициентыНалогаНаИмущество</content>
+  <content>InformationRegister.МестонахождениеОС</content>
+  <content>InformationRegister.НалоговаяАмортизация</content>
+  <content>InformationRegister.ПараметрыРасчетаЗемельногоНалога</content>
+  <content>InformationRegister.ПараметрыУчетаОС</content>
+  <content>InformationRegister.СведенияОТранспорте</content>
+  <content>InformationRegister.СобытияОС</content>
+  <content>InformationRegister.СостоянияОС</content>
+  <content>InformationRegister.СтавкиНалогаНаИмущество</content>
+  <content>AccumulationRegister.ДвижениеОСНУ</content>
+  <content>AccumulationRegister.ЗемельныйНалог</content>
+  <content>Enum.ВидыНалоговогоУчетаВГруппахОС</content>
+  <content>Enum.ВидыОперацийДвижениеМБП</content>
+  <content>Enum.ВидыОперацийПринятияКУчетуОсновныхСредств</content>
+  <content>Enum.ВидыСобытийОС</content>
+  <content>Enum.ВидыСостоянийОС</content>
+  <content>Enum.ПорядокПогашенияСтоимостиОС</content>
+  <content>Enum.СпособыНачисленияАмортизацииОС</content>
+  <content>Enum.СпособыПоступленияАктивов</content>
+  <content>CommonCommand.ДополнительныеОбработкиОсновныеСредства</content>
+  <content>InformationRegister.СостоянияОСВАренде</content>
+  <content>InformationRegister.ПараметрыУчетаОСВАренде</content>
+  <content>Enum.ВидыСостоянийОСВАренде</content>
+  <content>InformationRegister.ПараметрыУчетаОСЗемельныйНалог</content>
+  <content>CommonCommand.НастройкаОсновныеСредства</content>
+  <content>InformationRegister.НормыАмортизацииГруппНалоговогоУчетаОС</content>
+  <subsystems>ОсновныеСредства</subsystems>
+  <subsystems>АрендаОС</subsystems>
+  <subsystems>НСИ</subsystems>
+  <subsystems>НалогНаИмущество</subsystems>
+  <subsystems>Анализ</subsystems>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

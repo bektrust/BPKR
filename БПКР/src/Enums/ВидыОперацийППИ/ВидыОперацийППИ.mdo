@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1089300f-172e-4c55-8c8a-0cd956b97d60">
+  <producedTypes>
+    <refType typeId="1fcb9a85-66e3-4efa-ad3b-b414395964f7" valueTypeId="6b5ad7af-e31f-4965-9108-f0274d354fb7"/>
+    <listType typeId="0a80f281-fed6-4e74-ac8a-bd88f8f89231" valueTypeId="5af35b96-2620-49dd-8d3c-2d985d7f0a07"/>
+    <managerType typeId="45625c3b-9006-4037-9ff1-eaddd849490f" valueTypeId="d4fa889b-4c86-4f55-b976-6240e34e2975"/>
+  </producedTypes>
+  <name>ВидыОперацийППИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций ППИ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3fc6e55-babc-4943-8b85-02f6f1430d67">
+    <name>ОплатаПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="596c7a93-a21b-4fa7-8ff3-6e492cf14979">
+    <name>ВозвратПокупателю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат покупателю</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c599ee02-c05e-4cc9-87a4-72ebb59a1573">
+    <name>РасчетыПоЗаймам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчеты по займам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e1c13e64-e3ed-4bfe-a082-21f1fd2986c9">
+    <name>ПереводНаДругойСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод на другой счет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b3643a77-cd39-480d-9a07-becfca19a712">
+    <name>ВыплатаЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплата ЗП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2bee9be-eec4-4fe3-9d74-e844ba32a611">
+    <name>ВыплатаДепонированнойЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выплата депонированной ЗП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfa56385-a453-4fc3-b2f7-c5a3a7a19a98">
+    <name>ВыдачаПодотчетнику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выдача подотчетнику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="02297040-522d-4964-bf82-14ef106c3842">
+    <name>ОплатаНалогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оплата налогов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="93125e38-2d54-487c-8bf0-c41b69bd586a">
+    <name>ПрочийРасход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий расход</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

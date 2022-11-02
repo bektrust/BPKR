@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="781267a9-896b-4d01-9860-f6ee46c1fdcd">
+  <producedTypes>
+    <refType typeId="d8cfc49a-b4c8-4f7d-96fb-e40f03a9d71c" valueTypeId="0a7ab970-6ac3-454b-acf7-60721d0d7571"/>
+    <listType typeId="e82f5c19-0899-4503-8448-31ba4fe53d63" valueTypeId="1ed7e4f3-a927-43ae-b60b-a560307b2ced"/>
+    <managerType typeId="d1bf3889-5c60-4617-95c0-bf661c1bec06" valueTypeId="530fa625-8fc4-4635-b843-74e863836d34"/>
+  </producedTypes>
+  <name>ПорядкиОкругления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядки округления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2b86201a-d13c-47ff-928d-ea18496a6e5f">
+    <name>Окр0_01</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.01</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a52dc93-d0af-4418-86fc-2bc6c93ab61a">
+    <name>Окр0_05</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.05</value>
+    </synonym>
+    <comment>0.05</comment>
+  </enumValues>
+  <enumValues uuid="3ee32701-9c6a-44b1-86a2-24db3074dc3a">
+    <name>Окр0_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.1</value>
+    </synonym>
+    <comment>0.1</comment>
+  </enumValues>
+  <enumValues uuid="8ca95f8a-0ab0-4107-9c6b-3da1e86d9398">
+    <name>Окр0_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>0.5</value>
+    </synonym>
+    <comment>0.5</comment>
+  </enumValues>
+  <enumValues uuid="cf7e6711-78ab-4de4-930a-110653fcd5a7">
+    <name>Окр1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1</value>
+    </synonym>
+    <comment>1</comment>
+  </enumValues>
+  <enumValues uuid="c75f6367-727d-4c43-ab8c-68392c34ae5e">
+    <name>Окр5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5</value>
+    </synonym>
+    <comment>5</comment>
+  </enumValues>
+  <enumValues uuid="f1acf6b5-c4c9-47c3-8c38-d8bbdd3bf760">
+    <name>Окр10</name>
+    <synonym>
+      <key>ru</key>
+      <value>10</value>
+    </synonym>
+    <comment>10</comment>
+  </enumValues>
+  <enumValues uuid="bacb46af-4746-4ede-b5e1-4d3e3e0c6bc6">
+    <name>Окр50</name>
+    <synonym>
+      <key>ru</key>
+      <value>50</value>
+    </synonym>
+    <comment>50</comment>
+  </enumValues>
+  <enumValues uuid="c2d4f100-956a-4ec8-9d70-efd3f0a19200">
+    <name>Окр100</name>
+    <synonym>
+      <key>ru</key>
+      <value>100</value>
+    </synonym>
+    <comment>100</comment>
+  </enumValues>
+  <enumValues uuid="9fcdb793-97f9-4afe-9e49-0c4f83c3228b">
+    <name>ОтсечениеДробнойЧасти</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отсечение дробной части</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.Табель.Command.Табель</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>ActionsPanelReports</group>
+      <commands>Report.Табель.Command.Табель</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельОтчетовЗарплата</commands>
+      <commands>Report.РасчетныеЛистки.Command.РасчетныеЛистки</commands>
+      <commands>Report.РасчетнаяВедомость.Command.РасчетнаяВедомость</commands>
+      <commands>Report.Табель.Command.Табель</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

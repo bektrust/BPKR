@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="736057d2-58ff-417f-bf44-b8cdf3096fb9">
+  <name>Товары</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПеремещениеТоваров</content>
+  <content>Document.СписаниеТоваров</content>
+  <content>Document.ДвижениеМБП</content>
+  <content>Document.ИнвентаризацияТоваров</content>
+  <content>Document.ОприходованиеТоваров</content>
+  <content>Document.КомплектацияНоменклатуры</content>
+  <parentSubsystem>Subsystem.Запасы</parentSubsystem>
+</mdclass:Subsystem>

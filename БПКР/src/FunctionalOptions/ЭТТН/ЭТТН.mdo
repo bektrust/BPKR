@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04ad6a25-9d7d-4646-8f3e-a14a81b4d1cd">
+  <name>ЭТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЭТТН</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияЭТТН</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СкладыКонтрагентов</content>
+  <content>DataProcessor.СопостовлениеОбъектовСервисов</content>
+  <content>InformationRegister.СоответствиеОбъектовСервисов</content>
+  <content>Catalog.Водители</content>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>Document.ЭТТНИсходящая</content>
+  <content>Subsystem.ЭТТН</content>
+  <content>Subsystem.ЭТТН.Subsystem.Документы</content>
+  <content>Subsystem.ЭТТН.Subsystem.НСИ</content>
+</mdclass:FunctionalOption>

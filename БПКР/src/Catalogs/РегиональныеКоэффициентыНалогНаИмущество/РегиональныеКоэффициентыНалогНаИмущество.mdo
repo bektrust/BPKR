@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="876e501f-c666-4546-884b-99217346e72a">
+  <producedTypes>
+    <objectType typeId="84b40c9f-6c3c-43b8-8500-966c11c9c534" valueTypeId="bb8fad73-ee77-4d2d-9493-34cfaebc1caf"/>
+    <refType typeId="8f3c5525-81e3-4ef2-985b-153ca89ae2c4" valueTypeId="77d1de64-06f5-44e9-b357-935d33f554af"/>
+    <selectionType typeId="0760c25d-9919-42c4-b1c4-52252cdae4ef" valueTypeId="293d177b-ccda-4844-bf91-b0f31dff191e"/>
+    <listType typeId="c4a52c5e-6442-4dec-a4ac-23def8ece051" valueTypeId="46e34d77-5f95-4d34-93dc-6acc6bfde5cb"/>
+    <managerType typeId="f7234e44-cfad-429d-bc29-0936aa9ab66f" valueTypeId="50378575-450c-4663-af68-2eff9848e8e7"/>
+  </producedTypes>
+  <name>РегиональныеКоэффициентыНалогНаИмущество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Региональные коэффициенты (налог на имущество)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РегиональныеКоэффициентыНалогНаИмущество.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Региональный коэффициент (налог на имущество)</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Региональные коэффициенты для расчета налога на имущество</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.РегиональныеКоэффициентыНалогНаИмущество.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.РегиональныеКоэффициентыНалогНаИмущество.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.РегиональныеКоэффициентыНалогНаИмущество.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1c82095c-3a50-4386-a856-4df8e89fd0de">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="b623a97c-6094-49b1-941a-890d49a19de7">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9fe8b438-9bca-45fb-ba4c-50647143cef2">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64320044-e44a-4a1a-9b85-42f400dafa25">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

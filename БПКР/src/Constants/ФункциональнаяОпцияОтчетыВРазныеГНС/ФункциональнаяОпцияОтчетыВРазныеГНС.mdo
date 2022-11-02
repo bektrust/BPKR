@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8776879e-0eb7-4867-b7f6-739c4e44764f">
+  <producedTypes>
+    <managerType typeId="4a7eae4a-0c08-4704-ba07-6b820f31deb5" valueTypeId="f10940b0-8be9-4c9e-8e5b-7b9e3779b438"/>
+    <valueManagerType typeId="62884221-5142-4434-9898-e213e7b0dd04" valueTypeId="fb1a5007-9e36-469b-a71a-2168fea43513"/>
+    <valueKeyType typeId="fd2f63bd-3910-47ab-b5a3-91ff22fc5160" valueTypeId="6cd36db7-c3c5-4354-af09-181384e902ab"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияОтчетыВРазныеГНС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты в разные ГНС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

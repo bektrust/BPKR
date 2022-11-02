@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9a2cb53c-dac7-46f2-96d4-d1bb06ee5e41">
+  <producedTypes>
+    <refType typeId="73c66378-ef29-4d84-8750-cab68f49341b" valueTypeId="e38d4f5c-159f-4679-bb64-7f56285cd70a"/>
+    <listType typeId="8f9e463d-aad5-40cf-99a1-3876f9ad3022" valueTypeId="ada1f92d-0111-469b-abc6-8133a427256e"/>
+    <managerType typeId="edaf6dd0-26b6-4bce-a03f-9de2718fe5cc" valueTypeId="9a9107d0-594e-4ea9-b6b6-5fe79c73886c"/>
+  </producedTypes>
+  <name>Формулы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формулы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1b7abee-95b0-498f-b65d-1ae35872b4b2">
+    <name>СальдоДт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сальдо Дт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1634717a-6c1f-41c2-a518-e53c1f19364c">
+    <name>СальдоКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сальдо Кт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9981993a-d20f-4bf3-ac89-a4f3c530c5ac">
+    <name>ОборотыДт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обороты Дт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4ba3c224-c33f-44ae-899c-100cae24f81c">
+    <name>ОборотыКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обороты Кт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23bc4835-8cce-4d83-b960-e0f66e005c60">
+    <name>ОборотыДтКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обороты ДтКт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f384798e-358c-47df-a8e6-9cb0d139e58d">
+    <name>СальдоНачальноеДт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сальдо начальное Дт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff197c10-fe50-49cc-838a-c6f017548abd">
+    <name>СальдоНачальноеКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сальдо начальное Кт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd0c1a46-c3fb-4ecf-abb7-c0429e93665e">
+    <name>СальдоКонечноеДт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сальдо конечное Дт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5d8513e-b394-4fc6-97d1-3e0356dc5724">
+    <name>СальдоКонечноеКт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сальдо конечное Кт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89be74b2-28b5-46a7-a84e-d8c7e4d93f21">
+    <name>ОсобаяФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Особая формула</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

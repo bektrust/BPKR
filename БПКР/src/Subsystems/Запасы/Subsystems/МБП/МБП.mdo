@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af7bb0fc-aa32-443a-9e37-3685c839551d">
+  <name>МБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>МБП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ДвижениеМБП</content>
+  <content>Document.ИнвентаризацияМБП</content>
+  <parentSubsystem>Subsystem.Запасы</parentSubsystem>
+</mdclass:Subsystem>

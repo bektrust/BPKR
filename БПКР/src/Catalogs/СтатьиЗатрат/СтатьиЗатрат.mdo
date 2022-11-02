@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e67d6c6f-6bf5-4524-ab44-d496a3e13f94">
+  <producedTypes>
+    <objectType typeId="ecc05e43-3342-43e2-ac61-c58fc82e4586" valueTypeId="0e6ca493-5515-4a28-a596-2b6349c4ce45"/>
+    <refType typeId="baffe525-4f1c-4fca-9063-78cdce32c554" valueTypeId="b1ca2855-4799-4aa8-a641-33c8c0318b00"/>
+    <selectionType typeId="12a5e5f1-341c-4299-928f-d6136a630e6f" valueTypeId="98dff4e8-93c0-41a4-b969-42a211f38379"/>
+    <listType typeId="6acb8403-28b2-4287-8644-ee10b2aef5fe" valueTypeId="97bde85e-003f-4dbb-acd0-7bb54947a87c"/>
+    <managerType typeId="fbf1ad98-2039-40bd-b89d-b49c9a30aaa6" valueTypeId="8d4f7906-8538-4adc-a0f1-6628f1ef6991"/>
+  </producedTypes>
+  <name>СтатьиЗатрат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи затрат и доходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтатьиЗатрат.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтатьиЗатрат.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статья затрат (дохода)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Статьи затрат и доходов</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="01450d79-c4e1-424a-ac8c-b2f6bdc7bf0a">
+      <name>КомандировочныеРасходы</name>
+      <description>Командировочные расходы</description>
+      <code xsi:type="core:StringValue">
+        <value>002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b7dfa670-f08d-46b8-b4ac-f640c6f28704">
+        <name>РасходыНаНаемЖилогоПомещения</name>
+        <description>Расходы на наем жилого помещения</description>
+        <code xsi:type="core:StringValue">
+          <value>011</value>
+        </code>
+      </content>
+      <content id="d8c7cfa1-85bc-4a4c-b58f-21c8ffb16fd0">
+        <name>РасходыНаПроезд</name>
+        <description>Расходы на проезд</description>
+        <code xsi:type="core:StringValue">
+          <value>012</value>
+        </code>
+      </content>
+      <content id="32fd69cf-df4d-4652-9130-3065a530316f">
+        <name>СуточныеВПределахКР</name>
+        <description>Суточные в пределах КР</description>
+        <code xsi:type="core:StringValue">
+          <value>013</value>
+        </code>
+      </content>
+      <content id="205c0f12-2bc3-480d-b6c5-c58d2274e26b">
+        <name>СуточныеВПределахКРСверхНорм</name>
+        <description>Суточные в пределах КР (сверх норм)</description>
+        <code xsi:type="core:StringValue">
+          <value>014</value>
+        </code>
+      </content>
+      <content id="b6245721-9df2-4b6d-9509-9659803acb54">
+        <name>СуточныеЗаПределамиКР</name>
+        <description>Суточные за пределами КР</description>
+        <code xsi:type="core:StringValue">
+          <value>015</value>
+        </code>
+      </content>
+      <content id="a7b898ec-6257-42b9-acf1-433905ef85fb">
+        <name>СуточныеЗаПределамиКРСверхНорм</name>
+        <description>Суточные за пределами КР (сверх норм)</description>
+        <code xsi:type="core:StringValue">
+          <value>016</value>
+        </code>
+      </content>
+    </items>
+    <items id="92627169-bd86-4672-8c01-8a645483c2ee">
+      <name>КоммунальныеУслуги</name>
+      <description>Коммунальные услуги</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3eca95a9-f24a-4ec3-ac07-dd37d2b2f525">
+        <name>ВывозМусора</name>
+        <description>Вывоз мусора</description>
+        <code xsi:type="core:StringValue">
+          <value>017</value>
+        </code>
+      </content>
+      <content id="36ff2c4c-fe94-441c-a55a-5895adef87dd">
+        <name>ОхранаОбъекта</name>
+        <description>Охрана объекта</description>
+        <code xsi:type="core:StringValue">
+          <value>018</value>
+        </code>
+      </content>
+      <content id="1ab19666-4f30-4e2b-968f-a989c0245f2b">
+        <name>ТепловаяЭнергия</name>
+        <description>Тепловая энергия</description>
+        <code xsi:type="core:StringValue">
+          <value>019</value>
+        </code>
+      </content>
+      <content id="ccb7cdd7-93c2-49b5-b255-ab7a64ae26ba">
+        <name>ХолоднаяВодаИКанализация</name>
+        <description>Холодная вода и канализация</description>
+        <code xsi:type="core:StringValue">
+          <value>020</value>
+        </code>
+      </content>
+      <content id="3798d8de-078e-4b79-a6b4-ee73c097519f">
+        <name>Электроэнергия</name>
+        <description>Электроэнергия</description>
+        <code xsi:type="core:StringValue">
+          <value>021</value>
+        </code>
+      </content>
+    </items>
+    <items id="528a3876-2511-4315-90e3-3df0ca176c20">
+      <name>НалогиИОтчисления</name>
+      <description>Налоги и отчисления</description>
+      <code xsi:type="core:StringValue">
+        <value>004</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="e2fcee95-c42b-41fe-bb8a-39bc3515ab16">
+        <name>ЗемельныйНалог</name>
+        <description>Земельный налог</description>
+        <code xsi:type="core:StringValue">
+          <value>022</value>
+        </code>
+      </content>
+      <content id="27355d08-1a0f-4671-821a-ee46fcb88d4a">
+        <name>ИмущественныйНалог</name>
+        <description>Имущественный налог</description>
+        <code xsi:type="core:StringValue">
+          <value>023</value>
+        </code>
+      </content>
+      <content id="d2f5da80-5048-491d-b1c6-f5798bfa64bb">
+        <name>НалогНаДобавленнуюСтоимость</name>
+        <description>Налог на добавленную стоимость</description>
+        <code xsi:type="core:StringValue">
+          <value>024</value>
+        </code>
+      </content>
+      <content id="221236d7-088b-4645-a001-f150ca6da501">
+        <name>ОтчисленияВФондОхраныПрироды</name>
+        <description>Отчисления в фонд охраны природы</description>
+        <code xsi:type="core:StringValue">
+          <value>025</value>
+        </code>
+      </content>
+      <content id="69665c8e-88e5-40b4-b8c6-0aaa027fd629">
+        <name>ПодоходныйНалогСНерезидента</name>
+        <description>Подоходный налог с нерезидента</description>
+        <code xsi:type="core:StringValue">
+          <value>026</value>
+        </code>
+      </content>
+      <content id="c20003c9-aef2-4224-9920-4f2d9dc65f05">
+        <name>СоциальныеОтчисления</name>
+        <description>Социальные отчисления</description>
+        <code xsi:type="core:StringValue">
+          <value>027</value>
+        </code>
+      </content>
+      <content id="1e07d45b-19d6-42e5-a15a-d816a9e0b245">
+        <name>СоциальныйНалог</name>
+        <description>Социальный налог</description>
+        <code xsi:type="core:StringValue">
+          <value>028</value>
+        </code>
+      </content>
+      <content id="4e15ac3c-3abe-4cfd-8437-a794f7e0ec00">
+        <name>ТранспортныйНалог</name>
+        <description>Транспортный налог</description>
+        <code xsi:type="core:StringValue">
+          <value>029</value>
+        </code>
+      </content>
+    </items>
+    <items id="b9ed1f21-c0b0-47e9-8ebe-238add54d07c">
+      <name>Прочие</name>
+      <description>Прочие</description>
+      <code xsi:type="core:StringValue">
+        <value>005</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="f849a934-bd0c-454c-9827-7b9e188d9ed1">
+        <name>АудиторскиеКонсультационныеУслуги</name>
+        <description>Аудиторские (консультационные) услуги</description>
+        <code xsi:type="core:StringValue">
+          <value>030</value>
+        </code>
+      </content>
+      <content id="cdbbcc1e-936f-46d3-b494-d06dc3f5fd88">
+        <name>КурсовыеРазницы</name>
+        <description>Курсовые разницы</description>
+        <code xsi:type="core:StringValue">
+          <value>001</value>
+        </code>
+      </content>
+      <content id="a055a201-8502-43fe-a07d-85809f1a18b9">
+        <name>МатериальныеЗатраты</name>
+        <description>Материальные затраты</description>
+        <code xsi:type="core:StringValue">
+          <value>031</value>
+        </code>
+      </content>
+      <content id="f26a93bc-5b77-4930-8a2b-3ea3c9ccbef2">
+        <name>ОплатаУслугБанка</name>
+        <description>Оплата услуг банка</description>
+        <code xsi:type="core:StringValue">
+          <value>032</value>
+        </code>
+      </content>
+      <content id="f9c0935e-fb3b-4b26-ad53-3012587682a8">
+        <name>ПредставительскиеРасходы</name>
+        <description>Представительские расходы</description>
+        <code xsi:type="core:StringValue">
+          <value>033</value>
+        </code>
+      </content>
+      <content id="d9de3f54-4be9-4f08-8cc6-ff2f7a445f5b">
+        <name>ПрочиеЗатраты</name>
+        <description>Прочие затраты</description>
+        <code xsi:type="core:StringValue">
+          <value>034</value>
+        </code>
+      </content>
+      <content id="f8fd98f3-5d91-4ed4-a981-6ba83bd9345c">
+        <name>РасходыБудущихПериодов</name>
+        <description>Расходы будущих периодов</description>
+        <code xsi:type="core:StringValue">
+          <value>035</value>
+        </code>
+      </content>
+      <content id="7c401b17-04b8-4414-9848-0e8cb1517877">
+        <name>РасходыЗаСчетЧистогоДохода</name>
+        <description>Расходы за счет чистого дохода</description>
+        <code xsi:type="core:StringValue">
+          <value>036</value>
+        </code>
+      </content>
+      <content id="75438e1d-b654-4a3c-9e60-e22341a1ca33">
+        <name>РасходыНаРекламу</name>
+        <description>Расходы на рекламу</description>
+        <code xsi:type="core:StringValue">
+          <value>037</value>
+        </code>
+      </content>
+      <content id="b80dda11-b691-461f-aecb-01ff1feb3502">
+        <name>РасходыПоРемонтуОсновныхСредств</name>
+        <description>Расходы по ремонту основных средств</description>
+        <code xsi:type="core:StringValue">
+          <value>038</value>
+        </code>
+      </content>
+      <content id="af91c92d-8717-4c73-9575-248c31bc49c2">
+        <name>СписаниеМатериалов</name>
+        <description>Списание материалов</description>
+        <code xsi:type="core:StringValue">
+          <value>059      </value>
+        </code>
+      </content>
+      <content id="b1150758-2f04-4036-a3dd-0278f85f9c24">
+        <name>ТекущиеРасходы</name>
+        <description>Текущие расходы</description>
+        <code xsi:type="core:StringValue">
+          <value>039</value>
+        </code>
+      </content>
+    </items>
+    <items id="e78251a9-1404-4c84-bbd6-49c9d13cf5f9">
+      <name>РасходыПоАмортизацииОсновныхСредств</name>
+      <description>Расходы по амортизации основных средств</description>
+      <code xsi:type="core:StringValue">
+        <value>006</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="dcc5c123-fb19-45b7-8dfc-86087712c43e">
+        <name>АмортизацияНематериальныхАктивов</name>
+        <description>Амортизация нематериальных активов</description>
+        <code xsi:type="core:StringValue">
+          <value>040</value>
+        </code>
+      </content>
+      <content id="ecfe50d3-c1ab-4bb4-89a8-1d0da6937127">
+        <name>ИзносОсновныхСредств</name>
+        <description>Износ основных средств</description>
+        <code xsi:type="core:StringValue">
+          <value>041</value>
+        </code>
+      </content>
+    </items>
+    <items id="e3af230e-ba94-4095-9c76-aa73ec97a1e0">
+      <name>РасходыПоЗаработнойПлате</name>
+      <description>Расходы по заработной плате</description>
+      <code xsi:type="core:StringValue">
+        <value>007</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="81628bcc-ca3e-48a2-9cbe-d579d7b27c31">
+        <name>ДругиеРасходыПоОплатеТруда</name>
+        <description>Другие расходы по оплате труда</description>
+        <code xsi:type="core:StringValue">
+          <value>042</value>
+        </code>
+      </content>
+      <content id="0252b50e-ccc1-48e9-9394-00496754b0c1">
+        <name>ЗаработнаяПлата</name>
+        <description>Заработная плата</description>
+        <code xsi:type="core:StringValue">
+          <value>043</value>
+        </code>
+      </content>
+      <content id="0773f16e-045b-4bd7-b644-5c9dec64ec24">
+        <name>МатериальныеИСоциальныеБлагаСотрудников</name>
+        <description>Материальные и социальные блага сотрудников</description>
+        <code xsi:type="core:StringValue">
+          <value>044</value>
+        </code>
+      </content>
+      <content id="43396c3e-7f13-46a3-ab68-fc539788b201">
+        <name>МедицинскоеСтрахование</name>
+        <description>Медицинское страхование</description>
+        <code xsi:type="core:StringValue">
+          <value>045</value>
+        </code>
+      </content>
+      <content id="423eab50-8807-46cf-b567-e7593aa1170a">
+        <name>ОплатаВременнойНетрудоспособности</name>
+        <description>Оплата временной нетрудоспособности</description>
+        <code xsi:type="core:StringValue">
+          <value>046</value>
+        </code>
+      </content>
+      <content id="525e5c66-42ef-4a2f-b9d2-e31fa5fae06a">
+        <name>ПенсионныйФонд</name>
+        <description>Пенсионный фонд</description>
+        <code xsi:type="core:StringValue">
+          <value>047</value>
+        </code>
+      </content>
+      <content id="a22f4caa-c661-4960-90df-057ae48d8b2d">
+        <name>ФондОздоровления</name>
+        <description>Фонд оздоровления</description>
+        <code xsi:type="core:StringValue">
+          <value>048</value>
+        </code>
+      </content>
+    </items>
+    <items id="635c86cd-0666-4993-930b-113614f8b04a">
+      <name>РасходыПоСвязи</name>
+      <description>Расходы по связи</description>
+      <code xsi:type="core:StringValue">
+        <value>008</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="1309ebd3-1b62-4f36-85a8-c46d924284e5">
+        <name>АбонентскаяПлатаЗаТелефон</name>
+        <description>Абонентская плата за телефон</description>
+        <code xsi:type="core:StringValue">
+          <value>049</value>
+        </code>
+      </content>
+      <content id="3b6cb1df-76cd-45dc-a4da-23f282ac6815">
+        <name>Интернет</name>
+        <description>Интернет</description>
+        <code xsi:type="core:StringValue">
+          <value>050</value>
+        </code>
+      </content>
+      <content id="9c7f1404-b339-4f75-8ada-c470ebbe0dff">
+        <name>МеждугородниеПереговоры</name>
+        <description>Междугородние переговоры</description>
+        <code xsi:type="core:StringValue">
+          <value>051</value>
+        </code>
+      </content>
+    </items>
+    <items id="6774e489-cad2-46e8-be87-0470526dfddf">
+      <name>РасходыПоСодержаниюСлужебногоАвтотранспорта</name>
+      <description>Расходы по содержанию служебного автотранспорта</description>
+      <code xsi:type="core:StringValue">
+        <value>009</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="daa92d10-5f14-4031-8644-f7e55deaeed8">
+        <name>Горюче_СмазочныеМатериалы</name>
+        <description>Горюче-смазочные материалы</description>
+        <code xsi:type="core:StringValue">
+          <value>052</value>
+        </code>
+      </content>
+      <content id="69eff99c-abe4-47c0-af84-9f513e8a95f9">
+        <name>ЗапасныеЧасти</name>
+        <description>Запасные части</description>
+        <code xsi:type="core:StringValue">
+          <value>053</value>
+        </code>
+      </content>
+      <content id="55b35ae5-3230-4259-8c28-88524cd1b753">
+        <name>СтоянкаРемонтИПрочее</name>
+        <description>Стоянка, ремонт и прочее</description>
+        <code xsi:type="core:StringValue">
+          <value>054</value>
+        </code>
+      </content>
+      <content id="4ccb0187-86df-401c-b22a-4603adbe732a">
+        <name>СтрахованиеГражданско_ПравовойОтветственности</name>
+        <description>Страхование гражданско-правовой ответственности</description>
+        <code xsi:type="core:StringValue">
+          <value>055</value>
+        </code>
+      </content>
+      <content id="224dc17e-e232-4337-a8ee-f1ef4c4fd0b3">
+        <name>Техосмотр</name>
+        <description>Техосмотр</description>
+        <code xsi:type="core:StringValue">
+          <value>056</value>
+        </code>
+      </content>
+    </items>
+    <items id="27cd68cb-a23e-4496-a16c-b1cfa54ee585">
+      <name>ШтрафыПениНеустойки</name>
+      <description>Штрафы, пени, неустойки</description>
+      <code xsi:type="core:StringValue">
+        <value>010</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="aa5af323-4490-472c-aa6a-cc06cee1b8ce">
+        <name>ШтрафыПениВБюджет</name>
+        <description>Штрафы, пени в бюджет</description>
+        <code xsi:type="core:StringValue">
+          <value>057</value>
+        </code>
+      </content>
+      <content id="b20c3923-c483-4abf-af0e-2cec705195bf">
+        <name>ШтрафыПениПоХозДоговорамИВнебюджетныеФонды</name>
+        <description>Штрафы, пени по хоз. договорам и внебюджетные фонды</description>
+        <code xsi:type="core:StringValue">
+          <value>058</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиЗатрат.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтатьиЗатрат.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтатьиЗатрат.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="875f7b4e-a496-420e-8300-dd9895827728">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f3eb3ebf-27e6-408e-830b-5c0cb98fdd1c">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c82ebde9-290e-4026-9f43-bf67cb5b1807">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

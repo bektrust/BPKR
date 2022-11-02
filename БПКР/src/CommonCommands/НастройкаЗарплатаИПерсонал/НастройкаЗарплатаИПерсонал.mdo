@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef54cf1b-a6c9-4360-9fa8-7ca274b0461f">
+  <name>НастройкаЗарплатаИПерсонал</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата и персонал</value>
+  </synonym>
+  <group>CommandGroup.Настройки</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="927f8c61-6352-4359-8c7b-0492d17fa02c">
+  <name>АвтономнаяРаботаРегистрацияНабораРегистровРасчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автономная работа регистрация набора регистров расчета</value>
+  </synonym>
+  <source>
+    <types>CalculationRegisterRecordSet.Удержания</types>
+    <types>CalculationRegisterRecordSet.Начисления</types>
+  </source>
+  <event>BeforeWrite</event>
+  <handler>CommonModule.ОбменДаннымиБПСобытия.АвтономнаяРаботаЗарегистрироватьИзменениеНабораЗаписейПередЗаписью</handler>
+</mdclass:EventSubscription>

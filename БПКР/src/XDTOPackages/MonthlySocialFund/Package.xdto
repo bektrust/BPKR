@@ -1,0 +1,54 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.akforta.com/PaySheet">
+	<objectType name="PaySheet" open="true">
+		<property xmlns:d3p1="http://www.akforta.com/PaySheet" name="PayerInfo" type="d3p1:PayerInfo" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.akforta.com/PaySheet" name="SalaryInfoCollection" type="d3p1:SalaryInfoCollection" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.akforta.com/PaySheet" name="PayerBalanceOfArrearsCollection" type="d3p1:PayerBalanceOfArrearsCollection" upperBound="-1"/>
+	</objectType>
+	<objectType name="PayerInfo">
+		<property name="Year" type="xs:string" form="Attribute"/>
+		<property name="Working" type="xs:string" form="Attribute"/>
+		<property name="Telephone" type="xs:string" form="Attribute"/>
+		<property name="TaxPayer" type="xs:string" form="Attribute"/>
+		<property name="TariffType" type="xs:string" form="Attribute"/>
+		<property name="SocFund" type="xs:string" form="Attribute"/>
+		<property name="RegNumber" type="xs:string" form="Attribute"/>
+		<property name="Rayon" type="xs:string" form="Attribute"/>
+		<property name="PIN" type="xs:string" form="Attribute"/>
+		<property name="OKPO" type="xs:string" form="Attribute"/>
+		<property name="NullVedomost" type="xs:string" form="Attribute"/>
+		<property name="Month" type="xs:string" form="Attribute"/>
+		<property name="Bank" type="xs:string" form="Attribute"/>
+		<property name="ArrearsOfWages" type="xs:string" form="Attribute"/>
+		<property name="AmountOfContributions" type="xs:string" form="Attribute"/>
+		<property name="Address" type="xs:string" form="Attribute"/>
+		<property name="Account" type="xs:string" form="Attribute"/>
+		<property name="PayerID" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="SalaryInfoCollection">
+		<property xmlns:d3p1="http://www.akforta.com/PaySheet" name="SalaryInfo" type="d3p1:SalaryInfo" upperBound="-1"/>
+	</objectType>
+	<objectType name="PayerBalanceOfArrearsCollection">
+		<property xmlns:d3p1="http://www.akforta.com/PaySheet" name="PayerBalanceOfArrears" type="d3p1:PayerBalanceOfArrears" upperBound="-1"/>
+	</objectType>
+	<objectType name="SalaryInfo">
+		<property name="PIN" type="xs:string" form="Attribute"/>
+		<property name="SumOfEarnings" type="xs:string" form="Attribute"/>
+		<property name="SumOfAdditionalEarnings" type="xs:string" form="Attribute"/>
+		<property name="SumNPF" type="xs:string" form="Attribute"/>
+		<property name="Sum" type="xs:string" form="Attribute"/>
+		<property name="Name" type="xs:string" form="Attribute"/>
+		<property name="HighlandRateCode" type="xs:string" form="Attribute"/>
+		<property name="FromListNo1OrNo2" type="xs:string" form="Attribute"/>
+		<property name="EndDate" type="xs:string" form="Attribute"/>
+		<property name="DaysActually" type="xs:string" form="Attribute"/>
+		<property name="Days" type="xs:string" form="Attribute"/>
+		<property name="CoefficientOfHighland" type="xs:string" form="Attribute"/>
+		<property name="Category" type="xs:string" form="Attribute"/>
+		<property name="BeginDate" type="xs:string" form="Attribute"/>
+		<property name="ActivityCategoryCode" type="xs:string" form="Attribute"/>
+	</objectType>
+	<objectType name="PayerBalanceOfArrears">
+		<property name="Sum" type="xs:string" form="Attribute"/>
+		<property name="TypeOfObligation" type="xs:string" form="Attribute"/>
+	</objectType>
+</package>

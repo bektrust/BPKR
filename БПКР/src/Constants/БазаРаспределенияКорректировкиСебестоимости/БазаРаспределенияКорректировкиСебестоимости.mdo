@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5d8af2c-ddf6-43cc-90c4-c63a0beadcc2">
+  <producedTypes>
+    <managerType typeId="c0f9091c-ba6b-4990-81a8-8a981b2c0896" valueTypeId="7c6cd9d8-6642-47a9-9674-a4746825d436"/>
+    <valueManagerType typeId="e518a09c-1454-419c-81b0-35a8b0aeec99" valueTypeId="92a1f004-5f0a-46b3-889b-71a563174d3c"/>
+    <valueKeyType typeId="c3c5e7a8-4ca0-42d9-8c1c-df26c3ab4545" valueTypeId="fd090a10-a783-462e-9d39-08e5a1bd8f78"/>
+  </producedTypes>
+  <name>БазаРаспределенияКорректировкиСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>База распределения корректировки себестоимости</value>
+  </synonym>
+  <type>
+    <types>EnumRef.БазыРаспределенияКосвенныхРасходов</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

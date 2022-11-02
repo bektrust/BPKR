@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13e8783d-18e9-462e-b574-423c2f7c1e5f">
+  <producedTypes>
+    <refType typeId="a4e1a4d9-69ef-4f8a-9ce2-c10de023213b" valueTypeId="fbf39ae0-db82-422f-b7cc-0e18e7fd582d"/>
+    <listType typeId="9a64d520-0dcc-4a64-b9fa-1bca3474b4d8" valueTypeId="5fe0b75a-b099-4a78-9456-b082bfa847ac"/>
+    <managerType typeId="8611713c-bae0-47f1-ae13-176adc59694b" valueTypeId="fb012ff8-d0e5-4813-8a83-2b99b89e812f"/>
+  </producedTypes>
+  <name>ВидыЗемельныхУчастков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды земельных участков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="add94f7e-2150-43c3-bbf1-7542c1806894">
+    <name>ПашняОрошаемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пашня орошаемая</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03e27394-d697-417c-8e5d-c250a9384f38">
+    <name>ПашняБогарная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пашня богарная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc2d5634-7958-4ce2-b8fb-71b0233f7fa6">
+    <name>МноголетниеНасаждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многолетние насаждения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="491e88b6-4e67-4fd4-8b13-dd30bd20d966">
+    <name>Сенокосы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сенокосы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8b49d881-c0ae-4bb9-89ec-caf9e74a7af2">
+    <name>Пастбища</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пастбища</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

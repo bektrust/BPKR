@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="939abb86-0664-44b2-ba9b-e71f0b9ceb34">
+  <producedTypes>
+    <objectType typeId="d666c3c6-b80d-46f1-b745-bfa91de5d039" valueTypeId="a4b76cb2-ce3f-4b3e-a79d-74ec935de3c4"/>
+    <managerType typeId="c88f7764-974e-4b80-b740-44d518f03bfa" valueTypeId="20a0d24b-3b32-4f6c-9f9a-0d39228620b1"/>
+  </producedTypes>
+  <name>ПеренумерацияСправочников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенумерация справочников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПеренумерацияСправочников.Form.Форма</defaultForm>
+  <forms uuid="8e405140-d9f0-43c4-8d95-576aa62c2208">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e5c5fcfa-5d7b-4c27-828b-58fca89b3f5d">
+    <name>ПеренумерацияСправочников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенумерация справочников</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники программы.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

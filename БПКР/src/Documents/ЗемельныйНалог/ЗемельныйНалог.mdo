@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01fa5cf7-eb3a-4457-a562-9f28011143ea">
+  <producedTypes>
+    <objectType typeId="271dd52c-d3df-423e-a70b-12ac965a7793" valueTypeId="6e4c8dd6-1ad3-4c73-9dfc-0e4dc0af8fda"/>
+    <refType typeId="8b76d8bb-e5bf-4d00-8e9e-882631ca45cd" valueTypeId="5838f95b-38e6-4295-a1d2-4a38b8284869"/>
+    <selectionType typeId="0217c7f6-03b0-4506-ab5f-eb8545d26b10" valueTypeId="8d52ef78-5740-4495-a9fb-9760c4e4ac67"/>
+    <listType typeId="be11c276-3895-4890-b06f-92f84e99d470" valueTypeId="05f7664c-3ed0-4b30-964a-01e42720fd5a"/>
+    <managerType typeId="d667cc65-b3fa-4baf-8957-a459ffcf1afb" valueTypeId="d9d83d37-4d2f-402a-84f2-fb974b097eab"/>
+  </producedTypes>
+  <name>ЗемельныйНалог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Земельный налог</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ЗемельныйНалог.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Документы по расчету земельного налога</value>
+  </listPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Документы по расчету земельного налога</value>
+  </explanation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ЗемельныйНалог.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ЗемельныйНалог.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>AccumulationRegister.ЗемельныйНалог</registerRecords>
+  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="12d8ce00-893b-4b51-91c3-c9543f5846bd">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b87e543-01fe-4633-845e-144f236b3a03">
+    <name>СчетЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет затрат</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfAccounts.Хозрасчетный.РасходыПоНалогам</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1781520f-cc4b-4a89-bb2e-74d849a69e6f">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfAccounts.Хозрасчетный.ЗемельныйНалог</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fa1d5e93-53d5-4085-b734-5881379c0b86">
+    <name>СтатьяЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья затрат</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4d501532-4591-4ebc-8f20-719f6e6a4efe">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c2d926ae-5027-4647-858e-3b955ccfe764">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ac54f016-db73-4162-a6d8-8fd67182d9f8">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9a34f09-34dd-4e9c-8a43-770bd3c93cd1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="2df4de06-a804-4885-8f9e-938da3c4ae73">
+    <producedTypes>
+      <objectType typeId="4f50469b-0352-4632-a299-d16a08e14373" valueTypeId="18718823-494a-48b3-88cd-ab536b68b37c"/>
+      <rowType typeId="5eb0eca8-bae9-4e4f-acb3-5dd58dd37256" valueTypeId="28a34f6a-41b5-4e4d-b67e-6ddd53b99f75"/>
+    </producedTypes>
+    <name>Налоги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоги</value>
+    </synonym>
+    <attributes uuid="ebcc2c20-6d27-4627-895b-8ae6b2e8d340">
+      <name>Участок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Участок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Участки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ee2d389c-48fb-48d8-88c7-f3aeda497d12">
+      <name>ОсновноеСредство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Основное средство</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ОсновныеСредства</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0ec18e4a-65c7-4fbc-b4cc-614f54360fe4">
+      <name>СуммаЗемельногоНалогаПодОбъектомИмущества</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма земельного налога под объектом имущества</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e93bf4e8-8def-4ecc-b708-ac646ce5c848">
+    <producedTypes>
+      <objectType typeId="02ef43c2-e4da-42a0-a2d0-6fea62b779b4" valueTypeId="1624eca0-03f1-4362-a086-da3c61312efb"/>
+      <rowType typeId="f5db5b5c-1768-489c-ac08-c0b77ee58c1a" valueTypeId="9cc35987-3ecf-4743-ac97-5fff297421f2"/>
+    </producedTypes>
+    <name>Участки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участки</value>
+    </synonym>
+    <attributes uuid="669892d7-f3ee-45c8-9a68-6934d97b2cc4">
+      <name>Участок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Участок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Участки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2594cd74-eb2e-4fe3-8eae-f847016641ce">
+      <name>СуммаНалогаКУплате</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма налога к уплате</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="41020c72-c857-401c-8bbb-fbe0d54b0fa1">
+    <name>ПФ_MXL_ЗемельныйНалогФорма077</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земельный налог FORM STI-077</value>
+    </synonym>
+  </templates>
+  <templates uuid="ed26729d-e4bc-4d45-a509-d96d3984444d">
+    <name>ПФ_MXL_ЗемельныйНалогФорма076</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земельный налог FORM STI-076</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dc6f0b8-4d0f-4d53-9277-6d0a2b9e58cb">
+  <name>ЗакрытиеПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие периода</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ЗакрытиеМесяца</content>
+  <content>Document.КорректировкаНУ</content>
+  <content>AccumulationRegister.ОборотыПоДаннымЕдиногоНалога</content>
+  <content>CommonCommand.ОткрытьСправочникПравилаВеденияУчета</content>
+  <content>Catalog.ПравилаПроверкиУчета</content>
+  <content>DataProcessor.МониторРасчетов</content>
+  <content>DataProcessor.МониторЗаработнойПлаты</content>
+  <content>DataProcessor.МониторОС</content>
+  <content>DataProcessor.МониторНоменклатура</content>
+  <content>DataProcessor.МониторНДС</content>
+  <content>DataProcessor.МониторНалогаНаПрибыль</content>
+  <content>DataProcessor.МониторВалютныхОпераций</content>
+  <content>DataProcessor.МониторЭСФ</content>
+  <parentSubsystem>Subsystem.Операции</parentSubsystem>
+</mdclass:Subsystem>

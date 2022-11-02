@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33f2f266-0389-44bf-865d-70973c8acc2c">
+  <producedTypes>
+    <selectionType typeId="0fc8b0bb-e627-413d-9b26-627bed1ea117" valueTypeId="e581f23b-c042-4ae8-91c4-0d31479a9364"/>
+    <listType typeId="0f5cca5c-f6af-40ab-a459-b6b8e3fa65dd" valueTypeId="299035d0-1101-4e98-9489-66c907f0da48"/>
+    <managerType typeId="24bf0e4a-c189-4c79-b67b-3e1f1435ee57" valueTypeId="f36acd3b-efdb-4538-9fd0-b5cf75ea93d7"/>
+    <recordSetType typeId="95a34158-fd7c-4980-a366-1bbd9ac42d30" valueTypeId="46814788-a1a5-470a-9053-fa99a4847503"/>
+    <recordKeyType typeId="549736a6-2262-4aa2-ae80-450d5e2c1cb4" valueTypeId="43cf13e4-db91-4a8e-97a5-e609ad316c4f"/>
+    <recordType typeId="3193b98b-5e2e-4081-82a1-ccf198a6abde" valueTypeId="c9ae658e-c568-4f6a-8aaf-82d5be7c12b4"/>
+    <recordManagerType typeId="d0a77547-6d2c-4a8d-aeff-169014cfb241" valueTypeId="3475f792-7248-4634-9e13-6e44cec8d076"/>
+  </producedTypes>
+  <name>СоответствияНоменклатурыЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия номенклатуры ЭСФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СоответствияНоменклатурыЭСФ.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СоответствияНоменклатурыЭСФ.Form.ФормаСписка</defaultListForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Используется для хранения информации сопоставления номенклатуры этой информационной базы с номенклатурой информационной базы-корреспондента обмена ЭСФ.</value>
+  </explanation>
+  <resources uuid="8818570b-5a51-4839-a81d-683c9ce6b5e0">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2b687952-008b-40e1-bf05-e94b113a41a9">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="dd9c4baa-bc1e-477d-a68a-a2af2b27c63d">
+    <name>НоменклатураНаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование номенклатуры</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>300</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование номенклатуры из базы-корреспондента.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="325f1ed2-51ce-4bf8-b93d-2cf00e4d738b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1c8c08dc-c355-40dc-94e5-a9a7e8df0719">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

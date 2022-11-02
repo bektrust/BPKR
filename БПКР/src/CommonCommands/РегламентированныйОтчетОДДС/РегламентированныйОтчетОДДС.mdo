@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8dc7af09-7d7c-485a-8ec2-a1db45acb580">
+  <name>РегламентированныйОтчетОДДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о движении денежных средств (прямой метод). Форма 3</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

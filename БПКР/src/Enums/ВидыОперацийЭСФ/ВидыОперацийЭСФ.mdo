@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5601a338-bc66-4e54-a9be-3d0ee3d2977e">
+  <producedTypes>
+    <refType typeId="6935901c-2ac8-45dd-8d68-cc4fb06f6c4d" valueTypeId="1d123a50-9ce2-4092-bd42-f35609148782"/>
+    <listType typeId="95c4876a-4cea-43c2-ae3f-d4b873cc11a6" valueTypeId="f990192a-fa8b-47b1-bb30-5bf544aa53cd"/>
+    <managerType typeId="a0209b80-ae96-4deb-8a00-a7d7468c1883" valueTypeId="3def3b68-a591-49b1-a2eb-773642bdeae2"/>
+  </producedTypes>
+  <name>ВидыОперацийЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций электронный СФ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b33e9888-35d3-493b-9615-b0a0a6e96272">
+    <name>ПоставкаТоваров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставка товаров</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4838f6b0-b70c-4426-8fe0-97d8aaf67a97">
+    <name>АктОбОказанииУслуг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт об оказании услуг</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

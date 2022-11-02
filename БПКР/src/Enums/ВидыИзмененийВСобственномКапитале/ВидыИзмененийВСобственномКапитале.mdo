@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f99b02d-693e-4634-b09c-cd48280e0609">
+  <producedTypes>
+    <refType typeId="3d90b03c-b809-43a0-8b83-4d1bdd263735" valueTypeId="0ec0b671-415c-4fbf-b436-5e25e45ebbaa"/>
+    <listType typeId="8bd47103-ae94-427b-a755-99aba22a0cdc" valueTypeId="6263dcd2-e9dc-4446-a0f0-da140f23fd30"/>
+    <managerType typeId="ea44aaf3-15b7-4134-b3cf-af0054876ecb" valueTypeId="20dea77c-3bdf-42a2-888c-522330a73b64"/>
+  </producedTypes>
+  <name>ВидыИзмененийВСобственномКапитале</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды изменений в собственном капитале</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0107b0ba-f089-4c6d-9dd9-7abda83ce958">
+    <name>ИзмененияУчетнойПолитики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменения учетной политики</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fc2021f4-32ab-4397-b6dc-430e24c9c211">
+    <name>ПереоценкаОсновныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка основных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7a2c4ec7-ea6f-4762-8004-77d9a56be8d4">
+    <name>КурсовыеРазницыЗарубежныхПодразделений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсовые разницы зарубежных подразделений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a121109f-f962-486a-a136-9d2147b06223">
+    <name>ДоходУбытокЗаПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доход убыток за период</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d220681-f026-41de-8be0-734111028023">
+    <name>Дивиденды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивиденды</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb77ed49-70c7-40d2-8ed3-bbc960df8903">
+    <name>ЭмиссияАкций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмиссия акций</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5814ca75-f6c7-4c08-ad67-493901ba6690">
+    <name>ХеджированиеДенежныхПотоков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеджирование денежных потоков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38973a9d-7476-41cc-97da-c513b9d0b0ef">
+    <name>ВыкупленныеСобственныеДолевыеИнструменты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выкупленные собственные долевые инструменты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

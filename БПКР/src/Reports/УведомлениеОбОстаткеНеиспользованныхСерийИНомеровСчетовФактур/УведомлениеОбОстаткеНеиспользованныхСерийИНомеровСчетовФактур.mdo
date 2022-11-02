@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="500b7526-0da6-4b51-ac68-f9b2c39fa6ba">
+  <producedTypes>
+    <objectType typeId="90da88ad-0183-40e5-89db-04bd454ff6ff" valueTypeId="d4012542-1c0c-4cee-9cea-33e8f4118b21"/>
+    <managerType typeId="b1a36d8b-88c1-442d-b27a-0b9da2bfb561" valueTypeId="12a704f3-1c0c-4fd3-b100-e018d8d57185"/>
+  </producedTypes>
+  <name>УведомлениеОбОстаткеНеиспользованныхСерийИНомеровСчетовФактур</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об остатке неиспользованных серий и номеров СФ</value>
+  </synonym>
+  <defaultForm>Report.УведомлениеОбОстаткеНеиспользованныхСерийИНомеровСчетовФактур.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="d2b349c9-e478-4217-a028-1351afd8d288">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b110224a-c875-4dca-b708-2c1cd02b7e5d">
+    <name>ПФ_MXL_ОтчетОбОстаткеНеиспользованныхСерийИНомеровСчетовФактур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <commands uuid="7e71d693-bde5-48b6-917a-6bbaa24dc3c5">
+    <name>УведомлениеОбОстаткеНеиспользованныхСерийИНомеровСчетовФактур</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уведомление об остатке неиспользованных серий и номеров счетов фактур</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

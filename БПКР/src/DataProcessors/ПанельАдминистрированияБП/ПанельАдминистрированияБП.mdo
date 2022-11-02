@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4dd46b6-628a-41c4-b0a8-bd618d009afd">
+  <producedTypes>
+    <objectType typeId="1ea08e9b-4f1f-4f34-bf22-bc325e7edd5d" valueTypeId="36eab720-a505-43b2-a0ef-23588af63c1b"/>
+    <managerType typeId="e58e7c8a-b472-4754-bf5e-9755bec83324" valueTypeId="16264d65-1638-463a-a603-61fdab17b193"/>
+  </producedTypes>
+  <name>ПанельАдминистрированияБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка учета</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="00def1eb-52de-4d73-be65-cf04c3837754">
+    <name>РазделПараметрыУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел &quot;Параметры учета&quot;</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c133654f-1696-47f7-841f-da7af422c587">
+    <name>НастройкаУчетаПоОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка учета по организации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc567217-d2bb-40e6-85dd-22dc5116ddb0">
+    <name>Интерфейс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интерфейс</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="06244ed4-8511-4417-aabc-8cacedd26847">
+    <name>НастройкаУчетаПоСкладам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка учета по складам</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3daf7256-b2cd-40c0-8289-6d20041eb0fe">
+    <name>НастройкаУчетаПоСтатьямДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка учета по статьям ДДС</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7f959b5c-62f0-4758-aa36-25c51bd67ae0">
+    <name>НастройкаУчетаПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка учета производства</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="477af9c1-0567-4605-9a71-92bfac65226f">
+    <name>ФормаНастройкиЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки цен</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="25c77300-fa60-4e0a-b3e5-762fe7ef7470">
+    <name>Предприятие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры учета</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="56e6a100-5e42-4da3-8128-8e220379ff1c">
+    <name>НеНашлиНужнуюВозможность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не нашли нужную возможность?</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="808d0905-dc66-41e7-8056-e0dddddbe94a">
+  <producedTypes>
+    <refType typeId="7324dc0b-571c-4a8f-9959-be04fb7d707f" valueTypeId="16aacdb8-2096-4ec4-8c99-a94b106b7e15"/>
+    <listType typeId="3bd852a5-caa0-4805-9071-7a5f3b4b800c" valueTypeId="6b890baa-1d22-4b0c-b25c-532f2944679e"/>
+    <managerType typeId="0bee9e3f-204d-404c-bbce-caeb9a35f1cf" valueTypeId="e2c2e1ec-eab3-4550-b70f-b8721288e2f1"/>
+  </producedTypes>
+  <name>ВидыЗачетаНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды зачета НДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b7a92cb3-676b-4da5-91bd-16ebce335c82">
+    <name>Зачет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e8aedba-1e2f-416f-b9be-f6d3a2cba75a">
+    <name>Себестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Себестоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="faab9fe0-cc90-474c-80e8-734d0ac5e43d">
+    <name>Распределение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределение</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

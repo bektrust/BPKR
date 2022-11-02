@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58d4a339-2ab5-4df8-90c8-701952c6f180">
+  <name>НачисленияИУдержания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления и удержания</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.РазовоеУдержание</content>
+  <content>Document.ИсполнительныйЛист</content>
+  <content>Document.НачислениеЗарплаты</content>
+  <content>Document.УдержаниеЗаПериод</content>
+  <content>Document.ПлановоеУдержание</content>
+  <content>Document.НачислениеЗарплатыПоСреднемуЗаработку</content>
+  <parentSubsystem>Subsystem.Зарплата</parentSubsystem>
+</mdclass:Subsystem>

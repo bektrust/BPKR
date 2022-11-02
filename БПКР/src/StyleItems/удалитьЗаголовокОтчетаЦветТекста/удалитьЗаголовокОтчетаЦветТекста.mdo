@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cec1824-8436-4f56-87fa-a8b120edc05e">
+  <name>удалитьЗаголовокОтчетаЦветТекста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить заголовок отчета цвет текста</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>77</red>
+      <green>77</green>
+      <blue>77</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

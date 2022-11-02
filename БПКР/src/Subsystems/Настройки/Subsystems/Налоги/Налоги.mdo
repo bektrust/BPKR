@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a37137cc-21d2-493d-997d-a2bbe0ae9b2c">
+  <name>Налоги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоги</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.СтавкиНДС</content>
+  <content>Catalog.СтавкиНСП</content>
+  <content>Catalog.НастройкиНалоговойДекларации</content>
+  <content>CommonModule.НалоговыйУчет</content>
+  <content>CommonModule.РасчетНалогаНаПрибыльСервер</content>
+  <content>InformationRegister.СведенияОНДСНаИмпорт</content>
+  <content>InformationRegister.СтавкиЕН</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

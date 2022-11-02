@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e487723-2beb-4678-b0e3-3863a6446949">
+  <producedTypes>
+    <refType typeId="32aa3e4d-bcd8-4dc3-b979-5b8e268347ad" valueTypeId="0a985c7a-cf04-4c60-9524-e0319c82af0b"/>
+    <listType typeId="a890748c-53fc-45df-a584-e5ed367ced1a" valueTypeId="de8830d7-ce06-4411-8430-f5f9deefc75f"/>
+    <managerType typeId="8c2f8d3c-5e31-4972-a577-85cf60b675e7" valueTypeId="39b607da-b929-4772-9a94-28ebf28a0c7a"/>
+  </producedTypes>
+  <name>СпособыПоступленияАктивов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы поступления активов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1e481bd4-5e47-4e1c-b6ca-1821533112ca">
+    <name>Приобретение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приобретение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b8c34b12-5ae6-4c8a-9efe-72a80b1eed58">
+    <name>Строительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строительство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6050252-9887-4f5b-8f60-7629ad97cc8d">
+    <name>ВкладВУставныйКапитал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вклад в уставный капитал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a492a62-ddd8-4998-b2a2-a4d227085e8a">
+    <name>Аренда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аренда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="375364c4-d621-40b2-b96b-7c9f2acee527">
+    <name>Инвентаризация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентаризация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63c3fa59-26ae-4deb-873f-fd2f86ca1356">
+    <name>БезвозмездноеПоступление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Безвозмездное поступление</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1248d6f-2e65-4590-bb3f-ac88525686d1">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

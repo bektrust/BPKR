@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c71b0bb-e68b-4800-8e57-d51310f2f5cd">
+  <producedTypes>
+    <selectionType typeId="3b1dd738-a37e-438f-b103-da7599c720c9" valueTypeId="660b0469-eefb-4285-9440-895144142cd6"/>
+    <listType typeId="6c5b398d-2ccc-42b3-b24e-59977de7ec12" valueTypeId="7e78258a-b907-49e3-8b22-49741f2a2292"/>
+    <managerType typeId="84ba4e09-d1e3-4ee9-9e57-a0795001fe9a" valueTypeId="9a880667-900f-48c3-b62a-a4111d015636"/>
+    <recordSetType typeId="eef240fd-90b7-4191-bb58-b1a277fb0092" valueTypeId="002c00fb-e204-408e-9131-bf01d183c329"/>
+    <recordKeyType typeId="20c8cf2f-0105-44be-9f0f-b6b68bada6b8" valueTypeId="517fc08a-908e-45fd-b15a-04194b3270d2"/>
+    <recordType typeId="438f35f7-76df-478c-b0a5-df7fd785c4a1" valueTypeId="901e9db5-bead-4a37-8959-89240a3ab2a4"/>
+    <recordManagerType typeId="6f53c430-d4f2-4f90-bf7a-1cfc88b9858f" valueTypeId="0b1a544e-d43f-493d-b2b4-9b6c23cb172e"/>
+  </producedTypes>
+  <name>СтавкиНалоговЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки налогов заработной платы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Ставки налогов заработной платы по статусам</value>
+  </explanation>
+  <resources uuid="28c5d8aa-75d2-49df-981d-bd60c49e9246">
+    <name>СтавкаПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ПФР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога по отчислениям в пенсионный фонд с сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="98db0cc5-fed1-4106-b73f-366fc8f6f410">
+    <name>СтавкаГНПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ГНПФР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога по отчислениям в государственный накопительный пенсионный фонд с сотрудника.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8c8dd0c2-e18c-492c-8097-fde0e5a6bb80">
+    <name>СтавкаПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ПН</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога по отчислениям подоходного налога с сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="75128e12-9c8c-4f2f-8fc9-4fcad52035c7">
+    <name>Вычеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычеты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вычеты сотрудника для расчета подоходного налога</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a43c340c-f9b9-4e06-9c79-f3091eb03740">
+    <name>СтавкаПФФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ПФФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога по отчислениям в пенсионный фонд с фирмы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="67ced1bc-e3f3-4bc1-b930-efbddbc2435c">
+    <name>СтавкаМСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка МСФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога по отчислениям в фонд медицинского страхования с фирмы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7d93aefe-fc6c-4094-8994-ad5e2d76ef94">
+    <name>СтавкаФОТФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ФОТФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога по отчислениям в фонд оздоровления трудящихся с фирмы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c69c29a3-e973-4cd2-bbba-e8ef60bed804">
+    <name>НеВычитатьПФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не вычитать ПФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Не вычитать пенсионный фонд</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6a451d16-f20f-4de0-aa23-4560001229ff">
+    <name>СтавкаМСР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка МСР</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a1374cd5-1ef1-48f1-97aa-af089a89e032">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Статусы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="24a018fa-655a-41b4-b63a-1d75413ba04e">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

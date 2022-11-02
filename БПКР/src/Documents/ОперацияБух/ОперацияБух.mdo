@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6357f0e2-9e87-4112-b03c-b69367fde03b">
+  <producedTypes>
+    <objectType typeId="40b8cf3c-b8af-4f62-b946-e7f64e1c70ac" valueTypeId="b413b65c-ef04-4b58-a1e7-381a6d4f6a35"/>
+    <refType typeId="00a184d2-91a2-4211-95f4-fa7e36e0af04" valueTypeId="6d8fc3e6-56dc-4ee0-9c53-478dab5f7604"/>
+    <selectionType typeId="4fb3138e-9f69-4dfc-b859-73999662a3d5" valueTypeId="bdeb0695-1fcd-430d-a13f-6d4cb157de21"/>
+    <listType typeId="85592be4-b2bc-482b-9ec9-129a1e6ba76d" valueTypeId="e7287f44-3fa6-44b6-8c4b-4f836aeb0e58"/>
+    <managerType typeId="ef200c76-b9e3-4fe7-b6d8-a8cee7956722" valueTypeId="f53337ad-0d9f-4baa-9369-46ec04fbeb15"/>
+  </producedTypes>
+  <name>ОперацияБух</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОперацияБух.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <characteristics>
+    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
+    <keyField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
+    <typesFilterField>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения.StandardAttribute.Ref</typesFilterField>
+    <typesFilterValue xsi:type="core:ReferenceValue"/>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
+    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
+    <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
+    <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
+    <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
+  </characteristics>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <extendedObjectPresentation>
+    <key>ru</key>
+    <value>Операция</value>
+  </extendedObjectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Операции, введенные вручную</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОперацияБух.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОперацияБух.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.ОперацияБух.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <registerRecords>InformationRegister.СчетаФактурыВыписанные</registerRecords>
+  <registerRecords>AccumulationRegister.УбыткиПрошлыхЛет</registerRecords>
+  <registerRecords>AccumulationRegister.НезавершенноеПроизводство</registerRecords>
+  <registerRecords>AccumulationRegister.ВозвратДенежныхСредствПодотчетником</registerRecords>
+  <registerRecords>AccumulationRegister.ОборотыПоДаннымЕдиногоНалога</registerRecords>
+  <registerRecords>InformationRegister.МестонахождениеОС</registerRecords>
+  <registerRecords>InformationRegister.СведенияОбИмуществе</registerRecords>
+  <registerRecords>AccumulationRegister.ДвижениеОСНУ</registerRecords>
+  <registerRecords>AccumulationRegister.ОборотыГТД</registerRecords>
+  <registerRecords>AccumulationRegister.РеестрЗакупок</registerRecords>
+  <registerRecords>InformationRegister.СтажиСотрудников</registerRecords>
+  <registerRecords>AccumulationRegister.РеестрВвезенныхМатериальныхРесурсов</registerRecords>
+  <registerRecords>AccumulationRegister.ДанныеДляОтчетаПоСФЕжемесячному</registerRecords>
+  <registerRecords>InformationRegister.СотрудникиПоТрудовымСоглашениям</registerRecords>
+  <registerRecords>InformationRegister.АвансыПодотчетника</registerRecords>
+  <registerRecords>AccumulationRegister.ПродажиОсновныхСредств</registerRecords>
+  <registerRecords>AccumulationRegister.ДанныеЗакупочныхАктов</registerRecords>
+  <registerRecords>AccumulationRegister.БланкиСчетовФактур</registerRecords>
+  <registerRecords>AccumulationRegister.РеестрПриобретенныхМатериальныхРесурсов</registerRecords>
+  <registerRecords>InformationRegister.ВыполненныеРаботы</registerRecords>
+  <registerRecords>InformationRegister.ТарифыКомандировочных</registerRecords>
+  <registerRecords>InformationRegister.НалоговаяВыверка</registerRecords>
+  <registerRecords>InformationRegister.СведенияОТранспорте</registerRecords>
+  <registerRecords>InformationRegister.ПлановыеНачисленияОкончание</registerRecords>
+  <registerRecords>InformationRegister.СостояниеЗаказов</registerRecords>
+  <registerRecords>AccumulationRegister.НДСНаИмпорт</registerRecords>
+  <registerRecords>InformationRegister.СведенияПоНалогуНаИмущество</registerRecords>
+  <registerRecords>AccumulationRegister.Продажи</registerRecords>
+  <registerRecords>AccumulationRegister.НДСГТДИмпорт</registerRecords>
+  <registerRecords>InformationRegister.СведенияПоПоказателямИмпорта</registerRecords>
+  <registerRecords>AccumulationRegister.ВыпускПродукцииУслуг</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыУчетаОС</registerRecords>
+  <registerRecords>AccumulationRegister.ПоступлениеТоваров</registerRecords>
+  <registerRecords>InformationRegister.ЗаказаннаяПродукция</registerRecords>
+  <registerRecords>InformationRegister.СведенияОВвозимыхТоварах</registerRecords>
+  <registerRecords>InformationRegister.Профсоюз</registerRecords>
+  <registerRecords>InformationRegister.НалоговаяАмортизация</registerRecords>
+  <registerRecords>CalculationRegister.Удержания</registerRecords>
+  <registerRecords>InformationRegister.СостоянияОС</registerRecords>
+  <registerRecords>AccumulationRegister.ВозвратыТоваров</registerRecords>
+  <registerRecords>InformationRegister.ТабельПоЧасам</registerRecords>
+  <registerRecords>AccumulationRegister.НалогиПоЗаработнойПлате</registerRecords>
+  <registerRecords>InformationRegister.СобытияОС</registerRecords>
+  <registerRecords>AccumulationRegister.ЗемельныйНалог</registerRecords>
+  <registerRecords>InformationRegister.ПлановыеУдержанияНачало</registerRecords>
+  <registerRecords>InformationRegister.СведенияОПоступлении</registerRecords>
+  <registerRecords>InformationRegister.ПлановыеНачисленияНачало</registerRecords>
+  <registerRecords>AccumulationRegister.ДанныеРеестраГТД</registerRecords>
+  <registerRecords>InformationRegister.СтатусыСотрудников</registerRecords>
+  <registerRecords>AccumulationRegister.ПодоходныйНалог</registerRecords>
+  <registerRecords>AccumulationRegister.СоциальныйФонд</registerRecords>
+  <registerRecords>InformationRegister.СчетаФактурыПолученные</registerRecords>
+  <registerRecords>AccumulationRegister.ВыплаченнаяЗарплата</registerRecords>
+  <registerRecords>InformationRegister.ПлановыеУдержанияОкончание</registerRecords>
+  <registerRecords>AccumulationRegister.АвансыДоотгрузка</registerRecords>
+  <registerRecords>AccumulationRegister.КорректировкиНУ</registerRecords>
+  <registerRecords>InformationRegister.ПлатежиПоНалогуНаПрибыль</registerRecords>
+  <registerRecords>InformationRegister.СведенияОНДСНаИмпорт</registerRecords>
+  <registerRecords>InformationRegister.СведенияОбЭСФ</registerRecords>
+  <registerRecords>InformationRegister.СоставОС</registerRecords>
+  <registerRecords>CalculationRegister.Начисления</registerRecords>
+  <registerRecords>InformationRegister.Сотрудники</registerRecords>
+  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыУчетаКомплектовОС</registerRecords>
+  <registerRecords>AccumulationRegister.ВыработкаОС</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="305916a7-7c82-40e9-a526-ab1312ed6033">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8b9f3df-68b0-4a81-bf96-bc66af2393e4">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="96566cc3-335e-4246-b99e-ef578bb801b8">
+    <name>СуммаОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a59aeea2-dd93-48e7-a6b0-d811b1c82dd4">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="baa5f11b-2031-4142-9569-b4a438eca7de">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Заполняется сумма документа.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>DontUse</quickChoice>
+    <createOnInput>Use</createOnInput>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3364b299-3ea1-4996-b633-f971cab3f354">
+    <name>СпособЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ заполнения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="285d4c05-b261-43a2-88d7-b2975176ef9f">
+    <name>СторнируемыйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сторнируемый документ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>Document.ОперацияБух.Attribute.Организация</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a4d8c076-48cf-4c14-a4b8-6bf35952e7b1">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ce7d0604-34c6-43fb-a6f1-d493792d0b89">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cdf469a3-d87a-4e28-ab92-5f6ae213f3dc">
+    <name>ТиповаяОперация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типовая операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТиповыеОперации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="f36a4d50-1ea4-495a-a0cb-d8e47eb12a48">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b550acc-a3b9-4db3-9625-87722a445b1d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81a568d2-401b-4607-a0c1-2e50452fd804">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e6dbd5b7-a536-4d78-871c-b5542765e0fd">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отображения регистров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="f48edd06-70f3-4046-9bc8-ba93022f2832">
+    <producedTypes>
+      <objectType typeId="6496ffc4-a788-43e6-8c1f-085f3a84cb2d" valueTypeId="0b374820-69bc-4b2a-aa65-47f2b53d48b8"/>
+      <rowType typeId="a0474e7c-e4bd-47ed-80d3-26111cc69505" valueTypeId="1e08f7f8-4309-4eca-a259-3b1fabb21c4e"/>
+    </producedTypes>
+    <name>ТаблицаРегистровСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров сведений</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="97ca5ce5-613d-44e8-aa6c-640ce5aaa34d">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3d753102-9808-47cf-b5bb-3def1e03b1ab">
+    <producedTypes>
+      <objectType typeId="8c44621b-2ce5-45e4-9264-82efef8dbaa7" valueTypeId="da509ea8-fdae-40dd-af77-7968abd5a534"/>
+      <rowType typeId="524fdbdb-4f53-4cc0-96fa-1c5f4738e97a" valueTypeId="950e316b-551e-4ceb-88ef-4167653eb8a1"/>
+    </producedTypes>
+    <name>ТаблицаРегистровНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров накопления</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b9dad31e-6cc5-4060-8c6a-2df7a52fbf57">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="7d238b6a-cdeb-4943-bcf1-2ba161a7f0b0">
+    <name>ПФ_MXL_БухгалтерскаяСправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерская справка</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

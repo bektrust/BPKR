@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d7e4271-1dd9-49f6-80de-6d87ac5c7ec3">
+  <producedTypes>
+    <refType typeId="678fda16-8185-4c48-8719-eb52f58cb674" valueTypeId="687b6a2b-653a-4a35-b564-13415027e84b"/>
+    <listType typeId="29c980b8-d409-409d-89bf-aa9782324404" valueTypeId="622b09f9-143c-414c-8af2-48d8d061fb7f"/>
+    <managerType typeId="0f7d2233-a214-438e-a5b4-14782c917c66" valueTypeId="8d2a5d52-210c-41c5-96b1-ef416586fbfd"/>
+  </producedTypes>
+  <name>ВидыЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды задолженности</value>
+  </synonym>
+  <comment>Виды задолженности: дебиторская, кредиторская</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="64bb4145-d853-4f07-b915-95f1887d893a">
+    <name>Дебиторская</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дебиторская</value>
+    </synonym>
+    <comment>Дебиторская</comment>
+  </enumValues>
+  <enumValues uuid="5edaf752-81fb-43c5-b917-d9e3f641b259">
+    <name>Кредиторская</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредиторская</value>
+    </synonym>
+    <comment>Кредиторская</comment>
+  </enumValues>
+</mdclass:Enum>

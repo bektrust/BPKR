@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c35e271-1350-46c2-846a-3f13efc79dd3">
+  <name>Банк</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банк</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПлатежноеПоручениеИсходящее</content>
+  <content>Document.ПлатежноеПоручениеВходящее</content>
+  <content>DataProcessor.ВыпискаБанка</content>
+  <content>DocumentJournal.ДокументыПоБанку</content>
+  <content>Document.ПлатежныйОрдерСписаниеДС</content>
+  <content>Document.Конвертация</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

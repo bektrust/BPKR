@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5c19ef6-baa5-4859-8114-2de431805f7f">
+  <producedTypes>
+    <objectType typeId="f6838eae-959c-4198-a67e-09a53aa935d8" valueTypeId="e20f4e8c-4444-4b5d-9e2f-6070c68afd8f"/>
+    <refType typeId="bd8d7024-5af4-4023-9c5e-595b53fc9d91" valueTypeId="94d25356-de05-4b72-874a-580902792d70"/>
+    <selectionType typeId="06cb790c-261e-4b58-a8d9-1926520554ee" valueTypeId="e2bcca91-783e-455c-94ee-37761842fcec"/>
+    <listType typeId="e94df710-9061-4a3d-a3e7-e7f1faa81c29" valueTypeId="83201381-d03a-4d93-b00b-4210082a1588"/>
+    <managerType typeId="1db665d1-b7eb-4914-918a-6367a9f62436" valueTypeId="49ad416e-be33-41b9-95a5-be274ae8af3a"/>
+  </producedTypes>
+  <name>ПричиныОприходования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины оприходования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныОприходования.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныОприходования.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Причина оприходования</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ПричиныОприходования.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ПричиныОприходования.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ПричиныОприходования.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="8dc7c99b-b5cd-42bc-82ec-52b0541669bb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71a6fabf-deea-4e0d-b3b3-ffb75cff5639">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="082dbfb8-5c92-4c84-be45-fc32c5a11dd4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

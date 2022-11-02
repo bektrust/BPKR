@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee73d643-227e-4675-91b5-0e1ec896a486">
+  <producedTypes>
+    <selectionType typeId="ce52e156-63bc-4836-b07a-176056678e41" valueTypeId="4e76922e-a740-4806-8c23-ed2e0b22340f"/>
+    <listType typeId="359fae85-6616-4e41-8b61-79f043c0f537" valueTypeId="3f6c4739-1abe-4fce-a818-8d55265ee989"/>
+    <managerType typeId="58901717-32f8-4f76-830d-b20924e8d10a" valueTypeId="e47c311a-9a05-4aa8-8d5c-2441369f43ab"/>
+    <recordSetType typeId="74cbc6fe-8f1d-401d-befa-453b70e3895b" valueTypeId="93fbcf38-3624-474a-af31-14f2d8475448"/>
+    <recordKeyType typeId="ce7aa7a9-0648-4b3b-a7a3-1cc84e058dcb" valueTypeId="7b9950fd-4c85-4ff6-a326-c983cc1bd766"/>
+    <recordType typeId="5f1e33f1-c04b-4de3-976d-1a54e5ef5549" valueTypeId="0aeb2ebb-bfbb-40c6-8399-998899de3ce5"/>
+    <recordManagerType typeId="0a80e77b-2917-4594-b4d8-e333eeee993c" valueTypeId="55bde6a5-7a1c-4a6a-9ff0-9ba34055bd84"/>
+  </producedTypes>
+  <name>СоставОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состав ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5861d8e2-aef4-4b92-8fff-6d3ff16c6b48">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b9f1d4b4-b112-4999-a77a-e379cb545b40">
+    <name>СостояниеВСоставеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние в составе ОС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОперацийКомплектацияОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="19edda78-4c0b-41af-abb8-20cd24e86279">
+    <name>ОсновноеСредствоВСоставеКомплекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство в составе комплекта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное средство, входящее в комплект.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

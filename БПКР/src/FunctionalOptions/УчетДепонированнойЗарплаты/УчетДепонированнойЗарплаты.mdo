@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6d9286a-9ed6-4fa8-928b-287b14c9a12c">
+  <name>УчетДепонированнойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет депонированной зарплаты</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетДепонированнойЗарплаты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ВедомостьЗаработнойПлаты.TabularSection.Зарплата.Attribute.ВидВыплаты</content>
+  <content>Document.ВедомостьДепонированнойЗарплаты</content>
+  <content>Document.СписаниеЗарплатыДепонентов</content>
+</mdclass:FunctionalOption>

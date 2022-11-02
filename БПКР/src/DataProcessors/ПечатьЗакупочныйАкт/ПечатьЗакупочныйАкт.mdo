@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="042c611b-0bc9-402e-8544-f219d2e6dc57">
+  <producedTypes>
+    <objectType typeId="0db343d0-c85d-4bec-9180-2b4f90cd0c22" valueTypeId="43921f02-5268-406c-a3fb-9638c61de24c"/>
+    <managerType typeId="3108c021-3235-41e1-9234-b4fb261bb3ef" valueTypeId="c185e5ed-ffc4-4dc3-a5c4-9c6cc776b8a4"/>
+  </producedTypes>
+  <name>ПечатьЗакупочныйАкт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закупочный акт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="760b9020-0b9a-487b-8b0f-f53cac80d9a4">
+    <name>ПФ_MXL_ЗакупочныйАкт</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL закупочный акт</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

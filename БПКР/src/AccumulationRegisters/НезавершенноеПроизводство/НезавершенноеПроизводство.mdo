@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="08804181-7d82-4054-8ec5-c2701653db29">
+  <producedTypes>
+    <selectionType typeId="ce4e66c9-4e5e-4cf8-bc49-c2ed4e025ba9" valueTypeId="215cced5-8df5-4346-983a-092633a97e36"/>
+    <listType typeId="5cc2fd5e-889e-447a-8ab5-8459186efc62" valueTypeId="32c462f4-8a2f-4d48-9275-91c5e5995b72"/>
+    <managerType typeId="6e2ad3b3-c989-4790-9d44-0cf0631c2a36" valueTypeId="a71136bc-5ac5-4bf1-af92-4679358e5639"/>
+    <recordSetType typeId="6cf4c7cf-1ee4-40dd-8fa2-90bafa7f9392" valueTypeId="29d82bb1-4655-4ee3-989f-fa1f4ae5a574"/>
+    <recordKeyType typeId="6f7782e5-5c1b-4938-822a-31e5f3a1e746" valueTypeId="ce5a3407-a826-4103-b8cf-ccee6888db5a"/>
+    <recordType typeId="b3a04bbd-31f2-442b-8023-1060bd9c91b3" valueTypeId="adb8b1af-76e8-4be2-88c8-9cc577104c72"/>
+  </producedTypes>
+  <name>НезавершенноеПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Незавершенное производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="c7276ab3-471d-4615-8777-469aadbfc176">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="2cb7723d-72fa-4561-81f4-4088aed4ded6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="ab47a16c-0150-4583-af32-85ef1afa8bdf">
+    <name>СчетЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет затрат</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="96e79ed1-3e6e-4301-bcdb-068b0295dc60">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="74b1e6f6-13b3-4acd-b6c7-8e040143a01c">
+    <name>НоменклатурнаяГруппа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатурная группа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НоменклатурныеГруппы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

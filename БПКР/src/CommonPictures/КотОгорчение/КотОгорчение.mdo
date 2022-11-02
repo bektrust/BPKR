@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1ee1c25-7cd8-4f20-ba79-1fbc03523d41">
+  <name>КотОгорчение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кот огорчение</value>
+  </synonym>
+</mdclass:CommonPicture>

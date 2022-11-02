@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c9b8924-f675-46eb-8fd0-e04ebf95448b">
+  <producedTypes>
+    <managerType typeId="8c03f64c-d01c-4965-b07a-7196c4f0ff7f" valueTypeId="cb5607c2-186f-479e-8177-2c71ce77e90f"/>
+    <valueManagerType typeId="93c364f3-5637-4fee-ba59-4c9e4ec846b5" valueTypeId="4558725a-5d81-4406-9b0c-4ed5c17397b0"/>
+    <valueKeyType typeId="fd0be263-2310-4179-b876-05b8ca167ae1" valueTypeId="231a8832-3be4-48d5-9857-30baf584232a"/>
+  </producedTypes>
+  <name>НастройкаЗаполненияЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка заполнения цены</value>
+  </synonym>
+  <type>
+    <types>EnumRef.НастройкаЗаполненияЦены</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

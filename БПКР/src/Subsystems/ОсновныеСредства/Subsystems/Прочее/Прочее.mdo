@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47b69229-a281-462e-9e74-aeaa1ff00ce9">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.УправлениеВнеоборотнымиАктивамиВызовСервера</content>
+  <content>CommonModule.УправлениеВнеоборотнымиАктивамиКлиент</content>
+  <content>CommonModule.УправлениеВнеоборотнымиАктивами</content>
+  <content>Constant.ФункциональнаяОпцияУчетДвиженияОСПоМОЛ</content>
+  <content>Constant.ФункциональнаяОпцияУчетДвиженияОСПоПодразделениям</content>
+  <content>InformationRegister.СведенияОбИмуществе</content>
+  <content>InformationRegister.СведенияПоНалогуНаИмущество</content>
+  <content>AccumulationRegister.ВыработкаОС</content>
+  <content>CommonModule.УправлениеВнеоборотнымиАктивамиПовтИсп</content>
+  <content>Enum.ПараметрыМодернизацииОС</content>
+  <content>InformationRegister.СоставОС</content>
+  <content>Enum.ВидыОперацийКомплектацияОС</content>
+  <content>Constant.ВычетНАПриМодернизации</content>
+  <content>Constant.ФункциональнаяОпцияВестиУчетОСПоКомплектам</content>
+  <content>InformationRegister.ПараметрыУчетаКомплектовОС</content>
+  <content>Constant.ПрисваиватьИнвентарныеНомераДляНМА</content>
+  <content>Constant.ФункциональнаяОпцияАрендаОС</content>
+  <content>Catalog.Районы</content>
+  <content>Catalog.Области</content>
+  <content>Catalog.КоэффициентыКоммерческогоИспользования</content>
+  <content>Catalog.КодыОсобенностейПеремещенияТоваров</content>
+  <content>Constant.ФункциональнаяОпцияКомплектация</content>
+  <content>FunctionalOption.УчетДвиженияОСПоПодразделениям</content>
+  <content>FunctionalOption.УчетДвиженияОСПоМОЛ</content>
+  <content>FunctionalOption.ВестиУчетОСПоКомплектам</content>
+  <content>FunctionalOption.АрендаОС</content>
+  <content>InformationRegister.СтавкиЗемельногоНалогаПоОбластям</content>
+  <content>InformationRegister.СтавкиЗемельногоНалогаПоРайонам</content>
+  <parentSubsystem>Subsystem.ОсновныеСредства</parentSubsystem>
+</mdclass:Subsystem>

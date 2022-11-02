@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a9ec585-33e2-4947-94bd-48bf91fbe935">
+  <producedTypes>
+    <selectionType typeId="8fe445e3-58df-474d-8d15-a0f18c34b651" valueTypeId="083d588c-9c1e-4a53-a72c-fe06e99a0a2e"/>
+    <listType typeId="38f4e5c5-0b6e-4172-b215-34f87df0879c" valueTypeId="58785bba-88ac-417d-8425-74272d1cc259"/>
+    <managerType typeId="56e671c2-cf19-475a-b271-87479585266b" valueTypeId="c21ba957-1299-44e5-a6f6-2a1e1175955a"/>
+    <recordSetType typeId="df4658f1-1a86-445f-86b9-a5294a2f0b46" valueTypeId="477c0499-5aeb-4a9f-9a56-803962b4426b"/>
+    <recordKeyType typeId="f1b13b1d-013e-4992-b400-aeed3e655511" valueTypeId="1331bd2f-e0e0-4694-a916-3de61e5516c8"/>
+    <recordType typeId="ddd85bc2-3e90-476c-8544-2d3f2040a70f" valueTypeId="bf156a29-cd7d-47b9-a44d-5b6ea9fde870"/>
+    <recordManagerType typeId="d66e1669-25f5-464c-b0ab-364b9b03d896" valueTypeId="95ef6b37-2dea-4895-9566-95c2b24e1b9e"/>
+  </producedTypes>
+  <name>СчетаУчетаСОсобымПорядкомПереоценки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета учета с особым порядком переоценки</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.СчетаУчетаСОсобымПорядкомПереоценки.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <resources uuid="cea10c74-ba48-42ed-9011-0d1728ba0176">
+    <name>НеСчитатьОКР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не считать ОКР</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установленном флажке отключается расчет операционных курсовых разниц по указанному счету. При снятом флажке расчет будет производиться.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4d02a8a7-38de-4c84-ba8d-8f144dc5a0d5">
+    <name>НеСчитатьНКР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не считать НКР</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установленном флажке отключается расчет неоперационных курсовых разниц по указанному счету. При снятом флажке расчет будет производиться.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="77b822f3-3702-4b5d-8d07-f19a9b213e06">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Валютный</name>
+      <value xsi:type="core:BooleanValue">
+        <value>true</value>
+      </value>
+    </choiceParameters>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="a7e4d28f-4211-402d-a632-72aab33bb8ea">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

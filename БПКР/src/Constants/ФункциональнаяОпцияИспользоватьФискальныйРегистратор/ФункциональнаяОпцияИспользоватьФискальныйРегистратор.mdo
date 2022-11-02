@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3be7223-3dcd-416f-8b11-30d1599eea7f">
+  <producedTypes>
+    <managerType typeId="222c9e8e-23f1-46d3-95e2-d5e612db3df5" valueTypeId="ad4196c2-040e-4956-ad0a-371688d2a592"/>
+    <valueManagerType typeId="d0e5a259-d14f-4c06-ba17-f6d736103dd5" valueTypeId="bfee8176-c748-4eb8-b32d-69f1c2f94da3"/>
+    <valueKeyType typeId="1e4924bf-7f2e-4f40-bf1f-d3c934a47d50" valueTypeId="a1fbf186-f982-4c8a-bc3c-b9288ac2e9dd"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьФискальныйРегистратор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать фискальный регистратор</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

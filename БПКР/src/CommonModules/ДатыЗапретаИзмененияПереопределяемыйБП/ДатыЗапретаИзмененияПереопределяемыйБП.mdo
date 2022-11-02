@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="042cfdd9-9af6-4c1b-9ef7-7e6f7ffe5b1e">
+  <name>ДатыЗапретаИзмененияПереопределяемыйБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Даты запрета изменения переопределяемый БП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

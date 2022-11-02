@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="00e3158e-b96b-4d75-8612-a263d4b13278">
+  <producedTypes>
+    <selectionType typeId="eddbd4f1-c05b-4e45-8100-b39294506b39" valueTypeId="386c6bce-2fbf-4e38-b093-d7d5eaaad641"/>
+    <listType typeId="c62e3a18-636b-4ef2-8467-64e67f5893a2" valueTypeId="1e5d39dc-9119-4960-8510-11eb63c9f7fd"/>
+    <managerType typeId="b24d6cdd-a467-40aa-b9e6-c3872bf50a1f" valueTypeId="8ca44c0f-70ae-47e5-b2c0-89f22afd2203"/>
+    <recordSetType typeId="442b37bc-03a1-4a0d-aaa2-60740b661d7e" valueTypeId="272411e7-a8be-454d-9fc0-a5aeea3b083a"/>
+    <recordKeyType typeId="6f897f4f-297d-438f-aa92-edb9eeaab734" valueTypeId="e7afdc3e-e1d9-407c-a97c-ff1a948e2647"/>
+    <recordType typeId="30469537-9cef-4ccc-87b8-51846adfa0c5" valueTypeId="a20a3b00-fad8-4a55-afbf-2f440fa85f71"/>
+  </producedTypes>
+  <name>УбыткиПрошлыхЛет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Убытки прошлых лет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="79ea9733-b719-45ac-9c71-b2b89865fb43">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="24d6c772-622b-4edf-9fec-a9c3b6f33b71">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="64e4751c-b9da-467c-b74a-e6c603ff60fc">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

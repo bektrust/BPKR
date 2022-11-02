@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b16d9fa9-f349-4311-8e28-af0d8d8b158c">
+  <producedTypes>
+    <refType typeId="6e367543-7a1f-4350-bc32-921e02588ade" valueTypeId="af9a8601-bbd5-47ea-892e-03df8279840f"/>
+    <listType typeId="b8d2ab92-ebbd-4e0b-b5d8-63b75c115795" valueTypeId="d5ce9453-deec-41e5-b79a-6eca33e63e05"/>
+    <managerType typeId="95aa6cb7-0a18-46ea-8aca-635ffaaf201d" valueTypeId="95485657-681e-4d3c-b477-cb38f70414f9"/>
+  </producedTypes>
+  <name>ВидыОперацийВозвратТоваровПоставщику</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Возврат товаров поставщику&quot;</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85564a66-7ede-4d47-b27a-cbb5c58ce683">
+    <name>ВозвратПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8f0cfdcf-9013-4459-bf90-18089bcaac4f">
+    <name>ИзПереработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Из переработки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

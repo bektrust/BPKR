@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a474a174-1835-4293-8d2f-a0bb88af8d5e">
+  <name>АрендаОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда ОС</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияАрендаОС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПоступлениеАрендованныхОС</content>
+  <content>Document.ВозвратАрендованныхОС</content>
+  <content>InformationRegister.СостоянияОСВАренде</content>
+  <content>InformationRegister.ПараметрыУчетаОСВАренде</content>
+</mdclass:FunctionalOption>

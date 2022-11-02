@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="046ec6c5-d220-4b9b-8882-f65d03903dc8">
+  <name>УчетДвиженияОСПоМОЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет движения ОС по МОЛ</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетДвиженияОСПоМОЛ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПеремещениеОС.Attribute.МОЛПолучатель</content>
+  <content>Document.ПеремещениеОС.Attribute.МОЛОтправитель</content>
+  <content>Document.ПеремещениеОС</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.ОС.Attribute.МОЛ</content>
+  <content>Document.ИнвентаризацияОС.Attribute.МОЛ</content>
+  <content>Document.ИнвентаризацияОС.TabularSection.ОС.Attribute.МОЛ</content>
+  <content>Document.ПринятиеКУчетуОС.TabularSection.ОС.Attribute.МОЛ</content>
+  <content>Document.СписаниеОС.Attribute.МОЛ</content>
+  <content>Document.СписаниеОС.TabularSection.ОС.Attribute.МОЛ</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.МОЛ</content>
+  <content>InformationRegister.МестонахождениеОС.Resource.МОЛ</content>
+  <content>InformationRegister.МестонахождениеОС.Resource.МОЛДо</content>
+  <content>Document.КорректировкаСтоимостиРеализации.Attribute.МОЛ</content>
+  <content>Document.КомплектацияОС.Attribute.МОЛ</content>
+</mdclass:FunctionalOption>

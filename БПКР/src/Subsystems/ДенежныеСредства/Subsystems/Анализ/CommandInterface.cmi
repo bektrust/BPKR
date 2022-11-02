@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>AccumulationRegister.ВозвратДенежныхСредствПодотчетником.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельОтчетовДенежныеСредства</commands>
+      <commands>Report.АвансовыйОтчетЗаМесяц.Command.АвансовыйОтчетЗаМесяц</commands>
+      <commands>Report.КассоваяКнига.Command.КассоваяКнига</commands>
+      <commands>Report.ЖурналБанковскихДокументов.Command.ЖурналБанковскихДокументов</commands>
+      <commands>Report.СводкаПоДенежнымСредствам.Command.СводкаПоДенежнымСредствам</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

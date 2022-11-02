@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d28d657-74f2-4be6-b762-cf25285763ff">
+  <name>ВыгрузкаКонтрагентовЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка контрагентов ЭСФ</value>
+  </synonym>
+  <namespace>http://www.sample-package5.org</namespace>
+</mdclass:XDTOPackage>

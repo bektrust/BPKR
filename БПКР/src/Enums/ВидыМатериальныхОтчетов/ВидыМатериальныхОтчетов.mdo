@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6dfd6fd3-73c4-4b01-a004-d8c369757b8f">
+  <producedTypes>
+    <refType typeId="d165f40e-bce7-46cb-88fc-e44e347b2038" valueTypeId="287f0a56-c190-4a4f-b704-34bf5eeb9c34"/>
+    <listType typeId="c6612462-b8aa-4bef-bad3-d6549d94d8d1" valueTypeId="21d89d26-c9bf-459d-822e-b7aadf15b06f"/>
+    <managerType typeId="3a145d47-d8e7-4455-b5a8-a94a2889e605" valueTypeId="d39d4975-6788-491c-9081-5387a860f485"/>
+  </producedTypes>
+  <name>ВидыМатериальныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды материальных отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="67578b0b-9c4c-4584-a40d-8e781b0f3aaf">
+    <name>ПоУзлам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По узлам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

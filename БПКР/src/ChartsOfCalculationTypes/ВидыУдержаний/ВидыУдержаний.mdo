@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b82f6e3-15d8-413d-8cdc-637dabacb263">
+  <producedTypes>
+    <objectType typeId="596b56dc-7cec-4bdc-a044-1c17c2616638" valueTypeId="9b23ed3d-f723-4a0e-a251-31b49a4ec458"/>
+    <refType typeId="ec67048f-2f47-4997-87ed-b745333d4a5d" valueTypeId="a45c621e-fe3e-4c4e-ac07-9327354938dc"/>
+    <selectionType typeId="c50e37a2-0ae4-4c5f-880d-875e0ac60597" valueTypeId="903c7068-3734-46ea-a13e-80493e9375a7"/>
+    <listType typeId="3e3aaa1c-511f-4ccc-abaf-29482901e609" valueTypeId="1be5ae1b-c97a-4fcf-be6e-f4f974ab7b51"/>
+    <managerType typeId="4dbfe46d-bbf3-4752-b409-f6aabb47e924" valueTypeId="0d47d512-021d-49d5-aa54-a4bdc41737e8"/>
+    <displacingCalculationTypesType typeId="40856c82-8a3d-4225-93e1-28f1be85b286" valueTypeId="f76ff869-e99a-4b57-8387-4abd25302952"/>
+    <displacingCalculationTypesRowType typeId="2766e745-0c0f-4aa0-9d65-5ddf3d0e7f19" valueTypeId="bbdc49bc-7eee-436e-9bd5-ac76761768a6"/>
+    <baseCalculationTypesType typeId="7e2b0e2f-c362-40ec-8091-077d3224945e" valueTypeId="a5c11e8a-5684-4cbe-b323-6dda88ac4eed"/>
+    <baseCalculationTypesRowType typeId="8752b925-afc4-42b8-a50f-9587b591632f" valueTypeId="5e6941cc-ddb8-42fd-b38d-41642b773ebb"/>
+    <leadingCalculationTypesType typeId="26b8ddc5-c271-4b8e-911e-21957ac074f5" valueTypeId="ba9d57fb-f5c5-4e43-b8ff-a2086ff17889"/>
+    <leadingCalculationTypesRowType typeId="a9bed8ca-a4f9-464f-9872-528b3dc528e1" valueTypeId="c7f454e1-af9d-4c70-9e6a-8290a4b7142b"/>
+  </producedTypes>
+  <name>ВидыУдержаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды удержаний</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВидыУдержаний.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВидыУдержаний.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Удержание</value>
+  </objectPresentation>
+  <codeLength>5</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCalculationTypes.ВидыУдержаний.Form.ФормаВидаРасчета</defaultObjectForm>
+  <defaultListForm>ChartOfCalculationTypes.ВидыУдержаний.Form.ФормаСписка</defaultListForm>
+  <dependenceOnCalculationTypes>OnRegistrationPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВидыНачислений</baseCalculationTypes>
+  <standardTabularSections>
+    <name>LeadingCalculationTypes</name>
+  </standardTabularSections>
+  <standardTabularSections>
+    <name>DisplacingCalculationTypes</name>
+  </standardTabularSections>
+  <standardTabularSections>
+    <name>BaseCalculationTypes</name>
+  </standardTabularSections>
+  <attributes uuid="4bea32c2-1710-4bcc-a58c-cd0e6ea6321c">
+    <name>СпособРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыРасчетаУдержаний</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыРасчетаУдержаний.EnumValue.ФиксированнойСуммой</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9e82e761-81f4-42ee-ae21-0045a361bacd">
+    <name>ФормулаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула расчета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="85999fb8-8e09-4976-8bec-1e4bf0bd9dd8">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Произвольное пояснение для служебных целей, не выводится в отчетах и формах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3f0d24f1-6827-4a39-a701-c3bde25c0836">
+    <name>ТребуетсяРасчетБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется расчет базы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8ad30afd-76cf-4eac-be6d-9b97770d1ce3">
+    <name>ТребуетсяРасчетВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется расчет времени</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d79f9eea-dc26-407b-b5d2-48280751e0b1">
+    <name>КатегорияРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория расчета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорииРасчетов</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Категория предопределяет поведение начисления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.КатегорииРасчетов.EnumValue.Первичное</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14a74853-d702-472d-a32a-f1ed71cfd954">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f85fb4e-9718-4bd5-968c-59f8a788d890">
+    <name>РасчетЗаМинусомПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет за минусом ПН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак расчета за минусом отчислений подоходного налога</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9a6849d-0c82-49dc-a238-3f621b782b08">
+    <name>РасчетЗаМинусомСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет за минусом СФ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак расчета за минусом отчислений в социальный фонд</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cc0548ad-be86-4bda-83ce-d72717f5057b">
+    <name>РасчетЗаМинусомПрофВзнос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет за минусом Проф.взнос</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак расчета за минусом профсоюзных отчислений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c138537a-6b9a-4545-9049-351dae549159">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета для отражения удержаний с заработной платы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="4bc0479f-668d-4789-a07c-a0425c0979b7">
+    <name>ФормаВидаРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма вида расчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="293a112f-c4f8-4e3e-891f-fd6085d77966">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCalculationTypes>

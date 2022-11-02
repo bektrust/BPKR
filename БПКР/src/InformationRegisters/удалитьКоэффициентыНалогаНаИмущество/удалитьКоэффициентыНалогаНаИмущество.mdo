@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c34b6282-2998-44b6-9a3c-ab676a7ee9c1">
+  <producedTypes>
+    <selectionType typeId="d2db823c-2636-46f6-9f90-943808dce470" valueTypeId="1b399d85-58e5-4671-ab16-5f9fafa3c01d"/>
+    <listType typeId="1514bcd1-190a-4219-a29c-ce5a6195221e" valueTypeId="e6085d1d-d18a-49a7-beb6-ada20923859f"/>
+    <managerType typeId="fa1c8a6b-6984-4fff-849c-85123c35585f" valueTypeId="2cf96573-0bf7-4eac-8e0e-28c278e61c0b"/>
+    <recordSetType typeId="b3255a5a-466d-4d5a-a88f-30cabcddd3dc" valueTypeId="f5376a87-45d9-4720-ba15-43f01eb71c41"/>
+    <recordKeyType typeId="47fa1630-4bc5-4e02-9475-e2679679318d" valueTypeId="bc5f8f64-a1e7-4207-b87c-af9520d7ec1d"/>
+    <recordType typeId="5fecb2bb-8b2c-4cb2-9921-61ba27a967f4" valueTypeId="1a5687ab-1239-4d06-a3a2-82c222c3831f"/>
+    <recordManagerType typeId="5ba0fbe3-ead2-4b1b-8e62-ca24393002eb" valueTypeId="f7100262-a547-4d77-b203-382f5a350e8a"/>
+  </producedTypes>
+  <name>удалитьКоэффициентыНалогаНаИмущество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить коэффициенты налога на имущество</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.удалитьКоэффициентыНалогаНаИмущество.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="135ce22b-5ed6-4169-95bc-41b18ae2586f">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3362740f-a6b1-49de-835b-7955a1a2a72d">
+    <name>Классификация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РегиональныеКоэффициентыНалогНаИмущество</types>
+      <types>CatalogRef.ОтраслевыеКоэффициентыНалогНаИмущество</types>
+      <types>CatalogRef.ЗональныеКоэффициенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="802a1d32-57f5-40b9-a030-a5d0442a207e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

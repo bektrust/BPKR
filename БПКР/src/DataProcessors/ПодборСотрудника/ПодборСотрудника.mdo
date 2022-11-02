@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cffab83-cc36-4190-83c7-3e3416c3f7c5">
+  <producedTypes>
+    <objectType typeId="e905b449-cb4a-4b41-b5ca-9c7b15b08883" valueTypeId="c7c0c537-6a58-4bea-b853-303ff744548e"/>
+    <managerType typeId="029d6b8a-245b-43c2-adee-6070fce48e19" valueTypeId="ea953ab7-2648-42a9-8d66-d4c660cd01f9"/>
+  </producedTypes>
+  <name>ПодборСотрудника</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор сотрудников в документах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодборСотрудника.Form.СведенияОДокументе</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="8b60094b-e015-470f-b8a2-3b29f687cff5">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f80c9e01-6ff7-4acc-9321-eb798c91f0cf">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1b76f06f-4780-46be-8291-668ce76f92c6">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.ПодборСотрудника.Attribute.Организация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="7afe4912-6901-4ba6-8210-e0a9c3a6711a">
+    <name>ПоказыватьУволенных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать уволенных</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5fc9ad06-1fe6-4dc1-9c7e-54fd5dbbe3d2">
+    <name>УникальныйИдентификаторФормыВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор формы владельца</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7c29780-619c-4fc5-b2d3-1333463d4038">
+    <name>СписокПодобранных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список подобранных</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e84a4d54-2473-4e48-85c8-1700ef5f9cef">
+    <name>ВидВедомости</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид ведомости</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <tabularSections uuid="854a0918-a895-4938-8810-26d93c9080b1">
+    <producedTypes>
+      <objectType typeId="18c100ae-3d68-46dc-8fed-a57d161f253f" valueTypeId="d21051d3-81c1-4205-a668-d0142d021121"/>
+      <rowType typeId="9a3effa3-6669-4754-b04b-7ba65c97c19e" valueTypeId="0753c6e7-2773-4e7d-a570-a34ae20a68d9"/>
+    </producedTypes>
+    <name>Корзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="09778bde-c01e-4bb4-8bc6-5fbe45ffc291">
+      <name>ФизЛицо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сотрудник</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:ReferenceValue"/>
+    </attributes>
+    <attributes uuid="a5420616-c356-4f92-b3a8-3d505d13a65b">
+      <name>Подразделение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подразделение</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПодразделенияОрганизаций</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="93927569-095e-44e6-93dd-41cc049e26e5">
+      <name>Должность</name>
+      <synonym>
+        <key>ru</key>
+        <value>Должность</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Должности</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="996da475-bc98-42fe-af72-75ebb9cff7ab">
+      <name>БанковскийСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Банковский счет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="51526ea5-f80e-4a31-bed5-d061e7ad026b">
+      <name>КартСчет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Карт счет</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КартСчетаСотрудников</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c9cfdd92-1f5b-4af5-901e-57c473987d02">
+    <name>Корзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина</value>
+    </synonym>
+    <comment>Подбор с показателями</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fcd258cd-b5a8-4b45-b0c4-e4b9bf2e4e72">
+    <name>СведенияОДокументе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о документе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

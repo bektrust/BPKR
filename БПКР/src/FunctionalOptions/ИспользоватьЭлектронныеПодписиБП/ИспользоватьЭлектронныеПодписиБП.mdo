@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20aa8845-59da-4b19-ae30-ebc0add0a2a7">
+  <name>ИспользоватьЭлектронныеПодписиБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать электронные подписи БП</value>
+  </synonym>
+  <location>Constant.ИспользоватьЭлектронныеПодписи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СчетНаОплатуПоставщикаПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.АвансовыйОтчетПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЗадачаИсполнителяПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ОперацияБухПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ОрганизацииПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.СчетНаОплатуПокупателюПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.Файлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ФизическиеЛицаПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЭлектронныйСчетФактураВыписанныйПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+  <content>Catalog.ЭлектронныйСчетФактураПолученныйПрисоединенныеФайлы.Attribute.ПодписанЭП</content>
+</mdclass:FunctionalOption>

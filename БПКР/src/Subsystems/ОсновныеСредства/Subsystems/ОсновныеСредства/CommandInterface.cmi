@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Document.ВводНачальныхОстатков.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ПринятиеКУчетуОС.StandardCommand.OpenList</commands>
+      <commands>Document.СписаниеОС.StandardCommand.OpenList</commands>
+      <commands>Document.ПеремещениеОС.StandardCommand.OpenList</commands>
+      <commands>Document.ИнвентаризацияОС.StandardCommand.OpenList</commands>
+      <commands>Document.МодернизацияОС.StandardCommand.OpenList</commands>
+      <commands>Document.ВводНачальныхОстатков.StandardCommand.OpenList</commands>
+      <commands>Document.ВыработкаОС.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

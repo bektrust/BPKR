@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4c2b16b-4bcb-467c-8402-b4349cb9b77c">
+  <name>ДопРасходыНаОдноПоступление</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп расходы на одно поступление</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияДопРасходыНаОдноПоступление</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ДополнительныеРасходы.Attribute.ДокументОснование</content>
+</mdclass:FunctionalOption>

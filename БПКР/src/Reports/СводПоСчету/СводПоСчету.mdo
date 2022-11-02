@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5ff0a9c-fc7e-4092-964a-62fed8dae6db">
+  <producedTypes>
+    <objectType typeId="da90e182-3ce3-49a2-bcf8-0670080145ca" valueTypeId="7fffc105-8840-472f-9000-1e327ce484eb"/>
+    <managerType typeId="127a65f2-b30c-4ce2-9fe5-079e8e894385" valueTypeId="59af8ae0-3c09-4659-9e3a-36a96843443b"/>
+  </producedTypes>
+  <name>СводПоСчету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свод по счету</value>
+  </synonym>
+  <defaultForm>Report.СводПоСчету.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="0ebcf4ae-641f-4edc-a902-8b5f651ab98d">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d6dc8e0-f24c-471b-8a8f-f937c50ce53d">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9520ae75-36e1-4a5b-b8b4-4dc8b931c5bb">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d02c64bb-272b-4ba1-87cb-a89e4e7432f2">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="798807f1-ac5c-4b85-9aec-eb97d64a2af3">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="615c980f-4c2d-4a09-8d24-6ac7befe662f">
+    <name>ПФ_MXL_СводПоСчету</name>
+    <synonym>
+      <key>ru</key>
+      <value>КассоваяКнига</value>
+    </synonym>
+  </templates>
+  <commands uuid="c1c6b44f-425a-4f07-b546-43bbb78ce55d">
+    <name>СводПоСчету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свод по счету</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

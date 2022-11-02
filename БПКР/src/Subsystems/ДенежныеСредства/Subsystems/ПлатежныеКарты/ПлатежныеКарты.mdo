@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9df9a4b-6c32-45b9-a0e7-23eed72f1d76">
+  <name>ПлатежныеКарты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Платежные карты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ВидыОплатОрганизаций</content>
+  <content>Document.ОплатаПлатежнойКартой</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6801f5cb-fcf4-4eb9-988a-ed4d4609fc04">
+  <name>ВестиШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести штатное расписание</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияВестиШтатноеРасписание</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.ШтатноеРасписание</content>
+  <content>Document.ПриемНаРаботу.Attribute.ЗанимаемыхСтавок</content>
+  <content>Document.КадровоеПеремещение.Attribute.ЗанимаемыхСтавок</content>
+</mdclass:FunctionalOption>

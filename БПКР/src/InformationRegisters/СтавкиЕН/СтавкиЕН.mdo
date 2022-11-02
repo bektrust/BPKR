@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1a12c69-9ee8-43f4-a845-07d2f13b1d38">
+  <producedTypes>
+    <selectionType typeId="7428077a-7240-4e1a-b068-96e08d963ada" valueTypeId="9b556b33-9bec-4fd8-9906-fa62a5cf60a7"/>
+    <listType typeId="e4db75f6-af14-4a64-88ee-60d9a6f9abcb" valueTypeId="85063ff1-7efd-4f6f-b5a9-255901756801"/>
+    <managerType typeId="0afbc758-0df2-4b81-a683-37bae48d942a" valueTypeId="beec4172-c36a-4813-a258-e0abe88597b8"/>
+    <recordSetType typeId="5486d953-fb29-4f53-8021-bddf9fc89f84" valueTypeId="863bdf24-139d-44c4-a9cc-ad0615f8545d"/>
+    <recordKeyType typeId="98379e86-940c-438d-80c2-5470240050a8" valueTypeId="cd1c0c57-1c47-431f-a269-2a9188724bc1"/>
+    <recordType typeId="d50ebb68-b858-4115-ac84-a67cc32edebc" valueTypeId="03825b38-0b4a-4f0d-b251-78f621c9766c"/>
+    <recordManagerType typeId="6c1c3ce2-d58b-4bec-8019-7ca1e87c65b8" valueTypeId="7db5db17-7fea-4a86-9666-75ec0fbe2568"/>
+  </producedTypes>
+  <name>СтавкиЕН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки ЕН</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СтавкиЕН.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.СтавкиЕН.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d85bd67b-9444-44df-a371-abb3894424a5">
+    <name>СтавкаНаличная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка наличная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога при наличной форме оплаты.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="62efdbe6-91b9-46c9-b50d-c7a58ad0d9a7">
+    <name>СтавкаБезналичная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка безналичная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога при безналичной форме оплаты.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2bd01044-2c5c-48f3-b96a-ea8d69044bb4">
+    <name>ВидДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид деятельности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДеятельностиЕН</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="891f51e5-6380-42be-a9b4-09b852a5b54e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a648590-fae6-42ac-87ec-5fcb8d17962b">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6322eced-36f7-4627-bc81-4fc3a1fd9c99">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

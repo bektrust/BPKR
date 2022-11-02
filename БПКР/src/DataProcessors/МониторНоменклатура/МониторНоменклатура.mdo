@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb4f4d54-9f0b-4038-9cca-df864dcd36ee">
+  <producedTypes>
+    <objectType typeId="892264a5-f449-4c3b-ae97-a5dd1e03828e" valueTypeId="029ebd62-b23b-43f0-8d4a-f5370367f062"/>
+    <managerType typeId="880d587f-bb8e-4ea7-9a16-18a3e07a5f9e" valueTypeId="80f86f6b-40e9-48b2-a541-1f8f6a9ca79e"/>
+  </producedTypes>
+  <name>МониторНоменклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторНоменклатура.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="57345446-4c25-4dcb-a9a3-2cf58efcf5f5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="215ac418-ab58-4cf4-88a8-06052067f9b9">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+  <templates uuid="ff1595fd-5110-47b2-887f-3b084e899d6a">
+    <name>РасшифровкаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расшифровка документа</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

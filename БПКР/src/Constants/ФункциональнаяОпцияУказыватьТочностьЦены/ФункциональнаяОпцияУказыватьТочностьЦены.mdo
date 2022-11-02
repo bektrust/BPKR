@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa9cdc36-cd33-45c0-95da-391145c9c44e">
+  <producedTypes>
+    <managerType typeId="43060cb6-30ce-4bf7-a162-3f486e7b72c3" valueTypeId="d4ba6470-ccc5-42da-b030-671338e0a5e7"/>
+    <valueManagerType typeId="de15fd92-f727-4d54-83d0-a34faf50c859" valueTypeId="7fd62584-9574-4f3d-bfdf-609f059d25f9"/>
+    <valueKeyType typeId="0722ece7-c4e3-4698-9ff9-1d7ed209a845" valueTypeId="c63b297b-34af-41bb-903a-a2f244918696"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУказыватьТочностьЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Указывать точность цены</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

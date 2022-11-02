@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5382e73a-8d4c-4135-8164-9f45d9dcbf3b">
+  <producedTypes>
+    <selectionType typeId="f4bc072b-3732-48bd-a498-b669f36c7935" valueTypeId="88bddced-7d69-43af-8f7d-0b12fb56e37c"/>
+    <listType typeId="f190c83b-06b5-4e9b-b3a0-6a6756fe0570" valueTypeId="221c76f9-39a5-4b1f-9b33-68a56a69df06"/>
+    <managerType typeId="48401553-a00a-4b1f-9dbf-242925d9f42b" valueTypeId="f2ba22c7-38ee-4d29-82e3-ad33e48afcef"/>
+    <recordSetType typeId="745beb4e-7a0b-49c8-9109-af75318d33ae" valueTypeId="993ff621-c022-4b30-9762-a75dc10910a4"/>
+    <recordKeyType typeId="e79283b4-96e6-465f-8011-7a31911834ae" valueTypeId="65fa63d7-34a7-4c63-b010-cd36e1c9b559"/>
+    <recordType typeId="6b1a8cf5-1de1-4b03-9ae8-f6177153ffcd" valueTypeId="0d2c092d-c722-494d-a5b3-2d1f8464c3c7"/>
+    <recordManagerType typeId="8b70cc5a-976b-4771-961e-8387c1082210" valueTypeId="dcd22f4b-9557-4ca8-8f21-99bd8c781248"/>
+  </producedTypes>
+  <name>СтавкиЗемельногоНалогаПоОбластям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки земельного налога по областям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7ef3e1c3-a0bd-440f-a701-1e2aa5cbc543">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Налоговая ставка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a72ec9a6-ab07-4935-bff4-ea0afd04113e">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Области</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bcb0d3ce-aded-4409-a57e-77d8686a7165">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Когда накопили >=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

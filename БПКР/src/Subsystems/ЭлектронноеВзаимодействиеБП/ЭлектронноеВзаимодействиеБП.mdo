@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9acf8351-fc57-45f6-8bdd-3dec7617e904">
+  <name>ЭлектронноеВзаимодействиеБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Электронное взаимодействие БП</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonPicture.ЗеленыйШарБЭД</content>
+  <content>StyleItem.ЦветФонаЧередованияСтрокиБЭД</content>
+  <content>Role.БазовыеПраваЭД</content>
+  <content>StyleItem.НедоступныеДанныеЭДЦвет</content>
+  <content>StyleItem.ЗачеркнутыйШрифтБЭД</content>
+  <content>CommonPicture.Идея</content>
+  <content>CommonPicture.Этап2ЗеленыйБЭД</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБЭД</content>
+  <content>CommonPicture.Этап5СинийБЭД</content>
+  <content>CommonPicture.ВыгрузитьДанныеИзИнформационнойБазыВXMLФайл</content>
+  <content>CommonPicture.ЗагрузитьXMLФайлВИнформационнуюБазу</content>
+  <content>CommonPicture.Этап3СинийБЭД</content>
+  <content>CommonPicture.ИнформацияБЭД</content>
+  <content>CommonPicture.ЭлектронныйДокументУтвержден</content>
+  <content>CommonPicture.ЭлектронныйДокументСогласован</content>
+  <content>CommonPicture.ЭлектронныйДокументИсходящий</content>
+  <content>CommonPicture.КоллекцияШаровБЭД</content>
+  <content>StyleItem.ЦветГиперссылкиБЭД</content>
+  <content>CommonPicture.Этап4СинийБЭД</content>
+  <content>CommonPicture.НастройкаБЭД</content>
+  <content>CommonPicture.ВидыПодписантовМаршрутовПодписанияБЭД</content>
+  <content>CommonPicture.ВидыЭлектроннойПодписиБЭД</content>
+  <content>CommonPicture.КрасныйШарБЭД</content>
+  <content>CommonPicture.ЭлектронныйДокументОшибкаПодписи</content>
+  <content>CommonPicture.ПредупреждениеБЭД</content>
+  <content>StyleItem.НезаполненныйРеквизитЦветБЭД</content>
+  <content>StyleItem.УвеличенныйШрифтБЭД</content>
+  <content>StyleItem.ЖирныйШрифтБЭД</content>
+  <content>StyleItem.МелкийНаклонныйШрифтБЭД</content>
+  <content>StyleItem.ФонВыделенияНадписиБЭД</content>
+  <content>StyleItem.УвеличенныйПолужирныйШрифтБЭД</content>
+  <content>StyleItem.ЦветФонаЖелтыйБЭД</content>
+  <content>CommonPicture.Этап1ЗеленыйБЭД</content>
+  <content>StyleItem.ВажныеДанныеЦветБЭД</content>
+  <content>CommonPicture.ПредупреждениеКрасноеБЭД16</content>
+  <content>CommonPicture.Этап1СинийБЭД</content>
+  <content>CommonPicture.Этап2СинийБЭД</content>
+  <content>CommonPicture.Этап3ЗеленыйБЭД</content>
+  <content>StyleItem.ЦветФонаПоляВводаМКБЭД</content>
+  <content>StyleItem.НаклонныйШрифтБЭД</content>
+  <subsystems>РаботаСНоменклатуройБП</subsystems>
+</mdclass:Subsystem>

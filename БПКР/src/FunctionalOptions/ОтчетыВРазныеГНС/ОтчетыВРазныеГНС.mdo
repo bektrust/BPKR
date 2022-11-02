@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b1c7d3a-865a-42e9-9b24-7a398e80cdd1">
+  <name>ОтчетыВРазныеГНС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты в разные ГНС</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияОтчетыВРазныеГНС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ПодразделенияОрганизаций.Attribute.ГНС</content>
+  <content>Catalog.Склады.Attribute.ПодразделениеОрганизации</content>
+  <content>Document.ОтчетПоНСП.Attribute.ГНС</content>
+</mdclass:FunctionalOption>

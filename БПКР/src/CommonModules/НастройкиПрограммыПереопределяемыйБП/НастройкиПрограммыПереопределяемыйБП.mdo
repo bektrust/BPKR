@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b61b3d-483f-4088-a2b0-e6391122def8">
+  <name>НастройкиПрограммыПереопределяемыйБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки программы переопределяемый БП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

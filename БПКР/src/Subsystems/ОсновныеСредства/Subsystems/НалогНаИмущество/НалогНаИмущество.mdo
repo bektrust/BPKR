@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b84e42b-5a7f-4d26-a72e-4995d1cf2cb9">
+  <name>НалогНаИмущество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налог на имущество</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.ВидыМатериаловСтенНалогНаИмущество</content>
+  <content>Catalog.ВидыТранспортаНалогНаИмущество</content>
+  <content>Catalog.ГруппыИмущества</content>
+  <content>Catalog.ЗональныеКоэффициенты</content>
+  <content>Catalog.ОтраслевыеКоэффициентыНалогНаИмущество</content>
+  <content>Catalog.РегиональныеКоэффициентыНалогНаИмущество</content>
+  <content>Document.ЗемельныйНалог</content>
+  <content>Catalog.КатегорияОбъектаИмущества</content>
+  <content>Catalog.ОбъектыЗданийИСооружений</content>
+  <content>InformationRegister.ШкалаОценкиСтоимостиВидовМатериаловСтен</content>
+  <content>InformationRegister.ШкалаОценкиСтоимостиВидовТранспорта</content>
+  <content>InformationRegister.КорректировочныеКоэффициентыНалогаНаИмущество</content>
+  <parentSubsystem>Subsystem.ОсновныеСредства</parentSubsystem>
+</mdclass:Subsystem>

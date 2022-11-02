@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20e542a4-04d5-463f-9bce-63c6e141d651">
+  <producedTypes>
+    <refType typeId="4107c027-dded-4e86-a8b1-28e0dd758cde" valueTypeId="120d303d-6aad-4453-ac35-64a36b3826fc"/>
+    <listType typeId="cfffb9df-0476-4f52-90ca-da2ba84182c5" valueTypeId="9361d428-00ab-46d4-9ee0-29545e5165ab"/>
+    <managerType typeId="dcb35664-6c28-44eb-ad6e-cf78488dbe2c" valueTypeId="fd7375da-d3a7-4222-80d0-67ba1ec954f8"/>
+  </producedTypes>
+  <name>ВидыЗакрытияЗаказов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды закрытия заказов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a31dffc8-7ba3-42d0-8d61-e84b58f5b454">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт (списание)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be3902b3-2d50-4b30-b2b8-4b3519d86e94">
+    <name>ПереводНаВнутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перевод на внутренний заказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="882f87ec-9ec5-4500-93f7-a7b02d25a0eb">
+    <name>ПередачаДругомуЗаказчику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передача другому заказчику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

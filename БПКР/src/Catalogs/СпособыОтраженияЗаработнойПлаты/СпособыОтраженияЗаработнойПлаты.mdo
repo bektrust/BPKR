@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="396c227c-93fc-4a91-978f-ee894d850335">
+  <producedTypes>
+    <objectType typeId="db45a2bc-21df-4c14-8fa2-0645e3ffef75" valueTypeId="50a2eb16-0ec8-4fdb-8afb-156996c24ab1"/>
+    <refType typeId="ed93d1c1-a4d6-4c97-b2fb-82862938da47" valueTypeId="64e24566-081b-4700-b3a6-275b1df75324"/>
+    <selectionType typeId="5c60a0c9-5f42-4f26-b210-c09e288f5979" valueTypeId="508a3b25-4db6-40b1-98d2-08ae576b2474"/>
+    <listType typeId="e7d705b9-cddc-4b8d-a656-119bf4425d30" valueTypeId="fb2ac8d8-4000-4d4f-af6f-a69e3bffb078"/>
+    <managerType typeId="17acaa9e-1902-47ec-9b20-ac972eee99ad" valueTypeId="c6cf7fd0-c0e8-41a5-a42f-3ed7ddded738"/>
+  </producedTypes>
+  <name>СпособыОтраженияЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы отражения заработной платы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыОтраженияЗаработнойПлаты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Способ отражения</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Справочник предназначен для отражения расходов по заработной плате.</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпособыОтраженияЗаработнойПлаты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СпособыОтраженияЗаработнойПлаты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="23a67750-6805-422b-8636-52e2f278e8f5">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>В данном поле указывается подразделение. Служит для автоматического заполнения в документах начисления заработной платы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="30ae9a43-6529-4b8e-b5ef-926ce8c2eb4a">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.ВидыНачислений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид расчета. Служит для автоматического заполнения в документах начисления заработной платы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="157dba59-fb38-412c-82cd-db60d782c279">
+    <name>СчетЗатрат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет затрат</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет отражения затрат по начислению заработной платы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="664109de-312f-4706-9a28-396f237550ac">
+    <name>СубконтоЗатрат1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто затрат1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>1</linkItem>
+      <field>Catalog.СпособыОтраженияЗаработнойПлаты.Attribute.СчетЗатрат</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7f206a20-c6b3-4bd8-afed-dca3658450a8">
+    <name>СубконтоЗатрат2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто затрат2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>2</linkItem>
+      <field>Catalog.СпособыОтраженияЗаработнойПлаты.Attribute.СчетЗатрат</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1dd32e4-d94c-41e8-8058-4374f44f5cda">
+    <name>СубконтоЗатрат3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто затрат3</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>3</linkItem>
+      <field>Catalog.СпособыОтраженияЗаработнойПлаты.Attribute.СчетЗатрат</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9fb3eae8-937a-48d4-858e-4f1a5e88060e">
+    <name>СчетЗатратСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет затрат СФ</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет отражения затрат по отчислениям в социальный фонд.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="48b17281-1849-4bea-a51e-885225efcebe">
+    <name>СубконтоЗатратСФ1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто затрат СФ1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>1</linkItem>
+      <field>Catalog.СпособыОтраженияЗаработнойПлаты.Attribute.СчетЗатратСФ</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="59beba1b-9962-4f9b-b5d6-9014d0d6e8b6">
+    <name>СубконтоЗатратСФ2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто затрат СФ2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>2</linkItem>
+      <field>Catalog.СпособыОтраженияЗаработнойПлаты.Attribute.СчетЗатратСФ</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="125bb5d1-13e9-4637-9d71-cea8b4743fb1">
+    <name>СубконтоЗатратСФ3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто затрат СФ3</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>3</linkItem>
+      <field>Catalog.СпособыОтраженияЗаработнойПлаты.Attribute.СчетЗатратСФ</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="11848cbc-eaba-4784-adcd-9df381dd6bd1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="71e171a7-0521-4b77-8f9e-0bd89ab60273">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="59646cfd-6229-4224-94fc-82930ab49bb4">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

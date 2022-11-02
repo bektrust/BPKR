@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3eb4d7d-9ced-4675-95fe-84e0f97040dd">
+  <producedTypes>
+    <refType typeId="9d90e99d-4eff-408e-8821-63c52ba80e56" valueTypeId="ff26a342-40e0-4cd7-b23e-2c4cf166450b"/>
+    <listType typeId="ae445d00-8813-429d-a2b7-8c28c746732f" valueTypeId="bc569fa1-17b8-496a-8365-3a91b2c79dde"/>
+    <managerType typeId="2811ef3d-b687-463d-8c6a-ca44bcf06b96" valueTypeId="f2f235f8-0cc4-4fc3-aec4-1505fcf566d6"/>
+  </producedTypes>
+  <name>ВидыУчетаНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды учета НДС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="98b9678e-8fab-4e1f-b832-8574f182590d">
+    <name>НДСНеПодтвержден</name>
+    <synonym>
+      <key>ru</key>
+      <value>НДСНе подтвержден</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="61b9881e-eb51-4802-b722-a08902321ba7">
+    <name>ПодтверждениеНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подтверждение НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="50cd7967-d6be-4f0d-baa5-762a47c1677f">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a432602-6fb2-46a0-b550-3e4c8cec23ac">
+    <name>Импорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

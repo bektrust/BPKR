@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="adfed3de-0d8c-40b9-813a-61a4b05dd75f">
+  <producedTypes>
+    <refType typeId="29d4d9fe-614c-4e45-bd68-88faf9409ec4" valueTypeId="aa1c0548-9b9d-4475-808c-986b7e6a9e41"/>
+    <listType typeId="a6aa4a46-6516-4e6a-ad4d-48d81846d408" valueTypeId="ff0c3206-dd8f-40bf-b2f4-16fc725a0932"/>
+    <managerType typeId="16c41f3b-389b-490b-b441-721812462362" valueTypeId="1ecbca45-34ad-4877-9f41-f3a6af131d3f"/>
+  </producedTypes>
+  <name>ОтношениеКВоинскомуУчету</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отношение к воинскому учету</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b692b1d-7150-4432-b119-c690db749d52">
+    <name>СостоитНаВоинскомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состоит на воинском учете</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8362327c-a314-4e0c-9885-948799ff80db">
+    <name>ВстаетНаВоинскийУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встает на воинский учет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0de2d379-7639-4ff9-a8a6-4af76787f2d1">
+    <name>НеСостоитНаВоинскомУчете</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не состоит на воинском учете</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe8237da-3511-4826-ba0c-e1e3db21f6b4">
+    <name>СнятСВоинсокгоУчетаПоСостояниюЗдоровья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с воинсокго учета по состоянию здоровья</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0a3e997-df85-4dfe-b1ba-bb3202476b10">
+    <name>СнятСВоинсокгоУчетаПоВозрасту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снят с воинсокго учета по возрасту</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

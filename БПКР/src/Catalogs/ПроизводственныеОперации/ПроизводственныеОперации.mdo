@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05085d46-f2a3-42b6-9b13-ed7c022414c0">
+  <producedTypes>
+    <objectType typeId="0ae709c1-9ef9-453f-947d-2ff48ed6eebc" valueTypeId="56124559-b11c-495a-857d-c5a0eb5f7055"/>
+    <refType typeId="d57fb34b-2af9-41f7-96ce-68daca04a7bf" valueTypeId="071d2878-fc09-4c6a-8890-f914152d4b2e"/>
+    <selectionType typeId="b4d1468c-04d4-4223-b734-9372ca6016cd" valueTypeId="4dc67b23-fe9d-417c-8770-a085939762a7"/>
+    <listType typeId="7729849e-a039-40b6-b2c8-194a8edcf47a" valueTypeId="e7315acd-5cc6-4b7e-b180-ca0bea4fc65d"/>
+    <managerType typeId="5a5851b8-089b-44dd-86d0-9691f8042715" valueTypeId="8d2c451e-be69-45a8-aa47-54e5af81b725"/>
+  </producedTypes>
+  <name>ПроизводственныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные операции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроизводственныеОперации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Производственная операция</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

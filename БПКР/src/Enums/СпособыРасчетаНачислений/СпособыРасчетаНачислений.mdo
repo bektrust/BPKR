@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="927d72b4-b5a3-4733-8b17-271266fa00e1">
+  <producedTypes>
+    <refType typeId="02e94f3c-807d-41fb-b114-c6774bf9e9ac" valueTypeId="0d27103d-eff7-474d-a4ce-5a41a354ebb7"/>
+    <listType typeId="07231e71-c008-43f1-9755-efefc606a15b" valueTypeId="603306f0-7d8e-4502-b6f2-6af926e96c69"/>
+    <managerType typeId="a2d106db-67c9-49cb-9f0f-ed6af5160d62" valueTypeId="491bbbe9-a874-48df-b925-3d83c07c8f88"/>
+  </producedTypes>
+  <name>СпособыРасчетаНачислений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета начислений</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Предопределенные способы расчета начислений</value>
+  </explanation>
+  <enumValues uuid="0b57a3cc-495f-4f8f-b896-f96c5e12b598">
+    <name>ПоМесячнойСтавкеПоДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>По месячной ставке по дням</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="2de570a4-b548-4400-8f91-37e5fb73eab8">
+    <name>ПоДневнойСтавке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По дневной ставке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5d8961a-bf51-4b46-af70-20e270a28e09">
+    <name>Процентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентом</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="e4af0098-60f5-4589-a451-e715b50c0f9c">
+    <name>ФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированной суммой</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="6b83f6a6-810d-4fa9-8cf2-85afabd6216d">
+    <name>ПоМесячнойСтавкеПоЧасам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По месячной ставке по часам</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="5da1bcb9-7da1-4acd-bd7d-4f71fe3df29a">
+    <name>ПоЧасовойСтавке</name>
+    <synonym>
+      <key>ru</key>
+      <value>По часовой ставке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1eb9dc45-a743-4553-8ef0-fb01cc1e8305">
+    <name>РаботаСверхурочно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работа сверхурочно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff55d120-60bd-4b90-917d-a57df08b3526">
+    <name>ВыходныеИПраздничные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выходные и праздничные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70dd3972-a081-42d2-a4e5-b0f741735cbd">
+    <name>ОплатаБольничного</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку для больничного</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3d3acb86-605c-45e5-87cb-ead956216600">
+    <name>ОплатаОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку для отпуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dfe38a2f-ca0b-48d1-8e5e-f441003caea8">
+    <name>ПоСреднемуЗаработку</name>
+    <synonym>
+      <key>ru</key>
+      <value>По среднему заработку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5d56d8e9-41c5-437a-96ff-d53a917fa12b">
+    <name>Неявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неявка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f28f67d-46d3-48fd-8109-71edbb196765">
+    <name>ГодоваяПремия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Годовая премия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fbcfb3e0-0557-4fac-98e6-2906c873d231">
+    <name>ПроизвольнаяФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольная формула</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

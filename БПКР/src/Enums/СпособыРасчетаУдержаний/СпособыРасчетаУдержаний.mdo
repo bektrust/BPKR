@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="327f9abb-ade5-46b4-a916-0bf36683edb8">
+  <producedTypes>
+    <refType typeId="f2d9697b-cef3-46cd-b272-c1cc87ea72e7" valueTypeId="0b57b8d7-9b57-481f-b984-93de772c2363"/>
+    <listType typeId="986651d6-5a2b-4082-a597-04d825dfa0ee" valueTypeId="cbd2afc1-4f5e-4929-98f7-2d7d1fa43e5b"/>
+    <managerType typeId="2643ef75-2322-4ba6-8970-f0ce3f2254b5" valueTypeId="6726d809-af9e-44a3-a818-f686ad77d2b5"/>
+  </producedTypes>
+  <name>СпособыРасчетаУдержаний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы расчета удержаний</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Предопределенные способы расчета удержаний</value>
+  </explanation>
+  <enumValues uuid="f43985c3-ab87-4650-a805-28a51158b223">
+    <name>Процентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94be27a0-164b-4119-9a76-277b463648f5">
+    <name>ФиксированнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фиксированной суммой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e60ef0bc-ac29-4ecf-87f5-1032572d2f90">
+    <name>ПроизвольнаяФормула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольная формула (в разработке)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

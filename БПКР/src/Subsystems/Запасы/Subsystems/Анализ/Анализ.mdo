@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f4ce039-633a-428e-83f1-1ff8af87b03c">
+  <name>Анализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.МатериальнаяВедомость</content>
+  <content>Report.ОборотноСальдоваяВедомостьПоТоварам</content>
+  <content>CommonCommand.ПанельОтчетовЗапасы</content>
+  <content>Report.ВедомостьПоступленияТоваров</content>
+  <content>Report.ОборотноСальдоваяВедомостьПоМБП</content>
+  <content>Report.ВедомостьОстатковМБП</content>
+  <content>Report.ОстаткиТоваров</content>
+  <content>Report.КонтрольОтрицательныхОстатков</content>
+  <content>Report.СводПоТоварам</content>
+  <content>DataProcessor.МониторНоменклатура</content>
+  <parentSubsystem>Subsystem.Запасы</parentSubsystem>
+</mdclass:Subsystem>

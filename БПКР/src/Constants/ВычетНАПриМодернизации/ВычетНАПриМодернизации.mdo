@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="229103ad-d4c5-468b-a760-56917858f2f0">
+  <producedTypes>
+    <managerType typeId="a70436e7-3394-4b5a-8b0d-b72e105b0f5d" valueTypeId="aef3423f-eb25-48e5-b91a-65a304470b6e"/>
+    <valueManagerType typeId="01d47961-8e9c-4164-8261-cb7bdcf5ec87" valueTypeId="39766f87-a7fa-45cb-83e6-28f63ac85eef"/>
+    <valueKeyType typeId="0831330a-616b-4994-8a20-7bb6ef8e4309" valueTypeId="c6b66304-2994-48ac-977b-87ec76f166e0"/>
+  </producedTypes>
+  <name>ВычетНАПриМодернизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вычет НА при модернизации</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b563dfb-6b83-4d9b-aae9-082e92ab86be">
+  <name>ПокупкаИПродажа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка и продажа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделПокупкиИПродажи</picture>
+  </picture>
+  <content>CommonCommand.ДополнительныеОбработкиПокупкаИПродажа</content>
+  <content>CommonCommand.НастройкаПокупкаИПродажа</content>
+  <subsystems>Покупка</subsystems>
+  <subsystems>Продажа</subsystems>
+  <subsystems>РозничныеПродажи</subsystems>
+  <subsystems>РасчетыСКонтрагентами</subsystems>
+  <subsystems>НСИ</subsystems>
+  <subsystems>Анализ</subsystems>
+  <subsystems>СчетаФактуры</subsystems>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

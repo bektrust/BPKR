@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="734e43c5-77a4-4bed-818c-79e6eacddef5">
+  <producedTypes>
+    <managerType typeId="71da155b-291c-4c4e-9808-f8eb40cca88c" valueTypeId="e4cd6d50-2ffa-43da-a1ed-d9bb86ee0d69"/>
+    <valueManagerType typeId="335592d3-59d4-4b6e-8143-4eec8f29d152" valueTypeId="763173c7-3f3a-438c-bea3-0fd953ab83d2"/>
+    <valueKeyType typeId="85c93387-d3e3-4480-8abf-61bd66b029c3" valueTypeId="b8049bf9-5941-401c-ac8f-857f1e29e951"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетДоначисленияНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция учет доначисления НДС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

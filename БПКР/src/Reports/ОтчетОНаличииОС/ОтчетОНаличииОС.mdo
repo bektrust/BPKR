@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f68f699f-b527-4033-83e1-54fc6caff64e">
+  <producedTypes>
+    <objectType typeId="848ce089-e594-4596-bf2b-425c81892aa8" valueTypeId="0ecc16be-d253-48f3-b42f-68bbf59804d6"/>
+    <managerType typeId="1cd8cb63-3e83-46fc-b408-f6284c57d712" valueTypeId="7a8a2389-1497-446e-82a7-dba9104e1511"/>
+  </producedTypes>
+  <name>ОтчетОНаличииОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о наличии ОС</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ОтчетОНаличииОС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="6c6e8d92-69a0-40fa-a474-8091582e579d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

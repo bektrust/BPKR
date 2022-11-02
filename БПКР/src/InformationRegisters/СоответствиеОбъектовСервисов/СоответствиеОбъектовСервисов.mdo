@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8425e36e-e88e-4fb5-94d5-17793f4a24e0">
+  <producedTypes>
+    <selectionType typeId="92962a7b-a872-43dd-8364-38a82ef993c7" valueTypeId="d02ef8bd-8b83-41be-bee4-8773c641f8a2"/>
+    <listType typeId="c7ea8e13-06e3-4e7a-a013-20282479ca6f" valueTypeId="f35ab1bc-87f1-430c-bdb2-cb043ed5aa19"/>
+    <managerType typeId="2ca77b16-448d-400f-8940-500a1a9af468" valueTypeId="e9bf8cb5-ccf4-4a62-9b28-8bc5c7c9d74b"/>
+    <recordSetType typeId="a360116a-6090-4890-9e01-595e7b14b65d" valueTypeId="3e7391f6-3e2c-4710-a736-f377a3188ee1"/>
+    <recordKeyType typeId="96ae8da6-a740-4432-9d4f-e4045ef0cae3" valueTypeId="e3728e0d-ff8e-40b2-be87-a4f558db2394"/>
+    <recordType typeId="ec6a8372-df64-4260-80a4-ff2c965b3514" valueTypeId="a4a49a35-c75f-459e-a9a7-02fb7b8d20b1"/>
+    <recordManagerType typeId="f40d474d-a098-4cb6-8d09-0cca81121ac3" valueTypeId="26a830a4-0e2e-47f1-aee4-9ecb8f2a7a03"/>
+  </producedTypes>
+  <name>СоответствиеОбъектовСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствие объектов сервисов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a7a84996-8ba9-4c3c-8071-7f9bf51b3701">
+    <name>ОбъектСоответствия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект соответствия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Водители</types>
+      <types>CatalogRef.Номенклатура</types>
+      <types>CatalogRef.СкладыКонтрагентов</types>
+      <types>CatalogRef.ТранспортныеСредства</types>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="48a7dfc1-3601-4f2c-83f4-1970568caf93">
+    <name>НаименованиеТовараЭТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование товара в ИС ЭТТН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="fda00e0d-b1d2-49a1-b115-5ef199189697">
+    <name>КодТНВЭД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код ТНВЭД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторТНВЭД</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="749880c6-3d50-44a8-b213-ce39eed2dcc8">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Штрихкод номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="60f581d4-563b-492d-9bb6-0aaa413eb23b">
+    <name>НаименованиеСкладаВИСЭТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование склада в ИС ЭТТН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="b0496c9f-b058-4881-951c-7abf96afeb17">
+    <name>ФактичесикйАдресСклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фактичесикй адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="9b778f2e-e5a0-4117-bf27-d5912475470b">
+    <name>АдресСкладаВИСЭТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес склада в ИС ЭТТН</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="b83d4d0b-d8d5-40fc-8c69-b0272ba83c05">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ebac4e43-b865-498e-a84b-1cd0c89d85b9">
+    <name>ИмяСервиса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя сервиса</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИменаСервисов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

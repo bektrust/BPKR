@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98bb3e5f-c233-49ee-8b3c-c65d68fc393f">
+  <producedTypes>
+    <managerType typeId="209b9aca-606a-4cfc-a3dd-4e419fa149b6" valueTypeId="2d5ebf5e-81bd-4cdb-96c5-e3759779eff4"/>
+    <valueManagerType typeId="24ca8ef1-3167-403e-b584-0ab71684f2cf" valueTypeId="bbf91e86-b271-4b8f-a091-13c19ae43a6e"/>
+    <valueKeyType typeId="ca8d1d70-df4a-4e2e-82b0-b8e038fa230d" valueTypeId="5bec9756-dbc3-4cb8-8c79-11eb3f7bf3e3"/>
+  </producedTypes>
+  <name>ИспользуютсяПодарочныеСертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используются подарочные сертификаты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

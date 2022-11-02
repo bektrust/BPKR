@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e43e8332-fb85-442c-b044-52a703a3768e">
+  <producedTypes>
+    <managerType typeId="cd1dce5d-1f62-4ee6-ae62-4925aba92b98" valueTypeId="ceaa6d10-5896-40b5-a055-546f8eabdeba"/>
+    <valueManagerType typeId="4610fb5a-4fe4-415b-bb0b-c1989e83da92" valueTypeId="1b99c7e2-9e32-49a0-89d0-73594f3af19b"/>
+    <valueKeyType typeId="deefe2dd-0319-4d41-9f7f-5a86b35f9de3" valueTypeId="7c34cabe-10fe-4916-b53f-5ca165c954d2"/>
+  </producedTypes>
+  <name>РегистрацияИзмененийНоменклатурыЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация изменений номенклатуры ЭСФ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

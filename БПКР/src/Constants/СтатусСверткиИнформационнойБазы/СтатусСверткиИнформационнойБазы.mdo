@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="195c807f-18c1-4abb-8585-77a108a21edc">
+  <producedTypes>
+    <managerType typeId="7108321d-a3f9-40e9-bbc1-c435a76acb0f" valueTypeId="eed9cda6-3264-4e2a-b7c2-9bc6acb5226f"/>
+    <valueManagerType typeId="e6c21fc5-dbe7-4d81-9da4-a537b579e99b" valueTypeId="cafd2322-c437-47e3-ab2a-3d05aaf22b36"/>
+    <valueKeyType typeId="efc4a638-8333-46f6-8e0e-096fe3578fd1" valueTypeId="16368f0e-2b0f-4a5f-adaa-06d189ee9bb7"/>
+  </producedTypes>
+  <name>СтатусСверткиИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус свертки информационной базы</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fa7f7a9-27a8-44bf-bbed-34c2a9962188">
+  <producedTypes>
+    <selectionType typeId="060dfed8-8a60-4ecc-b7e7-fb1584498f3c" valueTypeId="c6231fb7-cf0d-4259-95ed-89fb36bd9147"/>
+    <listType typeId="d68d2adb-e0fb-4e83-b128-d6cf97964c69" valueTypeId="fcd07105-be98-4474-b546-a771b18a9e9b"/>
+    <managerType typeId="d31ff8e3-c7bf-4afe-9482-e78d8855b09b" valueTypeId="393a743a-48e8-4bec-87fc-d2584d79b3d7"/>
+  </producedTypes>
+  <name>ПриказыКадровые</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказы кадровые</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ПриказыКадровые.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ПриемНаРаботу</registeredDocuments>
+  <registeredDocuments>Document.Увольнение</registeredDocuments>
+  <registeredDocuments>Document.КадровоеПеремещение</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="79903052-07ec-47ab-8931-b34aa766624c">
+    <name>Физлицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <references>Document.КадровоеПеремещение.Attribute.ФизЛицо</references>
+    <references>Document.ПриемНаРаботу.Attribute.ФизЛицо</references>
+    <references>Document.Увольнение.Attribute.ФизЛицо</references>
+  </columns>
+  <columns uuid="b45ba728-44af-4e69-bc0f-124a882e8908">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.КадровоеПеремещение.Attribute.Организация</references>
+    <references>Document.ПриемНаРаботу.Attribute.Организация</references>
+    <references>Document.Увольнение.Attribute.Организация</references>
+  </columns>
+  <columns uuid="5d1f7d6b-ce55-41fc-94b8-2d4e9f7f59b2">
+    <name>ДатаДействияПриказа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата действия приказа</value>
+    </synonym>
+    <references>Document.КадровоеПеремещение.Attribute.Период</references>
+    <references>Document.ПриемНаРаботу.Attribute.Период</references>
+    <references>Document.Увольнение.Attribute.ДатаУвольнения</references>
+  </columns>
+  <columns uuid="3f8779fa-b7d7-49d7-91a2-dbb1cd8a6af5">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <references>Document.КадровоеПеремещение.Attribute.Подразделение</references>
+    <references>Document.ПриемНаРаботу.Attribute.Подразделение</references>
+  </columns>
+  <columns uuid="0ff1a2fc-7707-45da-99c3-0fe22fe94a98">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.КадровоеПеремещение.Attribute.Автор</references>
+    <references>Document.ПриемНаРаботу.Attribute.Автор</references>
+    <references>Document.Увольнение.Attribute.Автор</references>
+  </columns>
+  <columns uuid="9a2c890f-4855-4a9b-ac07-0aa5716737e9">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.КадровоеПеремещение.Attribute.Комментарий</references>
+    <references>Document.ПриемНаРаботу.Attribute.Комментарий</references>
+    <references>Document.Увольнение.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="61b17276-153f-4d38-bc09-18b7520dcb8b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

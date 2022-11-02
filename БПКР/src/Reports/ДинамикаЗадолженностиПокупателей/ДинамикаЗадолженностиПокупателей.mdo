@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fe9c1d1-bcb1-4721-b539-9d11402f475c">
+  <producedTypes>
+    <objectType typeId="cdf25e17-f1fc-45a9-93e9-2e3a5a24e0e1" valueTypeId="34ced06c-645b-45d5-9eb5-f99e1c7ccb0e"/>
+    <managerType typeId="937c968b-d32a-4df5-b0b5-f6d580d75bfd" valueTypeId="d79e3b94-f177-4dcd-b2b1-ee9f82db5cae"/>
+  </producedTypes>
+  <name>ДинамикаЗадолженностиПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамика задолженности покупателей</value>
+  </synonym>
+  <defaultForm>Report.ДинамикаЗадолженностиПокупателей.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ДинамикаЗадолженностиПокупателей.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ВспомогательнаяФормаНастроекОтчета</defaultSettingsForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="da60aada-9d7a-4625-93dd-d28ce8deccd7">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8ede3d1b-ff89-41c0-afe8-ec2343e30e05">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d6f6586d-52e3-4265-8b8b-6f2167820a74">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервал</value>
+    </synonym>
+    <comment>6 - день, 7 - неделя, 8 - декада, 9 - месяц, 10 - квартал, 11 - полугодие, 12 - год</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <quickChoice>Use</quickChoice>
+    <createOnInput>DontUse</createOnInput>
+  </attributes>
+  <attributes uuid="eb570a5d-2374-4837-8052-2c09f85bd55b">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bf69f19e-d47a-43f8-a7c9-faa97b239a3c">
+    <name>РежимРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим расшифровки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9a2b58f8-8d53-4b83-96ee-395ef49d568c">
+    <name>ПоказательЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая задолженность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="564324fb-3dea-4afa-868a-32737a97d295">
+    <name>ПоказательПросроченнаяЗадолженность</name>
+    <synonym>
+      <key>ru</key>
+      <value>В т.ч. просроченная задолженность</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="6098bac3-683f-4630-80c8-21077bb6dc05">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="95468f63-e284-49a7-b6e0-6c6f865a29aa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="c054ccb1-9ed6-4041-9320-b5cb6872291b">
+    <name>Примечания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Примечания</value>
+    </synonym>
+  </templates>
+  <commands uuid="7b77a5cb-7734-43aa-9fcf-ee1416b61973">
+    <name>ДинамикаЗадолженностиПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамика задолженности покупателей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

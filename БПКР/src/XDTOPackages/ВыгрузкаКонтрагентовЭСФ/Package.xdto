@@ -1,0 +1,13 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.sample-package5.org">
+	<objectType name="contractors" open="true">
+		<property xmlns:d3p1="http://www.sample-package5.org" name="contractor" type="d3p1:contractor" upperBound="-1"/>
+	</objectType>
+	<objectType name="contractor" open="true">
+		<property name="inn" type="xs:string"/>
+		<property name="foreignName" type="xs:string"/>
+		<property name="depInn" type="xs:string"/>
+		<property name="depName" type="xs:string"/>
+		<property name="addressText" type="xs:string"/>
+		<property name="isResident" type="xs:string"/>
+	</objectType>
+</package>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>InformationRegister.НормыАмортизацииГруппНалоговогоУчетаОС.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.ПараметрыРасчетаЗемельногоНалога.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.СтавкиНалогаНаИмущество.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
+      <command>InformationRegister.удалитьКоэффициентыНалогаНаИмущество.StandardCommand.OpenList</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ОсновныеСредства.Subsystem.ОсновныеСредства</subsystems>
+    <subsystems>Subsystem.ОсновныеСредства.Subsystem.НСИ</subsystems>
+    <subsystems>Subsystem.ОсновныеСредства.Subsystem.Анализ</subsystems>
+    <subsystems>Subsystem.ОсновныеСредства.Subsystem.АрендаОС</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

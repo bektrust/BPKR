@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4b09ab7-6896-4811-bb54-90bbfc97e532">
+  <producedTypes>
+    <refType typeId="59cfc51f-506a-4282-b025-2a75dd3b4e12" valueTypeId="d165db5b-2ab7-4dc7-af69-8fdb4c323c16"/>
+    <listType typeId="7b05d069-0e48-4fb7-8cc6-f733dcb4706b" valueTypeId="ca29d66d-8221-496c-a098-991195af56dc"/>
+    <managerType typeId="33319267-c6fe-4f4b-91eb-0f35b4bc6c09" valueTypeId="eb1fb896-76ee-4a4e-8654-e40491381c82"/>
+  </producedTypes>
+  <name>ВидыОперацийКорректировкаДолга</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций корректировка долга</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d1093649-99ff-40c5-b14b-a2d4a7c48dc4">
+    <name>ЗачетАвансов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет авансов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1b05d480-da44-4595-a151-0a4c91baba08">
+    <name>ЗачетЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачет задолженности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5d00ca1-dbf5-4cb1-a554-f9fcfc8b439d">
+    <name>ПереносЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>перенос задолженности</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="99ab2c3a-438e-4fe4-b00c-24d79da28112">
+    <name>СписаниеЗадолженности</name>
+    <synonym>
+      <key>ru</key>
+      <value>списание задолженности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29255683-883c-4111-931f-36e24f5f5ed5">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие корректировки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b90d576d-d4af-4360-b8ad-82b52a5385fc">
+  <producedTypes>
+    <managerType typeId="6505fc88-503a-454c-984f-2c9c9c4e7ecf" valueTypeId="f1282b8e-6b71-4dd2-a30c-d2dbe7ebdbe4"/>
+    <valueManagerType typeId="90a4887b-14c8-43ec-9f12-131a196a660d" valueTypeId="a4f911d1-8c18-4b5a-ae43-b3c61f7a6bf7"/>
+    <valueKeyType typeId="e6cc05c0-414b-4b3f-acca-38f8506c0d45" valueTypeId="79559d1c-1687-427c-9cb5-fce2654670f6"/>
+  </producedTypes>
+  <name>РазмерОтступаВОтчетах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Размер отступа в отчетах</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

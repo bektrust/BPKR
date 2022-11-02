@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b9cb243-4a14-47e6-a790-c555f3bbcf0e">
+  <producedTypes>
+    <selectionType typeId="5bd6e0a1-cc36-49f0-b6a9-f208fa1c3b49" valueTypeId="ee27c8dc-55c5-4029-887a-7dd08c676b76"/>
+    <listType typeId="29360cdb-bffd-4efa-a092-606a6546eb9a" valueTypeId="30f3b7c9-6ea8-43cd-aed4-f81fcfd8303e"/>
+    <managerType typeId="f2f7a644-113b-49b5-b7cc-948eeddb6631" valueTypeId="da3752c3-a57c-470d-a561-9d050f02bc0a"/>
+    <recordSetType typeId="be5b519e-20d4-423f-ab31-84c922b6016e" valueTypeId="e6dee3d3-4331-45ee-966b-39e8066c4b4f"/>
+    <recordKeyType typeId="0a5c049f-6c80-4396-b8f2-7007d62420b0" valueTypeId="0dd3f93f-dd84-4297-98a8-dbef7172bd29"/>
+    <recordType typeId="be44da00-979b-427a-b0f0-8467f64cd6d1" valueTypeId="83831fd4-8174-416d-9605-e435cd2865d4"/>
+    <recordManagerType typeId="7163d394-24eb-4d41-bea5-1badf4c08a9d" valueTypeId="90975a36-0c4e-4b7a-aa0d-801e478cec1b"/>
+  </producedTypes>
+  <name>СтажиСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стажи сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5ccf8f1b-7821-442b-ba18-fccca8f7bea1">
+    <name>КоличествоЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество лет</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ca04ab09-1cb4-48d0-8980-1024d74c760c">
+    <name>КоличествоМесяцев</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество месяцев</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b0abfe54-804e-48f6-af1e-7237c3067a18">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="9bf3b15d-2dbe-48ec-8bcb-a1a19e511769">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b9b26f0e-744d-400f-adb3-0c10acee4274">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

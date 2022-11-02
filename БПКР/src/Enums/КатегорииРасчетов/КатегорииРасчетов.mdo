@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0c76330-15a3-44d1-a524-ddd2441e1221">
+  <producedTypes>
+    <refType typeId="608ef43a-f2a5-4be2-b3d1-a33199673150" valueTypeId="70abbab1-4855-4614-809f-1b59ddfea573"/>
+    <listType typeId="e2494d86-3ca3-4d01-8117-2eca665b6a6e" valueTypeId="765b8336-87ad-401d-bfd7-7deedebe5d34"/>
+    <managerType typeId="dbc8574d-d69f-4cd6-a629-09ace18cebe2" valueTypeId="54d79354-675c-49f8-abae-8068777deace"/>
+  </producedTypes>
+  <name>КатегорииРасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории расчетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9d3b309e-d01d-46cf-974f-d0ee954a5d12">
+    <name>Первичное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первичное</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9eed794c-1118-441e-b6fb-3d44bb74a1c7">
+    <name>ЗависимоеПервогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое первого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="519afc12-5f4d-4a3d-a781-0091f426d830">
+    <name>ЗависимоеВторогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое второго уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33a0105d-0c02-4ee2-8086-787f5f2269fe">
+    <name>ЗависимоеТретьегоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое третьего уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96c280e2-a14d-4e65-a6e3-d161690c1ddf">
+    <name>ЗависимоеЧетвертогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое четвертого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b61fe4d7-28bb-4f81-a3e7-7ce67ef6578d">
+    <name>ЗависимоеПятогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое пятого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32020bd3-4a0b-4032-9456-96e687871716">
+    <name>ЗависимоеШестогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое шестого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1725d178-5202-428d-a7e4-4742994dc0ad">
+    <name>ЗависимоеСедьмогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое седьмого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dc2d9439-feec-4adc-98db-3843b134ba6a">
+    <name>ЗависимоеВосьмогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое восьмого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d311e687-534a-46de-aa19-8b7f06be5dad">
+    <name>ЗависимоеДевятогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое девятого уровня</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="212de6cc-748e-4142-9bd7-40f080caef29">
+    <name>ЗависимоеДесятогоУровня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимое десятого уровня</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

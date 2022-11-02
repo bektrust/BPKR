@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5052123-0a56-4ff5-8cee-2399240c762c">
+  <producedTypes>
+    <selectionType typeId="10672f6a-993b-47a4-bbcf-ba2be2a10291" valueTypeId="f19a1c5f-380c-497b-8670-542bc081f1d2"/>
+    <listType typeId="9ce595bb-517c-4226-9e76-851593743a8d" valueTypeId="35800b97-e139-4022-8287-0932cab0c864"/>
+    <managerType typeId="2d3a16d9-0e5c-41e3-a7a6-429aac05d114" valueTypeId="1fb66795-811e-4e3e-9438-d71542139085"/>
+    <recordSetType typeId="59dd298e-8e9f-49ea-a927-56ced3d40867" valueTypeId="2bb7f650-ca7a-493f-b5b9-4fd873854282"/>
+    <recordKeyType typeId="46659d81-c358-4a0b-b42d-9a3ec2ed10e3" valueTypeId="5f50f402-d40a-4b10-9c84-6f00d459876c"/>
+    <recordType typeId="5f35c124-b2ce-45d8-9215-8a28ab218c6f" valueTypeId="73795b61-8369-4895-a431-3637437eec4b"/>
+    <recordManagerType typeId="d4e0b040-9cb6-413e-aea8-66113e24e98d" valueTypeId="0b737534-8248-4977-906f-b8771fecc7e2"/>
+  </producedTypes>
+  <name>ШкалаОценкиСтоимостиВидовТранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала оценки стоимости видов транспорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9b8586ec-8959-4f8a-a6d4-1049a75589a9">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Налоговая ставка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f118999f-d17c-4051-b8e9-290e08f5ba93">
+    <name>ВидТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид транспорта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыТранспортаНалогНаИмущество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5ee9b6a2-09de-4618-9126-06cd39dcd563">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Когда накопили >=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

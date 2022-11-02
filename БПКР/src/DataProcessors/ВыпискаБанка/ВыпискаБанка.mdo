@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f44d6058-51f5-449e-99d5-011640239097">
+  <producedTypes>
+    <objectType typeId="5be14628-932a-409f-9a1e-70d25fb3d801" valueTypeId="4985b730-b946-4c1b-80f0-e5e018b6fe8a"/>
+    <managerType typeId="88fe381b-9a9d-4a9b-8a75-f0adf4c16e7b" valueTypeId="7ff462ea-10b5-405c-b1b2-b6ea16dba707"/>
+  </producedTypes>
+  <name>ВыпискаБанка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выписка банка</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВыпискаБанка.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="2aa7632a-95b0-4bef-9669-77ab8ac671f5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b7a8f3dd-3df4-42ab-bba2-b211b5bd34eb">
+    <name>ПФ_MXL_ВыпискаБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка банка</value>
+    </synonym>
+  </templates>
+  <commands uuid="4953e02a-c7cc-4b22-a6fb-4d548facc6c7">
+    <name>ВыпискаБанка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выписка банка</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

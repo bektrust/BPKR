@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68749871-5a81-4938-b633-fe82e04c7f54">
+  <producedTypes>
+    <managerType typeId="7f68ea45-5b06-40aa-ad0a-587e9b02b70e" valueTypeId="3f833fba-0624-4aef-84cc-1cf8dee54614"/>
+    <valueManagerType typeId="65b6e497-0030-4556-9984-705a9ce87f3c" valueTypeId="16c716ca-6bc9-4bb9-b494-424ec4b562da"/>
+    <valueKeyType typeId="9e1f7280-84e2-5d82-a4e1-f40cb355319e" valueTypeId="a9f8a2d0-0257-5c92-856e-60d663c2e953"/>
+  </producedTypes>
+  <name>НеВестиУчетПоОрганизациям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не вести учет по организациям</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

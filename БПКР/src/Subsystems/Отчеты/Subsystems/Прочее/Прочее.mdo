@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="869cc817-a552-4d32-92f4-d360a1f1b169">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Enum.ВидыРегламентированныхОтчетов</content>
+  <content>Enum.ВидыКапитала</content>
+  <content>Enum.ВидыЗачетаНДС</content>
+  <content>Constant.РазмерОтступаВОтчетах</content>
+  <content>Constant.МакетОформленияОтчетов</content>
+  <content>XDTOPackage.ReportNDS</content>
+  <content>CommonForm.ФормаПредпросмотраОтчета</content>
+  <content>CommonForm.ФормаВыбораДоступногоПоля</content>
+  <content>CommonForm.ФормаВыбораДополнительныхУсловий</content>
+  <content>CommonForm.СписокЗначенийОтбора</content>
+  <content>CommonForm.ВыборСтандартногоПериодаМесяц</content>
+  <content>CommonForm.ВыборСтандартногоПериодаКвартал</content>
+  <content>CommonForm.ВыборСтандартногоПериодаДень</content>
+  <content>CommonForm.ВыборСтандартногоПериода</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

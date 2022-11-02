@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e5f017a-7745-40ff-a084-639eb30b1786">
+  <producedTypes>
+    <managerType typeId="42d57f7f-8cff-4655-a541-81b34f62dd04" valueTypeId="4649cd1d-2c10-41ae-ba28-efebb0c80486"/>
+    <valueManagerType typeId="3abddba9-3861-4ffc-89d1-763500842c82" valueTypeId="e76d3b91-bee2-4113-a883-a9b8351c5e7e"/>
+    <valueKeyType typeId="2db82d03-b794-59a7-bf30-40d5336797c2" valueTypeId="7f18d837-7974-5d86-a3ca-e2fe748019fe"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВестиШтатноеРасписание</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести штатное расписание</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0404438d-d447-4d48-8037-821eda468c3f">
+  <producedTypes>
+    <managerType typeId="897f832d-dd4e-4da1-a78c-d7f5df2cf2c1" valueTypeId="3ad60d39-a8fc-4196-9f22-4cb9f6d470b9"/>
+    <valueManagerType typeId="af538b84-a671-4bbf-8376-7c0b3e2a8b93" valueTypeId="0bcf9614-c24f-4fb1-a8cf-08c38bb21ba0"/>
+    <valueKeyType typeId="4313c265-a59f-4684-b789-aef58a5adb07" valueTypeId="46dc871e-3bdc-44fd-a936-e1f05df0f5b5"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияИспользоватьПечатьЭтикетокИЦенников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток и ценников</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

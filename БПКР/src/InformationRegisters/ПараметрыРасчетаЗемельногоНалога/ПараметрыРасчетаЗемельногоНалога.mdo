@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26f4ca84-61e0-4c15-ba07-5d231212d280">
+  <producedTypes>
+    <selectionType typeId="77f8c8ed-8ffc-4b58-a9d6-1e31b3b9e4c0" valueTypeId="093edf3f-460f-4afa-965d-d7af3a391bce"/>
+    <listType typeId="2577b5ea-7cb6-4bf8-9369-a89ccc71605a" valueTypeId="fc817e83-8827-44ea-9b4a-bd8680d2da1e"/>
+    <managerType typeId="8bf9e852-7854-481e-a6a2-5f77e9ad7201" valueTypeId="f4730526-2c03-4aaf-98aa-d3ceb73f1c92"/>
+    <recordSetType typeId="0791ed99-ed82-4fe8-bbc4-1fbdc6ce8ed3" valueTypeId="d0cb4cec-b50f-40bf-8c05-603d41f144e7"/>
+    <recordKeyType typeId="88866279-bf99-4251-87e8-edb74ec0915e" valueTypeId="dfa1f56d-c02f-4408-8147-6bf10d17d1e0"/>
+    <recordType typeId="c2b82098-3f7a-4389-82d0-f16846ee50ed" valueTypeId="3b398d21-d825-4882-8cd8-2f41ce999ac3"/>
+    <recordManagerType typeId="f4f87e0e-b49b-47dc-8be6-0f9c018c00bc" valueTypeId="15a66568-7dd4-461c-b659-5dc5541d3d56"/>
+  </producedTypes>
+  <name>ПараметрыРасчетаЗемельногоНалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры расчета земельного налога</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПараметрыРасчетаЗемельногоНалога.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="f3374c34-0c29-4fef-b912-dd83c6374f0c">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8e55de0a-e30a-4a76-9920-151b42267878">
+    <name>КадастровыйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кадастровый номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>17</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="51b3d9b7-d475-494f-ba16-471d820a6dd1">
+    <name>ДатаВозникновенияПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата возникновения права</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f2a29fc2-dc31-4b34-9e1f-f31994069aeb">
+    <name>ДатаПрекращенияПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата прекращения права</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c8320b44-773b-4d30-b271-15e340db9b5b">
+    <name>ПроцентИзмененияБазовойСтавкиНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент изменения базовой ставки налога</value>
+    </synonym>
+    <comment>Процент изменения базовой ставки по решению местного представительного органа</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>1</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5de9b2cb-d44c-473e-a75f-690d7dce3e2a">
+    <name>КорректировкаБазовойСтавкиНалогаПоРешениюМестнхыОрганов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка базовой ставки налога по решению местнхы органов</value>
+    </synonym>
+    <comment>Коэффициент корректировки базовой ставки налога по решению местных органов согласно п. 1 ст 338 НК РК</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="102f7651-1099-44e2-a511-eb4ce394fa5e">
+    <name>КорректировкаБазовойСтавкиНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка базовой ставки налога</value>
+    </synonym>
+    <comment>Коэффициент корректировки к базовой ставке налога для налогоплательщиков, указанных в п.2 ст. 338 НК РК</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5163689b-02a0-4f3f-b932-c9824c27ee70">
+    <name>КорректировкаБазовойСтавкиНалогаНаТерриторияхСЭЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка базовой ставки налога на территориях СЭЗ</value>
+    </synonym>
+    <comment>Коэффициент для налогоплательщиков, осуществляющих деятельность на территориях специальных экономических зон</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ba8393e7-b308-4fb8-8186-953416562512">
+    <name>ГНС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГНС</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГНС</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Районное отделение государственной налоговой службы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="caa012e6-565d-4c78-a92e-97754148da5d">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d3a7ab0e-7cf7-4d5d-b80b-8eca53bd7c49">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e4f8e37d-76b2-4e83-a916-d517d1f8655f">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

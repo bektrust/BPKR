@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20189700-36e6-4087-b98c-4044cd997ed1">
+  <producedTypes>
+    <managerType typeId="f39d4e36-3d17-4e83-a6ae-f40f090c5e19" valueTypeId="9d0c4a63-671d-4d2d-b0c5-782a36bbf42a"/>
+    <valueManagerType typeId="4987bc8a-728f-4a34-a2a6-2001fa380922" valueTypeId="b9636d71-3bb6-4ecb-9930-66df968845f7"/>
+    <valueKeyType typeId="2f3a1e63-a74f-5355-b7ed-6270d7fa3c12" valueTypeId="94c5f63c-d55f-5d53-9ba2-3edff56195d9"/>
+  </producedTypes>
+  <name>РаспределятьРасходыСобственныхПодразделений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распределять расходы собственных подразделений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

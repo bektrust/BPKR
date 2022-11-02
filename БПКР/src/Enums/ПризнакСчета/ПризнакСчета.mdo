@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4b94904-3825-4d59-8ef1-d4fbcd19f461">
+  <producedTypes>
+    <refType typeId="17575295-c540-46a7-b135-f3edf863de67" valueTypeId="6f9c5565-2b14-4543-a039-ef227d9761a9"/>
+    <listType typeId="7eddc968-da58-4562-b58b-c7ccd0c0c2b6" valueTypeId="17027eb3-7c7e-451a-88f7-129f576368ed"/>
+    <managerType typeId="0330b7e4-d785-4812-8af8-3d8765a3bf95" valueTypeId="1cf1c7af-a922-4f03-961c-62f8bda34e9e"/>
+  </producedTypes>
+  <name>ПризнакСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признак счета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5a80e994-4836-4256-92f0-b2c53acf01ca">
+    <name>Доходный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доходный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75cef75f-5945-408e-81f5-0b232223a2c1">
+    <name>Расходный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расходный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eb7b1adb-3196-40ab-94bd-0bd7ebd4e1dd">
+  <producedTypes>
+    <selectionType typeId="6cbfe93c-61a1-47ee-a9b2-371981fb2ec8" valueTypeId="c3334109-83f9-46d7-b99a-555b2697350d"/>
+    <listType typeId="0f0c21d6-afb0-49b3-8146-37d9a0b66d55" valueTypeId="6abab867-e517-40f8-9e01-4f554991cd78"/>
+    <managerType typeId="b60f2f33-b1a7-4450-b38a-8325d6f64036" valueTypeId="3ae6e4bf-e0c1-4608-876a-546bfbb26642"/>
+    <recordSetType typeId="4343f6e7-dac0-48ed-a43e-30d0c6f1805d" valueTypeId="048aaf0a-1558-49ab-b14f-eaf0e968aced"/>
+    <recordKeyType typeId="433fc84d-a001-41cb-a851-068ebaebf919" valueTypeId="a59c68d7-b031-4260-a8ea-1df3d0bed7d7"/>
+    <recordType typeId="9e83994a-eefa-43c8-b525-23eed10863ef" valueTypeId="23341327-5e91-4e65-9e55-dd1afffb4170"/>
+    <recordManagerType typeId="c5462cd4-5a9e-4386-a886-4c77e2ba728c" valueTypeId="4ad343f6-4684-4d1d-b57f-6fb92689abcb"/>
+  </producedTypes>
+  <name>СведенияОбЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об ЭСФ</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="0dfb6ded-ef6b-414d-8087-1fd9d7ad2099">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="61c21770-87ae-4cf9-829e-abd099d7cdd0">
+    <name>ДатаПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поставки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f394b591-85f6-4bfc-a130-43c99d6a4c6f">
+    <name>НомерЭСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ЭСФ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="4d7b2827-bc76-4ab7-a06b-68630570dce4">
+    <name>НомерКорректируемогоЭСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер корректируемого ЭСФ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="52c8b5a5-6732-4503-9c77-a6a21f4617e3">
+    <name>ДатаКорректируемогоЭСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата корректировочный ЭСФ</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11242236-7489-47fa-8cdf-445e85889238">
+    <name>КодСпособаОтправки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код способа отправки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>10 - транспорт;
+20 - автомобильный;
+30 - воздушный;
+40 - иной.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ce4f5c37-e15e-4d5f-a0e9-dfd599562c1b">
+    <name>СерияКорректируемогоСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Серия корректируемого СФ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Серия бланка счет-фактуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  </resources>
+  <dimensions uuid="375c4f5e-a526-4e8a-9ace-bb930ff00fc3">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="373fc494-c247-45ea-b135-b5130329c380">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.КорректировкаСтоимостиДополнительныхРасходов</types>
+      <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+      <types>DocumentRef.ПоступлениеИзПереработки</types>
+      <types>DocumentRef.РеализацияТоваровУслуг</types>
+      <types>DocumentRef.КорректировкаСтоимостиПоступления</types>
+      <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+      <types>DocumentRef.РеализацияУслугПоПереработке</types>
+      <types>DocumentRef.ВозвратТоваровПоставщику</types>
+      <types>DocumentRef.КорректировкаСтоимостиРеализации</types>
+      <types>DocumentRef.ДополнительныеРасходы</types>
+      <types>DocumentRef.АктОбОказанииПроизводственныхУслуг</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e6f1723-6e28-4255-b6f1-404a634a2bb0">
+  <producedTypes>
+    <objectType typeId="438be515-543c-4bd9-abfe-3d99abd9eec4" valueTypeId="69b81504-7f5c-44af-acd1-1001620db55b"/>
+    <managerType typeId="b4c9a69e-6abc-411a-8ae2-ed91ec0483db" valueTypeId="3254400c-e46c-429e-9442-973c0a63e6d9"/>
+  </producedTypes>
+  <name>МониторЗаработнойПлаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Монитор заработной платы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МониторЗаработнойПлаты.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="720d32fa-02da-4e35-83a2-e947873c5ed9">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2c810c4d-1732-44ff-b7a5-027638ba8e72">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

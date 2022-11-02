@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <subsystemsOrder>
+    <subsystems>Subsystem.Настройки.Subsystem.Предприятие</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.ПланыСчетов</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.ВводНачальныхОстатков</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.ТоварыМатериалыПродукцияУслуги</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.Налоги</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.СправочникиНастройки</subsystems>
+    <subsystems>Subsystem.Настройки.Subsystem.Органайзер</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82e9f4b6-34ac-45ad-ac08-c0a4c9e1d372">
+  <producedTypes>
+    <managerType typeId="611319d6-66a6-4217-aac8-98e25a566597" valueTypeId="e6cb19f7-9647-4a92-be0a-261277753442"/>
+    <valueManagerType typeId="6a73abe0-d344-478a-a680-89d86dc25b9b" valueTypeId="bd1a0900-4af1-4427-8b38-b4bde55399dd"/>
+    <valueKeyType typeId="57c04882-1241-4d32-bbbe-faaa602cfa62" valueTypeId="d357a95d-7b97-4370-969f-e8e25bffb1f6"/>
+  </producedTypes>
+  <name>ТочностьЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Точность цены</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>1</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <explanation>
+    <key>ru</key>
+    <value>Точность цены по умолчанию.</value>
+  </explanation>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

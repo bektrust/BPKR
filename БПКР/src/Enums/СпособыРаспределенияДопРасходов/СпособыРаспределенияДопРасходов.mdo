@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37b0aa72-78b1-4932-a682-c7ec097f2aab">
+  <producedTypes>
+    <refType typeId="118fda75-4b54-4d7a-ae63-d924d99cc12f" valueTypeId="88896166-fb05-4d0e-87a9-8aaaef9281bc"/>
+    <listType typeId="a46d9580-fdea-4890-83f1-c74f34bc07a8" valueTypeId="38087b5c-078e-4799-bc3e-754530da0a4b"/>
+    <managerType typeId="6a0dbb9d-5df6-46da-8af7-afffc199edec" valueTypeId="03830afd-bab2-46ed-a073-ce0e889ced49"/>
+  </producedTypes>
+  <name>СпособыРаспределенияДопРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы распределения доп. расходов</value>
+  </synonym>
+  <comment>(Общ) Способы распределения суммы по строкам номенклатуры</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08f2ef86-40c6-46c7-a526-9b1f706090c8">
+    <name>ПоСумме</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="a6273bc7-a06d-4a0f-94b7-bb44d93516e2">
+    <name>ПоКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>По количеству</value>
+    </synonym>
+    <comment>(Общ)</comment>
+  </enumValues>
+  <enumValues uuid="9dbb10a5-c0ab-4896-b0fa-677f3ed5bdbb">
+    <name>ПоДопЕдиницам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По доп.единицам</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

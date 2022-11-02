@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef5f8a90-0dc5-441d-b1ab-1785ce660d1e">
+  <producedTypes>
+    <managerType typeId="918f23b6-ce24-4139-9e30-dea742acfe67" valueTypeId="b465843f-b7db-4bfd-b1fe-ec650f617e84"/>
+    <valueManagerType typeId="f21bf672-faa1-4cd2-9f93-4b344d8be5f0" valueTypeId="d25b6a88-fa4d-4021-867b-8caa8143418d"/>
+    <valueKeyType typeId="4e0ec439-94f6-44a5-9ca7-655a48602298" valueTypeId="3576ada8-6246-4b4f-8c36-e56caf7f0f18"/>
+  </producedTypes>
+  <name>РазрешитьДублированиеНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить дублирование номенклатуры</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

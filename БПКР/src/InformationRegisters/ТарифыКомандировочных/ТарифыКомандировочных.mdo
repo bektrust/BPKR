@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64217e15-9845-47be-a422-8aa4443cd0d5">
+  <producedTypes>
+    <selectionType typeId="67e6fdcd-8e96-41e9-b16c-333623fdd11f" valueTypeId="d63ace7c-d5f4-4a13-8aba-0e67fe762138"/>
+    <listType typeId="7166a96c-5276-4693-9594-30a061227ab4" valueTypeId="92cdbcef-ba8e-476d-a946-9bafb733fb13"/>
+    <managerType typeId="931d5332-b6a1-445c-88e1-ee2cdb9964c3" valueTypeId="201b81fe-de52-4872-bffb-b4f316dcec27"/>
+    <recordSetType typeId="dff53e39-a4ee-489e-afcc-00eca9982433" valueTypeId="0af5a9f7-eedb-40a8-8287-699c7b9d10e5"/>
+    <recordKeyType typeId="011df754-6432-47eb-8e21-0e96ebeeb1f8" valueTypeId="fbec7072-e7e1-412d-a26e-00385edb95b0"/>
+    <recordType typeId="3a6beaeb-31f0-4479-ba9a-f403a40f11ae" valueTypeId="57d8cd62-70cb-4de6-bf62-12b28048654d"/>
+    <recordManagerType typeId="784fd275-3088-4ab6-a27f-de9e2fb65849" valueTypeId="8dd9c367-b9e2-46e6-a9b4-a3032ad99710"/>
+  </producedTypes>
+  <name>ТарифыКомандировочных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы командировочных</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e6024a4d-01c4-482d-88c6-3fe8712bc0b8">
+    <name>СуммаСуточные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма суточные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b57b09f5-cf9f-4bbe-aca6-00aeb8b28403">
+    <name>СуммаПроживание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма проживание</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7cfe899-e506-4d73-81bc-03de6f8e5287">
+    <name>СуммаПроездные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма проездные</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="5b23e1f4-4761-4738-8433-28aa88bed73d">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6d30d843-3224-4358-9f87-e7e526896bc2">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="07b46729-9b8e-472e-a3e9-9f9b36846c50">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a185bbdd-ae41-44da-888a-72bc43d7fcff">
+    <name>Город</name>
+    <synonym>
+      <key>ru</key>
+      <value>Город</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Города</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <templates uuid="fef20c9e-fe2e-4a95-a47a-44ee858f28e0">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

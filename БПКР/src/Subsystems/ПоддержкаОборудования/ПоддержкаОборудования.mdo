@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7e08cdf-ff48-4587-81e5-38991973c58b">
+  <name>ПоддержкаОборудования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поддержка оборудования</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <explanation>
+    <key>ru</key>
+    <value>Подсистема поддержки оборудования</value>
+  </explanation>
+  <content>Catalog.РабочиеМеста</content>
+  <content>DefinedType.ТорговыйОбъектБПО</content>
+  <content>DefinedType.ПользовательБПО</content>
+  <content>DefinedType.ОрганизацияБПО</content>
+  <content>CommonModule.ОбновлениеИнформационнойБазыБПО</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>Role.АдминистраторСистемы</content>
+  <content>Role.ВыполнениеСинхронизацииДанных</content>
+  <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>InformationRegister.ЗначенияЕМРЦ</content>
+  <subsystems>ПодключаемоеОборудование</subsystems>
+  <subsystems>ОфлайнОборудование</subsystems>
+  <subsystems>ПечатьЭтикетокИЦенников</subsystems>
+</mdclass:Subsystem>

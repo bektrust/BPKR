@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e57909c6-3ec7-4d8a-b1c8-b5f4c4200bdf">
+  <producedTypes>
+    <refType typeId="e10020a4-6a43-420a-a815-4da1f8d4a463" valueTypeId="b913e064-d3a7-4893-a81d-4596b429ebae"/>
+    <listType typeId="06ab6b2a-785a-4b07-b5e1-5bedbc850553" valueTypeId="01159017-a157-4b9b-bdd1-a4fff5d96e9c"/>
+    <managerType typeId="d475c6aa-ae76-4649-8929-3684fa4fad64" valueTypeId="49bcdb19-392b-41d5-85f7-5cd0bca69009"/>
+  </producedTypes>
+  <name>УченныеСтепени</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученные степени</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2ab083cc-6074-44e0-b89f-342a4af6c8b3">
+    <name>ДокторНаук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доктор наук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdbba01c-83bd-4143-a42d-9a9d5d8345ab">
+    <name>КандидатНаук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат наук</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

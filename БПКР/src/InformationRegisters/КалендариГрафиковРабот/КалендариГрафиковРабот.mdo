@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20b37910-1d9e-40f6-bef3-558cffa87bd9">
+  <producedTypes>
+    <selectionType typeId="5e264859-c540-497f-8dbe-77e2ebdc15d2" valueTypeId="20c3d16f-f5ae-460e-be8f-4503c49c2013"/>
+    <listType typeId="ba4a6b7a-00df-4405-92ed-82c4f002892a" valueTypeId="54cb0fde-bbdd-4e0e-9b04-bf02e61a30e1"/>
+    <managerType typeId="286c334d-467c-431b-9081-44e77d436c96" valueTypeId="1284fd83-a241-4f3a-b7a9-d176fa860ee4"/>
+    <recordSetType typeId="6fa5eb18-e696-4e6b-a5cc-4a9248edad21" valueTypeId="c70c8ad6-d5ab-4e0b-b4ab-c1fb0c2f7544"/>
+    <recordKeyType typeId="280cd11c-b306-4639-b9b9-1e0284dd6170" valueTypeId="2048c0e4-7841-473a-894b-f500f8a76021"/>
+    <recordType typeId="65cc8515-b799-476c-a47d-39fd6ff526ec" valueTypeId="fa7650ad-d838-48c8-819c-09b657a63771"/>
+    <recordManagerType typeId="698eec6c-911b-4f8a-bcb8-9b960b20575c" valueTypeId="8aa28a90-7c09-4f70-83d5-c81224c5790d"/>
+  </producedTypes>
+  <name>КалендариГрафиковРабот</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные производственного календаря</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.КалендариГрафиковРабот.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9589e981-2a76-4184-8b17-7dfd31d94e50">
+    <name>ЗначениеДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="65658af2-6ccf-45b5-8427-251621265126">
+    <name>ЗначениеЧасов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение часов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fa994f89-125d-468a-a902-ffe999f69dea">
+    <name>ВидДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид дня</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДнейПроизводственногоКалендаря</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид дня производственного календаря</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1f5ffa9f-4780-4fea-bdc0-b6fe9d86b443">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="da4fd694-925e-4a8b-a3c4-bbaf2a0bfacd">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График работы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График, сведения о котором хранятся в регистре</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="683cc69f-d07b-4d99-80ae-268bcb386227">
+    <name>Год</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Год, за который заполняется график</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="20b76d68-d6f0-447f-9847-bec6dc8dc5d0">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="d988347e-0353-4977-a931-f1d042e50a6f">
+    <name>ДанныеПроизводственныхКалендарей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные производственных календарей</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

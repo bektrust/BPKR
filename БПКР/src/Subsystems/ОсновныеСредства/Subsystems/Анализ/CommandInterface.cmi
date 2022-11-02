@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelReports</group>
+      <commands>CommonCommand.ПанельОтчетовОсновныеСредства</commands>
+      <commands>Report.ВедомостьОС.Command.ВедомостьОС</commands>
+      <commands>Report.ВедомостьПоАмортизацииОС.Command.ВедомостьПоАмортизацииОС</commands>
+      <commands>Report.ОборотнаяВедомостьОС.Command.ОборотнаяВедомостьОС</commands>
+      <commands>Report.ПереченьОСНаДатуКомплекты.Command.ПереченьОСНаДатуКомплекты</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

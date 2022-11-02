@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70e03908-6c50-4c0e-bade-b76c1bc42186">
+  <producedTypes>
+    <refType typeId="03163e81-0c6f-4d90-984b-7af1939ffa81" valueTypeId="f7944d5e-c596-43da-85e0-cf12b32006ca"/>
+    <listType typeId="c6202d0a-20b8-4093-8896-f4ca675acdc0" valueTypeId="0478e08c-810d-4c8d-997f-f1e49c9f3a5e"/>
+    <managerType typeId="cd4cadec-f7c1-47eb-a294-c15e583a742a" valueTypeId="48df0810-dbea-42e6-9403-0dece9bdd787"/>
+  </producedTypes>
+  <name>СпособыНачисленияАмортизацииОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы начисления амортизации основных средств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="80d49d22-3a22-4299-a501-0de250c63803">
+    <name>Линейный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линейный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5af89639-d77c-484a-99c2-10ecc445a44c">
+    <name>Производственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производственный</value>
+    </synonym>
+    <comment>Пропорционально объему продукции (работ)</comment>
+  </enumValues>
+  <enumValues uuid="00cf8d02-833a-4db5-bab6-49bb7b7c6677">
+    <name>ПоСуммеЧиселЛет</name>
+    <synonym>
+      <key>ru</key>
+      <value>По сумме чисел лет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2cf7994-3bcd-41aa-9be3-c1b72966c824">
+    <name>УменьшаемогоОстатка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уменьшаемого остатка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b30e425-50f7-47cd-89ab-261d962a45da">
+    <name>НеНачислять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не начислять</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

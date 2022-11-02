@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bada37b-1283-4d23-9250-0dd7703a0f15">
+  <producedTypes>
+    <managerType typeId="2caa8122-c2d9-434b-841c-bb05214ada19" valueTypeId="3215eca0-b1cd-405c-abce-154f5bcfd100"/>
+    <valueManagerType typeId="629ba135-4189-4a07-8251-7cedf08ae963" valueTypeId="c70f903b-e1bd-4d26-aeea-eeb294ae4a94"/>
+    <valueKeyType typeId="d6133e24-3363-44c7-8858-2e2314a93bc7" valueTypeId="3574cbb2-5994-4371-9e6c-28ad16f5253b"/>
+  </producedTypes>
+  <name>ВвестиКонтрольЗапретаРазмераПоШтатномуРасписанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввести контроль запрета размера по штатному расписанию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90812b9e-0bb1-4a93-b48d-22708de343f5">
+  <name>ОбщиеОбластиСтандартногоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие области стандартного отчета</value>
+  </synonym>
+</mdclass:CommonTemplate>

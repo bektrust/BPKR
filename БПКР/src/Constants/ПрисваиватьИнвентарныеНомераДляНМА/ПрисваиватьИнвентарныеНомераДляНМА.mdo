@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="125a88e0-566b-42ed-9607-9825a9d45c4b">
+  <producedTypes>
+    <managerType typeId="bbff2773-0e3e-4b9b-b4f2-087cf6f023c2" valueTypeId="568793c7-4a40-4279-b29c-cdbf533fe128"/>
+    <valueManagerType typeId="4e505d66-885a-42c2-8b54-2724a4b686c3" valueTypeId="aa07a463-3a8c-483b-894d-5878feb4a455"/>
+    <valueKeyType typeId="d5d9b439-c419-4713-9cc2-b9199b944038" valueTypeId="265ca3e6-47bd-48a3-8b19-d6e27fc6fd64"/>
+  </producedTypes>
+  <name>ПрисваиватьИнвентарныеНомераДляНМА</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присваивать инвентарные номера для НМА</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

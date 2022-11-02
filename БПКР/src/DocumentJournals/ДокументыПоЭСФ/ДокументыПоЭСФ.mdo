@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="416c9a24-074d-4c06-ad0d-14cbc80ae552">
+  <producedTypes>
+    <selectionType typeId="8c3d56cd-817a-4e9e-83a3-f50397019802" valueTypeId="64660e9c-f96c-454f-adc4-0838ccc00dc1"/>
+    <listType typeId="ad651e5f-4961-4365-a9df-2d90503cc18c" valueTypeId="7bd373c4-9635-40c9-a9e0-d988b5ec9325"/>
+    <managerType typeId="5e4ff2b8-74f1-499e-af32-538ccfb57218" valueTypeId="6865547c-0cf2-45ec-a21b-7be1a9dcd1e9"/>
+  </producedTypes>
+  <name>ДокументыПоЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по ЭСФ</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыПоЭСФ.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.ЭлектронныйСчетФактураВыписанный</registeredDocuments>
+  <registeredDocuments>Document.ЭлектронныйСчетФактураПолученный</registeredDocuments>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Тип документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на документ</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проведен</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак проведения документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <comment>Пометка удаления</comment>
+    <toolTip>
+      <key>ru</key>
+      <value>Пометка удаления документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер</value>
+    </synonym>
+    <toolTip>
+      <key>ru</key>
+      <value>Номер документа</value>
+    </toolTip>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="d087e90a-bb66-4fec-8d8a-3fdf21ee2811">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.Организация</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.Организация</references>
+  </columns>
+  <columns uuid="3f01de3e-3199-4d8a-a59a-f10c7843d5c8">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.ВидОперации</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="50849b73-e952-46bd-9c21-79a4bb1c8a81">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.Контрагент</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="6bb4695f-21d6-4ba5-b667-bccba0678881">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.ДоговорКонтрагента</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.ДоговорКонтрагента</references>
+  </columns>
+  <columns uuid="8d84c2d1-c553-43aa-8d73-bd5c2f1fe7d7">
+    <name>НомерЭСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер ЭСФ</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.НомерЭСФ</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.НомерЭСФ</references>
+  </columns>
+  <columns uuid="b9b4a85b-781d-4107-8a8a-952f85bbf71b">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.СуммаДокумента</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="9938a46f-6f42-44ef-8bab-ecafbd4e89d9">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.ВалютаДокумента</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="8d79b122-b369-4ab2-9e34-7e0b9196f4ec">
+    <name>ЭтоКорректировочныйСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это корректировочный СФ</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.ЭтоКорректировочныйСФ</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.ЭтоКорректировочныйСФ</references>
+  </columns>
+  <columns uuid="f7779133-fab4-4c92-9dc6-d79517129450">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.Комментарий</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="0a6e62fe-a4a9-408e-b26c-693e9586d142">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.Автор</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.Автор</references>
+  </columns>
+  <columns uuid="da66805a-7f5d-4be8-9724-3bfa9029c0c3">
+    <name>ДатаПоставки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата поставки</value>
+    </synonym>
+    <references>Document.ЭлектронныйСчетФактураВыписанный.Attribute.ДатаПоставки</references>
+    <references>Document.ЭлектронныйСчетФактураПолученный.Attribute.ДатаПоставки</references>
+  </columns>
+  <forms uuid="789bc921-4901-4cfc-a0fc-32771d4cd7fa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="54aea482-dafc-42e7-a590-9c3c6c020d57">
+    <name>ДокументыПоЭСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы по ЭСФ</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DocumentJournal>

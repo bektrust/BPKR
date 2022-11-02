@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98e6b246-dc9e-4321-b814-612156cb064f">
+  <name>НесколькоСкладовВПроизводстве</name>
+  <synonym>
+    <key>ru</key>
+    <value>Несколько складов в производстве</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияНесколькоСкладовВПроизводстве</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетПроизводстваЗаСмену.Attribute.СкладПродукция</content>
+  <content>Document.ОтчетПроизводстваЗаСмену.Attribute.СкладВозвратныеОтходы</content>
+  <content>Document.ОтчетПроизводстваЗаСмену.Attribute.СкладМатериалы</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1793d3a4-fdb2-411b-bea3-786c179b44e5">
+  <name>КопированиеТабличнойЧастиКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Копирование табличной части клиент</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

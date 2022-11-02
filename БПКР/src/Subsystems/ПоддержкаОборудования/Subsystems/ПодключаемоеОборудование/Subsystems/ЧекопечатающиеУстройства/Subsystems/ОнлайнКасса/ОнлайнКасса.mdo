@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec8f0ea2-338d-47b3-87ed-a93dca51579b">
+  <name>ОнлайнКасса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Онлайн касса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МодульРаботыСОнлайнКассой</content>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования.Subsystem.ПодключаемоеОборудование.Subsystem.ЧекопечатающиеУстройства</parentSubsystem>
+</mdclass:Subsystem>

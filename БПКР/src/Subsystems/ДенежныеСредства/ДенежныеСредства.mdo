@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fbea000-d057-4526-bfb4-e41367103909">
+  <name>ДенежныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Банк и касса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделДеньги</picture>
+  </picture>
+  <content>DataProcessor.ЗагрузкаКурсовВалют</content>
+  <content>CommonCommand.ДополнительныеОбработкиДенежныеСредства</content>
+  <content>DataProcessor.МониторВалютныхОпераций</content>
+  <content>CommonCommand.НастройкаДенежныеСредства</content>
+  <subsystems>Банк</subsystems>
+  <subsystems>Касса</subsystems>
+  <subsystems>ПлатежныеКарты</subsystems>
+  <subsystems>Операции</subsystems>
+  <subsystems>НСИ</subsystems>
+  <subsystems>Анализ</subsystems>
+  <subsystems>Прочее</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2deeb0e-2d79-481c-8378-40034192bf9a">
+  <producedTypes>
+    <managerType typeId="0052ca53-b43c-4b47-99b7-e3e7b52e018e" valueTypeId="7b6a245a-791f-453d-8f3f-e6c45da4530e"/>
+    <valueManagerType typeId="d29690ee-8d93-4687-99fe-091c17a111a4" valueTypeId="917ad783-fe2d-4117-8fbe-6ae31beba5f3"/>
+    <valueKeyType typeId="8eea2791-32e7-43f0-b55a-a5978089ea57" valueTypeId="9f208c8d-fd6f-4f98-84d5-c33d38ce299c"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВестиУчетОСПоКомплектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет ОС по комплектам</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

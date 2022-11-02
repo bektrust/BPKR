@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb18c9e0-7146-43d0-b3fb-1522b49517ee">
+  <producedTypes>
+    <selectionType typeId="290617ad-1dbd-46b6-85f1-b86fd27cce3c" valueTypeId="03ce8d61-10a9-48be-87cd-f89e23bcb037"/>
+    <listType typeId="aad49f10-5481-4b96-839c-7f80ab53f8a3" valueTypeId="2dcf9e91-7280-41a1-a2b7-cc8e44c4019a"/>
+    <managerType typeId="df66474a-3f32-4092-ae58-79987ed51f8a" valueTypeId="a19945d2-13d1-4ee8-90b8-9c8446da3c4d"/>
+    <recordSetType typeId="f0ecafb9-fec0-451c-8eb3-41cc64d3a61f" valueTypeId="010a9a70-fb59-4059-9a47-d10c4dc9859b"/>
+    <recordKeyType typeId="0652decd-f9b4-40e5-8d1a-f7aeae294929" valueTypeId="e2d9b0d9-c1a2-47ab-8046-76ae63022886"/>
+    <recordType typeId="436a1ff1-8138-4c76-900c-5547ac9faed9" valueTypeId="1e755b8a-1af4-4b9c-83c2-1af441bce4c3"/>
+  </producedTypes>
+  <name>ЗемельныйНалог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Земельный налог</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="19c22748-864f-4914-b38e-9a35208bebda">
+    <name>СуммаЗемельногоНалогаПодОбъектомИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма земельного налога под объектом имущества</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="24384fc0-f6e3-4a85-8ae6-6042a3f2cfa6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="eb1d07cd-b478-4986-9289-b97ad1a2c167">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

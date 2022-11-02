@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0a93979-d348-4d9d-b918-d74ef3066820">
+  <producedTypes>
+    <selectionType typeId="0ec4f45a-95ed-4f86-81bc-04cb28a44501" valueTypeId="089a5826-d646-486f-b559-9c5e26c56903"/>
+    <listType typeId="7f762fc1-0bc2-4c69-8360-3171a082d17b" valueTypeId="d9d86dd1-c395-4b09-aeff-cfc75b5ff6cf"/>
+    <managerType typeId="e19059ad-2a63-42ed-aa3d-440972539579" valueTypeId="88b77c99-c837-4b49-8e56-97d1dfd2cc8c"/>
+    <recordSetType typeId="e1b17d60-9e39-4e3f-acb6-3ed1e7611f05" valueTypeId="12303e0c-cc52-4b44-a521-6a98dc6f543b"/>
+    <recordKeyType typeId="ed249ac6-2a1a-48f5-9ac9-5e98a650d450" valueTypeId="ff7ffd05-eb5b-44ed-baee-fac94eefba81"/>
+    <recordType typeId="fd15c770-e1fa-45cf-82a2-14c6e79ff1f9" valueTypeId="5cae9573-b0b9-4fe0-b5ee-5263719a0c92"/>
+    <recordManagerType typeId="eda302cb-c57e-4bef-a0a0-923b3532d3e8" valueTypeId="7b8bf33a-f210-4fdd-a464-5d18c8e03839"/>
+  </producedTypes>
+  <name>ПараметрыУчетаОСЗемельныйНалогПодОбъектомИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры учета ОС земельный налог под объектом имущества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="67e784fc-8dae-4767-8a69-391dc57017c9">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="77eaf7b2-9dee-4d08-b793-b6bcccee0c0f">
+    <name>ПлощадьПодОбъектомИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь под объектом имущества</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="71a1ad5c-e5d3-4159-9116-252e4b6a525a">
+    <name>ДатаНачисленияЗамельногоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начисления замельного налога</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой нужно начислять замельный налог для текушего основного средства.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c3f988c3-a946-4acf-952d-b18bdf55e4ec">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d7b00991-fefc-429b-8551-218abeea78b3">
+    <name>ОбъектИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект имущества</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

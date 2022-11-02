@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12a9341d-d025-41a1-9e0f-09952f64fa08">
+  <name>ЦветоваяСхемаСтильПриложенияСиний</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синяя</value>
+  </synonym>
+</mdclass:Style>

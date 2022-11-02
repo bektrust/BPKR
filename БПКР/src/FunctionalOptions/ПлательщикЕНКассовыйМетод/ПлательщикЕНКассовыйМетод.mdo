@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f52df0f-7695-47d1-9f54-41e569444634">
+  <name>ПлательщикЕНКассовыйМетод</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плательщик ЕН (кассовый метод)</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.ПлательщикЕНКассовыйМетод</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПлатежноеПоручениеВходящее.TabularSection.РасшифровкаПлатежа.Attribute.ВидДеятельности</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.TabularSection.РасшифровкаПлатежа.Attribute.ВидДеятельности</content>
+  <content>Document.ПриходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.ВидДеятельности</content>
+  <content>Document.РасходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.ВидДеятельности</content>
+  <content>Document.ОплатаПлатежнойКартой.TabularSection.РасшифровкаПлатежа.Attribute.ВидДеятельности</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b232e362-9f52-4f69-99d9-45c8f73315e0">
+  <producedTypes>
+    <objectType typeId="5f94a11e-3d9a-41cd-863b-6733c9ac2f22" valueTypeId="c3c157fc-f622-4e38-a7d7-c02448f37cf5"/>
+    <refType typeId="08813467-1302-4fc8-9e75-547b3d8cc6c0" valueTypeId="6e10d794-c8f7-403d-9a87-f68ae5035309"/>
+    <selectionType typeId="bd8ab82c-3d03-4d49-aac5-fba49701dcd3" valueTypeId="405c6cda-bcde-4493-947b-2543dc4e44f1"/>
+    <listType typeId="5777ad97-b49d-4c59-bb6c-0bae6e701f44" valueTypeId="43f0836c-4a4f-482b-95f3-2fcec073bceb"/>
+    <managerType typeId="4cb37e43-5041-41de-86bf-7f4e21c75802" valueTypeId="5a189175-abfe-4411-babe-d04d6faf88bf"/>
+  </producedTypes>
+  <name>ВидыТранспортаПоказателиИмпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспорта (показатели импорт)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыТранспортаПоказателиИмпорт.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВидыТранспортаПоказателиИмпорт.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид транспорта</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыТранспортаПоказателиИмпорт.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыТранспортаПоказателиИмпорт.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыТранспортаПоказателиИмпорт.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="4a08dcdb-1d7d-4c9e-a910-6a1a1de12671">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="76017ed1-5ffd-4cb8-aed0-5af1632465a4">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e2e32251-7ea2-45ec-8522-7e30edf6b8a6">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="8532123a-63c6-4cbc-b3dc-8fc6f9ddec4d">
+    <name>Классификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

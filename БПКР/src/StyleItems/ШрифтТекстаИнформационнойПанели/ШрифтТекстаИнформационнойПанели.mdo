@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07705360-ffb6-4e2d-b522-f0bfb6acc6a0">
+  <name>ШрифтТекстаИнформационнойПанели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт текста Информационной панели</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+    </value>
+  </value>
+</mdclass:StyleItem>

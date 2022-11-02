@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9783d93-5630-4832-9441-a354ee591939">
+  <producedTypes>
+    <objectType typeId="7b1c0176-32c5-41c7-b5a1-c1054d708563" valueTypeId="2ee3302d-416b-4806-90cf-b3b208d2944f"/>
+    <managerType typeId="de468e72-da65-4e21-95a8-c68447b71a3b" valueTypeId="9c35338f-9d4d-4432-a286-81cf1d890742"/>
+  </producedTypes>
+  <name>ПечатьСчетФактура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счет-фактура</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <templates uuid="6d336672-2c83-47d3-b622-63cf756dae20">
+    <name>ПФ_MXL_СчетФактура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет фактура</value>
+    </synonym>
+  </templates>
+  <templates uuid="5cfc8fe2-c636-4a0e-a72a-3dee92753d8d">
+    <name>ПФ_MXL_СчетФактураБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет фактура без НДС</value>
+    </synonym>
+  </templates>
+  <templates uuid="ab4c8f18-dc09-4ca7-87db-47bbaf1411be">
+    <name>ПФ_MXL_СчетФактура007</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL счет фактура007</value>
+    </synonym>
+  </templates>
+  <templates uuid="38e4bd83-a72a-46e6-97b7-8d91cbfa015b">
+    <name>ПФ_MXL_СчетФактура008</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет фактура</value>
+    </synonym>
+  </templates>
+  <templates uuid="306e750f-447c-49a2-b815-0330bd63f397">
+    <name>ПФ_MXL_СчетФактура009</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL счет фактура009</value>
+    </synonym>
+  </templates>
+  <templates uuid="a8d1dcfd-69a4-4fb6-a131-be7ce862b525">
+    <name>ПФ_MXL_СчетФактура010</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет фактура</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

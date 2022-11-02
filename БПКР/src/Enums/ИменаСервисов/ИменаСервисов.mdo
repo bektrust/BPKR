@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="413ce2cf-8d92-46a8-a17c-9b9ccdc07e3a">
+  <producedTypes>
+    <refType typeId="583c6bed-9a9e-4d14-9607-7c27616a0938" valueTypeId="2eabd902-564a-4d65-9602-d9fa081e669e"/>
+    <listType typeId="4f9eee64-b4fc-48df-a86c-d442f9cebbcf" valueTypeId="13cfe68e-1fdd-4ed2-a793-b88a7e9f625c"/>
+    <managerType typeId="6fb1b2cd-e5ef-43a5-b478-547e18e3b63e" valueTypeId="305e09dc-5f28-4fbf-99d4-a583dc081b15"/>
+  </producedTypes>
+  <name>ИменаСервисов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Имена сервисов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="19d69fda-2024-4ccb-9701-394fe8d6a178">
+    <name>ЭТТН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭТТН</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

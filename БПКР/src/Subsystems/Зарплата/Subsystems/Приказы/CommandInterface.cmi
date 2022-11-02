@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>DocumentJournal.ПриказыКадровые.StandardCommand.OpenList</command>
+      <visible>
+        <common>true</common>
+      </visible>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsPlacement>
+    <placementFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DocumentJournal.ПриказыКадровые.StandardCommand.OpenList</commands>
+    </placementFragments>
+  </commandsPlacement>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelImportant</group>
+      <commands>DocumentJournal.ПриказыКадровые.StandardCommand.OpenList</commands>
+    </orderFragments>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ПриемНаРаботу.StandardCommand.OpenList</commands>
+      <commands>Document.КадровоеПеремещение.StandardCommand.OpenList</commands>
+      <commands>Document.Увольнение.StandardCommand.OpenList</commands>
+      <commands>Document.ТрудовоеСоглашение.StandardCommand.OpenList</commands>
+      <commands>Document.ВедомостьЗаработнойПлаты.StandardCommand.OpenList</commands>
+      <commands>Document.ВедомостьДепонированнойЗарплаты.StandardCommand.OpenList</commands>
+      <commands>Document.Профсоюз.StandardCommand.OpenList</commands>
+      <commands>Document.УстановкаТарифовКомандировочных.StandardCommand.OpenList</commands>
+      <commands>Document.ИзменениеСтатусовИДополнительныхВычетов.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

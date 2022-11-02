@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a386042-675b-4413-b578-68900a05b27d">
+  <name>ВестиУчетМаркировкиПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет маркировки продукции</value>
+  </synonym>
+  <location>Constant.ВестиУчетМаркировкиПродукции</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.ЭтоМаркированнаяПродукция</content>
+  <content>Document.РозничнаяПродажа.TabularSection.Товары.Attribute.КодМаркировки</content>
+</mdclass:FunctionalOption>

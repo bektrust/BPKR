@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41f87891-ddd5-4e0f-a4f2-8039fb71981b">
+  <name>СвязанныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные документы</value>
+  </synonym>
+  <group>FormNavigationPanelGoTo</group>
+  <commandParameterType>
+    <types>DocumentRef.КорректировкаСтоимостиДополнительныхРасходов</types>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>DocumentRef.ПоступлениеИзПереработки</types>
+    <types>DocumentRef.РеализацияТоваровУслуг</types>
+    <types>DocumentRef.ПоступлениеАрендованныхОС</types>
+    <types>DocumentRef.КорректировкаСтоимостиПоступления</types>
+    <types>DocumentRef.Командировка</types>
+    <types>DocumentRef.ИнвентаризацияТоваров</types>
+    <types>DocumentRef.Доверенность</types>
+    <types>DocumentRef.НачислениеЗарплатыПоСреднемуЗаработку</types>
+    <types>DocumentRef.СчетФактураПолученный</types>
+    <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+    <types>DocumentRef.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentRef.ОбщийСчетФактураВыписанный</types>
+    <types>DocumentRef.ВозвратАрендованныхОС</types>
+    <types>DocumentRef.ЭТТНИсходящая</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.РозничнаяПродажа</types>
+    <types>DocumentRef.СчетНаОплатуПоставщика</types>
+    <types>DocumentRef.СчетФактураВыписанный</types>
+    <types>DocumentRef.ОтчетПроизводстваЗаСмену</types>
+    <types>DocumentRef.РеализацияУслугПоПереработке</types>
+    <types>DocumentRef.ВедомостьЗаработнойПлаты</types>
+    <types>DocumentRef.ЭлектронныйСчетФактураПолученный</types>
+    <types>DocumentRef.ПриходныйКассовыйОрдер</types>
+    <types>DocumentRef.ЭлектронныйСчетФактураВыписанный</types>
+    <types>DocumentRef.АвансовыйОтчет</types>
+    <types>DocumentRef.ПринятиеКУчетуОС</types>
+    <types>DocumentRef.ИнвентаризацияМБП</types>
+    <types>DocumentRef.ДвижениеМБП</types>
+    <types>DocumentRef.ВедомостьДепонированнойЗарплаты</types>
+    <types>DocumentRef.ПередачаТоваров</types>
+    <types>DocumentRef.ВозвратТоваровПоставщику</types>
+    <types>DocumentRef.СчетНаОплатуПокупателю</types>
+    <types>DocumentRef.ОплатаПлатежнойКартой</types>
+    <types>DocumentRef.РасходныйКассовыйОрдер</types>
+    <types>DocumentRef.КорректировкаСтоимостиРеализации</types>
+    <types>DocumentRef.ТребованиеНакладная</types>
+    <types>DocumentRef.ИнвентаризацияОС</types>
+    <types>DocumentRef.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentRef.ДополнительныеРасходы</types>
+    <types>DocumentRef.АктОбОказанииПроизводственныхУслуг</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Перейти к иерархическому списку связанных документов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.СтруктураПодчиненности</picture>
+  </picture>
+</mdclass:CommonCommand>

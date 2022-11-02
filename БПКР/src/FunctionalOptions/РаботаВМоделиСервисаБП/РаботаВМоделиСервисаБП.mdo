@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e880d58e-16c7-403e-a6c1-684f913cee97">
+  <name>РаботаВМоделиСервисаБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа в модели сервиса БП</value>
+  </synonym>
+  <location>Constant.ИспользоватьРазделениеПоОбластямДанных</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>CommonCommand.ДобавитьПользователейСервиса</content>
+  <content>CommonCommand.ЗагрузитьКурсыВалют</content>
+  <content>CommonForm.ВходВОбластьДанных</content>
+  <content>Catalog.ОчередьЗаданий</content>
+  <content>Catalog.ШаблоныЗаданийОчереди</content>
+  <content>InformationRegister.ОбластиДанных</content>
+  <content>InformationRegister.ОчередьИзвлеченияТекста</content>
+  <content>InformationRegister.РейтингАктивностиОбластейДанных</content>
+  <content>InformationRegister.ВерсииПодсистемОбластейДанных</content>
+  <content>InformationRegister.БлокировкиСеансовОбластейДанных</content>
+</mdclass:FunctionalOption>

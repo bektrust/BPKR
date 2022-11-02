@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0b8f4179-c192-4626-ade6-528a5548d268">
+  <producedTypes>
+    <managerType typeId="639214cb-8592-4082-b965-903119ccd7bf" valueTypeId="53075802-b539-4113-9c5a-dd615e5d278f"/>
+    <valueManagerType typeId="8bdc53fc-a754-46f1-bfde-e573e5bc2962" valueTypeId="5290090c-8ea7-4c77-9c0a-7fc210971916"/>
+    <valueKeyType typeId="490bc6c5-174e-489e-a79f-e8c959f82270" valueTypeId="5cb7dd6d-aa73-4c6c-84fa-7d242af37fef"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетДепонированнойЗарплаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция учет депонированной зарплаты</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

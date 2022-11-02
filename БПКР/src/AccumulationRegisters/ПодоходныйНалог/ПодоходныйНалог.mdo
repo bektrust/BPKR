@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d06fe298-81f1-49a4-b004-4461dc611861">
+  <producedTypes>
+    <selectionType typeId="c223910a-a91d-44c0-876f-54ef1ce81f44" valueTypeId="e0dd6383-1db3-49e7-9f06-86e44cd8d0e9"/>
+    <listType typeId="6e334cd1-e4b4-4dad-83dc-1425a3ec82b3" valueTypeId="15a16ed5-5a1e-4b1a-a66d-d9de4951c3cc"/>
+    <managerType typeId="f01f840a-b955-46fc-a869-b3385d4d8759" valueTypeId="f37530b7-2aab-42b6-8830-406e81c09333"/>
+    <recordSetType typeId="e729af40-2ad0-47ba-973c-e9456bcab9ba" valueTypeId="f8f2c26f-7f22-4b1d-acbf-c60169417e97"/>
+    <recordKeyType typeId="e9af5ec7-0a18-4d75-a3ce-6efd6cc3c0b2" valueTypeId="478846e4-ff0e-4ea9-b6f3-958619ff8006"/>
+    <recordType typeId="6b613913-1856-4cb8-8658-960edf415804" valueTypeId="2aa162ae-3d84-452d-9f7e-d547bbd53e58"/>
+  </producedTypes>
+  <name>ПодоходныйНалог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подоходный налог</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="21d8221d-87e4-4124-8f08-6ded398f70eb">
+    <name>ДоплатаПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ДПН</value>
+    </synonym>
+    <comment>Доплата подоходного налога</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ca5d3120-a9fc-4548-b447-21ebc0ec3afb">
+    <name>МРД</name>
+    <synonym>
+      <key>ru</key>
+      <value>МРД</value>
+    </synonym>
+    <comment>Минимальный расчетный доход</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="5e943065-9ea0-4d5f-a768-fab1cb61fbb3">
+    <name>ОДПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОДПН</value>
+    </synonym>
+    <comment>Облагаемый доход подоходного налога</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="700cec32-8974-4014-bd08-893b53d54234">
+    <name>ОДСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОДСФ</value>
+    </synonym>
+    <comment>Облагаемый доход соц.фонда</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="34bac5cb-bab5-40ed-8238-444b960ea553">
+    <name>Вычеты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вычеты</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Персональные и иждевенческие вычеты.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="52754e7f-b589-4f01-af38-e75c835ef8ee">
+    <name>ПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПН</value>
+    </synonym>
+    <comment>Подоходный налог</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="20361d0f-1f2b-4908-b9b0-b72d283b400b">
+    <name>ПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФРНГ</value>
+    </synonym>
+    <comment>Пенсионный фонд сотрудника с начала года</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="3f44475a-4f3c-483b-8485-320d360cc4aa">
+    <name>ГНПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГНПФРНГ</value>
+    </synonym>
+    <comment>Пенсионный фонд сотрудника с начала года</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="e2c1cf28-6ba5-4cc9-9a3a-01104a3b8eba">
+    <name>ПФРДляРасчетаПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПФР для расчета ПН</value>
+    </synonym>
+    <comment>Пенсионный фонд сотрудника с начала года</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="228a1552-5b92-46b2-ab06-ec6dcddd5c65">
+    <name>ГНПФРДляРасчетаПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГНПФР для расчета ПН</value>
+    </synonym>
+    <comment>Пенсионный фонд сотрудника с начала года</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="94acdbc3-a9fc-4967-9b48-997df2c808f4">
+    <name>МСР</name>
+    <synonym>
+      <key>ru</key>
+      <value>МСРНГ</value>
+    </synonym>
+    <comment>Подоходный налог (арендодатели)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ea1be315-a094-413d-9a05-6399f255cf18">
+    <name>ФОТР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФОТРНГ</value>
+    </synonym>
+    <comment>Подоходный налог (арендодатели)</comment>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="29c6211a-eaea-41db-b760-8ca0177ff502">
+    <name>ВсегоНачислено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Всего начислено</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="8a941857-8697-4c9d-93e8-22e9657d8477">
+    <name>ОтработаноДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработано дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="1921ad96-e80f-4ad9-ae42-adf74b581706">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4e9cc8ec-b65f-440c-9246-743bcd018e70">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

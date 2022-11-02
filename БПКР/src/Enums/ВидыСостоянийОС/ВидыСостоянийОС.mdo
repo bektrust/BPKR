@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86da6ba4-afb4-453c-9343-c81b9555eef9">
+  <producedTypes>
+    <refType typeId="9b854b2e-1325-4132-b576-d6c2098fa584" valueTypeId="5a9c6358-17fd-4dee-b506-fbb982dba4ed"/>
+    <listType typeId="2a789854-b071-44f6-aeb0-fdbb242d8dcc" valueTypeId="c07e2439-054d-4f72-aba2-6a2af24155f8"/>
+    <managerType typeId="22226d73-3bcc-4d5a-a85e-4e703c0001d6" valueTypeId="5444a9af-3152-4ae0-8463-deb97902c182"/>
+  </producedTypes>
+  <name>ВидыСостоянийОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды состояний ОС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4ee1e919-8966-485f-8b37-fcbdf18bd65a">
+    <name>Поступило</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступило</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9035f51d-17f0-4510-bcc2-61700fcdab6c">
+    <name>ПринятоКУчету</name>
+    <synonym>
+      <key>ru</key>
+      <value>Принято к учету</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d19976c-80b5-4dc1-b01e-01af4dacfc76">
+    <name>СнятоСУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снято с учета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2c948543-771d-425b-b66b-ba65d9f47778">
+    <name>Передано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передано</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

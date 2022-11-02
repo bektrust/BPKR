@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="49e7fbc4-4f9e-44ca-bec3-baa0920e7149">
+  <producedTypes>
+    <managerType typeId="8a0f1a7c-c8d2-4030-9802-27920b7dabdd" valueTypeId="247b7233-f50d-444b-840d-8ca11e01769e"/>
+    <valueManagerType typeId="d2e1e27c-b540-4c56-b077-7d9f86f5573d" valueTypeId="23569f6b-d745-4bac-932b-b1c8004973b9"/>
+    <valueKeyType typeId="ae5ed2f5-eb7e-5595-9e7c-e62597e9cfa5" valueTypeId="ecab750b-5442-5465-9c71-05c3150f910f"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетЗаработнойПлатыВВалюте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет заработной платы в валюте</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

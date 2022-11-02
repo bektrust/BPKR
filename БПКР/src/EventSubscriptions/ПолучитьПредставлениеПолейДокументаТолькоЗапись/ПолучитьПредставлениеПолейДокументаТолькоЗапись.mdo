@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ff97addd-e172-45f8-ac06-f7606223023a">
+  <name>ПолучитьПредставлениеПолейДокументаТолькоЗапись</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить представление полей документа (только запись)</value>
+  </synonym>
+  <source>
+    <types>DocumentManager.РегламентированныйОтчет</types>
+    <types>DocumentManager.ОтчетыПоНалогамЗаработнойПлатыИТруду</types>
+    <types>DocumentManager.СчетНаОплатуПокупателю</types>
+    <types>DocumentManager.АктСверкиВзаиморасчетов</types>
+    <types>DocumentManager.ОтчетНалоговогоАгентаНДС</types>
+    <types>DocumentManager.ОтчетыПоПодоходномуНалогу</types>
+    <types>DocumentManager.ОтчетПоБланкамСчетовФактур</types>
+    <types>DocumentManager.ИнвентаризацияТоваров</types>
+    <types>DocumentManager.ЭТТНИсходящая</types>
+    <types>DocumentManager.ИнвентаризацияОС</types>
+    <types>DocumentManager.ОтчетОВзаимнойТорговлеЕАЭС</types>
+    <types>DocumentManager.ОтчетПоНалогуНаИмущество</types>
+    <types>DocumentManager.Доверенность</types>
+    <types>DocumentManager.УведомлениеОПолученииТоваров</types>
+    <types>DocumentManager.ОтчетыПоСоциальномуФонду</types>
+    <types>DocumentManager.ВедомостьЗаработнойПлаты</types>
+    <types>DocumentManager.ОтчетПоВыплатамИУдержаниямПН</types>
+    <types>DocumentManager.ЕдинаяНалоговаяДекларация</types>
+    <types>DocumentManager.ОтчетПоНСП</types>
+    <types>DocumentManager.ОтчетПоКосвеннымНалогам</types>
+    <types>DocumentManager.ОтчетПоНДС</types>
+    <types>DocumentManager.ОтчетПоЗакупочнымАктам</types>
+    <types>DocumentManager.Командировка</types>
+    <types>DocumentManager.УстановкаЦенНоменклатуры</types>
+    <types>DocumentManager.ОтчетПоЕдиномуНалогу</types>
+    <types>DocumentManager.ИнвентаризацияМБП</types>
+    <types>DocumentManager.СчетНаОплатуПоставщика</types>
+    <types>DocumentManager.ОперацияБух</types>
+  </source>
+  <event>PresentationFieldsGetProcessing</event>
+  <handler>CommonModule.БухгалтерскийУчетСобытия.ПолучитьПредставлениеПолейДокументаТолькоЗапись</handler>
+</mdclass:EventSubscription>

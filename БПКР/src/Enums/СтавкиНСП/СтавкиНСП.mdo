@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05b28018-3637-49c1-90b6-f43c7248ce88">
+  <producedTypes>
+    <refType typeId="46bb0f57-1b58-4a5d-9764-9f3ad4e6c36d" valueTypeId="8475bb73-597d-4c7c-a070-5cc368b9e338"/>
+    <listType typeId="21716fc9-a63c-46ca-9366-43e36a000b05" valueTypeId="22ef489c-7191-42bb-ac3f-aa3db51d9257"/>
+    <managerType typeId="36f90a6d-b38a-435c-a70f-f7bbcd176bdb" valueTypeId="d6426250-184b-4bd5-bba6-5d3ec2cfb705"/>
+  </producedTypes>
+  <name>СтавкиНСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НСП</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="26ac917e-9c47-4235-9ec6-98c156d76e00">
+    <name>БезНСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без НСП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="33317af1-25c9-4fb6-92e0-9bccf3ca959f">
+    <name>НСП0</name>
+    <synonym>
+      <key>ru</key>
+      <value>0%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36dbdcd9-6ff0-4d7d-b181-5cbb4459add9">
+    <name>НСП1</name>
+    <synonym>
+      <key>ru</key>
+      <value>1%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0221112e-3647-4a48-aa46-eedf5c016de8">
+    <name>НСП2</name>
+    <synonym>
+      <key>ru</key>
+      <value>2%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf8e43ae-95bd-4756-b7f3-c3cd7f972a68">
+    <name>НСП3</name>
+    <synonym>
+      <key>ru</key>
+      <value>3%</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf6d0f10-8817-47b5-80a7-280e38d21b54">
+    <name>НСП5</name>
+    <synonym>
+      <key>ru</key>
+      <value>5%</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

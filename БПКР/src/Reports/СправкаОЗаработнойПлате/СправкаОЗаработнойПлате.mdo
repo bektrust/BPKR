@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5dbaec1a-0309-4556-a755-bb815afbc3b4">
+  <producedTypes>
+    <objectType typeId="3b510edc-6e42-490e-bbe0-0d7061f0b027" valueTypeId="72584822-7c9b-4412-89ce-1c0f1db00aab"/>
+    <managerType typeId="a6e34f5b-9129-45d8-a7f2-9faa99b12421" valueTypeId="5314a240-3eea-4a7e-8c05-83eb34c33611"/>
+  </producedTypes>
+  <name>СправкаОЗаработнойПлате</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка о заработной плате</value>
+  </synonym>
+  <defaultForm>Report.СправкаОЗаработнойПлате.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="578fb0ef-e4f2-4b76-88ae-48c5a66e314e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9f044250-273d-4722-8a7e-11d686622b40">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b13f5aef-ae52-4d92-b2ef-a8a1311aae7b">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59c246c9-a689-497e-b5ad-f22641f81766">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="75d09974-a097-43c9-97e6-a8adc9811fa2">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a8d12d10-4ddd-48e4-8aac-4ff19281e79e">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Периодичность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="62e6154f-5ab2-4979-aed9-b0325bf30f82">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="e16b4a87-67e4-44a5-84ed-93e83b341805">
+    <name>СправкаОЗаработнойПлатеПолная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка о заработной плате полная</value>
+    </synonym>
+  </templates>
+  <templates uuid="c4694948-bc29-4c03-9485-cf8ac63e8ac6">
+    <name>СправкаОЗаработнойПлатеУпрощенная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка о заработной плате упрощенная</value>
+    </synonym>
+  </templates>
+  <templates uuid="e9f1a28b-617e-4778-9da0-d258db529d91">
+    <name>СправкаОЗаработнойПлатеЕНД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка о заработной плате ЕНД</value>
+    </synonym>
+  </templates>
+  <commands uuid="14ba9f60-54cb-450e-8160-dca3994f1bdd">
+    <name>СправкаОЗаработнойПлате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка о заработной плате</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

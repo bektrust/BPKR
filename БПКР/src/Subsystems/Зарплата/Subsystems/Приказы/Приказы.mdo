@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e0d2107-2707-4fb9-a273-2fbf12729811">
+  <name>Приказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приказы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПриемНаРаботу</content>
+  <content>Document.КадровоеПеремещение</content>
+  <content>Document.Увольнение</content>
+  <content>Document.ТрудовоеСоглашение</content>
+  <content>DocumentJournal.ПриказыКадровые</content>
+  <content>Document.Профсоюз</content>
+  <content>Document.ИзменениеСтатусовИДополнительныхВычетов</content>
+  <content>Document.Командировка</content>
+  <content>Document.НачисленияПодоходногоНалогаПрочихФизЛиц</content>
+  <parentSubsystem>Subsystem.Зарплата</parentSubsystem>
+</mdclass:Subsystem>

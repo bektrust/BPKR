@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="285fe0b5-e89a-4179-9e30-e4843efafd70">
+  <name>РасчетыСКонтрагентами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчеты с контрагентами</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.АктСверкиВзаиморасчетов</content>
+  <content>Document.КорректировкаДолга</content>
+  <content>Enum.ВидыОперацийКорректировкаДолга</content>
+  <content>Enum.ВидыАвансаЗадолженности</content>
+  <content>Enum.ТипыЗадолженности</content>
+  <content>Enum.ВидыЗадолженности</content>
+  <parentSubsystem>Subsystem.ПокупкаИПродажа</parentSubsystem>
+</mdclass:Subsystem>

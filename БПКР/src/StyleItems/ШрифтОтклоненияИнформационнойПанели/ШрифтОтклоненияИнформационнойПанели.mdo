@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24284707-148b-4285-87c9-ed53040c2225">
+  <name>ШрифтОтклоненияИнформационнойПанели</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шрифт отклонения в Информационной панели</value>
+  </synonym>
+  <type>Font</type>
+  <value xsi:type="core:FontValue">
+    <value xsi:type="core:FontRef">
+      <font>Style.SmallTextFont</font>
+    </value>
+  </value>
+</mdclass:StyleItem>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8caa343f-d76f-47c1-9f0b-a59a78d05834">
+  <producedTypes>
+    <managerType typeId="51a16658-44ff-4c08-bb41-1b608d73cbbb" valueTypeId="cb5639f1-6394-4f72-9316-d80a4aa69c45"/>
+    <valueManagerType typeId="c604d5bd-8e89-4b4d-8e60-233db7d20c82" valueTypeId="11469432-d7df-4e91-8103-2caeb983ee84"/>
+    <valueKeyType typeId="bc61ba92-480e-57fa-af51-97d8060dc31c" valueTypeId="35064295-5fd6-5958-8f0b-f0a8356aab31"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПрефиксКассыИБанковскогоСчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция префикс кассы и банковского счета</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

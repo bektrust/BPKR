@@ -1,0 +1,170 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.dostek.kg/FORMDOSTEKSTI131">
+	<objectType name="FORMDOSTEKSTI131" open="true">
+		<property name="IDFORM" type="xs:string" form="Attribute"/>
+		<property name="NOMDOC" type="xs:string" form="Attribute"/>
+		<property name="VERSFORM" type="xs:string" form="Attribute"/>
+		<property name="DATEREPORT" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="PART1" type="d3p1:PART1" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="PART2" type="d3p1:PART2" upperBound="-1"/>
+	</objectType>
+	<objectType name="PART1">
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="FTYPE" type="d3p1:FTYPE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="STARTDATE" type="d3p1:STARTDATE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="ENDDATE" type="d3p1:ENDDATE" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="PART2">
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X50" type="d3p1:DTG131_2X50" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X51" type="d3p1:DTG131_2X51" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X52" type="d3p1:DTG131_2X52" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X53" type="d3p1:DTG131_2X53" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X54" type="d3p1:DTG131_2X54" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X55" type="d3p1:DTG131_2X55" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X56" type="d3p1:DTG131_2X56" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X57" type="d3p1:DTG131_2X57" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X58" type="d3p1:DTG131_2X58" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X59" type="d3p1:DTG131_2X59" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X60" type="d3p1:DTG131_2X60" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X61" type="d3p1:DTG131_2X61" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X62" type="d3p1:DTG131_2X62" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X63" type="d3p1:DTG131_2X63" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X64" type="d3p1:DTG131_2X64" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X65" type="d3p1:DTG131_2X65" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X66" type="d3p1:DTG131_2X66" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X67" type="d3p1:DTG131_2X67" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X68" type="d3p1:DTG131_2X68" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X69" type="d3p1:DTG131_2X69" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X70" type="d3p1:DTG131_2X70" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X71" type="d3p1:DTG131_2X71" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X72" type="d3p1:DTG131_2X72" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X73" type="d3p1:DTG131_2X73" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X74" type="d3p1:DTG131_2X74" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X75" type="d3p1:DTG131_2X75" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X76" type="d3p1:DTG131_2X76" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X77" type="d3p1:DTG131_2X77" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X78" type="d3p1:DTG131_2X78" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X79" type="d3p1:DTG131_2X79" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X80" type="d3p1:DTG131_2X80" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X81" type="d3p1:DTG131_2X81" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X82" type="d3p1:DTG131_2X82" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_TOTALSUM" type="d3p1:DTG131_TOTALSUM" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X84" type="d3p1:DTG131_2X84" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.dostek.kg/FORMDOSTEKSTI131" name="DTG131_2X85" type="d3p1:DTG131_2X85" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="FTYPE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STARTDATE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="ENDDATE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X50">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X51">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X52">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X53">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X54">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X55">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X56">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X57">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X58">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X59">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X60">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X61">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X62">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X63">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X64">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X65">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X66">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X67">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X68">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X69">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X70">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X71">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X72">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X73">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X74">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X75">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X76">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X77">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X78">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X79">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X80">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X81">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X82">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_TOTALSUM">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X84">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="DTG131_2X85">
+		<property name="Text" form="Text"/>
+	</objectType>
+</package>

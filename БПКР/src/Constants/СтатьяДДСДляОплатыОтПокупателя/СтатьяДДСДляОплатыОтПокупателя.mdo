@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9db9ff2b-4396-4887-91f4-bfe582a5fb91">
+  <producedTypes>
+    <managerType typeId="f7fc1baf-5e8b-4680-8a4e-4d56716276a4" valueTypeId="dd9063d2-f005-4b45-83d1-2150db2d3897"/>
+    <valueManagerType typeId="0eb9232a-7610-4e87-a58c-3fb6ed78c8ee" valueTypeId="7a938156-8c14-4e63-9c63-f0fceffd6dd4"/>
+    <valueKeyType typeId="6ad6cc4d-d18e-4a50-8b22-3b0d369538e9" valueTypeId="32d41561-e23f-44f9-83f8-2ce196c973a2"/>
+  </producedTypes>
+  <name>СтатьяДДСДляОплатыОтПокупателя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья ДДС для оплаты от покупателя</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

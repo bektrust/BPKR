@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="61b9bce9-d726-4bcd-9be9-58589a2a67d2">
+  <producedTypes>
+    <selectionType typeId="e4913276-531e-478d-875d-139c79389f00" valueTypeId="fe9c5b52-b588-44d9-9276-ca12eebc3651"/>
+    <listType typeId="1346c427-e8e0-4896-8bd1-058307bc415b" valueTypeId="b798f31d-a5e8-4d7a-af58-9b165f89f0ee"/>
+    <managerType typeId="9f082ab9-f755-4250-960a-cebe9c65700f" valueTypeId="f15fc58e-0d08-485e-8213-ce1e548ac07b"/>
+    <recordSetType typeId="fcee4d6c-1e97-4d51-af14-78f182cb0721" valueTypeId="e7367772-cbea-4ba4-b141-0a67c9085fa8"/>
+    <recordKeyType typeId="b0823fbb-48de-4371-8e69-e1d3ad706f0b" valueTypeId="6ee6182f-ce19-4386-b499-8e071a636a46"/>
+    <recordType typeId="2b22dfda-6f03-4c54-bae7-337fb830f839" valueTypeId="df7290ea-4f22-482e-92bb-0b8b7e323112"/>
+    <recordManagerType typeId="c4e3b329-46ec-40eb-90b6-cdfde07d8ab6" valueTypeId="6133f2b9-1e6c-4ab2-b681-81d6409feab5"/>
+  </producedTypes>
+  <name>ШкалаОценкиСтоимостиВидовМатериаловСтен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Шкала оценки стоимости видов материалов стен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9908af2c-ba09-4a84-8dff-fbc06e7f6115">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Налоговая ставка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="8247cb5c-58c5-4047-b2fd-3c4a72cc5271">
+    <name>ВидМатериалаСтен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид материала стен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыМатериаловСтенНалогНаИмущество</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5e821bf7-1b4f-44b6-a427-1465bc9004e6">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Когда накопили >=</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

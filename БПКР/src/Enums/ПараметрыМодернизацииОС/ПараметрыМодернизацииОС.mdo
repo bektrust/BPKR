@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25cceb9e-1a58-40cb-8eee-d369edf42ce8">
+  <producedTypes>
+    <refType typeId="c4948b16-e0a5-4e7f-9875-01f4512e3da3" valueTypeId="1a732e03-2e37-4071-bc18-e202ce2525ee"/>
+    <listType typeId="a24ac324-83d0-4aac-b540-dae74b1e0b31" valueTypeId="1c77963e-07a7-451c-93b6-4c38b0ec0291"/>
+    <managerType typeId="7d8cc229-228e-4cba-839c-009e52f2afc4" valueTypeId="39347540-5697-42f7-a2f4-ce2d3f564b54"/>
+  </producedTypes>
+  <name>ПараметрыМодернизацииОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры модернизации ОС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d28e48a8-3ce7-4750-a684-6a4954e929b1">
+    <name>НакопленныйИзнос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопленный износ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6a0982ba-5d8b-4fda-8707-c31ac4f97c18">
+    <name>СрокСлужбы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок службы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5000764-63ed-413d-b432-9a67d471327b">
+    <name>ИнвентарныйНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвентарный номер</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a5a39bc0-02d4-4d47-85a8-227b72258690">
+    <name>СпособОтраженияРасходовПоАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ отражения расходов по амортизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bd92271-4b9d-4806-bd69-0fa309ec4095">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0e257dff-65d6-4eac-aa90-2f302caea63f">
+    <name>ЛиквидационнаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидационная стоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3363636-42c7-4997-9a15-94d187524ce9">
+    <name>МатериалСтен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал стен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17145cce-b30e-474b-a9e7-77fb9232c8f3">
+    <name>ЖилаяПлощадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жилая площадь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="55bc49a1-2d71-47d7-a75e-1681475ef2ae">
+    <name>НежилаяПлощадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нежилая площадь</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8953d93f-ef34-4123-87c1-71a43112cae8">
+    <name>РегиональныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Региональный коэффициент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="996400ad-573a-4d59-9d28-e8b8d97dd6c4">
+    <name>ЗональныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зональный коэффициент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1a38a43-bbf2-4dca-a627-cc01094eef03">
+    <name>ОтраслевойКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отраслевой коэффициент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="24af7504-4359-4e9e-9e51-1dca645491f2">
+    <name>КодИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код имущества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14aeaf9e-ad79-4f51-9c31-fc6b501d44ec">
+    <name>КодНазначенияИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код назначения имущества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1a5a646f-848b-4a4a-8de5-b49538aaf3d0">
+    <name>КодПользователяИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код пользователя имущества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="150a8e68-233b-4148-a116-becd8fa7ccc1">
+    <name>ГруппаИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа имущества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9f32530a-06ac-4a27-bf99-f88dcb7bcaad">
+    <name>СпособНачисленияАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ начисления амортизации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="555450e5-6c1b-4416-aaf0-949b8015f951">
+    <name>ГруппаНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа НУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8194d2de-ab6e-4994-9f6b-c9a1488b658a">
+    <name>Консервация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консервация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="974a4b9b-2451-4e25-9864-27938eb502a3">
+    <name>ПараметрыВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры выработки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38ec9b3b-978d-498c-8974-ad41e3ae1ac8">
+    <name>ОбъемПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем продукции</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9a66b244-54e0-4dd7-a6bd-8661810f1627">
+    <name>КоэффициентУскорения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент ускорения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

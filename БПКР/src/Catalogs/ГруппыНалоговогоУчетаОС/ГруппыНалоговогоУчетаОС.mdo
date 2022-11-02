@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf38a652-0890-43fd-b752-1957acbcdf67">
+  <producedTypes>
+    <objectType typeId="95d752df-a2c1-421e-b124-839f3f069e13" valueTypeId="e888c831-12f4-4901-beaa-93ec8f8925e1"/>
+    <refType typeId="737f33c8-0d7d-4f37-a959-e88978ddfc82" valueTypeId="2b7ecb40-f772-4362-a7a4-8283e4d8096a"/>
+    <selectionType typeId="8fa6adb8-4dc3-4787-bebc-e14437db062a" valueTypeId="6482f9de-7d1d-4f01-a048-1079efb5a1c1"/>
+    <listType typeId="1622dc60-70a9-4284-8422-e76d2f596d5c" valueTypeId="2a673e3f-2dac-4af8-b6d2-fc5745089637"/>
+    <managerType typeId="4f395b28-6706-4f4b-9d93-019990637a4e" valueTypeId="117c644b-672b-440d-9c8f-07d275285254"/>
+  </producedTypes>
+  <name>ГруппыНалоговогоУчетаОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы налогового учета ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыНалоговогоУчетаОС.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыНалоговогоУчетаОС.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа налогового учета ОС</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="9c9b2e96-e83d-4831-a486-f928bc4fb5f6">
+      <name>Группа1</name>
+      <description>Группа 1</description>
+      <code xsi:type="core:StringValue">
+        <value>1гр</value>
+      </code>
+    </items>
+    <items id="a533667c-4b9f-4740-9e1a-d4a7258e7c62">
+      <name>Группа2</name>
+      <description>Группа 2</description>
+      <code xsi:type="core:StringValue">
+        <value>2гр</value>
+      </code>
+    </items>
+    <items id="60714c25-34bf-4df3-836b-69a22d10d63d">
+      <name>Группа3</name>
+      <description>Группа 3</description>
+      <code xsi:type="core:StringValue">
+        <value>3гр</value>
+      </code>
+    </items>
+    <items id="868213f4-17f4-488e-bb60-71b413af6ea2">
+      <name>Группа4</name>
+      <description>Группа 4</description>
+      <code xsi:type="core:StringValue">
+        <value>4гр</value>
+      </code>
+    </items>
+    <items id="d584f5d5-3447-4edd-9d54-a559e309b34e">
+      <name>Группа5</name>
+      <description>Группа 5</description>
+      <code xsi:type="core:StringValue">
+        <value>5гр</value>
+      </code>
+    </items>
+    <items id="6d3d6499-3e1a-4aea-b7fc-1d5516a0c19e">
+      <name>Группа6</name>
+      <description>Группа 6</description>
+      <code xsi:type="core:StringValue">
+        <value>6гр</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыНалоговогоУчетаОС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГруппыНалоговогоУчетаОС.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыНалоговогоУчетаОС.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="0fe3d41a-0e11-4fb5-8b97-022585ef6a70">
+    <name>ВидУчетаВГруппеОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учета в группе ОС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыНалоговогоУчетаВГруппахОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b55c0641-4c08-41da-b5a1-ca78aa990614">
+    <name>удалитьНормаАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить норма амортизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8a77f1a-6aec-4c40-b4ce-d3eafc3962bf">
+    <name>удалитьНормаАмортизацииДополнительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма амортизации (доп.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для объектов группы 5 после 20 лет эксплуатации.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="59ebb89e-909c-4c78-bb50-0702ddddc516">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="991460ce-a173-4437-9b2e-518008995050">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9ba4032b-3c78-492b-a8b9-615940dacc52">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="9cfd3fb3-250f-42e0-8345-8f4d7d9ca2a9">
+    <name>удалитьМакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70439abf-d4ba-46f5-a35d-bbff73294694">
+  <producedTypes>
+    <managerType typeId="d156963a-fe6b-4af1-a588-da799022b721" valueTypeId="e4ba0b56-ebd5-4048-86a8-f22998e7c51d"/>
+    <valueManagerType typeId="f50b359f-f70f-44d8-b9f7-c14f5f4ad16a" valueTypeId="e998914e-6c25-4f94-bd5f-bc212c4f9ccc"/>
+    <valueKeyType typeId="20757b21-6fe4-5bd5-a715-5ef7dcc204cd" valueTypeId="d9971d4a-d2be-598a-bf3f-f596b2c0bb4d"/>
+  </producedTypes>
+  <name>ИспользоватьНесколькоНоменклатурныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько номенклатурных групп</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

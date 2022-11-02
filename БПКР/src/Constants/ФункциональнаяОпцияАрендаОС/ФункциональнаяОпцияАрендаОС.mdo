@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd672437-2c1f-4a60-978f-02c0553e0a0f">
+  <producedTypes>
+    <managerType typeId="4ccffc1d-13bb-49a6-ae22-8aec3aabda48" valueTypeId="5cca5807-aa46-4836-888e-e1e28b99d1ec"/>
+    <valueManagerType typeId="3b3c6fc2-593c-480e-adae-78a05f3b0a25" valueTypeId="5b76b587-7226-4c7d-84bb-95d425e138bc"/>
+    <valueKeyType typeId="342e628b-8c73-4aa0-a4bc-0175d310e784" valueTypeId="e92d98cd-f5f5-4ebd-85d7-7b65bfcaa826"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияАрендаОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда ОС</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

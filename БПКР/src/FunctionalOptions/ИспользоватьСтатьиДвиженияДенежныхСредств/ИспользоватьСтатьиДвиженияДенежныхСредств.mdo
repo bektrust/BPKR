@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1342744a-1f9d-4686-9c1a-3ab7a7b89055">
+  <name>ИспользоватьСтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать статьи движения денежных средств</value>
+  </synonym>
+  <location>Constant.ИспользоватьСтатьиДвиженияДенежныхСредств</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПриходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.РасходныйКассовыйОрдер.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.РасходныйКассовыйОрдер.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Catalog.СтатьиДвиженияДенежныхСредств</content>
+  <content>Document.ПлатежноеПоручениеВходящее.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.ПлатежноеПоручениеВходящее.TabularSection.ПрочиеПлатежи.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.TabularSection.ПрочиеПлатежи.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.Attribute.СтатьяДвиженияДенежныхСредствКомиссияБанка</content>
+  <content>Document.ПлатежноеПоручениеИсходящее.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.РасходныйКассовыйОрдер.TabularSection.ПрочиеПлатежи.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Document.ПриходныйКассовыйОрдер.TabularSection.ПрочиеПлатежи.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Catalog.НастройкиРегламентированныхОтчетов.TabularSection.НастройкиСтрокОДДСПоСтатьям</content>
+  <content>Document.РегламентированныйОтчет.TabularSection.НастройкиСтрокОДДСПоСтатьям</content>
+  <content>Document.РегламентированныйОтчет.TabularSection.Расшифровка.Attribute.СтатьяДвиженияДенежныхСредств</content>
+  <content>Report.РасшифровкаДвиженияДенежныхСредств</content>
+  <content>Report.КонтрольЗаполненияСтатейДвиженияДенежныхСредств</content>
+  <content>Document.ОплатаПлатежнойКартой.TabularSection.РасшифровкаПлатежа.Attribute.СтатьяДвиженияДенежныхСредств</content>
+</mdclass:FunctionalOption>

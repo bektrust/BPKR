@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64ad0d6c-ca92-4d7c-9f8e-5e807e12ef53">
+  <name>ОтчетНСП_STI129_Достек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет НСП STI 129 достек</value>
+  </synonym>
+  <namespace>http://www.dostek.kg/FORMDOSTEKSTI129</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cc887bf-6fee-4b73-80cf-6a27216b2a99">
+  <producedTypes>
+    <refType typeId="e47d7814-f7a3-4ae0-a88e-61eef009f24b" valueTypeId="4319093c-257e-4944-adac-4e6a12f10f79"/>
+    <listType typeId="b3592d20-36ac-441b-aac8-3327fc650096" valueTypeId="a8995f46-f1a6-4756-a7e8-6ccfaf55f1f3"/>
+    <managerType typeId="1d1cf57f-720a-477e-9b49-8e76b52c67e8" valueTypeId="25718055-8771-451e-adfc-1d2e3c11060e"/>
+  </producedTypes>
+  <name>МетодыРасчетаСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы расчета СФ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="66edf288-d03d-449d-ab60-6222f1338796">
+    <name>СЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СЗП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="213eeab2-a130-4a0b-a189-97a29475743f">
+    <name>Начислено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b624d480-7e2f-464e-bb98-7bc6f5a20d51">
+    <name>НачисленоБольшеСЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начислено больше СЗП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6477f7e-a918-4bc6-8780-4b7cb4a66acd">
+    <name>ПроцентОтСЗП</name>
+    <synonym>
+      <key>ru</key>
+      <value>% от СЗП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

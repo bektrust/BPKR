@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Document.ПоступлениеТоваровУслуг.StandardCommand.OpenList</commands>
+      <commands>Document.ДополнительныеРасходы.StandardCommand.OpenList</commands>
+      <commands>Document.СчетФактураПолученный.StandardCommand.OpenList</commands>
+      <commands>Document.ГТДПоИмпорту.StandardCommand.OpenList</commands>
+      <commands>Document.Доверенность.StandardCommand.OpenList</commands>
+      <commands>Document.ВозвратТоваровПоставщику.StandardCommand.OpenList</commands>
+      <commands>Document.КорректировкаСтоимостиПоступления.StandardCommand.OpenList</commands>
+      <commands>Document.ЗаявлениеОВвозеТоваров.StandardCommand.OpenList</commands>
+      <commands>Document.СчетНаОплатуПоставщика.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.СведенияПоПоказателямИмпорта.StandardCommand.OpenList</commands>
+      <commands>Document.УведомлениеОПолученииТоваров.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

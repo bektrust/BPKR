@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b26462ad-454a-43e8-a050-06ce75ddcd52">
+  <name>ImportStatement</name>
+  <synonym>
+    <key>ru</key>
+    <value>Import statement</value>
+  </synonym>
+  <namespace>http://sti.gov.kg:88/content/EFZoVT</namespace>
+</mdclass:XDTOPackage>

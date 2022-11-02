@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="769dadc6-1cc5-4a17-8d8d-f3b936415074">
+  <producedTypes>
+    <objectType typeId="2d87d727-57ec-4eee-9226-3ec8f3e25769" valueTypeId="5e5097f6-b6f1-4910-aa41-e6a4d9514610"/>
+    <managerType typeId="1f58b6e5-a43b-45b2-911d-60479195c946" valueTypeId="d00ca8d8-a589-44b2-8de2-dbfa9454cd2c"/>
+  </producedTypes>
+  <name>ПодборНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор номенклатуры в документах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПодборНоменклатуры.Form.СведенияОДокументе</defaultForm>
+  <attributes uuid="5c630976-0199-4f8f-9d54-75b292e53a60">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1df2829d-aefd-47fb-9a32-eaa89c569599">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="832e385a-4575-485b-94aa-c9ad42c6ce6a">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>DataProcessor.ПодборНоменклатуры.Attribute.Организация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="91812a51-a35d-48fe-b540-49769f87e477">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОЛ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Организация</name>
+      <field>DataProcessor.ПодборНоменклатуры.Attribute.Организация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="6d0f1d86-3394-442a-87f6-16a71d6c0e6f">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a6ef1e9a-e17d-4fd9-ba88-39e32441f0e8">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.ПодборНоменклатуры.Attribute.Организация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="16c6fab0-f740-4aa3-8a94-f8c1d60e8c8f">
+    <name>УникальныйИдентификаторФормыВладельца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уникальный идентификатор формы владельца</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="77c93e29-3dd4-4e59-881c-f04091e9254b">
+    <name>СписокПодобранных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список подобранных</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bdc6881e-3e0b-4863-880a-0fc564efd194">
+    <name>ГруппаНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+  </attributes>
+  <attributes uuid="2e6f724c-5240-4145-9916-75f2d70ad046">
+    <name>ТипЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип цен</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипыЦенНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="052f89a4-f15e-4bc1-886c-1554aa23f190">
+    <name>ЭтоДокументПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это документ поступления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aff980ac-abc9-4aa6-91bc-de004367141c">
+    <name>ТолькоПоложительныеОстатки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать только положительные остатки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="60d3e989-e7b1-4067-92fe-da4e7953b5c2">
+    <producedTypes>
+      <objectType typeId="b6409e8a-afeb-4cfc-b365-dfbf70f5cb50" valueTypeId="b2dc827c-6f21-4b0e-9625-41f6892e223e"/>
+      <rowType typeId="69c08edf-c6f1-4970-8828-1d50f7811a69" valueTypeId="04f384af-ffe8-4474-83d6-498e40a60254"/>
+    </producedTypes>
+    <name>Корзина</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8036433c-9640-4288-abc4-0ea11933b566">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:ReferenceValue"/>
+    </attributes>
+    <attributes uuid="661fb423-31c7-406d-a0ba-c67af06cd781">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b6d29e3a-b584-439b-b01d-8ed4fe2577ff">
+      <name>Цена</name>
+      <synonym>
+        <key>ru</key>
+        <value>Цена</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>18</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:NumberValue">
+        <value>0</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="87ee6f8f-c815-4313-b96c-939fbf165bee">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="13a8a5b4-4cd0-4370-b56f-668f7d12ef07">
+      <name>СчетУчета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счет учета</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.Хозрасчетный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameters>
+        <name>Отбор.Забалансовый</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="55600a58-ea7e-46ce-ac0f-0cfeb7c96f12">
+    <name>КорзинаПоступления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина поступления</value>
+    </synonym>
+    <comment>Подбор номенклатуры для документов поступления.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e91c4fa9-eaa7-4da8-950b-53ad4167e72a">
+    <name>КорзинаСписания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина списания</value>
+    </synonym>
+    <comment>Подбор номенклатуры по складам с остатками.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="700267c6-99e1-431d-98eb-760d65231e81">
+    <name>КорзинаРеализации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина реализации</value>
+    </synonym>
+    <comment>Подбор номенклатуры по складам, с остатками и по типу цен.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d761fe0-34f3-4741-8eac-a597a374a217">
+    <name>КорзинаУстановкаЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина установка цен</value>
+    </synonym>
+    <comment>Подбор номенклатуры для документов установки цен.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="28545c4c-031a-4a30-98b4-7a9b7502c640">
+    <name>КорзинаДвиженияМБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина движения МБП</value>
+    </synonym>
+    <comment>Подбор МБП по складу или МОЛ.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9981555d-3411-4d2f-99f4-5fa3f8389563">
+    <name>КорзинаСписанияКонтрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корзина списания контрагент</value>
+    </synonym>
+    <comment>Подбор номенклатуры по складам по контрагентам с остатками.</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fe5a5f88-e86d-44b4-b8e2-5508a35a96c2">
+    <name>СведенияОДокументе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о документе</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f00d7eda-9002-4ad4-a5ec-2217126a03cc">
+    <name>КоличествоИЦена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество и цена</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2f707332-060d-4c89-b23d-9196473cdea4">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

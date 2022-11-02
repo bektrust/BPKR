@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2cb8fb7f-cdb3-4042-a86a-6663b38cebed">
+  <producedTypes>
+    <refType typeId="2d6ddecf-4253-4f8b-9c6d-1bd03742fcf8" valueTypeId="2e7949e7-31a7-46fa-88f7-2da66af91e9b"/>
+    <listType typeId="d49a159b-7c31-47aa-a313-dbcc31a05053" valueTypeId="add9f3d9-48c6-4dce-99e3-2cb8b050e056"/>
+    <managerType typeId="1a4c2f18-3063-4103-85ea-7e35e12a06bb" valueTypeId="c392beb2-85d0-4a46-9129-59b0e01cdf00"/>
+  </producedTypes>
+  <name>НеполныеМесяцы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неполные месяцы</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4b6a551d-4606-4a69-a17b-034300bfb182">
+    <name>НеИзменять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не изменять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90df230f-fa86-4a63-9ceb-72bdb91e7e76">
+    <name>Дополнять</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнять</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e83f9549-29b0-4f45-b238-fdae47d9ea57">
+    <name>Отбрасывать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбрасывать</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

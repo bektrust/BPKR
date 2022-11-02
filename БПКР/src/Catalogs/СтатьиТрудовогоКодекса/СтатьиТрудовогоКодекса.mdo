@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ca599dd-3975-4f58-8323-f75c3cb76831">
+  <producedTypes>
+    <objectType typeId="24bc2be1-09fe-4c37-a5e0-51ab2c600465" valueTypeId="cd06b97f-959d-4b10-b250-929fecb5a29d"/>
+    <refType typeId="99d03e2e-f4bc-48ed-8c84-85e12c1850bc" valueTypeId="0f4a6de3-484d-4c5c-813b-9544e8229ef4"/>
+    <selectionType typeId="578812f5-7173-47fb-9a20-1e3c92bfd11b" valueTypeId="3fae93ea-5706-41b6-8a53-50988fac2e5a"/>
+    <listType typeId="223dc2d9-8221-4f11-956b-f281f76028b6" valueTypeId="fd8ae6a2-4e41-4b8d-af82-6771d8d44ae6"/>
+    <managerType typeId="559c6fd7-3664-4db4-bc39-b35815d13ac5" valueTypeId="cc82f13f-4ed4-429a-990f-39e73424b78c"/>
+  </producedTypes>
+  <name>СтатьиТрудовогоКодекса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статьи трудового кодекса</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтатьиТрудовогоКодекса.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Статья трудового кодекса</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Основания увольнения по трудовому кодексу</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтатьиТрудовогоКодекса.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.СтатьиТрудовогоКодекса.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="4d40f6f6-6464-4121-ba5e-b09361afccb5">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>350</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="726ccea9-7838-4ff5-886a-c26e1fc4b0b4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="884a22e7-785f-40ec-9c33-7f664a5b22df">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="69be9918-d93a-49eb-91b6-79ece2d84ce3">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Constant.ФункциональнаяОпцияПрефиксКассыИБанковскогоСчета.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <commandsOrder>
+    <orderFragments>
+      <group>NavigationPanelOrdinary</group>
+      <commands>Catalog.ВидыОтветственныхЛиц.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ОтветственныеЛицаОрганизаций.StandardCommand.OpenList</commands>
+      <commands>InformationRegister.ОтветственныеЛицаОрганизацийДляПечати.StandardCommand.OpenList</commands>
+      <commands>DocumentJournal.ЖурналВсехДокументов.StandardCommand.OpenList</commands>
+    </orderFragments>
+  </commandsOrder>
+</cmi:CommandInterface>

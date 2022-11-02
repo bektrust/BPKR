@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e77e1e21-aafe-40ac-8d16-5ab2f1f399ad">
+  <name>ПлательщикЗН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плательщик ЗН</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.ПлательщикЗН</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗемельныйНалог</content>
+  <content>Catalog.Области.TabularSection.удалитьШкалаСтавкиОтЧисленности</content>
+  <content>Catalog.Районы.TabularSection.удалитьСтавкиЗемельногоНалога</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.РасчетЗемельногоНалога</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.НадписьРасчетЗемельногоНалога</content>
+  <content>Catalog.КоэффициентыКоммерческогоИспользования</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d735427-5e2e-4369-b6bb-749c047337b6">
+  <producedTypes>
+    <managerType typeId="7ff370cb-23ed-45c7-b30f-b14a16a99624" valueTypeId="c718ffb4-907f-4564-b3d2-dad05d9b6975"/>
+    <valueManagerType typeId="46cee515-8818-4d96-ad21-85b97f6f4dec" valueTypeId="d49f1b23-98bd-4f89-b86d-5ba38f7fae2a"/>
+    <valueKeyType typeId="1b89fb8d-b443-5eab-9635-43b70f67fb97" valueTypeId="b8a53310-22e2-5872-94ee-6490b1c19936"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияУчетДвиженияОСПоМОЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет движения ОС по МОЛ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

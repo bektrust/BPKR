@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d923aca-0060-470c-b495-a75241b08370">
+  <producedTypes>
+    <managerType typeId="5468d7eb-8f7b-4c03-b3f2-fc0db7989c44" valueTypeId="c7644da2-cca3-45d7-92f6-23fe19aaaf9a"/>
+    <valueManagerType typeId="745d5c4b-ea87-4fab-96b0-a40d7b00196a" valueTypeId="5867289d-dc81-436f-9738-69524a91d90a"/>
+    <valueKeyType typeId="0b445dd2-f348-56a1-8701-7e1c8096fc85" valueTypeId="feca4ab1-89ad-5b51-acbc-ada9dfd44bd9"/>
+  </producedTypes>
+  <name>ИнтерфейсТакси</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейс Такси</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

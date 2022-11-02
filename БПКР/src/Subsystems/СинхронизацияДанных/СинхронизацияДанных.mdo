@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="564ba331-cae2-4ae5-a78d-321df01989b4">
+  <name>СинхронизацияДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация данных</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>CommonModule.МенеджерОбменаЧерезУниверсальныйФормат</content>
+  <content>ExchangePlan.СинхронизацияДанныхЧерезУниверсальныйФормат</content>
+</mdclass:Subsystem>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e15e3740-4445-4e25-9f18-1dbf2fca38c6">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Валюты</content>
+  <content>Catalog.Кассы</content>
+  <content>Catalog.Банки</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Enum.ВариантыВыводаМесяцаВДатеДокумента</content>
+  <content>Catalog.СтатьиДвиженияДенежныхСредств</content>
+  <content>Catalog.КодыПлатежей</content>
+  <content>Catalog.ОперацииБанкКасса</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

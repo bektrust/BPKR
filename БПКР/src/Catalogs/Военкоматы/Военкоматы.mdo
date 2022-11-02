@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2284ca4c-b7cf-425d-92e6-c156274fe4da">
+  <producedTypes>
+    <objectType typeId="7164101c-71e9-494a-8a89-a354e3f0a26a" valueTypeId="0dd7eefc-233e-4abe-81c9-229a14bcb108"/>
+    <refType typeId="5de3f143-a08e-41a9-b236-92aab5be2900" valueTypeId="9c3f4785-501a-44ca-9066-f8981edfa270"/>
+    <selectionType typeId="8008f93a-a721-4ddd-980b-bec7cf4774ec" valueTypeId="46597d30-643c-40a1-805b-fc1c15b53726"/>
+    <listType typeId="7551b70e-61e7-4dae-ab1d-48d05a12c1fe" valueTypeId="3d07a46f-ec38-4045-98e4-acd3d8790717"/>
+    <managerType typeId="f51e3f02-0b3f-43e3-b03c-382e6055c172" valueTypeId="24dd7f31-7cea-4993-a217-0c13623674d6"/>
+  </producedTypes>
+  <name>Военкоматы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Военкоматы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Военкоматы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Военкомат</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

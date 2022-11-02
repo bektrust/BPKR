@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ExchangePlan xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6cc59995-c61e-40a0-97a2-6ad511777a5b" thisNode="318b9dcc-7d12-410f-b77a-35105ec7cd0d">
+  <producedTypes>
+    <objectType typeId="a2382a93-9d30-4af6-884e-587538663014" valueTypeId="e5473474-7b0f-44fb-8bd3-748bab54fce5"/>
+    <refType typeId="c0b6cb85-d439-4846-8a1f-e4dfa80051be" valueTypeId="0cb322b7-bf0a-43da-a01e-6c4c09da2670"/>
+    <selectionType typeId="3bd5d61b-2c45-4825-b7f1-d4f2cf4a12a7" valueTypeId="05f86c86-d247-47fb-8cc7-326abe0928ac"/>
+    <listType typeId="cf1a7446-aa34-4f24-85d8-4bf8b0875ef3" valueTypeId="f3c0c561-cbb3-4616-9e0a-a3c0af7ca180"/>
+    <managerType typeId="10d0e079-3df2-4030-a1b5-cf0f3a63f6ab" valueTypeId="14151d6c-e09e-4b80-ad57-e4eeb988d0bc"/>
+  </producedTypes>
+  <name>СинхронизацияЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синхронизация ЭСФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ExchangePlan.СинхронизацияЭСФ.StandardAttribute.Description</inputByString>
+  <inputByString>ExchangePlan.СинхронизацияЭСФ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <content>
+    <mdObject>Catalog.Номенклатура</mdObject>
+    <autoRecord>Allow</autoRecord>
+  </content>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ExchangePlan>

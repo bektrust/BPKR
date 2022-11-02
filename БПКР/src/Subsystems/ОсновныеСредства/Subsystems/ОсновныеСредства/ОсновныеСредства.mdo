@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f272236d-e2ce-47e2-9672-cb38b61f5ef4">
+  <name>ОсновныеСредства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные средства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.СписаниеОС</content>
+  <content>Document.ПринятиеКУчетуОС</content>
+  <content>Document.МодернизацияОС</content>
+  <content>Document.ИнвентаризацияОС</content>
+  <content>Document.ПеремещениеОС</content>
+  <content>Document.ВыработкаОС</content>
+  <content>Document.РеализацияТоваровУслуг</content>
+  <content>Document.КомплектацияОС</content>
+  <parentSubsystem>Subsystem.ОсновныеСредства</parentSubsystem>
+</mdclass:Subsystem>

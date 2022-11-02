@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="558dc6db-57d3-4076-b319-2ee786ff8105">
+  <name>КонтрольНеразделенныхОбъектовПриЗаписиБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контроль неразделенных объектов при записи (БП)</value>
+  </synonym>
+  <source>
+    <types>ConstantValueManager.ДатаТекущейВерсии</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.РаботаВМоделиСервиса.КонтрольНеразделенныхОбъектовПриЗаписи</handler>
+</mdclass:EventSubscription>

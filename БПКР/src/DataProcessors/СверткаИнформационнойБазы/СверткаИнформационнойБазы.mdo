@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f85af0d-c06a-41a0-94bc-1361f7648447">
+  <producedTypes>
+    <objectType typeId="5c267162-b4be-4385-986a-80bb73e09825" valueTypeId="9f86b00d-e036-4b72-a0d2-d9cd15d0baa7"/>
+    <managerType typeId="5b3389d0-4d79-468b-857a-4bac2f240788" valueTypeId="5a02b0df-e6b0-4ddd-bb3d-6d3b75fd4fa0"/>
+  </producedTypes>
+  <name>СверткаИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свертка информационной базы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.СверткаИнформационнойБазы.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="760a6ff4-9510-47cd-a13c-485707e37f66">
+    <name>ПериодСвертки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период свертки</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ДФ=гггг</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ДФ=гггг</value>
+    </editFormat>
+    <minValue xsi:type="core:StringValue">
+      <value>1900</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>2100</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="70a90348-b17b-4203-8d7b-3f7681dd9bdc">
+    <name>Организации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6c2a04d8-83e8-4c3d-a08a-192ace16933c">
+    <name>ВариантСвертки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант свертки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>0</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>1</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="b7af7b42-80ca-46d0-a47d-ad4076fc7d57">
+    <name>ИмяАдминистратораИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Администратор</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b78e8236-1903-47ca-a6f9-5b802c147e8d">
+    <name>ИмяКаталогаРезервнойКопииИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог резервной копии ИБ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="8e611d42-40b0-45e6-b5ed-390781473464">
+    <name>ПарольАдминистратораИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="33fcda41-efd2-4def-8ce7-78584f08ffa2">
+    <name>ТекущийЭтапСвертки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текущий этап свертки</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7908767f-8491-4f30-b189-a357dfb3348d">
+    <name>РезервнаяКопияСоздана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервная копия создана</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f683b366-d3b5-493e-a3b4-3f0d19d54b54">
+    <name>ПоказательБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>БУ (данные бухгалтерского учета)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ceac756-48f8-4849-aafe-3a170b3e1af3">
+    <name>ПоказательНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>НУ (данные налогового учета)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd6a108d-23af-424d-a1cb-fce7ad75daab">
+    <name>ПоказательПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПР (данные по учету постоянных разниц)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3608158c-73df-444c-a6bf-4f2af7146a79">
+    <name>ПоказательВР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР (данные по учету временных разниц)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a2cc667-be12-42d3-a8b5-7b9d6b71d191">
+    <name>ТипДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="ffbf533d-2019-41bf-81a7-c5a28c34bf41">
+    <name>ТолькоВыбранныеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только выбранные организации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="25d37151-62ec-4567-8ae7-a8e3a8114de1">
+    <name>СоздатьРезервнуюКопию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создать резервную копию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5eb9bb1-63ca-453e-9094-9e9a5750b5d5">
+    <name>РекомендуемыеПараметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендуемые параметры</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="91e19170-1f5d-4480-9494-85b59e7a3889">
+    <name>УстановитьДатуЗапретаИзмененияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить дату запрета изменения данных (рекомендуется)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="b226a7bc-932e-45bc-9659-8647ee26cd3f">
+    <producedTypes>
+      <objectType typeId="5e04d664-6e98-47be-b7c7-0ad3a9ec68da" valueTypeId="48be4321-120c-4819-a6b4-f9cc848a93d0"/>
+      <rowType typeId="e48a5d08-5b3c-499e-8e78-8cca2501a3d5" valueTypeId="91314b53-9a58-4fdc-b1b5-c1c31c2d702b"/>
+    </producedTypes>
+    <name>СпособыСверткиОбъектовМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способы свертки объектов метаданных</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5234f578-3520-4db2-b36c-d9e9861a3f80">
+      <name>ТипОбъектаМД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип объекта МД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="926d875a-7527-44f6-934a-a482af77b137">
+      <name>ОбъектМД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект МД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2f1c215f-5317-49c8-bf10-2a4c32b884fd">
+      <name>ОбъектМДСиноним</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1cbd1968-bdca-4324-b6b2-e3dc1081228f">
+      <name>СпособСвертки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Действие</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ee40be18-4970-4821-b80d-143b8f0e8d62">
+      <name>УстаревшаяНастройка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Устаревшая настройка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="23069395-b934-46dd-817f-9a23ba8e48ad">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6956cb99-db3f-40be-8753-c2c6ffa027c8">
+    <name>МакетФайлаСверткиИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет файла свертки информационной базы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c137965b-8249-4533-a56c-490dc01372d1">
+    <name>ДопФайлСверткиИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доп файл свертки информационной базы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="6562eece-8ede-4f46-90bd-2a0e72487214">
+    <name>ЗаставкаСверткиИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заставка свертки информационной базы</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="49bba48d-4e76-466d-baa1-8ba47ef8c32a">
+    <name>ПроверкаСозданныхДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка созданных документов</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="d15dba84-b5b0-4be6-ba92-f56da349dee0">
+    <name>ПроверкаОстатковПоРегистрам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка остатков по регистрам</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="bef7079c-f8ec-4002-801b-adf6220e6d3e">
+    <name>РекомендуемыеНастройкиРегистровБП30</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рекомендуемые настройки регистров  БП 3.0</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

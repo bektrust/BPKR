@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fd6cd0b8-921b-4d90-8a11-94670d78052b">
+  <name>УчетПроизводстваПоЗаказам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет производства по заказам</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетПроизводстваПоЗаказам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СпецификацииНоменклатуры.TabularSection.ИсходныеКомплектующие.Attribute.Операция</content>
+  <content>Catalog.ПроизводственныеОперации</content>
+  <content>Document.ЗаказНаПроизводство</content>
+  <content>Document.ЗакрытиеЗаказовНаПроизводство</content>
+  <content>Document.ОтчетПоПроизводству</content>
+  <content>Subsystem.Производство</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.РасчетСтоимостиПродукцииПоЗаказам</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.НадписьРасчетСтоимостиПродукцииПоЗаказам</content>
+</mdclass:FunctionalOption>

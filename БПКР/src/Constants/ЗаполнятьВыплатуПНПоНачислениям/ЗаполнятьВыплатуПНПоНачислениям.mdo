@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98464c10-6857-4fbd-8b1d-ab5f75fa703c">
+  <producedTypes>
+    <managerType typeId="16c24d27-a887-4384-a234-c2193b5a8270" valueTypeId="fe3bd025-d09f-475a-b1a5-07c470237184"/>
+    <valueManagerType typeId="e35920fe-195c-47e3-8c04-54a572dccead" valueTypeId="72314aa0-d004-4a33-8a77-985438ec42ec"/>
+    <valueKeyType typeId="da4fd321-f5b7-4d04-a4a3-f1fba09bb801" valueTypeId="ade08372-fbb7-4f36-8614-c965f43cc8e5"/>
+  </producedTypes>
+  <name>ЗаполнятьВыплатуПНПоНачислениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнять выплату ПН по начислениям</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

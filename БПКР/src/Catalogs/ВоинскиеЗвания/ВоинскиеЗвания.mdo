@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1443730-7bf8-491e-907b-2e6df9f921e8">
+  <producedTypes>
+    <objectType typeId="e512e4c3-79b6-43b5-ba9d-ad7590e6afbb" valueTypeId="ee32d2f4-90c8-47ea-afac-8a91b65a3cb1"/>
+    <refType typeId="9ee7b68f-d066-4576-9d87-84a9103e90a6" valueTypeId="98b503ff-2982-4f23-a73a-c73354983de2"/>
+    <selectionType typeId="14527636-ff28-4587-80d2-b915f5413a0c" valueTypeId="f93a7a0f-64b9-44fb-abf2-b0257ca8bb87"/>
+    <listType typeId="e2528cbc-ddd3-4a0a-915b-edd1533ae6e3" valueTypeId="5a5286b6-de6a-4e53-98bf-b9242bc75ab1"/>
+    <managerType typeId="2deee507-6e6f-4654-ad4b-fd787c1e58d6" valueTypeId="5043cb18-9491-4dd4-97b5-61846448f3ca"/>
+  </producedTypes>
+  <name>ВоинскиеЗвания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Воинские звания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВоинскиеЗвания.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Воинское звание</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6423a007-2d89-4082-8128-5bfef3ac783d">
+  <producedTypes>
+    <refType typeId="44ef8364-9161-441d-ad7c-afef6a5fa79d" valueTypeId="1d2b2f1b-288a-41d6-91bd-bb73fee123a5"/>
+    <listType typeId="6dfc5685-1aec-4ff1-8732-042fd76d49c5" valueTypeId="d2138e06-bc99-40da-978a-3bb412f5ad10"/>
+    <managerType typeId="412c9214-7c83-4930-a3e8-68db7ef7fcdb" valueTypeId="833ef940-cb0d-48f1-81d0-6d4a77a1d3a4"/>
+  </producedTypes>
+  <name>РазделыПерсонализированныхДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы персонализированных данных</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="980ea11f-174d-475b-9f77-bbbe7f0a920e">
+    <name>КоличествоКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество контрагентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2a226c2-6aa5-4336-b9bd-0c636bda4a4a">
+    <name>Сервис1СКонтрагентПодключен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис 1С:Контрагент подключен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d81ba8c-93aa-4040-aea7-24c41aca4157">
+    <name>КоличествоСчетовНаОплату</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество счетов на оплату</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

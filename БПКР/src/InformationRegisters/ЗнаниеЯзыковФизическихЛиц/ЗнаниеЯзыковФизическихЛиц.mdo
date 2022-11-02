@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="67bfded3-b9f9-40be-b3e5-80e7719fbc38">
+  <producedTypes>
+    <selectionType typeId="047db44a-72d7-4725-b58c-9b79fd7b2067" valueTypeId="d29c06b7-9afd-4dba-b547-092bb5979f9b"/>
+    <listType typeId="560b6e60-7c48-4ef7-ad8c-f80b22d00c95" valueTypeId="b706afb2-f6fa-4b2c-80b7-cd2e1c8906bf"/>
+    <managerType typeId="fa1fcf86-0af8-4976-97b4-5b1daaa41526" valueTypeId="39863d82-e826-4ccf-a3a4-a17a9ec34679"/>
+    <recordSetType typeId="412d3d36-b0e3-40b3-ac81-04f81bdbcf49" valueTypeId="e413e53c-d68d-4943-b2ae-74539e7b5286"/>
+    <recordKeyType typeId="1d1f4d4b-f4c7-4f89-b59b-9e3de4d7ec53" valueTypeId="37f95666-68bf-4547-b14c-bc4e87668426"/>
+    <recordType typeId="a4ee8508-acea-404e-98d5-0ca331d587e3" valueTypeId="26107dcc-a1e2-41e3-86b9-6946f86aeb99"/>
+    <recordManagerType typeId="3555ef23-7396-430d-89ab-543128b3c86d" valueTypeId="ad9cb71c-22bb-4add-bd67-eebe64c47691"/>
+  </producedTypes>
+  <name>ЗнаниеЯзыковФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Знание языков физических лиц</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a864a020-cb99-479a-9a1a-c1b5b2d32a4b">
+    <name>СтепеньЗнанияЯзыка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень знания языка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтепениЗнанияЯзыка</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e6cbb8fa-2cf5-40f4-a328-5a078ab29c13">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="45e455a9-69f0-4783-9735-94ca882008d4">
+    <name>Язык</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЯзыкиНародовМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e1006a9b-7e93-4e92-a2cf-5cfa8e8f5b66">
+    <name>ФормаНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f62fece-fb1a-4115-b33d-7b80ec01ade2">
+  <producedTypes>
+    <objectType typeId="d9d75389-fd8c-4b9b-8815-628f835c067c" valueTypeId="8e8dd6a2-8f8e-4720-98b2-f19fad673262"/>
+    <refType typeId="44298813-cfad-4f63-8309-511f93347ab1" valueTypeId="b8f65d4e-b3a0-4c79-9c34-ea8495f3718f"/>
+    <selectionType typeId="9347ae3d-7d92-41f3-b68d-426dca0f8f5c" valueTypeId="fcdd3c98-d3b4-4a4e-82af-7b021082227c"/>
+    <listType typeId="165f658f-ac1b-4aec-af2e-5f1ffd67caa3" valueTypeId="c74394b8-09c9-4628-817f-01b30b0a82d6"/>
+    <managerType typeId="f9f98a2d-0f9b-47d5-a0be-5a9233ac01a0" valueTypeId="48fcdbef-2ccb-4e10-a040-07f3bc03eef3"/>
+  </producedTypes>
+  <name>КатегорииСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории сотрудников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КатегорииСотрудников.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КатегорииСотрудников.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Категория</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Категории сотрудников для годового сообщения</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="2b795238-7326-4e06-b897-bfe021311d61">
+      <name>Сотрудники</name>
+      <description>Сотрудники</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+    <items id="f8025e9e-8756-479d-a279-4361f34ae91e">
+      <name>СотрудникиДо64_69</name>
+      <description>Сотрудники до 64/69  г.р.</description>
+      <code xsi:type="core:StringValue">
+        <value>001-64/69</value>
+      </code>
+    </items>
+    <items id="64597b03-f2c4-4aed-8e3b-7d9d47aed010">
+      <name>Пенсионеры</name>
+      <description>Пенсионеры</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
+    <items id="db3afe1d-1a14-4426-a1ec-f6a69dcaa1fd">
+      <name>ИностранныеГраждане</name>
+      <description>Иностранные граждане, временно пребывающие в КР</description>
+      <code xsi:type="core:StringValue">
+        <value>010</value>
+      </code>
+    </items>
+    <items id="ee440429-1c38-46aa-aa78-2e8472ed4737">
+      <name>ТрудовыеМигранты</name>
+      <description>Трудовые мигранты</description>
+      <code xsi:type="core:StringValue">
+        <value>020</value>
+      </code>
+    </items>
+    <items id="cf89cd47-420d-4d79-ab0c-deb3415fce77">
+      <name>Инвалиды1_2гр</name>
+      <description>Инвалиды 1-2 гр</description>
+      <code xsi:type="core:StringValue">
+        <value>100</value>
+      </code>
+    </items>
+    <items id="239e4135-e962-4d01-8cf7-40cac778e057">
+      <name>ИнвалидыВОВ1_2гр</name>
+      <description>Инвалиды ВОВ 1-2 гр</description>
+      <code xsi:type="core:StringValue">
+        <value>101</value>
+      </code>
+    </items>
+    <items id="09950cbe-dbfe-4329-8cfa-f4191bc2e8a4">
+      <name>ИнвалидыВОВ3гр</name>
+      <description>Инвалиды ВОВ 3 гр</description>
+      <code xsi:type="core:StringValue">
+        <value>102</value>
+      </code>
+    </items>
+    <items id="1f9076d0-1192-425f-9870-53abc6ee704e">
+      <name>ЧастныеПредприниматели</name>
+      <description>Частные предприниматели</description>
+      <code xsi:type="core:StringValue">
+        <value>103</value>
+      </code>
+    </items>
+    <items id="52dc55bf-a0cd-4e10-9b09-cff905e36011">
+      <name>Арендодатели</name>
+      <description>Арендодатели</description>
+      <code xsi:type="core:StringValue">
+        <value>104</value>
+      </code>
+    </items>
+    <items id="699236a0-3e8d-4386-9d6c-f8f7dad60231">
+      <name>ГонорарыВознаграждения</name>
+      <description>Гонорары вознаграждения</description>
+      <code xsi:type="core:StringValue">
+        <value>105</value>
+      </code>
+    </items>
+    <items id="6e9c515f-d2f0-4d2b-86dc-49e7819d9212">
+      <name>МОП</name>
+      <description>МОП</description>
+      <code xsi:type="core:StringValue">
+        <value>106</value>
+      </code>
+    </items>
+    <items id="38ccd31f-8689-4f9a-9b63-eac3b4ae62c2">
+      <name>МОПДо64_69</name>
+      <description>МОП до 64/69 г.р.</description>
+      <code xsi:type="core:StringValue">
+        <value>106-64/69</value>
+      </code>
+    </items>
+    <items id="a5a96e07-f72a-451a-99ad-903fdc40b1ca">
+      <name>РаботающиеПенсионерыМОП</name>
+      <description>Работающие пенсионеры МОП</description>
+      <code xsi:type="core:StringValue">
+        <value>107</value>
+      </code>
+    </items>
+    <items id="c76839c6-68bc-44b4-b26f-5d429a9a0163">
+      <name>Прочие</name>
+      <description>Прочие</description>
+      <code xsi:type="core:StringValue">
+        <value>109</value>
+      </code>
+    </items>
+    <items id="d7481c80-095c-47ad-ad77-b1f3f187ba06">
+      <name>Инвалид1_2гр_Совместитель</name>
+      <description>Инвалид 1-2 группы (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>200</value>
+      </code>
+    </items>
+    <items id="0cead59f-2ad5-4918-ac98-70d6738272c3">
+      <name>Сотрудник_Совместитель</name>
+      <description>Основной сотрудник (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>201      </value>
+      </code>
+    </items>
+    <items id="032245b1-ddff-4319-b3e1-3b1863a2e78b">
+      <name>СотрудникиДо64_69_Совместитель</name>
+      <description>Основной сотрудник до 64/69 г.р. (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>201-64/69</value>
+      </code>
+    </items>
+    <items id="f5351ef3-f59c-4564-b78e-2a341231fcfa">
+      <name>ЛицаПриравненныеКУчастникамВОВ_Совместитель</name>
+      <description>Лица, приравненные к участникам ВОВ (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>202</value>
+      </code>
+    </items>
+    <items id="4b8092b0-6507-41d6-920a-82c341b355a4">
+      <name>Пенсионер_Совместитель</name>
+      <description>Пенсионер (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>203      </value>
+      </code>
+    </items>
+    <items id="fe24c738-719c-460a-bd18-b1d20d5def6d">
+      <name>Арендодатель_Совместитель</name>
+      <description>Арендодатель (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>204      </value>
+      </code>
+    </items>
+    <items id="f50476c7-5496-40b9-9db1-ed166338aa0c">
+      <name>ГонорарыВознаграждения_Совместитель</name>
+      <description>Гонорары, вознаграждения (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>205      </value>
+      </code>
+    </items>
+    <items id="11b56f0c-5c4b-46df-8d53-9fc38350a5b0">
+      <name>МОП_Совместитель</name>
+      <description>МОП(совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>206      </value>
+      </code>
+    </items>
+    <items id="d420028f-240f-4064-9eed-c4108519f459">
+      <name>МОПДо64_69_Совместитель</name>
+      <description>МОП (64/69 г.р.) (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>206-64/69</value>
+      </code>
+    </items>
+    <items id="cda8a2af-0c82-4923-b42e-ee491701f1d2">
+      <name>ПенсионерМОП_Совместитель</name>
+      <description>Пенсионер МОП(совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>207</value>
+      </code>
+    </items>
+    <items id="21ca1d1a-2e3e-4af4-a606-feb189e8afc1">
+      <name>ИностранныйГражданин_Совместитель</name>
+      <description>Иностранный гражданин (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>210</value>
+      </code>
+    </items>
+    <items id="dff8ead1-57e4-4b17-b04c-3a4a11fe0e98">
+      <name>ТрудовыеМигранты_Совместитель</name>
+      <description>Трудовые мигранты (совм)</description>
+      <code xsi:type="core:StringValue">
+        <value>220</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КатегорииСотрудников.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КатегорииСотрудников.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КатегорииСотрудников.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="be7e47fa-4f9c-4ec9-b123-184252d45ecb">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="64ce3346-fd47-4c8a-b7ae-800f7259f6bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8f464be4-3241-466a-8da2-192612ef43ad">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

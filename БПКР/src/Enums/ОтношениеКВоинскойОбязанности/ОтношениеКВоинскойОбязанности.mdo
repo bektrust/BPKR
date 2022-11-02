@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1362812e-1828-4eca-bace-7cd5f12ea9b7">
+  <producedTypes>
+    <refType typeId="7b6719d6-6a78-48cc-b0b7-af16fc358214" valueTypeId="a1e023e5-7f74-48be-82a4-99cb88952889"/>
+    <listType typeId="a33d1b87-1326-457c-8b8d-94fa4f337d72" valueTypeId="d8bbcb52-0fbc-4f42-b566-6963e9b6ea1e"/>
+    <managerType typeId="f9db47c1-b929-4f05-9e3b-5dc1b40a040b" valueTypeId="05ce583b-c523-46c4-868c-6afe73af8e82"/>
+  </producedTypes>
+  <name>ОтношениеКВоинскойОбязанности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отношение к воинской обязанности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c3ecef7f-da76-418f-a564-8d3f714d1212">
+    <name>Допризывник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допризывник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1ec588ee-7766-4f7b-80de-85f0b3618c14">
+    <name>Призывник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Призывник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8665fb6-73f6-4abf-8112-ac9cbb8d20c1">
+    <name>Военнообязанный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Военнообязанный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9bab31bc-becf-454c-ac96-c5135a8b0558">
+    <name>НеВоеннообязанный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не военнообязанный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

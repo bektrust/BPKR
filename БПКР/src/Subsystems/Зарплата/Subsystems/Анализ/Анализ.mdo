@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5658a283-4273-4ad3-acf6-3517db87cafa">
+  <name>Анализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ПанельОтчетовЗарплата</content>
+  <content>Report.СправкаОПодоходномНалоге</content>
+  <content>Report.ИзмененияОкладовСотрудников</content>
+  <content>Report.АнализРасходовНаОплатуТруда</content>
+  <content>Report.РасчетнаяВедомость</content>
+  <content>Report.СводНачисленийИУдержаний</content>
+  <content>Report.ШтатноеРасписание</content>
+  <content>Report.СписокСотрудников</content>
+  <content>Report.РасчетнаяВедомостьДетальный</content>
+  <content>Report.КадровыеИзменения</content>
+  <content>Report.ВедомостьНачисленияЗаработнойПлаты</content>
+  <content>Report.Табель</content>
+  <content>Report.РасчетныеЛистки</content>
+  <content>Report.СправкаОЗаработнойПлате</content>
+  <parentSubsystem>Subsystem.Зарплата</parentSubsystem>
+</mdclass:Subsystem>

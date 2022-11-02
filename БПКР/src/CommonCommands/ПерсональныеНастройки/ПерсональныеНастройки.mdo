@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e195923-80ae-48ff-a740-4d2bf41f6c1c">
+  <name>ПерсональныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные настройки</value>
+  </synonym>
+  <group>CommandGroup.Настройки</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

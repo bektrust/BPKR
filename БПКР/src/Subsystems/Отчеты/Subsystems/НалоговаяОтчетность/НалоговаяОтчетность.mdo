@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="29663571-9486-4310-84bf-b6eacfeebbc4">
+  <name>НалоговаяОтчетность</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоговая отчетность</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.РегламентированныйОтчетОДДС</content>
+  <content>Document.РегламентированныйОтчет</content>
+  <content>CommonCommand.РегламентированныйОтчетБаланс</content>
+  <content>CommonCommand.РегламентированныйОтчетОПУ</content>
+  <content>CommonCommand.РегламентированныйОтчетОИК</content>
+  <content>Document.ОтчетПоКосвеннымНалогам</content>
+  <content>Document.ОтчетПоНалогуНаМусор</content>
+  <content>Document.ОтчетПоБланкамСчетовФактур</content>
+  <content>Document.ОтчетПоНалогуНаИмущество</content>
+  <content>Document.ОтчетПоНДС</content>
+  <content>Document.ОтчетПоНСП</content>
+  <content>Report.УведомлениеОбОстаткеНеиспользованныхСерийИНомеровСчетовФактур</content>
+  <content>AccumulationRegister.КорректировкиНУ</content>
+  <content>Document.ЕдинаяНалоговаяДекларация</content>
+  <content>Document.ОтчетПоЕдиномуНалогу</content>
+  <content>Document.ОтчетОВзаимнойТорговлеЕАЭС</content>
+  <content>Document.ЗемельныйНалог</content>
+  <content>Report.СведенияОВыписанныхСчетахФактурахНДСПоОблагаемымПоставкам</content>
+  <content>Document.ТекущийРасчетНалогаНаПрибыль</content>
+  <content>InformationRegister.ПлатежиПоНалогуНаПрибыль</content>
+  <content>Document.ОтчетПоВыплатамИУдержаниямПН</content>
+  <content>Document.ОтчетыПоСоциальномуФонду</content>
+  <content>Document.ОтчетыПоПодоходномуНалогу</content>
+  <content>Enum.Тарифы</content>
+  <content>Document.ОтчетПоРоялти</content>
+  <content>Enum.ВидыОтчетаПоНалогам</content>
+  <content>Document.ОтчетПоЗакупочнымАктам</content>
+  <content>Constant.ФункциональнаяОпцияОтчетыВРазныеГНС</content>
+  <content>FunctionalOption.ОтчетыВРазныеГНС</content>
+  <content>Document.ОтчетыПоНалогамЗаработнойПлатыИТруду</content>
+  <content>AccumulationRegister.УбыткиПрошлыхЛет</content>
+  <content>XDTOPackage.ОтчетНСП_STI131_Достек</content>
+  <content>XDTOPackage.ОтчетНСП_STI130_Достек</content>
+  <content>XDTOPackage.ОтчетНСП_STI129_Достек</content>
+  <content>XDTOPackage.ОтчетНДС</content>
+  <content>XDTOPackage.ImportStatement</content>
+  <content>Document.ОтчетНалоговогоАгентаНДС</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

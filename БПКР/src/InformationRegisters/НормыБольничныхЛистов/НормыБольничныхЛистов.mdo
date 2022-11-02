@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e194886-efc4-437e-b19b-7c1178801c6f">
+  <producedTypes>
+    <selectionType typeId="f3a3e7ee-fbce-44f8-abba-290183a798f2" valueTypeId="d86809c4-b030-4016-8c75-b337533fa3b9"/>
+    <listType typeId="981fe3b0-4354-4911-a833-d3efc88b10c6" valueTypeId="fa1ef60d-534a-4c7c-a658-3b4d9a5c135f"/>
+    <managerType typeId="48794d74-db7d-441c-9cba-65623a4c8361" valueTypeId="4d31aebc-7076-4105-9483-1c1ff29254f1"/>
+    <recordSetType typeId="883ce0c5-f578-4230-aa8a-65c39ed39387" valueTypeId="a8592163-7077-4217-9a58-64490c1fc63c"/>
+    <recordKeyType typeId="20788e18-3e3a-4d6b-be17-801045d02873" valueTypeId="dcebccfb-167a-4908-b149-e7dfa58bd250"/>
+    <recordType typeId="c13df870-30b6-4f91-bbe0-ebddcd7d850f" valueTypeId="6bbfb6f2-50df-412f-a83e-9ee957436720"/>
+    <recordManagerType typeId="af5d81ce-4f19-44d4-870c-57af60de9103" valueTypeId="9e94bf5c-d17f-4694-9f82-1760898a148e"/>
+  </producedTypes>
+  <name>НормыБольничныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы больничных листов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НормыБольничныхЛистов.Form.ФормаЗаписи</defaultRecordForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="7de2caf1-524a-4dd4-aa32-356cd2e49e78">
+    <name>ДнейОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дней организации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество дней, оплачиваемых за счет организации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2e636c72-daf9-40d1-983b-5bef267810b2">
+    <name>Процент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Процент оплаты организации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4bec5ae5-1e48-4af5-bd56-30abfdf33a22">
+    <name>ПроцентБеременность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент беременность</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Процент оплаты организации при пособии по беременности</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="adf4d731-6316-4be9-a6c5-870935ab6ccd">
+    <name>РазмерЗаСчетСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер за счет СФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер для расчета начислений по больничному листу за счет социального фонда.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2c3e0c22-300a-4d67-83c8-41a3015701b3">
+    <name>РазмерБеременностьЗаСчетСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер беременность за счет СФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Размер для расчета начислений по больничному листу за счет социального фонда при пособии по беременности.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="66377476-046e-4759-a3cc-a30f89c306ff">
+    <name>НижняяГраница</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стаж</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Нижний порог количества лет общего стажа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="25f7a98a-3195-41d3-aa90-ecfceafdd87a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="afc72a9c-6e86-46e6-8d5b-5e2f16636231">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b3048b5-1ce2-4e7b-b48c-c9b4a3043ee4">
+  <producedTypes>
+    <objectType typeId="6627db1a-b31b-46c2-b3b4-15ba74c9ee9b" valueTypeId="1b719774-3d8a-48f2-b24e-a7f5239b7b62"/>
+    <refType typeId="f9e3fd37-8ac5-4476-b65a-cf77c6136fdd" valueTypeId="7c4775e9-b8cf-4a33-b823-ed75f570ff7d"/>
+    <selectionType typeId="9275adbb-af5f-4416-9d0e-de7be0e89a7a" valueTypeId="423aad10-8a06-4e0b-87a9-013c54dc51f2"/>
+    <listType typeId="d2fba3e0-4138-4e1f-9c62-4797c12688f7" valueTypeId="6cd27f4c-6909-4a55-ba71-06ba5793b9f6"/>
+    <managerType typeId="2b24b000-01ac-4541-afde-f114466b0755" valueTypeId="6bc45b81-cf3e-4b9e-bf05-e58eb67b6ed7"/>
+  </producedTypes>
+  <name>МетодыРасчетаОтпуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Методы расчета отпуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МетодыРасчетаОтпуска.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид отпуска</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Методы расчета отпуска</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МетодыРасчетаОтпуска.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.МетодыРасчетаОтпуска.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.МетодыРасчетаОтпуска.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="23cf74b6-23a8-48e7-836f-4c2ef6ab1761">
+    <name>НеполныеМесяцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неполные месяцы</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НеполныеМесяцы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак заполнения по неполностью отработанным месяцам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.НеполныеМесяцы.EnumValue.Отбрасывать</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2728b3e9-14cb-45db-ab21-35b0baa01b71">
+    <name>ВидРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид начисления отпуска</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.ВидыНачислений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.СпособРасчета</name>
+      <value xsi:type="core:FixedArrayValue">
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.СпособыРасчетаНачислений.EnumValue.ОплатаОтпуска</value>
+        </values>
+        <values xsi:type="core:ReferenceValue">
+          <value>Enum.СпособыРасчетаНачислений.EnumValue.Неявка</value>
+        </values>
+      </value>
+    </choiceParameters>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5d2e390c-7e63-48bf-bcb9-7674bfcfc1b2">
+    <name>ВидОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид отпуска</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыОтпусков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8b708eb4-95d8-4474-a777-aa68fdb044d7">
+    <name>ГрафикРаботы</name>
+    <synonym>
+      <key>ru</key>
+      <value>График</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ГрафикиРаботы</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>График работы сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="047c5816-c229-41ad-9a34-df0b80987e9e">
+    <name>КоэффициентРасчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэфф. расчета для начислений</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Коэффициент расчета для среднего заработка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>29.6</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f4bfb29-6794-4578-8962-c09ed72acdf2">
+    <name>РасчетПоРабочимДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет по рабочим дням</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ab830115-af2d-4420-b6d5-652b1fbaf0a8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="57ab1aad-bc98-4f98-ad71-a9daf01276bd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="85b5aea2-2bff-4102-8cc4-ac8697182b8e">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0d8c20c8-58d0-4e49-aa55-398e89349cea">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

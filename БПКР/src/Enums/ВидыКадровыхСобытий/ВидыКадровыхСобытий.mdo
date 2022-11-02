@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13ed000e-cad9-4662-b661-78306d84c734">
+  <producedTypes>
+    <refType typeId="f2f74b8f-eef5-49de-bce9-65152d566764" valueTypeId="f9b3d6b7-ad3d-4d95-9943-2da04a82662c"/>
+    <listType typeId="5c3a5254-1e58-4ace-b14f-deff58464ffa" valueTypeId="80c8967f-b4f4-4179-8d0d-a9e890302b49"/>
+    <managerType typeId="409660f1-a18e-4af9-9106-ddcd934b7b8b" valueTypeId="6d6aa410-52c3-4e75-bdbb-d99910d37244"/>
+  </producedTypes>
+  <name>ВидыКадровыхСобытий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды кадровых событий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d7992f1c-df3e-4ebe-bcf4-bd13f07926e1">
+    <name>Прием</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прием</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6f31cafa-2ccb-4b34-96e9-67b6d08ebf0c">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0dca6c1a-2835-4458-8d3d-63bea8b9f417">
+    <name>Увольнение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Увольнение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e4c17d31-8bc9-4f40-b5bd-b9c459cc5499">
+    <name>НачальныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальные данные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

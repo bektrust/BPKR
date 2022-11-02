@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86dc790b-b9f2-41b8-b688-13d71338e4b8">
+  <producedTypes>
+    <managerType typeId="5fcd1afa-6a1a-4b82-8778-71c012b14420" valueTypeId="9d2083d4-35a4-4964-b401-07261014c577"/>
+    <valueManagerType typeId="7dc96cd6-0c82-4433-bdc0-424fb14067a5" valueTypeId="0b836649-23b3-4a05-bda1-a88949d678d4"/>
+    <valueKeyType typeId="6963986d-544e-4217-a0fa-d09bad73f45c" valueTypeId="4e4818b0-4d04-4809-9e1d-e1d13e317cf1"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПроизводствоИзДавальческогоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция производство из давальческого сырья</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

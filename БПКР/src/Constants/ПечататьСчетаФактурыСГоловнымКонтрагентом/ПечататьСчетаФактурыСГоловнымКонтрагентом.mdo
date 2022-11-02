@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="850304ef-4717-4beb-84a3-4c81ba7afb01">
+  <producedTypes>
+    <managerType typeId="5c6978f0-f001-400c-bb02-dc076b5f186b" valueTypeId="c1886379-5cb2-43ad-8bc1-c66de75557a4"/>
+    <valueManagerType typeId="046af91f-a5dc-4bf5-896a-e836beae1533" valueTypeId="0f6685ad-7851-4555-80be-cb8b8de77a16"/>
+    <valueKeyType typeId="4061d262-7a04-5398-9382-1480d759c710" valueTypeId="a48299cc-dae3-5297-b04c-f2d7c4af7b54"/>
+  </producedTypes>
+  <name>ПечататьСчетаФактурыСГоловнымКонтрагентом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печатать счета фактуры с головным контрагентом</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

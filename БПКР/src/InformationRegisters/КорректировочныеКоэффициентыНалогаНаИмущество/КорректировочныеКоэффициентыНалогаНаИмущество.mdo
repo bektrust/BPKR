@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45f4a30f-1965-4e88-a3df-5c78bf0c5942">
+  <producedTypes>
+    <selectionType typeId="35185396-cba7-4c66-a3b1-564d4c62b016" valueTypeId="2dfb9198-5993-4de8-bd94-8bb9d2071216"/>
+    <listType typeId="8c56265e-e339-471a-bfbb-1dd780800996" valueTypeId="29c38706-b0d1-4bcb-abb8-347b1d6aa766"/>
+    <managerType typeId="7f719592-547a-46c7-aef3-c551b531f7e5" valueTypeId="8e2084d5-826d-450f-aae3-7eac093e4923"/>
+    <recordSetType typeId="e0da0440-2760-43fc-b03b-ee143b39e74d" valueTypeId="fd3b3cd0-c0ca-46be-8d55-318020f219a5"/>
+    <recordKeyType typeId="dbeefffe-4196-433a-8bed-1e9c6180ba7f" valueTypeId="c59ee516-eee4-4149-9841-9c332c7ec6d5"/>
+    <recordType typeId="d5a400c2-c2d5-446d-8d93-782196f1e8f4" valueTypeId="9b7f705f-8bf7-48b3-b256-a7ab3e5e8c71"/>
+    <recordManagerType typeId="e7d40da4-b0a9-4b90-98b8-b823a41994ec" valueTypeId="aeeabdb5-c5ea-4525-994d-2de825cb6899"/>
+  </producedTypes>
+  <name>КорректировочныеКоэффициентыНалогаНаИмущество</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировочные коэффициенты налога на имущество</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.КорректировочныеКоэффициентыНалогаНаИмущество.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="8f97603f-478c-4c14-925f-632403c00cd7">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Налоговая ставка.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e0e1db8e-bfbd-41e5-9441-7be0acb529ec">
+    <name>НижняяГраницаОбъемаДвигателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижняя граница объема двигателя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="af12830b-e040-4a8f-9fbf-15c81e23f199">
+    <name>НижняяГраницаПериодаЭксплуатации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нижняя граница периода эксплуатации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="689dc2f1-fcef-4c7b-b7da-b4e4ff7181a0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="31e4321f-b7ba-4dc8-b3ee-2c1801004938">
+  <producedTypes>
+    <objectType typeId="f8685bf0-92f0-4056-a81d-d8857b076748" valueTypeId="03871287-3028-4f4d-8aed-a8c44d80fac8"/>
+    <refType typeId="9a094a7a-d60b-43ce-8f11-db95030674da" valueTypeId="6bff6e70-b7bd-4e68-a527-8a3706932af0"/>
+    <selectionType typeId="9a600f45-a751-4bb4-b3b2-5c537c52bf03" valueTypeId="ff87d606-4e73-4070-8ed3-4fc5761cdc81"/>
+    <listType typeId="22846475-60fb-4276-93b8-b405fa4926a1" valueTypeId="59851b46-dd49-4c98-b9d0-73ee06ef316a"/>
+    <managerType typeId="380ca48f-eb5b-4dbe-b9eb-7c79a8a2938e" valueTypeId="193df47b-7d8b-4f92-906e-b715d4cc1622"/>
+  </producedTypes>
+  <name>ЗональныеКоэффициенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зональные коэффициенты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЗональныеКоэффициенты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Зональный коэффициент</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Зональные коэффициенты для расчета налога на имущество и земельного налога.</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЗональныеКоэффициенты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЗональныеКоэффициенты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ЗональныеКоэффициенты.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="f8253ee5-99f8-4221-b3b9-e43cb3aba021">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4072e293-6da8-4d45-851c-52882cde3555">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8b9ed948-f760-49d8-b165-737c350bc2d4">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5476a44-3192-4b38-a255-634f69caea83">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4c695899-cf14-4b0a-abf0-0347eb0b7ee4">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

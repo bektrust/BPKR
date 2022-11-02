@@ -1,0 +1,833 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.sample-package2.org">
+	<objectType name="FORM" open="true">
+		<property name="DATEREPORT" type="xs:string" form="Attribute"/>
+		<property name="VERSFORM" type="xs:string" form="Attribute"/>
+		<property name="NOMDOC" type="xs:string" form="Attribute"/>
+		<property name="IDFORM" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="PART1" type="d3p1:PART1" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="PART2" type="d3p1:PART2" upperBound="-1"/>
+	</objectType>
+	<objectType name="PART1">
+		<property xmlns:d3p1="http://www.sample-package2.org" name="FTYPE" type="d3p1:FTYPE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STARTDATE" type="d3p1:STARTDATE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="ENDDATE" type="d3p1:ENDDATE" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="FTYPE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STARTDATE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="ENDDATE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="PART2">
+		<property xmlns:d3p1="http://www.sample-package2.org" name="ENTERPRETYPE" type="d3p1:ENTERPRETYPE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15ACCOUNT" type="d3p1:MORE15ACCOUNT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15ACCRUEDINCOME" type="d3p1:MORE15ACCRUEDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15EXEMPT" type="d3p1:MORE15EXEMPT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15DEDUCTION" type="d3p1:MORE15DEDUCTION" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15TAXSUBJECT" type="d3p1:MORE15TAXSUBJECT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15TAXCCRUEDEMPLOYEE" type="d3p1:MORE15TAXCCRUEDEMPLOYEE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15TAXCCRUEDMININCOME" type="d3p1:MORE15TAXCCRUEDMININCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15ACCRUEDTAX" type="d3p1:MORE15ACCRUEDTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15PAIDINCOME" type="d3p1:MORE15PAIDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="MORE15TAX" type="d3p1:MORE15TAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15ACCOUNT" type="d3p1:LESS15ACCOUNT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15ACCRUEDINCOME" type="d3p1:LESS15ACCRUEDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15EXEMPT" type="d3p1:LESS15EXEMPT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15DEDUCTION" type="d3p1:LESS15DEDUCTION" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15TAXSUBJECT" type="d3p1:LESS15TAXSUBJECT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15TAXCCRUEDEMPLOYEE" type="d3p1:LESS15TAXCCRUEDEMPLOYEE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15TAXCCRUEDMININCOME" type="d3p1:LESS15TAXCCRUEDMININCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15ACCRUEDTAX" type="d3p1:LESS15ACCRUEDTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15PAIDINCOME" type="d3p1:LESS15PAIDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="LESS15TAX" type="d3p1:LESS15TAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTACCOUNT" type="d3p1:NONRESIDENTACCOUNT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTACCRUEDINCOME" type="d3p1:NONRESIDENTACCRUEDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTEXEMPT" type="d3p1:NONRESIDENTEXEMPT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTDEDUCTION" type="d3p1:NONRESIDENTDEDUCTION" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTTAXSUBJECT" type="d3p1:NONRESIDENTTAXSUBJECT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTTAXCCRUEDEMPLOYEE" type="d3p1:NONRESIDENTTAXCCRUEDEMPLOYEE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTTAXCCRUEDMININCOME" type="d3p1:NONRESIDENTTAXCCRUEDMININCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTACCRUEDTAX" type="d3p1:NONRESIDENTACCRUEDTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTPAIDINCOME" type="d3p1:NONRESIDENTPAIDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="NONRESIDENTTAX" type="d3p1:NONRESIDENTTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERACCOUNT" type="d3p1:OTHERACCOUNT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERACCRUEDINCOME" type="d3p1:OTHERACCRUEDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHEREXEMPT" type="d3p1:OTHEREXEMPT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERDEDUCTION" type="d3p1:OTHERDEDUCTION" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERTAXSUBJECT" type="d3p1:OTHERTAXSUBJECT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERTAXCCRUEDEMPLOYEE" type="d3p1:OTHERTAXCCRUEDEMPLOYEE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERTAXCCRUEDMININCOME" type="d3p1:OTHERTAXCCRUEDMININCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERACCRUEDTAX" type="d3p1:OTHERACCRUEDTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERPAIDINCOME" type="d3p1:OTHERPAIDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="OTHERTAX" type="d3p1:OTHERTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALACCOUNT" type="d3p1:TOTALACCOUNT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALACCRUEDINCOME" type="d3p1:TOTALACCRUEDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALEXEMPT" type="d3p1:TOTALEXEMPT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALDEDUCTION" type="d3p1:TOTALDEDUCTION" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALTAXSUBJECT" type="d3p1:TOTALTAXSUBJECT" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALTAXCCRUEDEMPLOYEE" type="d3p1:TOTALTAXCCRUEDEMPLOYEE" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALTAXCCRUEDMININCOME" type="d3p1:TOTALTAXCCRUEDMININCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALACCRUEDTAX" type="d3p1:TOTALACCRUEDTAX" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALPAIDINCOME" type="d3p1:TOTALPAIDINCOME" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="TOTALSUM" type="d3p1:TOTALSUM" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X199" type="d3p1:STI133X199" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X249" type="d3p1:STI133X249" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X299" type="d3p1:STI133X299" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133DECLARATIONDETAIL1" type="d3p1:STI133DECLARATIONDETAIL1" upperBound="-1"/>
+	</objectType>
+	<objectType name="ENTERPRETYPE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15ACCOUNT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15ACCRUEDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15EXEMPT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15DEDUCTION">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15TAXSUBJECT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15TAXCCRUEDEMPLOYEE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15TAXCCRUEDMININCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15ACCRUEDTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15PAIDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="MORE15TAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15ACCOUNT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15ACCRUEDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15EXEMPT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15DEDUCTION">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15TAXSUBJECT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15TAXCCRUEDEMPLOYEE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15TAXCCRUEDMININCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15ACCRUEDTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15PAIDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="LESS15TAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTACCOUNT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTACCRUEDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTEXEMPT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTDEDUCTION">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTTAXSUBJECT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTTAXCCRUEDEMPLOYEE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTTAXCCRUEDMININCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTACCRUEDTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTPAIDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="NONRESIDENTTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERACCOUNT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERACCRUEDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHEREXEMPT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERDEDUCTION">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERTAXSUBJECT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERTAXCCRUEDEMPLOYEE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERTAXCCRUEDMININCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERACCRUEDTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERPAIDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="OTHERTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALACCOUNT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALACCRUEDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALEXEMPT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALDEDUCTION">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALTAXSUBJECT">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALTAXCCRUEDEMPLOYEE">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALTAXCCRUEDMININCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALACCRUEDTAX">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALPAIDINCOME">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="TOTALSUM">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X199">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X249">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X299">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133DECLARATIONDETAIL1">
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X150" type="d3p1:STI133X150" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X151" type="d3p1:STI133X151" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X152" type="d3p1:STI133X152" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X153" type="d3p1:STI133X153" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X154" type="d3p1:STI133X154" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X155" type="d3p1:STI133X155" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X156" type="d3p1:STI133X156" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X157" type="d3p1:STI133X157" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X158" type="d3p1:STI133X158" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X159" type="d3p1:STI133X159" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X160" type="d3p1:STI133X160" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X161" type="d3p1:STI133X161" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X162" type="d3p1:STI133X162" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X163" type="d3p1:STI133X163" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X164" type="d3p1:STI133X164" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X165" type="d3p1:STI133X165" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X166" type="d3p1:STI133X166" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X167" type="d3p1:STI133X167" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X168" type="d3p1:STI133X168" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X169" type="d3p1:STI133X169" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X170" type="d3p1:STI133X170" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X171" type="d3p1:STI133X171" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X172" type="d3p1:STI133X172" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X173" type="d3p1:STI133X173" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X174" type="d3p1:STI133X174" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X175" type="d3p1:STI133X175" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X176" type="d3p1:STI133X176" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X177" type="d3p1:STI133X177" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X178" type="d3p1:STI133X178" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X179" type="d3p1:STI133X179" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X180" type="d3p1:STI133X180" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X181" type="d3p1:STI133X181" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X182" type="d3p1:STI133X182" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X183" type="d3p1:STI133X183" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X184" type="d3p1:STI133X184" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X185" type="d3p1:STI133X185" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X186" type="d3p1:STI133X186" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X187" type="d3p1:STI133X187" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X188" type="d3p1:STI133X188" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X189" type="d3p1:STI133X189" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X190" type="d3p1:STI133X190" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X191" type="d3p1:STI133X191" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X192" type="d3p1:STI133X192" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X193" type="d3p1:STI133X193" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X194" type="d3p1:STI133X194" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X195" type="d3p1:STI133X195" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X196" type="d3p1:STI133X196" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X197" type="d3p1:STI133X197" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X198" type="d3p1:STI133X198" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X200" type="d3p1:STI133X200" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X201" type="d3p1:STI133X201" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X202" type="d3p1:STI133X202" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X203" type="d3p1:STI133X203" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X204" type="d3p1:STI133X204" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X205" type="d3p1:STI133X205" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X206" type="d3p1:STI133X206" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X207" type="d3p1:STI133X207" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X208" type="d3p1:STI133X208" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X209" type="d3p1:STI133X209" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X210" type="d3p1:STI133X210" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X211" type="d3p1:STI133X211" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X212" type="d3p1:STI133X212" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X213" type="d3p1:STI133X213" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X214" type="d3p1:STI133X214" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X215" type="d3p1:STI133X215" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X216" type="d3p1:STI133X216" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X217" type="d3p1:STI133X217" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X218" type="d3p1:STI133X218" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X219" type="d3p1:STI133X219" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X220" type="d3p1:STI133X220" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X221" type="d3p1:STI133X221" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X222" type="d3p1:STI133X222" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X223" type="d3p1:STI133X223" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X224" type="d3p1:STI133X224" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X225" type="d3p1:STI133X225" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X226" type="d3p1:STI133X226" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X227" type="d3p1:STI133X227" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X228" type="d3p1:STI133X228" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X229" type="d3p1:STI133X229" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X230" type="d3p1:STI133X230" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X231" type="d3p1:STI133X231" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X232" type="d3p1:STI133X232" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X233" type="d3p1:STI133X233" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X234" type="d3p1:STI133X234" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X235" type="d3p1:STI133X235" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X236" type="d3p1:STI133X236" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X237" type="d3p1:STI133X237" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X238" type="d3p1:STI133X238" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X239" type="d3p1:STI133X239" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X240" type="d3p1:STI133X240" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X241" type="d3p1:STI133X241" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X242" type="d3p1:STI133X242" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X243" type="d3p1:STI133X243" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X244" type="d3p1:STI133X244" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X245" type="d3p1:STI133X245" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X246" type="d3p1:STI133X246" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X247" type="d3p1:STI133X247" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X248" type="d3p1:STI133X248" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X250" type="d3p1:STI133X250" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X251" type="d3p1:STI133X251" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X252" type="d3p1:STI133X252" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X253" type="d3p1:STI133X253" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X254" type="d3p1:STI133X254" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X255" type="d3p1:STI133X255" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X256" type="d3p1:STI133X256" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X257" type="d3p1:STI133X257" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X258" type="d3p1:STI133X258" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X259" type="d3p1:STI133X259" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X260" type="d3p1:STI133X260" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X261" type="d3p1:STI133X261" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X262" type="d3p1:STI133X262" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X263" type="d3p1:STI133X263" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X264" type="d3p1:STI133X264" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X265" type="d3p1:STI133X265" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X266" type="d3p1:STI133X266" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X267" type="d3p1:STI133X267" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X268" type="d3p1:STI133X268" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X269" type="d3p1:STI133X269" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X270" type="d3p1:STI133X270" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X271" type="d3p1:STI133X271" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X272" type="d3p1:STI133X272" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X273" type="d3p1:STI133X273" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X274" type="d3p1:STI133X274" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X275" type="d3p1:STI133X275" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X276" type="d3p1:STI133X276" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X277" type="d3p1:STI133X277" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X278" type="d3p1:STI133X278" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X279" type="d3p1:STI133X279" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X280" type="d3p1:STI133X280" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X281" type="d3p1:STI133X281" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X282" type="d3p1:STI133X282" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X283" type="d3p1:STI133X283" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X284" type="d3p1:STI133X284" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X285" type="d3p1:STI133X285" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X286" type="d3p1:STI133X286" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X287" type="d3p1:STI133X287" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X288" type="d3p1:STI133X288" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X289" type="d3p1:STI133X289" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X290" type="d3p1:STI133X290" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X291" type="d3p1:STI133X291" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X292" type="d3p1:STI133X292" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X293" type="d3p1:STI133X293" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X294" type="d3p1:STI133X294" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X295" type="d3p1:STI133X295" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X296" type="d3p1:STI133X296" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X297" type="d3p1:STI133X297" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.sample-package2.org" name="STI133X298" type="d3p1:STI133X298" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="STI133X150">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X151">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X152">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X153">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X154">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X155">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X156">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X157">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X158">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X159">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X160">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X161">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X162">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X163">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X164">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X165">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X166">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X167">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X168">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X169">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X170">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X171">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X172">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X173">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X174">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X175">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X176">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X177">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X178">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X179">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X180">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X181">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X182">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X183">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X184">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X185">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X186">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X187">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X188">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X189">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X190">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X191">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X192">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X193">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X194">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X195">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X196">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X197">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X198">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X200">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X201">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X202">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X203">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X204">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X205">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X206">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X207">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X208">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X209">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X210">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X211">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X212">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X213">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X214">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X215">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X216">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X217">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X218">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X219">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X220">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X221">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X222">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X223">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X224">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X225">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X226">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X227">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X228">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X229">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X230">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X231">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X232">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X233">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X234">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X235">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X236">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X237">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X238">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X239">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X240">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X241">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X242">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X243">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X244">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X245">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X246">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X247">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X248">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X250">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X251">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X252">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X253">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X254">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X255">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X256">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X257">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X258">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X259">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X260">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X261">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X262">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X263">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X264">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X265">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X266">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X267">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X268">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X269">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X270">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X271">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X272">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X273">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X274">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X275">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X276">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X277">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X278">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X279">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X280">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X281">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X282">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X283">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X284">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X285">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X286">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X287">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X288">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X289">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X290">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X291">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X292">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X293">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X294">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X295">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X296">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X297">
+		<property name="Text" form="Text"/>
+	</objectType>
+	<objectType name="STI133X298">
+		<property name="Text" form="Text"/>
+	</objectType>
+</package>

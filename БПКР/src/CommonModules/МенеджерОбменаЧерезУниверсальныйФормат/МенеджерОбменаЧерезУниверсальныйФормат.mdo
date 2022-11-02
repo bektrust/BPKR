@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d0d86d1-420c-4781-b91d-e2212bbce0cd">
+  <name>МенеджерОбменаЧерезУниверсальныйФормат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер обмена через универсальный формат</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="694b1472-e3b5-4a06-9994-1b0754837d8b">
+  <producedTypes>
+    <refType typeId="ebcc0d67-dea4-4a66-8677-131039290fec" valueTypeId="f1565a1b-54a7-422c-a990-e5917422dcbf"/>
+    <listType typeId="c9dbdaf2-9b5f-4837-adea-0f702392c882" valueTypeId="ccc41f3c-ed55-4cc5-b96b-159de0110ef1"/>
+    <managerType typeId="a1b26aea-58f0-4621-bf29-06e8a1d1c44c" valueTypeId="012d97ec-52ed-4cda-ae39-5e25f7a3b035"/>
+  </producedTypes>
+  <name>РазделыМонитораРуководителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы монитора руководителя</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e72a1bf0-cc28-4b0b-8825-8b6622bfa840">
+    <name>ОстаткиДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остатки денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3183958-9a19-468a-ac74-3f7fc13410dd">
+    <name>ПоступлениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поступление денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="504d55cf-d37e-41b5-b8f2-2d0162df2d75">
+    <name>РасходДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расход денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b0ef7f5-c5c1-49e8-8975-18c7776e4075">
+    <name>ПродажиПоКонтрагентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи по контрагентам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2053dba-cf7b-4167-9097-ab8e5276d2e7">
+    <name>ПродажиПоНоменклатурнымГруппам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продажи по номенклатурным группам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="90fbe4b7-8324-48dd-9688-979ea078cf1f">
+    <name>НеоплаченныеСчетаПокупателям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счета, не оплаченные покупателями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb44dc41-8fd5-493b-b2a9-7f8c4859ae39">
+    <name>ЗадолженностьПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность покупателей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53c4cf54-f874-411f-944c-ce847bc3bef8">
+    <name>ПросроченнаяЗадолженностьПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченная задолженность покупателей</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="498b4359-cab8-41e8-8bf4-0ee5e0f9d84b">
+    <name>НеоплаченныеСчетаПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счета, не оплаченные поставщикам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f12ad37c-d4c5-4f2f-b61f-05c6c62a7de8">
+    <name>ЗадолженностьПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность поставщикам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2cb97a0-4219-4eeb-bf09-2ad2abbbd27f">
+    <name>ПросроченнаяЗадолженностьПоставщикам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченная задолженность поставщикам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a0a0216-4478-4828-b37b-c1762ad4607c">
+    <name>УдалитьДвижениеДенежныхСредств</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Движение денежных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3b532837-0718-469a-a824-339cab296d9c">
+    <name>КурсыВалют</name>
+    <synonym>
+      <key>ru</key>
+      <value>Курсы валют</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

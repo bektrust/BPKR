@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36cc0621-d474-4ccb-ab38-0e9109909e18">
+  <producedTypes>
+    <selectionType typeId="d0eeaf14-3f98-4373-9455-d1bf161d416a" valueTypeId="877a5e98-926a-4a52-9748-1fc585e35a0c"/>
+    <listType typeId="76a33b85-cffa-43f4-8d9e-c73fed3bff6e" valueTypeId="45fcddd2-1871-41b2-8032-58dbff8f93db"/>
+    <managerType typeId="2f914cfb-ee85-4bec-bed5-638d80a67be5" valueTypeId="f224716d-e457-4ed9-97be-3fa9e2e2d46a"/>
+  </producedTypes>
+  <name>ПроизводственныеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные документы</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ПроизводственныеДокументы.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.ТребованиеНакладная</registeredDocuments>
+  <registeredDocuments>Document.ОтчетПроизводстваЗаСмену</registeredDocuments>
+  <registeredDocuments>Document.ПоступлениеВПереработку</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="355a9b37-4e77-4679-bee1-c2708f3291eb">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <indexing>Index</indexing>
+    <references>Document.ТребованиеНакладная.Attribute.Склад</references>
+    <references>Document.ОтчетПроизводстваЗаСмену.Attribute.Склад</references>
+    <references>Document.ПоступлениеВПереработку.Attribute.Склад</references>
+  </columns>
+  <columns uuid="e768137c-0778-4a96-9c51-e624ecd23ac1">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <references>Document.ТребованиеНакладная.Attribute.Организация</references>
+    <references>Document.ОтчетПроизводстваЗаСмену.Attribute.Организация</references>
+    <references>Document.ПоступлениеВПереработку.Attribute.Организация</references>
+  </columns>
+  <columns uuid="cdf3d9aa-daac-40b9-80bb-5eef760d900e">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ТребованиеНакладная.Attribute.Комментарий</references>
+    <references>Document.ОтчетПроизводстваЗаСмену.Attribute.Комментарий</references>
+    <references>Document.ПоступлениеВПереработку.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="6cbfd633-83e2-4d53-8aac-a66847de474b">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.ТребованиеНакладная.Attribute.Автор</references>
+    <references>Document.ОтчетПроизводстваЗаСмену.Attribute.Автор</references>
+    <references>Document.ПоступлениеВПереработку.Attribute.Автор</references>
+  </columns>
+  <forms uuid="0d0d8f13-6666-43a7-bd6b-68ad2568ebdf">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

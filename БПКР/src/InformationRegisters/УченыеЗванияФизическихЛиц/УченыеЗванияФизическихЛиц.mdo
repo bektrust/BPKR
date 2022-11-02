@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a09f1691-4bca-4ac0-89a3-bfe5d3b49960">
+  <producedTypes>
+    <selectionType typeId="2afd4a9c-bbb6-411b-a555-8cb9ddacd2a8" valueTypeId="327d5b89-f5a7-43f6-b2ff-3f92a923721d"/>
+    <listType typeId="791d62c4-cd7b-46d1-9cb0-a70ee2ffd926" valueTypeId="8c6e272f-2e57-44a3-828e-a09806692e4b"/>
+    <managerType typeId="744278c1-3585-499a-ba5e-de951232afb9" valueTypeId="23c6975f-ca8f-46fb-8996-c67e0363965f"/>
+    <recordSetType typeId="0e1046a9-b679-4b8e-b66a-8771f6ef6402" valueTypeId="0e048812-b92d-4d2e-b7f2-d62689c26123"/>
+    <recordKeyType typeId="17343fac-bf63-4217-9bb0-9ad83005e7f3" valueTypeId="72b40c07-d79f-4a48-9708-93ee9f722ae9"/>
+    <recordType typeId="e01b7b94-21cf-402c-909e-d847c44d481d" valueTypeId="f6f822e3-9bf1-46af-b7e4-6308ef68128d"/>
+    <recordManagerType typeId="299644c7-16dc-4e9a-a0ea-b5602ac70857" valueTypeId="ba927083-5a5a-40c7-853c-6474f0f86302"/>
+  </producedTypes>
+  <name>УченыеЗванияФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ученые звания физических лиц</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.УченыеЗванияФизическихЛиц.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d3ccaa0c-4713-4276-92e9-8b0c780d035a">
+    <name>ДатаПрисвоенияУченогоЗвания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата присвоения ученого звания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f3aab0d2-b5b4-427c-acf6-20f35e967c2a">
+    <name>АттестатСерия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттестат серия</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="0bab0702-3e40-4a69-a702-848c9b6f8057">
+    <name>АттестатНомер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттестат номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="f109ebac-d647-4504-af56-0061fc9a1ead">
+    <name>АттестатВыданОрганизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аттестат выдан организация</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="820d957e-5bcd-484a-9620-cc65bca248e7">
+    <name>НаучнаяСпециальность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Научная специальность</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КлассификаторСпециальностейПоОбразованию</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="36096539-6303-486c-9fd6-14739cafa1b9">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d65ce133-7caf-4584-afbd-e86c737e89a6">
+    <name>УченоеЗвание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученое звание</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УченыеЗвания</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="775fec70-79be-435a-8a9c-b3c06f9d88cd">
+    <name>ФормаНабораЗаписей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма набора записей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c208594-cd99-41a1-910b-e4790499fab0">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

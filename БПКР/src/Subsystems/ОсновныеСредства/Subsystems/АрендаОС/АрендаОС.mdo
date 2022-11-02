@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="138a5ed4-55bd-4213-a871-c91c88734356">
+  <name>АрендаОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аренда ОС</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВозвратАрендованныхОС</content>
+  <content>Document.ПоступлениеАрендованныхОС</content>
+  <parentSubsystem>Subsystem.ОсновныеСредства</parentSubsystem>
+</mdclass:Subsystem>

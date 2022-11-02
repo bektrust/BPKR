@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="28950a99-a511-499d-a23e-2ee212d6627b">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники и настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Enum.ВидыДоговоровКонтрагентов</content>
+  <content>Enum.ВидыМатериальныхОтчетов</content>
+  <content>Enum.ВидыНалоговогоУчетаВГруппахОС</content>
+  <content>Enum.ВидыОперацийВозвратТоваровПоставщику</content>
+  <content>Enum.ВидыОперацийПринятияКУчетуОсновныхСредств</content>
+  <content>Enum.ВидыСкладов</content>
+  <content>Enum.СпособыОценки</content>
+  <content>Enum.СпособыПоступленияАктивов</content>
+  <content>InformationRegister.СведенияОПоступлении</content>
+  <content>AccumulationRegister.Продажи</content>
+  <content>Catalog.ПодразделенияОрганизаций</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Catalog.ВидыТранспортаПоказателиИмпорт</content>
+  <content>Catalog.КодыПоставокСФ</content>
+  <content>Catalog.КоммерческиеДокументы</content>
+  <content>Catalog.КлассификаторХарактераСделки</content>
+  <content>Catalog.РасходыБудущихПериодов</content>
+  <content>Catalog.ПрайсЛисты</content>
+  <content>Enum.ПоказателиИмпорта</content>
+  <content>Enum.ИмпортОсвобожденныйОтНДС</content>
+  <content>AccumulationRegister.ПродажиОсновныхСредств</content>
+  <content>Catalog.Патенты</content>
+  <content>InformationRegister.СчетаРасчетовСКонтрагентами</content>
+  <content>Document.УстановкаЦенНоменклатуры</content>
+  <parentSubsystem>Subsystem.ПокупкаИПродажа</parentSubsystem>
+</mdclass:Subsystem>

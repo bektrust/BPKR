@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47ea0f2c-1ff3-4bf3-beb8-ff959f7e1dff">
+  <producedTypes>
+    <objectType typeId="6301d63b-f177-4b32-9719-4b494d3b2d16" valueTypeId="2eda9613-7a70-4950-a361-97e7c52d06ac"/>
+    <refType typeId="62523e88-cd54-41da-bfba-d65346512432" valueTypeId="e92a617a-c361-4789-ad17-675c19af171a"/>
+    <selectionType typeId="6ee93808-9a5e-4719-a89b-7c89f51e7e00" valueTypeId="96f62083-154f-4f91-a193-97b34712dc9f"/>
+    <listType typeId="de6b170e-b04d-4fb7-88fc-b8495898938c" valueTypeId="a484812c-f737-4111-83a1-7b6586a01890"/>
+    <managerType typeId="7acf89c7-767c-4d6f-ba4b-764502592b9a" valueTypeId="4d0214c9-cb76-4302-9a75-e79b57873b09"/>
+  </producedTypes>
+  <name>Национальности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Национальности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Национальности.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Национальность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

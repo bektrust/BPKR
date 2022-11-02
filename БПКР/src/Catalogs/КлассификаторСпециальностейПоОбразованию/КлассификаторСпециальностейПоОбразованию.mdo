@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7b71cdf-83e4-43a9-b5ea-077de982f4d4">
+  <producedTypes>
+    <objectType typeId="25dd934a-573b-4a15-8a65-c70012602df6" valueTypeId="f01c201e-9a65-41ce-aa46-6d2611670efb"/>
+    <refType typeId="9f18f800-87ef-4902-bd33-124bbb7da1e3" valueTypeId="14f7e744-18eb-4e2c-9848-78f2f722216e"/>
+    <selectionType typeId="aa9700c6-c38e-4ce7-8475-d516c9ca6332" valueTypeId="1be576f2-cace-4d9c-943b-0385d486b30d"/>
+    <listType typeId="cd5801a3-0e57-4320-8df2-fddaf6fdfe5d" valueTypeId="e2d1382c-80cb-4deb-b6cd-f03d9d6e8023"/>
+    <managerType typeId="dc6f1760-ed93-43c4-a8e1-43a908cf71cf" valueTypeId="ff62c43f-2738-4e8c-a739-86f701aa2947"/>
+  </producedTypes>
+  <name>КлассификаторСпециальностейПоОбразованию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор специальностей по образованию</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлассификаторСпециальностейПоОбразованию.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Специальность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

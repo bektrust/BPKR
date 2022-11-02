@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="951ae936-46db-4ee1-89f8-6a513ee8d054">
+  <producedTypes>
+    <refType typeId="6b53bea7-e66f-4eea-99a3-47b38fbf193e" valueTypeId="ea10a930-562c-4685-97e2-3ad95249efe0"/>
+    <listType typeId="98856cf1-51b0-443d-9da2-566b86c1c9d3" valueTypeId="3172493b-c1f6-4adf-a7e3-c011d72ef58a"/>
+    <managerType typeId="db4db225-7d36-4425-b5da-5a6e4e724092" valueTypeId="dde41b5e-9082-4c1a-890e-f7bfdcfac7e2"/>
+  </producedTypes>
+  <name>ВидыОперацийРеализацияТоваров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций документа &quot;Реализация (акт, накладная)&quot;</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3090b344-c49d-4b7e-b0fe-bbcf2b973677">
+    <name>Товары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1167dd09-23b2-4d35-88e0-b00773b9a48c">
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ccc5ef9f-29f5-4ae5-b93b-0cc1af6dd66a">
+    <name>ОсновныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f21a24f-5fea-4a49-9a5c-b1b5c2f15f1a">
+    <name>ТоварыУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товары, услуги, ОС</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

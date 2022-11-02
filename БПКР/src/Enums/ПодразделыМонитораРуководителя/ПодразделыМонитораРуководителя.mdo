@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="038cb9c8-4b80-4f56-b45b-b5b402aba401">
+  <producedTypes>
+    <refType typeId="8f8502ce-99ce-4967-97aa-00beaebe1af8" valueTypeId="d5e01fa8-7078-4896-9bc1-e3fc967cbcbc"/>
+    <listType typeId="dc0f8508-e269-4de4-8029-bc1fa2ad233b" valueTypeId="2d74e4c5-e6cf-48b0-a16b-f2540a6c0caa"/>
+    <managerType typeId="31222621-4acf-471e-8efa-f0a582779193" valueTypeId="a568a4a7-6c4f-4d6a-8fd4-dcb30066ba05"/>
+  </producedTypes>
+  <name>ПодразделыМонитораРуководителя</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделы монитора руководителя</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="acaf1643-8744-437e-bc06-96a74d69df1d">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e6a5a09d-2c44-48f1-9925-1bb987c5688b">
+    <name>Банк</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банк</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf5c6443-eb4a-4ba8-9571-984820715759">
+    <name>ПлатежныеКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Платежные карты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a51dce68-f54f-4672-9dd1-ffb2b5963b72">
+    <name>Детально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Детально</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

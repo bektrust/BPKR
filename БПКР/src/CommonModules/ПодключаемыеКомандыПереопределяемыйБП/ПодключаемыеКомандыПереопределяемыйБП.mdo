@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5fb4a9f-e7f4-43b2-beff-2968cc02bb37">
+  <name>ПодключаемыеКомандыПереопределяемыйБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подключаемые команды переопределяемый БП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2daa58ff-7e8a-4593-a8db-98922bd52f48">
+  <producedTypes>
+    <refType typeId="f5ea340a-5125-40c7-9266-f67f319b0414" valueTypeId="9d46507e-05ca-481b-9ff4-1b053179a6e6"/>
+    <listType typeId="0ccb96c9-3ae9-4d6c-923c-ac2576a649ea" valueTypeId="98b578c2-e1ee-4ace-b7dc-7e13af6e9277"/>
+    <managerType typeId="a48da2a8-45c3-417c-a101-d868bd644aea" valueTypeId="b4636ec3-7e33-43cf-9c86-d6b640df4735"/>
+  </producedTypes>
+  <name>ВидыПоставокЭСН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды поставок ЭСН</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="30b81a97-1b9e-4d84-8d82-54381f735a23">
+    <name>Импорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b8c0f61-f53e-47ab-ba43-6eaf2094bcc2">
+    <name>ВременныйВвоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временный ввоз</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c33bc7ed-f9b3-4a41-919a-db4d906cbf85">
+    <name>ДавальческоеСырье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Давальческое сырье</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cf3b2552-2bb8-4dd2-977a-d74d45357cc9">
+    <name>ГуманитарныйГруз</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гуманитарный груз</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0e4a976-f1be-4a7a-938c-9b0fdce8a7a1">
+  <name>ФормаКалендаря</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма календаря</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

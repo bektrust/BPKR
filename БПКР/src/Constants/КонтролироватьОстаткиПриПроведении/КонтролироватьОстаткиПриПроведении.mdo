@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3c38652-e287-4c91-9809-69e8a1aa99b1">
+  <producedTypes>
+    <managerType typeId="4ce8d3eb-59e1-4afa-97ec-1b9ffa7cc78c" valueTypeId="f3264301-4d91-419f-b65d-ce10e921a966"/>
+    <valueManagerType typeId="070882d2-ad98-420d-862c-4561f6a38b31" valueTypeId="7961162a-e446-4d4d-b6d7-df39b30390b8"/>
+    <valueKeyType typeId="70e2adf3-3455-5f47-be3a-13acd215eb5a" valueTypeId="5c4dfbbb-e146-56b2-bb2c-3c89b554ebe7"/>
+  </producedTypes>
+  <name>КонтролироватьОстаткиПриПроведении</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контролировать остатки при проведении</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

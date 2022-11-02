@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="972e26be-8d91-4c6b-878a-de24cc30b420">
+  <name>УчетПроизводстваПоНоменклатурнымГруппам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет производства по номенклатурным группам</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетПроизводстваПоНоменклатурнымГруппам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОтчетПроизводстваЗаСмену</content>
+  <content>Document.ТребованиеНакладная</content>
+  <content>Subsystem.Производство</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.РасчетСтоимостиПродукцииПоНоменклатурнымГруппам</content>
+  <content>InformationRegister.МетодыРаспределенияКосвенныхРасходовОрганизаций</content>
+  <content>Document.ЗакрытиеМесяца.TabularSection.НакладныеРасходы</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.НадписьРасчетСтоимостиПродукцииПоНоменклатурнымГруппам</content>
+  <content>Constant.БазаРаспределенияКорректировкиСебестоимости</content>
+  <content>Document.ИнвентаризацияНезавершенногоПроизводства</content>
+  <content>Document.ПередачаТоваров</content>
+  <content>Document.ПоступлениеИзПереработки</content>
+  <content>InformationRegister.СчетаУчетаНоменклатуры.Resource.СчетУчетаПередачи</content>
+  <content>Document.АктОбОказанииПроизводственныхУслуг</content>
+</mdclass:FunctionalOption>

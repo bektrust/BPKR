@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c55fe45-cec2-4c2f-888e-a12578c0a0e4">
+  <producedTypes>
+    <managerType typeId="3f96dead-449a-40a1-85f0-b344967b65af" valueTypeId="530e3553-8570-476f-8098-fc31bc880f1d"/>
+    <valueManagerType typeId="4e11efc6-5cf9-45d8-a6e7-fe5668c271d1" valueTypeId="483cc16a-58f5-45de-b4e5-7ebff10be71b"/>
+    <valueKeyType typeId="0827fbdf-19bf-5b48-8301-185448515ff3" valueTypeId="499e05d2-2595-59f3-83cf-b35cb046055d"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияДопРасходыНаНесколькоПоступлений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп.расходы на несколько поступлений</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

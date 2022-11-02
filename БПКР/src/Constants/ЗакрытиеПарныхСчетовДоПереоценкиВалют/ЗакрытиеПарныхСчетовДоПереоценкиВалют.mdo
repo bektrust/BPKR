@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6e935c19-1610-4c80-8c4f-6673db86f7ee">
+  <producedTypes>
+    <managerType typeId="b87ef721-053d-4c17-abed-e3b4acc00f21" valueTypeId="55bdaa83-8015-4c3c-ac0c-1a30c033259c"/>
+    <valueManagerType typeId="7d8e16d7-3d8c-4732-865c-2ff675c536e6" valueTypeId="eba38de1-f6bd-46a4-81e6-e2bea9a345d0"/>
+    <valueKeyType typeId="db5c223b-e617-4261-be8f-20f6a5cbdb20" valueTypeId="63cfcd71-7de6-4540-808c-1d18e90ffe6b"/>
+  </producedTypes>
+  <name>ЗакрытиеПарныхСчетовДоПереоценкиВалют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Закрытие парных счетов до переоценки валют</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

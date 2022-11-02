@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6c03ce1-89d3-4ee1-bca8-4223122e3739">
+  <producedTypes>
+    <refType typeId="dc83d957-44a6-4814-8b95-3ad88ed3e427" valueTypeId="904eee1e-0895-416f-998c-1da733f4c85f"/>
+    <listType typeId="5586db79-e6b2-4306-ac62-66b607dfc825" valueTypeId="36e8216a-6e5d-4f82-af0d-e71d046dfbf4"/>
+    <managerType typeId="1ed220ef-a723-46e4-a6f5-37b3ee184e09" valueTypeId="428684d2-d7d4-4086-83c6-3a83cf76909c"/>
+  </producedTypes>
+  <name>ДействияГрупповогоИзмененияСтрок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Действия группового изменения строк</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ee631fdf-616e-4cd3-b8ec-6b6b88c8f736">
+    <name>УдалитьСтроки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить строки@</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bca8b95-c06b-4045-bcb4-9087e99d72b9">
+    <name>УстановитьМОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить МОЛ@МОЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="215b0561-e75f-4750-8836-44ae38c356be">
+    <name>УстановитьСклад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить склад@Склад</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9118af1b-796f-491e-9607-b2c513c47cef">
+    <name>РаспределитьСуммуПоКоличеству</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределить сумму по количеству@Сумма</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b54072a1-e9f0-49e3-87d6-2feb5958fb93">
+    <name>РаспределитьСуммуПоСуммам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распределить сумму по суммам@Сумма</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

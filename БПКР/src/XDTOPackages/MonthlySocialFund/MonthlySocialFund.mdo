@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b4a71da0-3f42-4e05-94b8-3381c81b5bcf">
+  <name>MonthlySocialFund</name>
+  <synonym>
+    <key>ru</key>
+    <value>Monthly social fund</value>
+  </synonym>
+  <namespace>http://www.akforta.com/PaySheet</namespace>
+</mdclass:XDTOPackage>

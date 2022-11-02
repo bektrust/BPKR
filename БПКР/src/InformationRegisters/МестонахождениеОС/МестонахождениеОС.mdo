@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cec0829-d940-4f08-a701-cf6636362e26">
+  <producedTypes>
+    <selectionType typeId="ee26bd43-041c-44b1-97ac-ad78f8073a3c" valueTypeId="8b47aca7-762a-4839-9e5c-53159a1a59e0"/>
+    <listType typeId="f09c3aca-c7ae-4dfd-906a-365e97a7a811" valueTypeId="a44d6a77-5401-410e-9ed8-ba3e434b173d"/>
+    <managerType typeId="608adeef-51d9-486d-8b4e-3364bf9346c2" valueTypeId="39ff761c-5f9a-4d64-ac68-bc82bdb8815a"/>
+    <recordSetType typeId="9745b9c7-7f8d-42fd-bc5d-f1f4a27491d1" valueTypeId="0e95d81e-880f-4b6f-8697-93ad729d8b57"/>
+    <recordKeyType typeId="f007cccb-f0a4-445c-a8fd-7bb8eee04bfe" valueTypeId="78bb347e-6f0e-4a08-ac15-8e0330180bdd"/>
+    <recordType typeId="916b493f-0910-4260-89c8-1c2fbd3386d1" valueTypeId="6d84d1b6-42c0-40eb-b7b9-dbeb19477ad6"/>
+    <recordManagerType typeId="048b5d2a-bb73-4998-9768-4e6f9322542b" valueTypeId="49a29a7b-1ab9-4e06-9c02-d54156613715"/>
+  </producedTypes>
+  <name>МестонахождениеОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Местонахождение ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fdd9add1-b546-42bb-b484-01a8663c4a75">
+    <name>МОЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОЛ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0d149bad-eabe-4f95-825a-ef9bf5afa7f3">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="34210466-01b8-493c-8f83-19b378e9b536">
+    <name>МОЛДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>МОЛДо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="130fbda3-07f6-449a-9c04-66869e08ccde">
+    <name>ПодразделениеДо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение до</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПодразделенияОрганизаций</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4e13632c-d806-49c7-92c7-12a3a66e11ea">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7b82e92f-74fa-408d-879e-66342acca192">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

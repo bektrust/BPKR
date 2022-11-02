@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4a1c59a-5f78-4a42-b27d-0065c5c448ac">
+  <producedTypes>
+    <selectionType typeId="d1dde99c-de0c-4a40-a13b-ab19c904bf0a" valueTypeId="b0669a67-cdc5-4ddc-9506-13d2274786fa"/>
+    <listType typeId="70e5ac4f-671e-4c1a-b1ea-0b5945e55456" valueTypeId="74567b3b-12e4-4ec1-99b6-db552f489153"/>
+    <managerType typeId="6348f5dd-30c9-4fcf-bbc2-8f98a9859a02" valueTypeId="461bdc95-2719-45e8-98e5-136b9fb0bfa0"/>
+    <recordSetType typeId="a41a3fb8-b74d-4c0f-8dbf-5c074c3d8f78" valueTypeId="13a236db-865e-4b88-a0e3-7eaf50111165"/>
+    <recordKeyType typeId="bfab4fc2-60aa-4972-afb1-39ca66e496d7" valueTypeId="7d078a8f-1a6b-4207-89a9-929cb0fc9b52"/>
+    <recordType typeId="e2fdb593-7a02-4c39-aff6-29d486976c16" valueTypeId="a5f991a8-390c-4348-9133-6819962a0690"/>
+  </producedTypes>
+  <name>КорректировкиНУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировки НУ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="52d4b7e0-8403-48d0-907e-deeded4bd05f">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="7253dbd3-6e59-421f-81d9-89f1645edd7e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0cc27fac-92c2-472d-a943-20fdd19164b2">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="17fa4223-3ab1-463e-93ad-23c502968312">
+    <name>ВидУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учета</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыУчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="da60c2f6-5941-4dc8-a72e-64b193d2a927">
+    <name>АмортизацияОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизация ОС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a55abeba-2319-4cd0-a948-3470ac798a33">
+  <name>Запасы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Запасы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделНоменклатураИСклад</picture>
+  </picture>
+  <content>CommonCommand.ДополнительныеОбработкиЗапасы</content>
+  <content>CommonCommand.НастройкаЗапасы</content>
+  <subsystems>Товары</subsystems>
+  <subsystems>МБП</subsystems>
+  <subsystems>НСИ</subsystems>
+  <subsystems>Анализ</subsystems>
+  <subsystems>Служебная</subsystems>
+</mdclass:Subsystem>

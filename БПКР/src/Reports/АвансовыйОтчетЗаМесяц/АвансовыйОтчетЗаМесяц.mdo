@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57626322-61d6-441f-ac10-b220708700ed">
+  <producedTypes>
+    <objectType typeId="6fab7aef-738e-43df-b3cb-b487e8b70210" valueTypeId="f6f2e39f-4da1-44b1-be99-076f5680b680"/>
+    <managerType typeId="55f2ad7b-445b-4941-bb0b-6000d5f937bf" valueTypeId="9b24b368-7afe-4b75-a722-28f50272db30"/>
+  </producedTypes>
+  <name>АвансовыйОтчетЗаМесяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авансовый отчет за месяц</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.АвансовыйОтчетЗаМесяц.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="33f1e8c8-a9e8-42ef-8449-cdf1c9894872">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="0c7240c4-2fc3-405b-ab09-d5a8434c08a8">
+    <name>АвансовыйОтчетЗаМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансовый отчет за месяц</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

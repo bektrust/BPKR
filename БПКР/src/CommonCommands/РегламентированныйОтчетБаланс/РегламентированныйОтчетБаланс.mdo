@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="752f0589-bfdf-4bf3-bb14-07e5ad1d3f7b">
+  <name>РегламентированныйОтчетБаланс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский баланс. Форма 1</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

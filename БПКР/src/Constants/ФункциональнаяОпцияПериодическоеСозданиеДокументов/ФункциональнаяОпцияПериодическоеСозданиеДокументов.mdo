@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="013f0227-26a2-4417-b80d-4a32dc23ec9a">
+  <producedTypes>
+    <managerType typeId="199ac72a-f6a0-473a-8739-74678b0eac61" valueTypeId="b8d3569c-d70a-4ba9-b743-ac7fe2e56fbc"/>
+    <valueManagerType typeId="7dac20b9-20b8-475b-9d7e-95f4f3167159" valueTypeId="480d9f5a-cb67-4e3d-9d43-22407b31a656"/>
+    <valueKeyType typeId="5a40daaf-1f00-4987-baca-fe2880ced1a1" valueTypeId="61a81d7f-04a5-4eb2-93d1-ed1ad7c51b9f"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияПериодическоеСозданиеДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодическое создание документов</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

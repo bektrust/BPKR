@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="132c6d13-d082-490f-a3af-6f922e60ae3f">
+  <name>ИспользоватьШифрованиеБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать Шифрование БП</value>
+  </synonym>
+  <comment>Для управления видимостью прикладных объектов конфигурации.</comment>
+  <location>Constant.ИспользоватьШифрование</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.СчетНаОплатуПокупателюПрисоединенныеФайлы.TabularSection.СертификатыШифрования</content>
+  <content>Catalog.СчетНаОплатуПоставщикаПрисоединенныеФайлы.TabularSection.СертификатыШифрования</content>
+  <content>Catalog.АвансовыйОтчетПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЗадачаИсполнителяПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ОперацияБухПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ОрганизацииПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.СчетНаОплатуПокупателюПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.СчетНаОплатуПоставщикаПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.Файлы.Attribute.Зашифрован</content>
+  <content>Catalog.ФизическиеЛицаПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЭлектронныйСчетФактураВыписанныйПрисоединенныеФайлы.Attribute.Зашифрован</content>
+  <content>Catalog.ЭлектронныйСчетФактураПолученныйПрисоединенныеФайлы.Attribute.Зашифрован</content>
+</mdclass:FunctionalOption>

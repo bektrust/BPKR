@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a8b80b8d-cedc-4fb8-9e32-9ec01b56f1e7">
+  <producedTypes>
+    <selectionType typeId="5a3f6004-65ba-46ba-8f04-0dca78a9195e" valueTypeId="ac126331-5a6a-4a96-ac57-f7cca276a8ce"/>
+    <listType typeId="6fa05b07-30d9-4201-ab61-98d540f14057" valueTypeId="0562acf0-ae57-45ac-9fb5-a4fb4707be2e"/>
+    <managerType typeId="f6c1f33a-8858-45bc-ab4c-e6cffd59a1a1" valueTypeId="97e87c74-a7d0-4544-8ee8-8ed9d0638509"/>
+    <recordSetType typeId="a02ed157-ee90-4504-aefb-6717567dac6d" valueTypeId="1a944d04-8de7-4e8c-956a-65bbffbb5b58"/>
+    <recordKeyType typeId="471133b1-b744-4afc-bf1d-f4b8150eb32a" valueTypeId="52cdb18e-09f2-4704-88a2-73d2fd8f9f0a"/>
+    <recordType typeId="977c606b-7a79-4a64-9433-16218dcc1af0" valueTypeId="b8b4767a-e866-4028-bc74-9a81cd6e0c21"/>
+    <recordManagerType typeId="a1037387-34d5-43e0-a97a-4e0b507f04ca" valueTypeId="092ee807-b147-42c7-827c-782379c02475"/>
+  </producedTypes>
+  <name>СостоянияОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="123faca7-2701-4860-b7e6-e601166818bd">
+    <name>Состояние</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСостоянийОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="dec9b0dd-67b7-4c93-ab69-611b130c5c74">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fd3ac9d1-db8e-4a12-b382-c0685355921c">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

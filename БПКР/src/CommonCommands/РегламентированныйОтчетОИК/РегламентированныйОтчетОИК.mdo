@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b39de92-c5ea-4b3c-b18c-d4c9ba885a1e">
+  <name>РегламентированныйОтчетОИК</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет об изменениях в собственном капитале. Форма 4</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

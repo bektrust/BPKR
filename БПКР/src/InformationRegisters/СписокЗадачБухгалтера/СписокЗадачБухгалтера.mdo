@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79e87936-b4c9-4b27-808a-cf158f9f5f6e">
+  <producedTypes>
+    <selectionType typeId="d63bd237-bb23-4dc5-8593-dd517c1b00c3" valueTypeId="5ca0c9b5-1f40-41fa-b838-d476c88c2131"/>
+    <listType typeId="1f450b4f-9de0-4e43-8779-6b21a449a484" valueTypeId="902b6392-518d-4887-9fb0-eb1d7af1ecc1"/>
+    <managerType typeId="ce9c7219-7232-441d-8a20-88e9f4640416" valueTypeId="ca22f8f6-1893-47e4-a6ac-fa0cc48b866c"/>
+    <recordSetType typeId="50df4c97-7381-41d4-8361-65794f3adbbf" valueTypeId="2f0e73c3-2d15-4c1c-87f6-3016a15bb932"/>
+    <recordKeyType typeId="edead010-e486-491f-bb7f-5334f13044b5" valueTypeId="238202cf-fa77-4019-9350-315cdf49cdba"/>
+    <recordType typeId="622e7328-4ab3-456f-94ba-e52850e07696" valueTypeId="992acde5-fc76-478f-97e6-ced7531c1252"/>
+    <recordManagerType typeId="b20bfbd4-00e5-4ea9-abde-9e77b3f6aab3" valueTypeId="87225dab-2293-4314-8aa7-cd3df0e92dab"/>
+  </producedTypes>
+  <name>СписокЗадачБухгалтера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Список задач бухгалтера</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d499ad69-7d4b-46e5-a1a3-fddbc0b8cbb0">
+    <name>ДатаПлана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата плана</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0c256b02-c0e5-4650-9550-a8804314d122">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="951dc676-5e28-4ee2-b6d5-213823190e51">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="14e31477-26c0-48d6-b7b3-0a628087ea6c">
+    <name>Срок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="984affc6-d253-42ae-befa-494c3221f91d">
+    <name>Задача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задача</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗадачиБухгалтера</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

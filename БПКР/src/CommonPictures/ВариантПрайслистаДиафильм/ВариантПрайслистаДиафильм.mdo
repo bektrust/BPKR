@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab8f4e15-8ce3-4d49-9622-b818929a458c">
+  <name>ВариантПрайслистаДиафильм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прайс-лист &quot;Диафильм&quot;</value>
+  </synonym>
+</mdclass:CommonPicture>

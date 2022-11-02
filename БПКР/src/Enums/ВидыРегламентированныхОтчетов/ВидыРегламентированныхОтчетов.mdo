@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ac85d86-4b62-4b8f-b978-709ddb989b71">
+  <producedTypes>
+    <refType typeId="3ca6f795-a9d1-4cb9-b6f6-464d004c9315" valueTypeId="04f9f374-dedb-44b1-b5e7-438613b496e2"/>
+    <listType typeId="847b549d-f80b-49fe-88c8-be499b8f28e1" valueTypeId="995a6d41-1ff9-4361-a6f4-c34334ebabad"/>
+    <managerType typeId="d29395bd-fa53-4ac4-93f4-469cd6ca1f65" valueTypeId="178cf48f-976b-4aa5-bcb6-27f707a97a54"/>
+  </producedTypes>
+  <name>ВидыРегламентированныхОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды регламентированных отчетов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3fdc3584-3df9-4d47-a8c4-4684122a227e">
+    <name>Баланс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Баланс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e4001a3-7411-4d41-9595-9455dbbde59a">
+    <name>ОПУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОПУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bfedb753-635d-4c62-b571-bc5f54696a77">
+    <name>ОДДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОДДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e93f8a80-fd31-44bc-a6c1-00b7080b3dac">
+    <name>ОИК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОИК</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

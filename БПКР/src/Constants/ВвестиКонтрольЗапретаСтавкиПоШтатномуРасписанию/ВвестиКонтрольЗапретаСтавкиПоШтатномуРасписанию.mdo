@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58e0b156-0258-4edf-b390-52f6bb2ffed3">
+  <producedTypes>
+    <managerType typeId="89b247fe-7144-4be1-b3a8-0af9e3133f71" valueTypeId="7704234e-77ff-4857-8c3a-23b206e4fda8"/>
+    <valueManagerType typeId="6e3152a6-a70d-4879-99da-85c51ce95138" valueTypeId="ccb49257-e272-4639-9fe9-36bb685d082e"/>
+    <valueKeyType typeId="b7cb1815-3e90-58bc-8f8f-21955715a329" valueTypeId="5efcde91-3531-5594-98ab-6dba886c8ca0"/>
+  </producedTypes>
+  <name>ВвестиКонтрольЗапретаСтавкиПоШтатномуРасписанию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввести контроль запрета ставки по штатному расписанию</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

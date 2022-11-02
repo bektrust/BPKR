@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ba17ea7-7b99-412b-9a02-1fe29aacad29">
+  <producedTypes>
+    <objectType typeId="99394895-535d-464d-b985-33f58a0869bb" valueTypeId="0de04af0-edf0-4670-a0d3-cca913a6b3cb"/>
+    <managerType typeId="f198aaba-6cf6-4825-9fca-c9b7357fef4a" valueTypeId="13d0984f-b293-4335-9283-64396f259290"/>
+  </producedTypes>
+  <name>СправкаОПодоходномНалоге</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справка о подоходном налоге</value>
+  </synonym>
+  <defaultForm>Report.СправкаОПодоходномНалоге.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="dd4ebfc8-f1d9-44d5-aaef-f6b68a75cc3a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="4fd5d0b6-1f7f-4e38-8052-e1800914898f">
+    <name>ПФ_MXL_СправкаОПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справка о подоходном налоге</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cd06a78-ea95-4cf9-a569-43f11e05828b">
+  <producedTypes>
+    <objectType typeId="2edf19ac-6750-4039-bed5-481a8bc10d5d" valueTypeId="e4895df6-266a-46de-aba6-190407eae86e"/>
+    <refType typeId="6a3208fc-38d6-46a3-b234-04439aaf0c6b" valueTypeId="dbce703f-19d2-4ab4-95b6-aaf3159329f1"/>
+    <selectionType typeId="6748df85-9744-41ed-ab11-4c5c3ef29f9f" valueTypeId="6413e248-114c-44f6-ba10-f2428bf1a022"/>
+    <listType typeId="9c25fb55-19a5-4cf7-ab9f-2e340c05c8f3" valueTypeId="ea0ecf91-f002-4bdf-a88a-2a2a837dda92"/>
+    <managerType typeId="c40675de-7ff8-4082-b79e-17202990b428" valueTypeId="e448954d-bdaf-4d42-82c1-cec9c92b883c"/>
+  </producedTypes>
+  <name>Участки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Участки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Участки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Участки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Участок</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Земельный участок.</value>
+  </explanation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

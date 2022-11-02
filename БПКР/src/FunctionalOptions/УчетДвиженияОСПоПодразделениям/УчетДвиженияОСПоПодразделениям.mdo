@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e9b78a0-a06a-4733-a0bf-0dcda1119dfc">
+  <name>УчетДвиженияОСПоПодразделениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет движения ОС по подразделениям</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетДвиженияОСПоПодразделениям</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПеремещениеОС.Attribute.ПодразделениеПолучатель</content>
+  <content>Document.ПеремещениеОС.Attribute.ПодразделениеОтправитель</content>
+  <content>Document.ПеремещениеОС</content>
+  <content>Document.ВводНачальныхОстатков.TabularSection.ОС.Attribute.Подразделение</content>
+  <content>Document.ИнвентаризацияОС.Attribute.Подразделение</content>
+  <content>Document.ПринятиеКУчетуОС.TabularSection.ОС.Attribute.Подразделение</content>
+  <content>Document.СписаниеОС.Attribute.Подразделение</content>
+  <content>Document.СписаниеОС.TabularSection.ОС.Attribute.Подразделение</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.Подразделение</content>
+  <content>InformationRegister.МестонахождениеОС.Resource.Подразделение</content>
+  <content>InformationRegister.МестонахождениеОС.Resource.ПодразделениеДо</content>
+  <content>Document.КорректировкаСтоимостиРеализации.Attribute.Подразделение</content>
+  <content>Document.КомплектацияОС.Attribute.Подразделение</content>
+</mdclass:FunctionalOption>

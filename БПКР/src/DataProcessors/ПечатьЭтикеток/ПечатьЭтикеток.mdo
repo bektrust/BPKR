@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89383894-c25d-4c52-8852-dcead79c435e">
+  <producedTypes>
+    <objectType typeId="b449f524-66d5-454d-9aa7-0038660cfb32" valueTypeId="1bc4ba17-d1ab-43a2-ba4e-92a10a4d477a"/>
+    <managerType typeId="afcb2760-335b-4070-a3ff-a11b4c6cacfa" valueTypeId="6cf517b5-7275-49f3-806f-5d0adca9c66c"/>
+  </producedTypes>
+  <name>ПечатьЭтикеток</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать этикеток</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="07199775-acd0-49a7-879b-a7611ec57aba">
+    <name>НастройкаПечатиЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка печати этикеток</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

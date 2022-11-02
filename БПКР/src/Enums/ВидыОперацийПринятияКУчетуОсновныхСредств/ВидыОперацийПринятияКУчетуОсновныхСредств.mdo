@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5c3d878-9562-4a38-9bef-b3cdd9f0f88d">
+  <producedTypes>
+    <refType typeId="46b8e504-a739-416f-971c-32a7d2a93f45" valueTypeId="6827ce1a-a243-4437-8dbe-c71dd2a9d0c3"/>
+    <listType typeId="a8ebc946-bb5a-46bb-b839-4c9845392925" valueTypeId="42adccf8-6be5-4430-975f-fa1e259bf383"/>
+    <managerType typeId="d80792e6-d6b7-4aa2-9e73-c648157e6bea" valueTypeId="15a00315-400e-462c-b582-ca2296b07d15"/>
+  </producedTypes>
+  <name>ВидыОперацийПринятияКУчетуОсновныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций принятия к учету основных средств</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c6d421fd-8ae0-4003-a8de-b63bfb0deb31">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9b5d1772-0c17-45a7-a739-835aa046a4cc">
+    <name>ОбъектыСтроительства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты строительства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e881f80-45c7-4b5c-8c13-88747ba1bbda">
+    <name>ОсновныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основные средства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5be09ad7-5d61-4423-b572-12d263900118">
+    <name>ПоРезультатамИнвентаризации</name>
+    <synonym>
+      <key>ru</key>
+      <value>По результатам инвентаризации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

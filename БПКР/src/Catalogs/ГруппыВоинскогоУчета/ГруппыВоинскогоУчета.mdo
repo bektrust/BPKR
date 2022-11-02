@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e87d0522-2e7b-4fe9-bcfb-66b292ce4e75">
+  <producedTypes>
+    <objectType typeId="fa0b17fd-1d95-40ce-8968-4eb578f922d5" valueTypeId="e4bc846b-ff60-4801-9074-626662c5696e"/>
+    <refType typeId="1163a2cd-a125-412a-96c9-b5726af11c85" valueTypeId="06cd57c6-4d0d-4140-bef4-afb41b8229d6"/>
+    <selectionType typeId="6a6b9f42-fa3d-4031-9972-e992cba6c13f" valueTypeId="40ec4620-976a-492a-aff5-986a0c70e786"/>
+    <listType typeId="4fbce709-d81c-402a-8e62-cd3ee5789c72" valueTypeId="540dc347-5cf7-4fd7-bdd3-bd137105020f"/>
+    <managerType typeId="032867cf-d6ba-454a-a9e3-e72b2f87634b" valueTypeId="e4e950c2-2e2a-48bc-901c-64b939181f72"/>
+  </producedTypes>
+  <name>ГруппыВоинскогоУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы воинского учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыВоинскогоУчета.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа воинского учета</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

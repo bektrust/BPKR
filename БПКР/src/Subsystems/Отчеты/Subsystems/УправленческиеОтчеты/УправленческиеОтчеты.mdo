@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91adff34-258d-4cf0-afa4-4ea8b5c476b8">
+  <name>УправленческиеОтчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управленческие отчеты</value>
+  </synonym>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.ВедомостьПоСтатьямЗатрат</content>
+  <content>Report.КонтрольЗаполненияСтатейДвиженияДенежныхСредств</content>
+  <content>Report.РасшифровкаДвиженияДенежныхСредств</content>
+  <parentSubsystem>Subsystem.Отчеты</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66af3fb3-9859-4867-979d-b4a50c7d9eed">
+  <producedTypes>
+    <refType typeId="3469065b-6a27-463a-a5f2-fe0841bcd710" valueTypeId="63814c1e-9351-4263-9124-b2f698b6646d"/>
+    <listType typeId="92795c17-c32e-4036-a245-572d9427bd1b" valueTypeId="10a1eecb-772b-466b-b307-55245a97dd64"/>
+    <managerType typeId="271002f1-76ef-4a9d-aa1a-f18903a58c13" valueTypeId="6897e232-aff1-448e-b8ca-1fed9dc4ffe4"/>
+  </producedTypes>
+  <name>БазыРаспределенияКосвенныхРасходов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базы распределения косвенных расходов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>QuickChoice</choiceMode>
+  <enumValues uuid="6dc3144b-db1a-4dd5-98cb-d858c62c0ba5">
+    <name>ОбъемВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем выпуска</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e26b805c-590c-42fa-8568-17c2c78d76e6">
+    <name>ПлановаяСебестоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановая себестоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fec54dee-2b58-49e5-8376-49662d0e0f90">
+    <name>МатериальныеЗатраты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материальные затраты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d150555b-695b-4e28-ba76-6493c41580b8">
+  <name>Предприятие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предприятие</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ОтветственныеЛицаОрганизаций</content>
+  <content>DataProcessor.ПанельАдминистрированияБП</content>
+  <content>InformationRegister.ОтветственныеЛицаОрганизацийДляПечати</content>
+  <content>Constant.ФункциональнаяОпцияПрефиксКассыИБанковскогоСчета</content>
+  <content>DocumentJournal.ЖурналВсехДокументов</content>
+  <content>DataProcessor.ПечатьПараметровУчета</content>
+  <content>Catalog.ВидыОтветственныхЛиц</content>
+  <parentSubsystem>Subsystem.Настройки</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a59ab594-16d8-4d49-9f83-78fd4c2f37aa">
+  <name>ReportNDS</name>
+  <synonym>
+    <key>ru</key>
+    <value>Report NDS</value>
+  </synonym>
+  <namespace>http://www.sample-package.org</namespace>
+</mdclass:XDTOPackage>

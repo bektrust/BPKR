@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc3bc086-2236-4945-8bd0-24c2bb5cdc16">
+  <name>ЗарегистрироватьДанныеПервичныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарегистрировать данные первичных документов</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.ПеремещениеТоваров</types>
+    <types>DocumentObject.АктОбОказанииПроизводственныхУслуг</types>
+    <types>DocumentObject.НачисленияПодоходногоНалогаПрочихФизЛиц</types>
+    <types>DocumentObject.ПоступлениеТоваровУслуг</types>
+    <types>DocumentObject.ДвижениеМБП</types>
+    <types>DocumentObject.РозничнаяПродажа</types>
+    <types>DocumentObject.АктСверкиВзаиморасчетов</types>
+    <types>DocumentObject.СписаниеТоваров</types>
+    <types>DocumentObject.ОтчетОРозничныхПродажах</types>
+    <types>DocumentObject.ДополнительныеРасходы</types>
+    <types>DocumentObject.ПередачаТоваров</types>
+    <types>DocumentObject.ПриходныйКассовыйОрдер</types>
+    <types>DocumentObject.Доверенность</types>
+    <types>DocumentObject.СчетФактураПолученный</types>
+    <types>DocumentObject.ПоступлениеИзПереработки</types>
+    <types>DocumentObject.ОперацияБух</types>
+    <types>DocumentObject.РеализацияУслугПоПереработке</types>
+    <types>DocumentObject.ПеремещениеОС</types>
+    <types>DocumentObject.БольничныйЛист</types>
+    <types>DocumentObject.ОплатаПлатежнойКартой</types>
+    <types>DocumentObject.СчетНаОплатуПоставщика</types>
+    <types>DocumentObject.ПлатежныйОрдерСписаниеДС</types>
+    <types>DocumentObject.СписаниеОС</types>
+    <types>DocumentObject.СчетФактураВыписанный</types>
+    <types>DocumentObject.ОприходованиеТоваров</types>
+    <types>DocumentObject.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentObject.ОтчетПроизводстваЗаСмену</types>
+    <types>DocumentObject.КорректировкаСтоимостиДополнительныхРасходов</types>
+    <types>DocumentObject.МодернизацияОС</types>
+    <types>DocumentObject.НачислениеЗарплаты</types>
+    <types>DocumentObject.ОбщийСчетФактураВыписанный</types>
+    <types>DocumentObject.ВозвратТоваровПоставщику</types>
+    <types>DocumentObject.ПлатежноеПоручениеВходящее</types>
+    <types>DocumentObject.СчетНаОплатуПокупателю</types>
+    <types>DocumentObject.ПринятиеКУчетуОС</types>
+    <types>DocumentObject.ГТДПоИмпорту</types>
+    <types>DocumentObject.ПлатежноеПоручениеИсходящее</types>
+    <types>DocumentObject.КорректировкаСтоимостиПоступления</types>
+    <types>DocumentObject.КорректировкаСтоимостиРеализации</types>
+    <types>DocumentObject.АвансовыйОтчет</types>
+    <types>DocumentObject.РеализацияТоваровУслуг</types>
+    <types>DocumentObject.ВводНачальныхОстатков</types>
+    <types>DocumentObject.РасходныйКассовыйОрдер</types>
+    <types>DocumentObject.ЗаказНаПроизводство</types>
+    <types>DocumentObject.ЗакрытиеЗаказовНаПроизводство</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.ОбщегоНазначенияБПСобытия.ПриЗаписиДокументаРегистрацияДанныхПервичныхДокументов</handler>
+</mdclass:EventSubscription>

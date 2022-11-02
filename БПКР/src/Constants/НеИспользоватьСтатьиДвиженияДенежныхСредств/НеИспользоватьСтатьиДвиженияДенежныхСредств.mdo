@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84daba55-f38b-4e29-8c34-bb7f957d4575">
+  <producedTypes>
+    <managerType typeId="817637c0-2414-4556-825c-48b555562b86" valueTypeId="723ad441-ffd8-45b9-bf2f-bb1ad5434329"/>
+    <valueManagerType typeId="6c8b2683-a2e0-4c66-ad6a-be993ed13b47" valueTypeId="386132ca-331b-40d6-b89c-0dc8b422dcf6"/>
+    <valueKeyType typeId="1659cbe6-3db0-50e2-8e14-626b0d7d4056" valueTypeId="f237f403-ad50-5880-baff-9af4cb548dd0"/>
+  </producedTypes>
+  <name>НеИспользоватьСтатьиДвиженияДенежныхСредств</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не использовать статьи движения денежных средств</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

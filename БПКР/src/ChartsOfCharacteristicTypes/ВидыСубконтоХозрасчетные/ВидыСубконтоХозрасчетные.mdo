@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="be8a788a-efa0-43e3-a7e7-6f89def61f7e">
+  <producedTypes>
+    <objectType typeId="814bd0cd-5ce1-42c9-a515-2040079d85a2" valueTypeId="034511a4-b82c-435a-828f-5fdfce043c75"/>
+    <refType typeId="cff55131-0e54-4376-9d9a-92b9164a560e" valueTypeId="0cb27bd4-df9a-44c9-82e5-2a7299bb3e2c"/>
+    <selectionType typeId="924f4b3c-5e8f-4d62-b0e4-806c06db6256" valueTypeId="73bac2ac-1af5-4ffa-932a-f6100fddfac9"/>
+    <listType typeId="38d86c0d-224e-42af-8a98-02ac3a712bf7" valueTypeId="18750f1f-ef66-41ee-97ab-6d6a591d1150"/>
+    <managerType typeId="228857c5-bb2f-43f3-9be7-1b83a76683e1" valueTypeId="ff3d3bd0-500c-4e00-8b7a-02811b2149c4"/>
+    <containerType typeId="8312136e-4785-4a60-a6d4-5da709fc0414" valueTypeId="f1af903e-43c0-469b-a7ea-d9be0a35c02b"/>
+  </producedTypes>
+  <name>ВидыСубконтоХозрасчетные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид субконто</value>
+  </objectPresentation>
+  <characteristicExtValues>Catalog.Субконто</characteristicExtValues>
+  <type>
+    <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+    <types>CatalogRef.Номенклатура</types>
+    <types>DocumentRef.ПоступлениеИзПереработки</types>
+    <types>DocumentRef.КомплектацияНоменклатуры</types>
+    <types>CatalogRef.ПодразделенияОрганизаций</types>
+    <types>CatalogRef.Склады</types>
+    <types>EnumRef.ВидыИзмененийВСобственномКапитале</types>
+    <types>CatalogRef.ОсновныеСредства</types>
+    <types>CatalogRef.ФизическиеЛица</types>
+    <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+    <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+    <types>DocumentRef.ПеремещениеТоваров</types>
+    <types>DocumentRef.ОтчетПроизводстваЗаСмену</types>
+    <types>CatalogRef.Кассы</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>DocumentRef.АвансовыйОтчет</types>
+    <types>CatalogRef.РасходыБудущихПериодов</types>
+    <types>CatalogRef.НоменклатурныеГруппы</types>
+    <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+    <types>CatalogRef.ВидыОплатОрганизаций</types>
+    <types>CatalogRef.БанковскиеСчета</types>
+    <types>CatalogRef.СтатьиЗатрат</types>
+    <types>DocumentRef.ДвижениеМБП</types>
+    <types>CatalogRef.Субконто</types>
+    <types>DocumentRef.ОприходованиеТоваров</types>
+    <types>CatalogRef.ОбъектыСтроительства</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>DocumentRef.ВводНачальныхОстатков</types>
+    <types>DocumentRef.ЗаказНаПроизводство</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>6</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="84e58568-d590-4a1f-bd94-4551b225b546">
+      <name>удалитьВидыИзмененийВСобственномКапитале</name>
+      <description>Виды изменений в собственном капитале</description>
+      <code>000032</code>
+      <type>
+        <types>EnumRef.ВидыИзмененийВСобственномКапитале</types>
+      </type>
+    </items>
+    <items id="268011ad-6797-4879-b1c4-749c132d2ac4">
+      <name>ВидыОплат</name>
+      <description>Виды оплат</description>
+      <code>000034</code>
+      <type>
+        <types>CatalogRef.ВидыОплатОрганизаций</types>
+      </type>
+    </items>
+    <items id="0467d848-1a9a-4553-9667-7cad0671d7e1">
+      <name>ДенежныеСредства</name>
+      <description>Денежные средства</description>
+      <code>000003</code>
+      <type>
+        <types>CatalogRef.Кассы</types>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+    </items>
+    <items id="9cb2d824-2779-426d-9e06-76c73f8cff50">
+      <name>Договоры</name>
+      <description>Договоры</description>
+      <code>000006</code>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+    </items>
+    <items id="25d9067b-0d96-4f0d-a5fd-12d29fba60b8">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000005</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="e109070e-dcee-4965-8d21-2e4cc640b711">
+      <name>Местонахождение</name>
+      <description>Местонахождение</description>
+      <code>000033</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+    </items>
+    <items id="582f6043-faf9-4afd-b39a-2d063397d7eb">
+      <name>Номенклатура</name>
+      <description>Номенклатура</description>
+      <code>000001</code>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </items>
+    <items id="9372a602-e60d-45b2-a513-8dfa9e68ae7f">
+      <name>НоменклатурныеГруппы</name>
+      <description>Номенклатурные группы</description>
+      <code>000015</code>
+      <type>
+        <types>CatalogRef.НоменклатурныеГруппы</types>
+      </type>
+    </items>
+    <items id="494aad2d-cbbc-4992-a555-51880dd5106d">
+      <name>ОбъектыСтроительства</name>
+      <description>Объекты строительства</description>
+      <code>000016</code>
+      <type>
+        <types>CatalogRef.ОбъектыСтроительства</types>
+      </type>
+    </items>
+    <items id="c7b0b69b-6086-4dbd-a92f-2a1d3dc27093">
+      <name>ОсновныеСредства</name>
+      <description>Основные средства</description>
+      <code>000025</code>
+      <type>
+        <types>CatalogRef.ОсновныеСредства</types>
+      </type>
+    </items>
+    <items id="c9c2e3ed-ec1a-44dd-8131-739a2364d3f6">
+      <name>Партии</name>
+      <description>Партии</description>
+      <code>000023</code>
+      <type>
+        <types>DocumentRef.ПоступлениеТоваровУслуг</types>
+        <types>DocumentRef.ПоступлениеИзПереработки</types>
+        <types>DocumentRef.КомплектацияНоменклатуры</types>
+        <types>DocumentRef.ОтчетОРозничныхПродажах</types>
+        <types>DocumentRef.ВозвратТоваровОтПокупателя</types>
+        <types>DocumentRef.ПеремещениеТоваров</types>
+        <types>DocumentRef.ОтчетПроизводстваЗаСмену</types>
+        <types>DocumentRef.АвансовыйОтчет</types>
+        <types>DocumentRef.ДвижениеМБП</types>
+        <types>DocumentRef.ОприходованиеТоваров</types>
+        <types>DocumentRef.ВводНачальныхОстатков</types>
+        <types>DocumentRef.ЗаказНаПроизводство</types>
+      </type>
+    </items>
+    <items id="36156588-80bd-4d34-89b1-c9e79f9752a2">
+      <name>Подразделения</name>
+      <description>Подразделения</description>
+      <code>000013</code>
+      <type>
+        <types>CatalogRef.ПодразделенияОрганизаций</types>
+      </type>
+    </items>
+    <items id="881ff348-4467-4453-a5e4-3eaea3263e31">
+      <name>РасходыБудущихПериодов</name>
+      <description>Расходы будущих периодов</description>
+      <code>000017</code>
+      <type>
+        <types>CatalogRef.РасходыБудущихПериодов</types>
+      </type>
+    </items>
+    <items id="c1b92ba3-4dc8-41ac-a93c-a2fcb671d57c">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code>000002</code>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+    </items>
+    <items id="bf685e19-4046-4825-a572-af6ad9bf6390">
+      <name>СотрудникиОрганизаций</name>
+      <description>Сотрудники организации</description>
+      <code>000008</code>
+      <type>
+        <types>CatalogRef.ФизическиеЛица</types>
+      </type>
+    </items>
+    <items id="cc5455e2-434e-4f43-8dae-f25a25b249e8">
+      <name>СтатьиДвиженияДенежныхСредств</name>
+      <description>Статьи движения денежных средств</description>
+      <code>000004</code>
+      <type>
+        <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+      </type>
+    </items>
+    <items id="93195715-ec73-40e3-bd04-4ae6b8f3c6a6">
+      <name>СтатьиЗатрат</name>
+      <description>Статьи затрат и доходов</description>
+      <code>000014</code>
+      <type>
+        <types>CatalogRef.СтатьиЗатрат</types>
+      </type>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>ChartOfCharacteristicTypes.ВидыСубконтоХозрасчетные.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="e799502b-085f-4b82-8914-317cda15ce3b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="45bc9900-c716-49d3-ad3a-6d54afbaf7eb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1b9321cf-3eda-4918-a164-10138e61b4a0">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

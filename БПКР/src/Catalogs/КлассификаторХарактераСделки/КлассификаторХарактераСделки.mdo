@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="523097d1-4939-4e86-b560-7917bda2ef12">
+  <producedTypes>
+    <objectType typeId="78556636-cf35-4ab2-8ad8-3bb4b43378b5" valueTypeId="4aa161f4-2687-41a3-8275-129bd37ea5c3"/>
+    <refType typeId="2dcc8e5f-5014-4072-80e7-c464f5cfbf61" valueTypeId="477fc0d3-10a7-4674-88a1-9b631042c12e"/>
+    <selectionType typeId="dd8c5505-c115-4ebb-8091-43c6e5d2c3ab" valueTypeId="fade6051-d8f7-4ea5-a9e9-7943e5a2f4a7"/>
+    <listType typeId="ac4abe06-85b0-4573-9d31-346000a6be29" valueTypeId="7dc98c65-38bc-42e7-89e0-36f993d342e2"/>
+    <managerType typeId="2046292d-0604-4c6f-9f0e-de070d7bf911" valueTypeId="1a737016-99c3-414c-9e92-bdf1d2c31ec4"/>
+  </producedTypes>
+  <name>КлассификаторХарактераСделки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификатор характера сделки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КлассификаторХарактераСделки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КлассификаторХарактераСделки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Характер сделки</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Классификатор характера сделки</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КлассификаторХарактераСделки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.КлассификаторХарактераСделки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.КлассификаторХарактераСделки.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="e0f11222-1e8e-4f33-a4be-e80d9d365a60">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8ef992a8-dbce-4d7a-ba54-86128a22cffc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d9688f0-d32e-4927-bc37-f1cae54a8393">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

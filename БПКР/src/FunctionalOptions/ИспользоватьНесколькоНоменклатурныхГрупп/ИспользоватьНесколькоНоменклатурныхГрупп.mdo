@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cedf0efa-d643-405f-bb5e-66e2e391b804">
+  <name>ИспользоватьНесколькоНоменклатурныхГрупп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать несколько номенклатурных групп</value>
+  </synonym>
+  <location>Constant.ИспользоватьНесколькоНоменклатурныхГрупп</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Номенклатура.Attribute.НоменклатурнаяГруппа</content>
+  <content>Report.Продажи.Command.ПродажиПоНоменклатурнымГруппам</content>
+</mdclass:FunctionalOption>

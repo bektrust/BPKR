@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ef4c619-4c96-4021-bc79-6b812042eaa1">
+  <producedTypes>
+    <objectType typeId="68a74878-386b-44df-bab0-d34ad90d6b64" valueTypeId="b14aabfc-beb5-4843-8867-3a6d06865110"/>
+    <refType typeId="eb3aad6c-0bb9-4d23-b1f1-ecab8c61dd13" valueTypeId="7ab82713-626a-44fe-9789-638f1ee5f2fa"/>
+    <selectionType typeId="f74eb494-7168-42d8-bca4-72ed69876c29" valueTypeId="b8035336-e5e3-491a-959c-919c3d9a752f"/>
+    <listType typeId="f4562412-93e2-4484-b526-5daf5aab7b9f" valueTypeId="1dac4d52-7547-4d87-9d7c-7c3171228c94"/>
+    <managerType typeId="6541ab36-e55b-4db1-98f9-e86fec29484d" valueTypeId="d7c7b72b-3c38-427c-9118-10cfb3011625"/>
+  </producedTypes>
+  <name>ХранилищеШаблонов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Этикетки и ценники</value>
+  </synonym>
+  <inputByString>Catalog.ХранилищеШаблонов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ХранилищеШаблонов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Шаблон этикетки (ценника)</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Шаблоны этикеток и ценников</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="911919d3-cd9d-451f-977c-7731f5fc1bd1">
+      <name>ШаблонЦенникБольшой</name>
+      <description>Шаблон ценника (большой)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+    <items id="df48e609-f003-4edc-aee8-060ad6f2a359">
+      <name>ШаблонЦенникМалый</name>
+      <description>Шаблон ценника (малый)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="3fa5f29d-8d6c-4612-a504-1df8f802ed10">
+      <name>ШаблонЦенникПринтерЭтикеток</name>
+      <description>Шаблон ценника (принтер)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+    </items>
+    <items id="fabe8dae-be66-4a81-8d40-d74fdf4db86b">
+      <name>ШаблонЭтикеткаБольшой</name>
+      <description>Шаблон этикетки (большой)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="63346fbe-da0c-4351-9e12-d6d8b7af0602">
+      <name>ШаблонЭтикеткаМалый</name>
+      <description>Шаблон этикетки (малый)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="e45827d7-4516-4496-986e-00b01badd0c3">
+      <name>ШаблонЭтикеткаОбувь</name>
+      <description>Шаблон этикетки (обувь)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+    </items>
+    <items id="34b4affb-2a95-472a-855f-6b936fee4c62">
+      <name>ШаблонЭтикеткаПринтерЭтикеток</name>
+      <description>Шаблон этикетки (принтер)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ХранилищеШаблонов.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ХранилищеШаблонов.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="84e38080-0e1e-498d-a0a4-588a5e26b2bc">
+    <name>XMLОписаниеМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>XML описание макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="771173a4-e9a6-4bc4-9832-4fe8316b3f75">
+    <name>РазмерМакета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер макета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e500469-ea62-44fe-a2b0-884d892bcadd">
+    <name>ПоляШаблона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:StringValue">
+      <value>ПоляШаблонаНоменклатура</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1acd193d-5637-4ca8-9f6a-ca777f620e04">
+    <name>МаркированнаяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркированная продукция</value>
+    </synonym>
+    <comment>используется для этикеток маркированной продукции</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="f0036c60-356b-45e6-afcf-09492776edc1">
+    <producedTypes>
+      <objectType typeId="f5e65bed-e3ff-42db-b57d-d44e172825bc" valueTypeId="df8692c9-be88-411c-85cd-701d37af018f"/>
+      <rowType typeId="ad7423b7-188b-40f7-9ded-9c1ae7173616" valueTypeId="77c24a56-c1c9-4ae1-b772-17e8f36541fe"/>
+    </producedTypes>
+    <name>Поля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="64198707-6d5a-46eb-918b-b83207953139">
+      <name>Наименование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Наименование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="01731dbd-c543-42f5-b4b2-3f5d74763236">
+      <name>ТипЗаполнения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип заполнения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c2798230-c594-4cd2-80ab-2bfe8827fe5c">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1419a9bc-b7eb-4912-ab59-295a365c7d56">
+      <name>ЗначениеПоУмолчанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение по умолчанию</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="adb91cb7-d8cd-4aa5-8fe4-0428d386fe75">
+      <name>Тип</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ce60a27a-0335-4866-84fe-d501a411f96c">
+      <name>Формат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Формат</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5dd93b3e-0901-4e3b-9e30-832bdfff653e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e84e6241-1fba-49cb-b80a-1efe03bb1efa">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="98d5ddb2-4308-42f6-95cd-3dbc425b8a29">
+    <name>ПоляШаблонаНоменклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля шаблона номенклатура</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="68e461d7-8167-44d1-99df-b0860b061e08">
+    <name>ШаблоныЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны этикеток</value>
+    </synonym>
+  </templates>
+  <commands uuid="283dea7a-e0df-4b46-a9cc-9c54ff9ce999">
+    <name>ШаблоныЦенниковИЭтикеток</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблоны ценников и этикеток</value>
+    </synonym>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Catalog>

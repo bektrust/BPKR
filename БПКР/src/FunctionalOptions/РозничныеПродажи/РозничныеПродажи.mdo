@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3a2dc35c-66e8-450f-8621-f059c672d956">
+  <name>РозничныеПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничные продажи</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияВестиРозничныеПродажи</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.Склады.Attribute.ТипЦенРозничнойТорговли</content>
+  <content>Document.ОтчетОРозничныхПродажах</content>
+  <content>Subsystem.ПокупкаИПродажа.Subsystem.РозничныеПродажи</content>
+  <content>Document.РозничнаяПродажа</content>
+  <content>InformationRegister.ПараметрыРозничныхПродаж</content>
+  <content>DocumentJournal.РозничныеПродажи</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18f68b1b-7cc1-4e05-8d6e-07af0591907f">
+  <name>ОтчетПоПН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по ПН</value>
+  </synonym>
+  <namespace>http://www.sample-package2.org</namespace>
+</mdclass:XDTOPackage>

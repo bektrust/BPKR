@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b63ea09-c9cd-487e-b96c-fce2af92f45d">
+  <producedTypes>
+    <refType typeId="86321d9a-65aa-4e6b-bcf2-343c60b3cedc" valueTypeId="e1ed150c-28a8-4b04-ac33-5fcb90a3e081"/>
+    <listType typeId="e86d9bb1-0261-48ad-9d04-ef7f724fb1ac" valueTypeId="ec92f71a-2e14-423e-9fd7-8a59fa4f8dcb"/>
+    <managerType typeId="38ebd728-1e12-4afa-b3e5-50e83aa60725" valueTypeId="0275c873-b76e-4bc3-8ef5-ac29e2a86493"/>
+  </producedTypes>
+  <name>ВидыТарифовСтраховыхВзносов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды тарифов страховых взносов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="31daae83-4edd-45b3-91e2-826581d26676">
+    <name>Основной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основной (для юридических лиц)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b09439d7-1463-4b0a-aa45-38c8aab7b14d">
+    <name>ПВТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Работники парка высоких технологий и его дирекция </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b6c7ee79-2e5e-42f2-ab66-9a42bff62a37">
+    <name>ОрганизацииТекстильнойОтрасли49</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр.лица швейной и текстильной отрасли (49 и менее)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7339504-aa15-4c88-b9b8-6702268f9150">
+    <name>ОрганизацииТекстильнойОтрасли50</name>
+    <synonym>
+      <key>ru</key>
+      <value>Юр.лица швейной и текстильной отрасли (50 и более)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5db8be39-201f-420c-bcca-6ad2d515d776">
+    <name>СельскохозяйственныеКооперативы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сельскохозяйственные кооперативы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b0818d1-4bab-4463-86a9-5c34569154fd">
+    <name>МеждународныеСоглашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации созданные в соответствии с международными соглашениями</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d2241983-d502-403c-bc72-278ae9c6b6d3">
+    <name>МеждународныеДоговоры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации зарегистрированные согласно международным договорам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d39288b9-8be7-4a41-a805-9f27075b48f2">
+    <name>НекоммерческиеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Некоммерческие кооперативы, общественные фонды, объединения ТСЖ, религиозные организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="69b2e69f-c964-463b-8087-42d44ded7fdb">
+    <name>ОбществоСлепыхИГлухих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общество слепых и глухих</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="20ffff8e-ae54-44d2-a5e3-41164d49169c">
+    <name>ГосУчреждения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Государственные или финансируемые из госбюджета предприятия, учреждения и организации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ca281764-53c4-43d1-9f3c-20ad9597d47b">
+    <name>ОрганизацииДипломатическихСлужб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации дипломатических служб, загранучреждений КР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd9e6442-13aa-411a-a54c-78a09004b467">
+    <name>НаемныеРаботники</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наемные работники занятые в текстильном и швейном производствах</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3328ff62-4791-446c-b757-454e613d6899">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

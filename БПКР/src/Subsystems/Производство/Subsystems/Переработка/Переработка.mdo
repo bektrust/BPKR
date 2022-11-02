@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db08ef5a-d507-447d-a27d-68b49679b176">
+  <name>Переработка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переработка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ПоступлениеВПереработку</content>
+  <content>Document.РеализацияУслугПоПереработке</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

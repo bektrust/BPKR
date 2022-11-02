@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="210079d7-e5dc-493d-9aa9-22197997d9f4">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СведенияОбЭСФ</content>
+  <content>CommonModule.ЭСФКлиент</content>
+  <content>CommonModule.ЭСФСервер</content>
+  <content>FunctionalOption.ЭСФ</content>
+  <content>CommonPicture.КоллекцияВидДокументаЭСФ</content>
+  <content>XDTOPackage.ВыгрузкаКонтрагентовЭСФ</content>
+  <content>Constant.ФункциональнаяОпцияЭСФ</content>
+  <content>Enum.ВидыОперацийЭСФ</content>
+  <content>Catalog.ЭлектронныйСчетФактураПолученныйПрисоединенныеФайлы</content>
+  <content>Catalog.ЭлектронныйСчетФактураВыписанныйПрисоединенныеФайлы</content>
+  <content>Constant.РегистрацияИзмененийНоменклатурыЭСФ</content>
+  <content>Constant.ФункциональнаяОпцияЭТТН</content>
+  <content>FunctionalOption.ЭТТН</content>
+  <parentSubsystem>Subsystem.ЭСФ</parentSubsystem>
+</mdclass:Subsystem>

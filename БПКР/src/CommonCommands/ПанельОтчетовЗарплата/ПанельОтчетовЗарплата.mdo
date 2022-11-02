@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cb69d15-be90-459d-965c-6f731186d473">
+  <name>ПанельОтчетовЗарплата</name>
+  <synonym>
+    <key>ru</key>
+    <value>Все отчеты по заработной плате</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

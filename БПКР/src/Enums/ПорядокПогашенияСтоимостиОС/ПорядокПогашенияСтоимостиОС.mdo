@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a1a0949-bbb6-42d8-a63d-8b060944ec88">
+  <producedTypes>
+    <refType typeId="8ee62802-c98f-4bab-8061-786d22018a2b" valueTypeId="3308a182-cd5b-4df5-8ae8-7474a1c0ff2a"/>
+    <listType typeId="83738b9e-32c2-4df4-97af-2843b6a56027" valueTypeId="1859d7f6-57a1-44c3-b752-0ef29d5a286b"/>
+    <managerType typeId="ec8acabc-209b-4ff1-9980-d128ca7b12a4" valueTypeId="4c01bf52-5c81-4e89-b321-351baa4781e5"/>
+  </producedTypes>
+  <name>ПорядокПогашенияСтоимостиОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок погашения стоимости ОС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9f3c4ace-8a9c-454c-9db8-85ea929d0a99">
+    <name>Амортизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f006c685-daae-4adb-9f5f-f68848ae3738">
+    <name>НеПогашается</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не погашается</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

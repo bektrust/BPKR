@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21a22605-c9cd-48d0-9b6e-dba9d9041ecf">
+  <producedTypes>
+    <selectionType typeId="b8e27a65-f286-481f-b8f4-7ff054548517" valueTypeId="a3007314-1acf-474b-aae9-6b3f4f293729"/>
+    <listType typeId="af31d99f-7c6a-4d1a-b3b5-c8f62d53f78b" valueTypeId="d12ce305-3fd4-43df-90bc-db089a8d0944"/>
+    <managerType typeId="25269616-2f22-4a44-98ec-9f0272311daf" valueTypeId="60425ad8-fc7a-4e29-b2bd-e7be73a5117c"/>
+    <recordSetType typeId="17dde582-3a3b-4769-a008-3cc1ca6185d0" valueTypeId="ab6e88ba-d64e-4354-8d81-89dae9852eba"/>
+    <recordKeyType typeId="9489c2b9-34c6-4a06-a420-f5aee2c34b65" valueTypeId="539ce780-502f-41d5-8c5b-f4fcf5409a41"/>
+    <recordType typeId="a47c46f5-0184-470e-aa45-74e53f03a16b" valueTypeId="63815488-d888-4403-9a87-4fc61afdeb07"/>
+    <recordManagerType typeId="0a4d75e6-791d-47b9-b7be-696018f8a69b" valueTypeId="dcaf7d28-7fe3-4869-9bf3-3eec66bac327"/>
+  </producedTypes>
+  <name>НомераЛистовКассовойКниги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера листов кассовой книги</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.НомераЛистовКассовойКниги.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НомераЛистовКассовойКниги.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedRecordPresentation>
+    <key>ru</key>
+    <value>Номер листа кассовой книги</value>
+  </extendedRecordPresentation>
+  <resources uuid="7f51f7d8-17c7-4806-80da-74a6a14bcbac">
+    <name>НомерЛиста</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер листа</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d0516fcc-ba2f-4136-9d57-0cac607141ad">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8b1709d6-4e09-432e-9d1f-d80a4aea508a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a3e5b2c7-e5a4-42ba-94b4-d6329e11a686">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c95eaa8-90db-4839-b4b3-1685be1cd49a">
+  <name>НастройкиПриложения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка приложения</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ПанельАдминистрированияБСП</content>
+  <content>Report.АнализЖурналаРегистрации</content>
+  <content>DataProcessor.АктивныеПользователи</content>
+  <content>DataProcessor.БлокировкаРаботыПользователей</content>
+  <content>DataProcessor.ОбновлениеПрограммы</content>
+  <content>Catalog.ПодключаемоеОборудование</content>
+  <content>CommonCommand.НастройкаКолонтитулов</content>
+  <content>DataProcessor.СверткаИнформационнойБазы</content>
+  <content>DataProcessor.ПереходИз17В30</content>
+  <content>DataProcessor.СдвигГраницыИтогов</content>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

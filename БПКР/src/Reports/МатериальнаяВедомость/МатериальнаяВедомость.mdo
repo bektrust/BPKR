@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="918d58db-34b3-49a7-9836-42d28e0f2d16">
+  <producedTypes>
+    <objectType typeId="ee6282cf-0a9e-4ceb-b8ee-a3da7718fbb6" valueTypeId="da046d08-d331-49b4-b745-df513212df47"/>
+    <managerType typeId="db8aaf7f-122b-4ee7-abab-52ea6c5a78d8" valueTypeId="71ccf58a-c489-4ef5-bae1-9fa5e4a8a9b6"/>
+  </producedTypes>
+  <name>МатериальнаяВедомость</name>
+  <synonym>
+    <key>ru</key>
+    <value>Материальная ведомость</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.МатериальнаяВедомость.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="5ce3b8e9-5fdf-4d5a-9291-9f0e8ce4d050">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="f94b3cb5-0f57-48ad-90fd-361f972f9933">
+    <name>МатериальнаяВедомость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материальная ведомость</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

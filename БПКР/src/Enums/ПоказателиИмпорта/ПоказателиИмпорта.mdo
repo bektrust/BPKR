@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ec6d5d6-989e-4eec-a76e-10f332eb98f1">
+  <producedTypes>
+    <refType typeId="917af735-a7bb-45a2-a77f-0d892ccc665f" valueTypeId="e50ea3f4-d90a-46ad-ad76-2295b2399ed3"/>
+    <listType typeId="16771e83-afbe-4a40-86c1-22c4d3860008" valueTypeId="95bdd9eb-3db0-448a-b37e-9bea1ff3e6a4"/>
+    <managerType typeId="3685a3d4-2d52-4c35-a996-c98453ecca91" valueTypeId="29b86691-0d3c-402b-9115-564fc16c7c0d"/>
+  </producedTypes>
+  <name>ПоказателиИмпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели импорта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ea7772b3-039e-433d-8da1-1a18e164a6ca">
+    <name>ПредметыЛизинга</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облагаемый импорт предметов лизинга</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="73137233-a5f1-4110-881e-211faf2dc7b6">
+    <name>ПродуктыПереработкиДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облагаемый импорт товаров, являющихся продуктами переработки давальческого сырья</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0885ff53-6077-4ee6-9b32-c8e6f88c5510">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочий облагаемый импорт товаров , не указанных в строках 150, 151 и 152</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="11e6ef14-f5e7-43b8-96bb-45064d94e2b1">
+    <name>ТранспортныеСредства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт транспортных средств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d966e58-c8d1-4103-b235-20de247a8bb9">
+    <name>ИмпортТоваровСМУКЦ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт товаров с МУКЦ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71c4ad2a-fd60-44a3-99df-f84183802d20">
+  <producedTypes>
+    <selectionType typeId="38f2b9f2-acb2-48df-8961-58845393b7ef" valueTypeId="61904ca8-cbd1-43bb-925b-d2de655ffcb5"/>
+    <listType typeId="9c8498fc-a4e9-4f55-9cad-7bebd2918d89" valueTypeId="4cb694d2-6c2e-4387-94c4-6cad256f9aac"/>
+    <managerType typeId="4042e932-b717-4a27-8c37-be485c4e4791" valueTypeId="0f0d6083-c13b-4063-8354-e6c71b4288ae"/>
+    <recordSetType typeId="6a1cdb50-8938-405d-bbe6-f0e34eeafc02" valueTypeId="66025f97-7701-4bc3-9ce9-e7b000f2b794"/>
+    <recordKeyType typeId="acbefafc-1757-410f-8ef1-fb70f6b7e3b5" valueTypeId="20befb6c-fea7-406a-9bf2-2ee7c1b670e8"/>
+    <recordType typeId="be56700c-4de9-4f9a-b307-122135d37b5f" valueTypeId="9fe583d9-71a5-418a-a09b-33c93062a11d"/>
+    <recordManagerType typeId="e2ed11f4-d1fd-493c-be4c-0f1f55225383" valueTypeId="f24353fa-ec4e-4d9d-a0c3-d06b15181106"/>
+  </producedTypes>
+  <name>СтавкиЗемельногоНалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки земельного налога</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="65420bdf-8995-4159-981a-1ca82c68b0ed">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a37325d0-4c55-4202-b330-7524bb085375">
+    <name>КатегорияЗемель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория земель</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорииЗемель</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

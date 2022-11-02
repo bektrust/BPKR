@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa4cf877-9ee5-47e7-9dce-ae88e3860e99">
+  <producedTypes>
+    <managerType typeId="500204b4-e121-48d9-9e57-6e04981fe71e" valueTypeId="98193d34-9a27-44ac-9f43-72e8bb433d78"/>
+    <valueManagerType typeId="457ceb44-9ed4-4924-957e-1729e3bb0fec" valueTypeId="a79bd83f-8d7e-42f8-b14a-7ce032b7ed76"/>
+    <valueKeyType typeId="cd364987-8a26-408b-ad61-1ce78f730e8a" valueTypeId="e51c932e-5ceb-436a-9f48-4ae402aad235"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияВестиРозничныеПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обмен с розницей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

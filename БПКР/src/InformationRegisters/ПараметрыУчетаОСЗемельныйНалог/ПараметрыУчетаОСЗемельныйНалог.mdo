@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6db059cd-8507-4759-a643-cb3813957daf">
+  <producedTypes>
+    <selectionType typeId="ed5bbd46-a238-4fec-af5b-d938caefefd6" valueTypeId="55c48fc6-9091-4af9-9ee1-aa9d2d82a155"/>
+    <listType typeId="40472273-f7a5-45a6-a984-7a21f6d279b0" valueTypeId="e7787392-11dc-4508-89fa-a234c3ca6881"/>
+    <managerType typeId="09222366-2e2c-4474-bcde-23d1f5ab6540" valueTypeId="1eba7bbc-5ad8-4318-b39a-134e31e92326"/>
+    <recordSetType typeId="d8a9c37f-d550-40ff-ac59-bbfa443a61f2" valueTypeId="fc0d2c94-7bcf-47da-923f-9bf385abdb41"/>
+    <recordKeyType typeId="cb290c5c-89d6-496e-85e4-589b0e0c5ba7" valueTypeId="4c380761-222f-4b22-b4a5-ea2f7cf00230"/>
+    <recordType typeId="5f711199-5496-48d2-b766-b2747a4ac029" valueTypeId="37d1a0d0-c71f-4a03-8782-fc1f03075e05"/>
+    <recordManagerType typeId="14240df1-c8cc-418e-aebf-8ba5e23cac81" valueTypeId="7233aa9a-32c0-47c3-81ad-f73541fb8ebc"/>
+  </producedTypes>
+  <name>ПараметрыУчетаОСЗемельныйНалог</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры учета ОС земельный налог</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b7982f8f-ac88-404b-8f4d-240a902500e6">
+    <name>КатегорияЗемель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория земель</value>
+    </synonym>
+    <type>
+      <types>EnumRef.КатегорииЗемель</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ae2c1b3d-b016-4eb4-87e2-98de1afc452a">
+    <name>ВидЗемельногоУчастка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид земельного участка</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыЗемельныхУчастков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="538449ff-014f-480b-baf0-880d90e1f24a">
+    <name>КоличествоЧеловек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество человек (тыс.)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9ab0790e-80d0-42ed-837f-0f9f71178788">
+    <name>КоэффициентКоммерческогоИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент коммерческого использования</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КоэффициентыКоммерческогоИспользования</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f74d9fa7-8c20-4549-9274-84f0f4d470f0">
+    <name>Площадь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Площадь земельного участка (в гектарах).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0b984936-52b8-4541-bdb1-47514b13dbda">
+    <name>Область</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Области</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5b4f7f4f-4fb8-4af5-b237-6e5315aab85e">
+    <name>Район</name>
+    <synonym>
+      <key>ru</key>
+      <value>Район</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Районы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5836b04c-bc80-4bea-8328-168b9808d9de">
+    <name>ДатаНачисленияЗамельногоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начисления замельного налога</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата, с которой нужно начислять замельный налог для текушего основного средства.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="420dc0de-0e0e-4f3e-a9a6-2c72b50e2800">
+    <name>ЗональныйКоэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зональный коэффициент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ЗональныеКоэффициенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8a5c1707-815c-4d59-a125-c9b35f2c0a3f">
+    <name>СтавкаЗНВторойКатегории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка ЗН второй категории</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f36cea2f-99e5-4b4b-86a8-4a97200b3b15">
+    <name>УчастокПодОбъектомИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Участок под объектом имущества</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f28c1080-aa3d-42bc-a7c5-150ba235e2f4">
+    <name>ПлощадьПодОбъектомИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Площадь под объектом имущества</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ac612889-83c2-4c29-ae60-cd9ec1f10e5e">
+    <name>КатегорияОбъектаИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория объекта имущества</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КатегорияОбъектаИмущества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ca53ce66-0a26-4395-902b-da50bee78f75">
+    <name>КодПользователяИмущества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код пользователя имущества</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.КодыПользователейИмущества</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="5e802852-b442-492c-930e-7972a19761ad">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="e6b1671c-68b1-4fbb-9349-afdf0f29e207">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85ea677a-4b51-4f07-9e1f-f78fc5931d08">
+  <name>РазделДеньги</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел деньги</value>
+  </synonym>
+</mdclass:CommonPicture>

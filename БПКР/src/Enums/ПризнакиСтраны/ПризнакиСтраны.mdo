@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4bc61ace-c9d6-4859-8c50-d01e1271a67f">
+  <producedTypes>
+    <refType typeId="f5f03cd2-1fee-4130-890f-681a744a9dd4" valueTypeId="dd710863-8529-477d-82c5-67b78ceaf990"/>
+    <listType typeId="7248c330-2a91-4b94-b6ac-dda03eb67100" valueTypeId="94dec081-14c8-4ea7-9b25-848d7457e12f"/>
+    <managerType typeId="2f6d7923-b639-4daf-9bea-3239597c3643" valueTypeId="2ccecf76-07dd-4c96-99f7-5271d6780cf5"/>
+  </producedTypes>
+  <name>ПризнакиСтраны</name>
+  <synonym>
+    <key>ru</key>
+    <value>Признаки страны</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86af497e-2465-4334-8d11-97b8ca8cfd6f">
+    <name>КР</name>
+    <synonym>
+      <key>ru</key>
+      <value>КР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="964f7b61-368b-499b-b76c-d7c580d34df8">
+    <name>ЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕАЭС</value>
+    </synonym>
+    <comment>Страны Евразийского экономического союза</comment>
+  </enumValues>
+  <enumValues uuid="bcbaafad-c0b5-4c03-8535-a369253bfd0e">
+    <name>ИмпортЭкспорт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт/экспорт</value>
+    </synonym>
+    <comment>Страны за пределами Евразийского экономического союза</comment>
+  </enumValues>
+</mdclass:Enum>

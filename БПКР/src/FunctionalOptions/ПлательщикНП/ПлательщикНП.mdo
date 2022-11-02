@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04b2aae6-9749-4f72-bc40-16b23fabfafe">
+  <name>ПлательщикНП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плательщик НП</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.ПлательщикНП</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ЗакрытиеМесяца.Attribute.РасчетНалогаНаПрибыль</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.НадписьРасчетНалогаНаПрибыль</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0268503-1c08-4ef0-8229-88ec33988bbc">
+  <name>ИнтернетПоддержкаПользователейПереопределяемыйБП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интернет поддержка пользователей переопределяемый БП</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

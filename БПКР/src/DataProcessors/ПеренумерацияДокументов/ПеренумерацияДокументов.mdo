@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="939b1a80-a6ec-49af-a86f-a78b19cdc5f2">
+  <producedTypes>
+    <objectType typeId="6c1fde37-c5b0-4f90-b734-c0531c6b7a9f" valueTypeId="f020b167-939d-46eb-ada3-8d3e01d7858d"/>
+    <managerType typeId="0c93ad0a-b69a-49dc-8115-8f4ca60afb0b" valueTypeId="660a3442-dd2c-4a7a-9c90-4188a44bdca6"/>
+  </producedTypes>
+  <name>ПеренумерацияДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перенумерация документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПеренумерацияДокументов.Form.Форма</defaultForm>
+  <forms uuid="624da01b-97e0-4f91-8661-bdb61d0f6be0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6a9dcaef-73bb-4c29-b7e5-335daf4c84be">
+    <name>ПеренумерацияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенумерация документов</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники программы.</value>
+    </toolTip>
+  </commands>
+</mdclass:DataProcessor>

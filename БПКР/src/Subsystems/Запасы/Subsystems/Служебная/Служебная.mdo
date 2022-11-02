@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d5b8611-b6bf-42ba-af44-c03f8503de0c">
+  <name>Служебная</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебная</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СтавкиНДС</content>
+  <content>InformationRegister.СтавкиНСП</content>
+  <content>AccumulationRegister.ПоступлениеТоваров</content>
+  <content>FunctionalOption.СпособОценкиТМЗ</content>
+  <content>CommonModule.УчетМБП</content>
+  <content>CommonModule.УчетТоваров</content>
+  <content>Catalog.НоменклатураПрисоединенныеФайлы</content>
+  <content>DataProcessor.ИзменениеЦенНоменклатуры</content>
+  <content>DataProcessor.ПодборНоменклатуры</content>
+  <content>Enum.ВидыУчетаИзносаМБП</content>
+  <content>AccumulationRegister.РеестрЗакупок</content>
+  <content>Enum.ВидыОперацийКомплектация</content>
+  <content>InformationRegister.ПараметрыНоменклатуры</content>
+  <content>AccumulationRegister.ВозвратыТоваров</content>
+  <parentSubsystem>Subsystem.Запасы</parentSubsystem>
+</mdclass:Subsystem>

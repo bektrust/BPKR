@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3e5ee6f-0b9b-492a-9cc5-fb6a4cfe2567">
+  <producedTypes>
+    <refType typeId="b9b49850-aaa6-4d48-916d-8a77674d035f" valueTypeId="e339fbbe-d102-42d0-8313-331769de596d"/>
+    <listType typeId="45b0299d-6aa0-44e4-910a-c1193ccc913a" valueTypeId="1abeff69-6308-457e-a0e9-87d0deb5f587"/>
+    <managerType typeId="37d16af3-d1c9-4b3b-8771-ec8d9ff648cb" valueTypeId="ea32a2e0-0961-45c7-8150-530ea2aa20fd"/>
+  </producedTypes>
+  <name>ВидыОтчетаПоНалогам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отчета по налогам</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="697080f9-02a3-44ed-b14d-3c7adf1412ae">
+    <name>Первоначальный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09cb5d48-464d-4b0c-9847-6ca77cf5c51f">
+    <name>Уточненный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уточненный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f2f1d6c7-bea6-4e10-a063-40ce2f54d2d2">
+    <name>Ликвидационный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ликвидационный</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecc3990c-1165-4fc4-ae22-1a8bf77bf2fa">
+  <producedTypes>
+    <objectType typeId="e21b062d-76e6-4e90-ba5b-301c29ac8613" valueTypeId="b4713f53-909c-43d1-9f9f-a27914a3a8a8"/>
+    <refType typeId="09d6d55d-7772-467b-b008-f9bb9f8424ab" valueTypeId="a98ce3d6-61be-4c81-917e-ce824a717796"/>
+    <selectionType typeId="abbc6052-6470-43fe-9875-5d5df928284e" valueTypeId="0a40adf0-ab3a-4bae-9669-2ea6e326ddb9"/>
+    <listType typeId="5d11c80e-5b15-4413-a252-5b8678e31c72" valueTypeId="bfa356c1-8148-4496-a8a4-06d9806a4a31"/>
+    <managerType typeId="49b6a4d9-eedf-4bcb-9d93-6c28296bbae8" valueTypeId="d1466807-17d4-4a16-8f92-7c5c2938bc22"/>
+  </producedTypes>
+  <name>ВидыПоставокНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды поставок НДС</value>
+  </synonym>
+  <inputByString>Catalog.ВидыПоставокНДС.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ВидыПоставокНДС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.КодыПоставокНДС.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид поставки НДС</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Виды поставок НДС</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="74ff7342-3e54-4ac9-a4d3-75be1665953d">
+      <name>Облагаемая</name>
+      <description>Облагаемая по ставке 12 процентов</description>
+      <code xsi:type="core:StringValue">
+        <value>100</value>
+      </code>
+    </items>
+    <items id="b5f4e8d0-031e-4c8e-b26e-f65796d143b6">
+      <name>Освобожденная</name>
+      <description>Освобожденная</description>
+      <code xsi:type="core:StringValue">
+        <value>101</value>
+      </code>
+    </items>
+    <items id="6a01d9dc-8e1f-49bc-a5ea-29485e8b059e">
+      <name>Необлагаемая</name>
+      <description>Необлагаемая</description>
+      <code xsi:type="core:StringValue">
+        <value>102</value>
+      </code>
+    </items>
+    <items id="48a6f023-28f5-4492-b4dd-f564c7e339fb">
+      <name>Экспортная</name>
+      <description>Экспортная</description>
+      <code xsi:type="core:StringValue">
+        <value>110</value>
+      </code>
+    </items>
+    <items id="a31b570d-a7ed-4196-b33d-cfc721c25cad">
+      <name>Нулевая</name>
+      <description>Нулевая</description>
+      <code xsi:type="core:StringValue">
+        <value>112</value>
+      </code>
+    </items>
+  </predefined>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыПоставокНДС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыПоставокНДС.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ВидыПоставокНДС.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="66b09a91-3bcc-44a0-b56d-994bee2debb9">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ce4e1560-d44b-4106-a9c0-f19c1a44e953">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3a5af7dc-f476-4217-b9bd-02fb53cda8a8">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

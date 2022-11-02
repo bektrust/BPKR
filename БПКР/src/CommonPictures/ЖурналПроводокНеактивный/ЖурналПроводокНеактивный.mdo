@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd1e09b5-d2f8-4186-9142-281ed2666a71">
+  <name>ЖурналПроводокНеактивный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал проводок неактивный</value>
+  </synonym>
+</mdclass:CommonPicture>

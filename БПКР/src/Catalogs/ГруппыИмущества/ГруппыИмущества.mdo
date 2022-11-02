@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3a54f2d-be7e-44f5-a364-a0aa85446dea">
+  <producedTypes>
+    <objectType typeId="a0a8ddc1-f156-4550-8441-bfa94832ee2e" valueTypeId="0a2efeae-4dbb-4ae6-b50a-685b402c273f"/>
+    <refType typeId="e5f18c65-dba5-4031-99f1-bc098789fdf7" valueTypeId="e62170d1-2a5b-4305-9bd0-3cd645644b95"/>
+    <selectionType typeId="677f3062-e44b-45e5-8d8a-4e690f494780" valueTypeId="e6085c88-ee99-43dd-b1a7-51484ce20dff"/>
+    <listType typeId="cd524cbf-c307-4f49-9577-af9890e1cff4" valueTypeId="5392e226-11cc-4a63-b52c-f3b5735423ba"/>
+    <managerType typeId="32c14fb6-4637-45e9-934e-e60e0255596b" valueTypeId="06fb92ad-9496-42eb-8989-9d0669142aab"/>
+  </producedTypes>
+  <name>ГруппыИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы имущества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ГруппыИмущества.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ГруппыИмущества.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Группа имущества</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>5</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="20fd742d-8053-4069-82b5-ab81280afc52">
+      <name>ГИ2</name>
+      <description>2 группа</description>
+      <code xsi:type="core:StringValue">
+        <value>ГИ2</value>
+      </code>
+    </items>
+    <items id="6485b786-e8cf-4a54-ab20-8789c8511fc8">
+      <name>ГИ3</name>
+      <description>3 группа</description>
+      <code xsi:type="core:StringValue">
+        <value>ГИ3</value>
+      </code>
+    </items>
+    <items id="cf8d8ea6-a5aa-4769-8f44-f4e73410fd8e">
+      <name>ГИ4с</name>
+      <description>4 группа</description>
+      <code xsi:type="core:StringValue">
+        <value>ГИ4с</value>
+      </code>
+    </items>
+    <items id="a3e2d93c-d905-4495-8060-e20b6f00387e">
+      <name>ГИ4нс</name>
+      <description>4 группа(несамоходные)</description>
+      <code xsi:type="core:StringValue">
+        <value>ГИ4нс</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ГруппыИмущества.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ГруппыИмущества.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ГруппыИмущества.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="1e32caae-50f3-4fe9-9839-8c50b597074a">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1024</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для отражения в печатных формах</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ba4771fc-6562-44f7-972c-a9dca7d5060a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c036973f-7d72-4889-aec2-1849a6f90edd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ebe033e1-6385-4158-82f4-57fc1dad26be">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="6c124ce3-902d-4687-9c4a-ddbe9b5c615f">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

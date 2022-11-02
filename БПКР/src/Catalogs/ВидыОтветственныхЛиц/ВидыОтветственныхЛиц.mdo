@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f16499b9-d0ef-4919-8dfc-57fa7b764570">
+  <producedTypes>
+    <objectType typeId="9a237781-0582-447a-a405-40c1762f0372" valueTypeId="09426e1d-c2cf-483d-bcf8-6c8ad12eab6a"/>
+    <refType typeId="4f47c6b2-ab03-49af-9183-eb3fa6ca441f" valueTypeId="7eb973ea-b5f7-4e91-b87c-5951dfaea8c0"/>
+    <selectionType typeId="6da95bba-0128-42f8-9166-d8b095c2881c" valueTypeId="77caeea1-a217-437b-a56a-8ad804984fad"/>
+    <listType typeId="9b4220b8-ff18-4277-8caf-4a08eb02b90a" valueTypeId="10e9c030-ee41-4370-93db-483b0f2ba536"/>
+    <managerType typeId="0e187c4f-e58e-45bb-b0ff-9fe6b1bd382a" valueTypeId="636cbb18-46da-49f1-bc9d-f9eeca2d25d8"/>
+  </producedTypes>
+  <name>ВидыОтветственныхЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ответственных лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОтветственныхЛиц.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид ответственного лица</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="3ef08609-356a-44f2-95d4-788da3b0ae7b">
+      <name>ГлавныйБухгалтер</name>
+      <description>Главный бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="819e74f8-bb39-4f17-85de-cbeeedb16ae9">
+      <name>Кассир</name>
+      <description>Кассир</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="07ef30ab-4d5a-4307-aa7b-0c8f42d24b05">
+      <name>РасчетныйБухгалтер</name>
+      <description>Расчетный бухгалтер</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="ff7063f0-9a56-4ad2-8430-2071147e4fe6">
+      <name>Руководитель</name>
+      <description>Руководитель</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ВидыОтветственныхЛиц.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ВидыОтветственныхЛиц.Form.ФормаСписка</defaultListForm>
+  <forms uuid="c2c7ae8f-6d62-4c79-8ccb-007acae55564">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d20ec2d2-ed8a-4ced-8a87-d3e854f272c3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

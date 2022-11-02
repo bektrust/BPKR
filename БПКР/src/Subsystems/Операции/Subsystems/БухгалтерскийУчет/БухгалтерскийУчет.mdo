@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ae7a01f-8e4b-45f3-b193-eec5d5478508">
+  <name>БухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ОперацияБух</content>
+  <content>AccountingRegister.Хозрасчетный</content>
+  <content>Catalog.ТиповыеОперации</content>
+  <content>DocumentJournal.ЖурналОпераций</content>
+  <parentSubsystem>Subsystem.Операции</parentSubsystem>
+</mdclass:Subsystem>

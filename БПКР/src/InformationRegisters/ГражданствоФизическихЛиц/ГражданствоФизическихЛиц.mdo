@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="912862c1-bba3-416d-9942-1b51a68830d8">
+  <producedTypes>
+    <selectionType typeId="1ad206a6-bfa8-4b9f-969b-da92fa540709" valueTypeId="cd4e6ce8-9f46-474c-9dc7-d0a483fd5f2d"/>
+    <listType typeId="6fccfb6c-76b9-4007-b637-fd19f762e8b7" valueTypeId="a090bc3d-3128-4bd6-b937-dddb256897ca"/>
+    <managerType typeId="73353fd6-3283-44ec-a130-e291b07c0661" valueTypeId="b26dbfff-b011-434e-9dcb-608949fb985b"/>
+    <recordSetType typeId="377f1559-f037-4cfd-a392-26d3fdf23524" valueTypeId="9db60fcf-9953-4c9b-a0d7-39568c5b5a5f"/>
+    <recordKeyType typeId="006ab2a9-5835-4329-818e-b23268cb89ba" valueTypeId="9672d69d-b1c6-4a66-ba9c-d36ddb168207"/>
+    <recordType typeId="ef23e5dc-a830-4ebb-9891-f85a00250521" valueTypeId="6af88263-c946-485c-8739-d261c15e576a"/>
+    <recordManagerType typeId="63852cdb-6a43-4a0c-bf20-e1123e287091" valueTypeId="228a5b83-a642-4008-8ef5-eeb6a433bba5"/>
+  </producedTypes>
+  <name>ГражданствоФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Гражданство физических лиц</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="5a536d7b-f05e-493a-8281-ca47df108a24">
+    <name>Страна</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтраныМира</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="10e0c50e-b188-4d2d-912b-9a90c516214f">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="286a392d-d629-4da0-a53e-8871c868f385">
+    <name>РедактированиеИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb66cbd4-b16c-4901-94d2-a4f5f8a5b97b">
+  <producedTypes>
+    <selectionType typeId="a9cdf80f-5d75-4638-b78c-3b3dd864a23c" valueTypeId="1231d55b-61b2-4c36-9ae3-31b4ba09bc2b"/>
+    <listType typeId="f3b96dd1-8a93-4732-9c34-c9cc6196b9b9" valueTypeId="5bdab6f8-2a14-4e60-aafe-b5e0061a92f9"/>
+    <managerType typeId="5bf4af8d-9572-4826-a9ce-309c355357a3" valueTypeId="55612f5c-eb12-48ca-8a4a-daa18b52fc67"/>
+    <recordSetType typeId="836d39e1-c076-48d0-94a8-b6e0086f3250" valueTypeId="8dc94519-988c-4d54-8733-9b31121b18d7"/>
+    <recordKeyType typeId="0aa697c7-34d9-4cfb-a20f-73fe01018544" valueTypeId="793cdf90-dd20-49fe-b3c4-72a0f9da79e9"/>
+    <recordType typeId="087476a9-ddd6-45fd-8b63-03274f120a0d" valueTypeId="807ba74c-517e-46cd-8807-fb0de8c07f6f"/>
+    <recordManagerType typeId="eb8525ea-029d-4d43-bd7e-550c48843dab" valueTypeId="e18e4ac2-7813-4623-ae15-c69078e21105"/>
+  </producedTypes>
+  <name>УчетнаяПолитикаОрганизаций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика организаций</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетнаяПолитикаОрганизаций.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УчетнаяПолитикаОрганизаций.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6596e60a-0266-4d83-b6fc-b5fb56952a58">
+    <name>ПлательщикНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком налога на добавленную стоимость.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="96225fab-df79-4d0e-9ce9-f598f1ccc488">
+    <name>ПлательщикНСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик НСП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком налога с продаж.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="a868e9ed-6c4b-4342-b9be-f04b539e5c22">
+    <name>ПлательщикНП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик НП</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком налога на прибыль.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="3d1b9422-bcc3-46ce-9ea0-0676772f5a9b">
+    <name>ПлательщикНИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик НИ</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком налога на имущество.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="431e677f-70c6-456f-abc2-cb3f96fb3894">
+    <name>ПлательщикЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик ЗН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком земельного налога.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f2862852-0df6-476f-97d0-73be6a871d0c">
+    <name>ПлательщикЕН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плательщик ЕН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком единого налога.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3795f4cf-452b-4a45-be11-7471b67cc191">
+    <name>УчетНДСНаАвансы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет НДС на авансы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="ff4ba860-871d-4837-8532-2cce3d69bcdd">
+    <name>УказыватьПризнакЗачетаНДСПриПоступлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Указывать признак зачета НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывать признак зачета НДС при поступлении. При снятом флажке по умолчанию будет указываться признак &quot;Распределение&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ce760d6e-b5db-4b58-be3a-e5bf677d3760">
+    <name>СтавкаНСПДляРасчетаНДСНаАвансы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НСП для расчета НДС на авансы</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкиНСП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтавкиНСП.Торговля</value>
+    </fillValue>
+  </resources>
+  <resources uuid="ffa188e1-98eb-4245-99ba-86d3517bc94c">
+    <name>СтавкаНалогаНаПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка налога на прибыль</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>10</value>
+    </fillValue>
+  </resources>
+  <resources uuid="d34564be-5485-477f-8846-9b27c5451d69">
+    <name>ПороговыйПроцентОсвобожденныхПоставок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пороговый % освобожденных поставок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>5</value>
+    </fillValue>
+  </resources>
+  <resources uuid="584cf88d-cc2c-461a-8a6d-c0280a62a324">
+    <name>НачислениеАмортизацииОСПоМесяцам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начисление амортизации ОС по месяцам</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если не установлен, то расчет амортизации ОС начинается со дня ввода в эксплуатацию, пропорционально количеству дней эксплуатации в месяце принятия к учету или другой операции по движению ОС.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="19dc3486-02ff-4dac-aaa7-9e1ef7d0d8dd">
+    <name>СпособОценкиТМЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способ оценки товаров</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СпособыОценки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.СпособыОценки.EmptyRef</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e25b141f-e330-430d-834b-a258514cb354">
+    <name>ВидУчетаИзносаМБП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид учета износа МБП</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыУчетаИзносаМБП</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.ВидыУчетаИзносаМБП.EnumValue.ПриВводе</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e671424d-4d2d-4f24-a802-adca5aa7c2ef">
+    <name>СтавкаНСПРеализацииТовары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НСП реализации (товары)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкиНСП</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка налога с продаж для заполнения в документах реализации для вкладки товары. Если для товара не заполнена ставка в карточке номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтавкиНСП.Торговля</value>
+    </fillValue>
+  </resources>
+  <resources uuid="aa564500-0e1e-49cc-97f5-fd2317a15058">
+    <name>СтавкаНСПРеализацииУслуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка НСП реализации (услуги)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтавкиНСП</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка НСП для заполнения в документах реализации для вкладки услуги. Если для услуги не заполнена ставка в карточке номенклатуры.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.СтавкиНСП.Прочее</value>
+    </fillValue>
+  </resources>
+  <resources uuid="4e8e2fc3-4641-4e53-a373-9e68fa0394c1">
+    <name>СтавкаТаможенногоСбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка таможенного сбора</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:NumberValue">
+      <value>0.15</value>
+    </fillValue>
+  </resources>
+  <resources uuid="4280eade-db64-432e-bb1c-57abfed75919">
+    <name>Контракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контракт</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Влияет на видимость строк 069 - 072 в документах &quot;Закрытие месяца&quot; и &quot;Отчет по НДС&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1ed0ed58-fc85-4b2f-beb2-9f9967144f1d">
+    <name>СтавкаЕННаличнаяФорма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка (наличная форма)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка единого налога, которая будет применена к виду деятельности &quot;Переработка, производство, торговля&quot; в наличной форме выручки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d52d5948-b0ff-4625-b1ac-1fca1639886e">
+    <name>СтавкаЕННаличнаяФорма2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка (наличная форма)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка единого налога, которая будет применена к виду деятельности &quot;Прочее&quot; в наличной форме выручки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0485130e-431f-4415-af62-b188252d45ff">
+    <name>СтавкаЕНБезНаличнаяФорма1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка (безналичная форма)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка единого налога, которая будет применена к виду деятельности &quot;Переработка, производство, торговля&quot; в безналичной форме выручки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ec391af6-cf5c-4687-9dda-963932a67e31">
+    <name>СтавкаЕНБезНаличнаяФорма2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка (безналичная форма)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка единого налога, которая будет применена к виду деятельности &quot;Прочее&quot; в безналичной форме выручки.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="51c86c7f-12fc-4c17-abdf-432c34586a4d">
+    <name>ПлательщикЕНКассовыйМетод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод расчета Кассовый</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Метод расчета для единого налога. Влияет на видимость поля &quot;Вид деятельности&quot; в документах.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5d1cd630-1071-4505-9a73-b34d4dd48944">
+    <name>ПлательщикЕНМетодНачисления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод расчета Начислением</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Метод расчета для единого налога. Влияет на видимость поля &quot;Вид деятельности&quot; в документах.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a0254c35-81dd-42a1-9c00-14d14fff542d">
+    <name>НеУчитыватьЗакупкиБезНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не учитывать закупки без НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="45764689-f00f-4674-b442-64c63a699d79">
+    <name>МинимумСтоимостиОСДляНУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимум стоимости ОС для НУ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>12</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4027eb04-4479-4398-a659-dc84dd1b4a63">
+    <name>ОтчетПоНДСПоПоставке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет по НДС по поставке</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При установленном флажке в отчете по НДС документы Реализации ТМЗ, Возврата ТМЗ от покупателя и СФ Выписанных отражаются по дате документа иначе по дате СФ (выписки СФ).</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1fa840b5-4d38-4158-a771-077bd7cb1f1c">
+    <name>СчетУчетаЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета ЗН</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета на котором будут отражаться начисления по земельному налогу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a5b6a3e0-c8fc-4a55-9861-9ee2013b50ba">
+    <name>СчетРасходовЗН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет расходов ЗН</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета на котором будут отражаться расходы по земельному налогу.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e99d7eb8-d57f-44f1-b412-a95eb2c6d209">
+    <name>КоэффициентИнфляции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент инфляции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a1b44084-fae3-4820-8989-35fbc98c57e4">
+    <name>НеПлательщикНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не плательщик НДС</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что организация является плательщиком налога на добавленную стоимость.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <dimensions uuid="1fe8ad2c-e0dc-409c-abda-65d72b4f1a7e">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="bc410324-5b66-41a1-a546-31c33082348e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="42edd32a-71e8-4939-be79-2c7a84745dd8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

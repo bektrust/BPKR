@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f2f9fc2-254f-4ae4-b09d-f5e76d289d44">
+  <producedTypes>
+    <objectType typeId="cd277327-82cd-4d6a-bd71-05573cbc6cc6" valueTypeId="d29fdc49-d3ea-47e4-95bc-ac270ec29a07"/>
+    <refType typeId="cc571e0c-4544-465d-ade6-5333a201e143" valueTypeId="1ce2d68c-6074-4230-8dab-7b010a6a1e76"/>
+    <selectionType typeId="da1e4c29-79de-421e-b803-5783c6b934a3" valueTypeId="935b08f3-ad03-46a0-a90a-dd2918dc2a54"/>
+    <listType typeId="3d0c318a-b27d-4b34-9a13-1e375612596e" valueTypeId="59e03e77-ff06-4d68-936a-752edee96c2f"/>
+    <managerType typeId="48434bae-e883-4ad9-b541-46ece87e2d1d" valueTypeId="6c010a06-a86c-4f8d-93fc-7d14d724ed61"/>
+  </producedTypes>
+  <name>КодыПоставокСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды поставок СФ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КодыПоставокСФ.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КодыПоставокСФ.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Код поставоки СФ</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>60</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="51c989b8-a273-4807-bcd2-94171ad28ee8">
+      <name>Облагаемые</name>
+      <description>Облагаемые</description>
+      <code xsi:type="core:StringValue">
+        <value>001</value>
+      </code>
+    </items>
+    <items id="dd05d6d8-4d7c-492f-b88c-bd8eeb7b827d">
+      <name>Нулевые</name>
+      <description>Нулевые</description>
+      <code xsi:type="core:StringValue">
+        <value>002</value>
+      </code>
+    </items>
+    <items id="a39cf435-ef2b-4a16-a93a-ae5a96d1d5b6">
+      <name>РозничнаяТорговля</name>
+      <description>Розничная торговля</description>
+      <code xsi:type="core:StringValue">
+        <value>003</value>
+      </code>
+    </items>
+    <items id="a37b22b4-b596-42c8-9c9e-0c7fce25b632">
+      <name>УслугиЗаНаличныйРасчет</name>
+      <description>Услуги за наличный расчет</description>
+      <code xsi:type="core:StringValue">
+        <value>004</value>
+      </code>
+    </items>
+    <items id="23ed6f01-49f5-4488-b5b6-7fdb6553ac74">
+      <name>ОтпускТоваровДляВнутреннегоПотребления</name>
+      <description>Отпуск товаров для внутреннего потребления</description>
+      <code xsi:type="core:StringValue">
+        <value>005</value>
+      </code>
+    </items>
+    <items id="8f54d16b-50d7-4377-a047-c6e9ca4caf3d">
+      <name>РеализацияСХПродукции</name>
+      <description>Реализация с/х продукции</description>
+      <code xsi:type="core:StringValue">
+        <value>006</value>
+      </code>
+    </items>
+    <items id="46cc37c3-60a8-45a5-82b4-451da4c54530">
+      <name>ОтпускТоваровДистрибьюторам</name>
+      <description>Отпуск товаров дистрибьюторам</description>
+      <code xsi:type="core:StringValue">
+        <value>007</value>
+      </code>
+    </items>
+    <items id="ee5d2b95-4695-4572-84bb-2fbf80db8292">
+      <name>РеализацияРекламнойПродукции</name>
+      <description>Реализация рекламной продукции</description>
+      <code xsi:type="core:StringValue">
+        <value>008</value>
+      </code>
+    </items>
+    <items id="53d61623-1655-49c3-9bc9-6063e1b26592">
+      <name>РеализацияПутевок</name>
+      <description>Реализация путевок</description>
+      <code xsi:type="core:StringValue">
+        <value>009</value>
+      </code>
+    </items>
+    <items id="975b73fb-37b5-494f-a477-e70e4c3fad0c">
+      <name>РеализацияБилетов</name>
+      <description>Реализация билетов</description>
+      <code xsi:type="core:StringValue">
+        <value>010</value>
+      </code>
+    </items>
+    <items id="ae4bb486-5e05-4e41-96be-693e9a32af27">
+      <name>БанковскиеУслуги</name>
+      <description>Банковские услуги</description>
+      <code xsi:type="core:StringValue">
+        <value>011</value>
+      </code>
+    </items>
+    <items id="3b32c624-dbd5-4ba2-b1db-5eb896b8f29e">
+      <name>ВозвратТоваров</name>
+      <description>Возврат товаров</description>
+      <code xsi:type="core:StringValue">
+        <value>012</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

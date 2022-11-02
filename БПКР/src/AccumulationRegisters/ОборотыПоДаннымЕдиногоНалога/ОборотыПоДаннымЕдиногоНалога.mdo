@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1007d9f4-b6da-4a6a-bebc-4d77f42bb146">
+  <producedTypes>
+    <selectionType typeId="f32d5c47-f1ba-4e00-893c-e9f843f280e0" valueTypeId="cb655cad-c136-4a59-92e1-296bc7b2fbb4"/>
+    <listType typeId="6786fa66-f22b-43da-aa69-0035a24c7bb5" valueTypeId="abde2dc0-d503-489c-8199-67d694604ab7"/>
+    <managerType typeId="95282473-da60-4256-9b15-a72f744e2503" valueTypeId="febbf710-3265-4ceb-98b3-abe92b523d8f"/>
+    <recordSetType typeId="e3187ade-50c0-4eb7-b83e-cec06761cdb9" valueTypeId="0c101690-7669-4ddb-be70-f8c1727de3ed"/>
+    <recordKeyType typeId="3f079ef8-0611-4acc-9f81-2f06be068fb7" valueTypeId="f5ad4928-206b-4640-b0f3-eee0bc750dc9"/>
+    <recordType typeId="1914f29c-036e-4f9b-a22b-579047b95a39" valueTypeId="82c1d7d5-da2a-459c-802d-48964ae9362e"/>
+  </producedTypes>
+  <name>ОборотыПоДаннымЕдиногоНалога</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обороты по данным единого налога</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="be1bb8a4-5c17-4881-9fc6-331a7780419e">
+    <name>СуммаНаличная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма наличная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="f18bea54-0161-46b0-9fec-36e9db481e3a">
+    <name>СуммаБезналичная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма безналичная</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="f7950a21-944e-4205-98a6-9087c8d24141">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1d0dd332-0b36-4ee4-8311-ecd50587342c">
+    <name>ВидДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид деятельности</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыДеятельностиЕН</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

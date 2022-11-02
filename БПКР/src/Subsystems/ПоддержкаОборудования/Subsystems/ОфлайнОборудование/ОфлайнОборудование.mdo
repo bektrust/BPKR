@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d4adb1a-3264-4af6-9138-16516509d245">
+  <name>ОфлайнОборудование</name>
+  <synonym>
+    <key>ru</key>
+    <value>Офлайн-оборудование</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <content>CommonModule.ОфлайнОборудование1СККМВызовСервера</content>
+  <content>CommonModule.ОфлайнОборудование1СККМКлиент</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияКлиентПереопределяемый</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияКлиент</content>
+  <content>CommonModule.МенеджерОфлайнОборудования</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияВызовСервера</content>
+  <content>CommonPicture.ТоварыВыгрузить</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияПереопределяемый</content>
+  <content>XDTOPackage.Cashbox_1_8_6</content>
+  <content>DataProcessor.ОбменСОфлайнОборудованием</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияWebСервис</content>
+  <content>Catalog.ОфлайнОборудование</content>
+  <content>CommonPicture.ТоварыЗагрузить</content>
+  <content>CommonPicture.ТоварыОчистить</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияКлиентСервер</content>
+  <content>CommonModule.МенеджерОфлайнОборудованияВызовСервераПереопределяемый</content>
+  <content>Enum.ВидыТранспортаОфлайнОбмена</content>
+  <content>Role.ВыполнениеСинхронизацииДанных</content>
+  <content>Enum.ТипыОфлайнОборудования</content>
+  <content>Enum.ОбработчикиОфлайнОборудования</content>
+  <content>XDTOPackage.ExchangeMessage</content>
+  <content>CommonModule.ОфлайнОборудование1СККМEDКлиент</content>
+  <content>CommonModule.ОфлайнОборудование1СККМEDВызовСервера</content>
+  <content>XDTOPackage.EquipmentService_3_0_0_3</content>
+  <content>SessionParameter.РабочееМестоКлиента</content>
+  <content>Enum.ВидыМаркированнойПродукцииБПО</content>
+  <subsystems>WebСервисОборудование</subsystems>
+  <parentSubsystem>Subsystem.ПоддержкаОборудования</parentSubsystem>
+</mdclass:Subsystem>

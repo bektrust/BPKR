@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>ActivityColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AccentColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Black</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>72</red>
+      <green>72</green>
+      <blue>72</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>AuxiliaryNavigationColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>80</red>
+      <green>80</green>
+      <blue>80</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ImportantColor</name>
+    <color xsi:type="core:ColorDef">
+      <red>80</red>
+      <green>80</green>
+      <blue>80</blue>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.БыстрыеОтборыФонГруппы</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.LightGray</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ФонУправляющегоПоля</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Gainsboro</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветЗаголовкаИнформационнойПанели</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.DimGray</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветРазделаПанелиФункций</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.DimGray</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>StyleItem.ЦветФонаБлоковИнформационнойПанели</name>
+    <color xsi:type="core:ColorRef">
+      <color>Web.Gainsboro</color>
+    </color>
+  </items>
+</style:Style>

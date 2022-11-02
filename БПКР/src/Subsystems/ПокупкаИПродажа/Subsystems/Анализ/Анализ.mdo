@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="68cbec2d-011f-4f1a-b3d8-9d7f79d4548b">
+  <name>Анализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonCommand.ПанельОтчетовПокупкаИПродажа</content>
+  <content>Report.Продажи</content>
+  <content>Report.ВаловаяПрибыль</content>
+  <content>Report.СводСебестоимостиТовараПоИмпорту</content>
+  <content>Report.ОтчетПоПродажам</content>
+  <content>Report.РасчетыСКонтрагентами</content>
+  <content>Report.РасшифровкаРасчетовСКонтрагентами</content>
+  <content>Report.СводСебестоимостиТовараПоИмпортуЕАЭС</content>
+  <content>Report.РеестрЗакупок</content>
+  <content>Report.РеестрПродаж</content>
+  <content>Report.ОтчетПоПродажамСДиаграммой</content>
+  <content>Report.ПрайсЛист</content>
+  <content>DataProcessor.МониторРасчетов</content>
+  <parentSubsystem>Subsystem.ПокупкаИПродажа</parentSubsystem>
+</mdclass:Subsystem>

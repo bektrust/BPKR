@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1aee414c-790e-4a86-876a-7c325a5be2b3">
+  <producedTypes>
+    <managerType typeId="3897f305-170f-4820-91fe-d904955c769a" valueTypeId="c6991008-6cb0-4d39-be8b-e991110c9834"/>
+    <valueManagerType typeId="f27ed90d-70b3-4b51-9835-ce7804582091" valueTypeId="d233107f-9259-4590-b8ab-13de7fd7938d"/>
+    <valueKeyType typeId="39b09408-0c11-4ee3-a0c8-dd462c7d0547" valueTypeId="346f94e2-d8fc-4381-9d2f-4e49c68fecc9"/>
+  </producedTypes>
+  <name>ЗаполнятьОснованиеПоВидуОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнять основание по виду операции</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

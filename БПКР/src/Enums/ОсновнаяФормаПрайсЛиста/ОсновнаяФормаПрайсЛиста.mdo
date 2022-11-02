@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1b8ecbbc-3c70-4176-9718-42d31a639b8e">
+  <producedTypes>
+    <refType typeId="56869d07-bf63-4480-8b5b-1a86595ef2d3" valueTypeId="8631d2ee-5d04-4eae-87cc-88b76219014e"/>
+    <listType typeId="a248fa48-32c2-4951-8c1f-ed66f3b7a6cd" valueTypeId="926ceae6-a3d1-48a1-8821-6fe7ba3424e9"/>
+    <managerType typeId="a9fa653b-a655-4e0c-9780-b5581a557ff0" valueTypeId="83b27c76-183b-4512-8a7e-f95ff5723993"/>
+  </producedTypes>
+  <name>ОсновнаяФормаПрайсЛиста</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основная форма прайс листа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bc2a1120-d651-46a7-a6b3-b1d1e2cd874b">
+    <name>СписокПрайсЛистов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список прайс-листов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3d0f8f8-e5da-4e88-925e-b9c53a396087">
+    <name>ФормированиеПрайсЛистов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формирование прайс-листа</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

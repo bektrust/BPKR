@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10c8dce9-6f02-4af9-8994-d674da186d8d">
+  <name>ПолучитьПредставлениеДокумента</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить представление документа</value>
+  </synonym>
+  <source>
+    <types>DocumentManager</types>
+  </source>
+  <event>PresentationGetProcessing</event>
+  <handler>CommonModule.БухгалтерскийУчетСобытия.ПолучитьПредставлениеДокумента</handler>
+</mdclass:EventSubscription>

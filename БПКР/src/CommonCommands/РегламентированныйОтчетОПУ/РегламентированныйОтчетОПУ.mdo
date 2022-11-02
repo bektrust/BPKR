@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6968331e-ecc3-421a-ab9f-535e5482e8fa">
+  <name>РегламентированныйОтчетОПУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о прибылях и убытках. Форма 2</value>
+  </synonym>
+  <group>NavigationPanelOrdinary</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da18f3f4-9b33-43fc-864e-8773be60f40c">
+  <producedTypes>
+    <managerType typeId="19369707-f08f-4589-a65a-aeb995714f69" valueTypeId="a23e6bb1-fe2b-4b98-823e-825fba268a04"/>
+    <valueManagerType typeId="9483994d-c8ba-48e8-a908-36e5cae797ab" valueTypeId="a1c942bd-abed-47a9-ac4e-b4b8689432bd"/>
+    <valueKeyType typeId="70d8d2ff-b8d1-4779-95e1-e8f316a894fd" valueTypeId="846a3ee8-c799-468b-b359-9f5f409bea48"/>
+  </producedTypes>
+  <name>РазрешитьЭкспортУслугПокупателюКР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разрешить экспорт услуг покупателю КР</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

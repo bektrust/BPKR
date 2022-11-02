@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="016f7ac8-dd4b-48b7-8edd-b500fb350919">
+  <name>Покупка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.ВозвратТоваровПоставщику</content>
+  <content>Document.Доверенность</content>
+  <content>Document.ДополнительныеРасходы</content>
+  <content>Document.ПоступлениеТоваровУслуг</content>
+  <content>Document.СчетФактураПолученный</content>
+  <content>Document.ГТДПоИмпорту</content>
+  <content>Document.ЗаявлениеОВвозеТоваров</content>
+  <content>Document.СчетНаОплатуПоставщика</content>
+  <content>Document.УведомлениеОПолученииТоваров</content>
+  <content>InformationRegister.СведенияПоПоказателямИмпорта</content>
+  <content>Document.КорректировкаСтоимостиПоступления</content>
+  <content>Document.КорректировкаСтоимостиДополнительныхРасходов</content>
+  <parentSubsystem>Subsystem.ПокупкаИПродажа</parentSubsystem>
+</mdclass:Subsystem>

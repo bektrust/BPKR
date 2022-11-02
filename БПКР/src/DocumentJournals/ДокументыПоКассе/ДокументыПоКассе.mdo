@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04bae988-d203-4693-8601-180b3d65001b">
+  <producedTypes>
+    <selectionType typeId="eed2028a-208c-47bc-ad5c-8e97cf5b1c92" valueTypeId="3b367c31-d772-4f3e-8695-d13d93b72ab7"/>
+    <listType typeId="dd13911b-5553-449d-8fa0-66cdb6a0bef8" valueTypeId="6bad2e9a-fafd-4b29-8497-2ddfdc88b50f"/>
+    <managerType typeId="074a4bea-a072-4a17-8318-293aa9478c71" valueTypeId="0734cf43-c38f-4c4b-8c58-46a09f355821"/>
+  </producedTypes>
+  <name>ДокументыПоКассе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Документы по кассе</value>
+  </synonym>
+  <defaultForm>DocumentJournal.ДокументыПоКассе.Form.ФормаСписка</defaultForm>
+  <registeredDocuments>Document.РасходныйКассовыйОрдер</registeredDocuments>
+  <registeredDocuments>Document.ПриходныйКассовыйОрдер</registeredDocuments>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <columns uuid="a23322b7-fe90-472c-808a-efae68642984">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Организация</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Организация</references>
+  </columns>
+  <columns uuid="85a6fde5-7eac-4b98-a25d-633bc13f5495">
+    <name>ВидОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид операции</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ВидОперации</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ВидОперации</references>
+  </columns>
+  <columns uuid="42374f01-9893-4c3d-9024-2738a57753f4">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Касса</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Касса</references>
+  </columns>
+  <columns uuid="aeac75ab-ae14-449b-bb14-2305753a9cc2">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ВалютаДокумента</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ВалютаДокумента</references>
+  </columns>
+  <columns uuid="5f20e5eb-37ea-456d-a19f-08517893ec42">
+    <name>Подотчетник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подотчетник</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.ФизЛицо</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.ФизЛицо</references>
+  </columns>
+  <columns uuid="eebf4ec5-b38e-490b-9ae7-fef684a81dfa">
+    <name>Контрагент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контрагент</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Контрагент</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Контрагент</references>
+  </columns>
+  <columns uuid="36d476d5-99d9-4a82-89f7-84e36293659f">
+    <name>СуммаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма документа</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="a3df86d8-c8ae-40be-a349-e19ef0bf3121">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Комментарий</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Комментарий</references>
+  </columns>
+  <columns uuid="dd79ca33-0910-4973-b1af-0e307b71c2e7">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Автор</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Автор</references>
+  </columns>
+  <columns uuid="1c111cd5-2a15-4808-aee8-aa862199bbc3">
+    <name>НазначениеПлатежа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение платежа</value>
+    </synonym>
+    <references>Document.ПриходныйКассовыйОрдер.Attribute.Основание</references>
+    <references>Document.РасходныйКассовыйОрдер.Attribute.Основание</references>
+  </columns>
+  <forms uuid="68cb4670-3664-4d0b-8567-97cb1fbc552c">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ea0b0f5f-087d-486e-94f3-a4e68a284b33">
+    <name>ДокументыПоКассе</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документы по кассе</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DocumentJournal>

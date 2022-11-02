@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6aba0894-4862-47ea-aaf4-9f93c66376de">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.СостояниеЗаказов</content>
+  <content>InformationRegister.ВыполненныеРаботы</content>
+  <content>InformationRegister.ЗаказаннаяПродукция</content>
+  <content>Constant.ФункциональнаяОпцияУчетПроизводстваПоЗаказам</content>
+  <content>Constant.ИспользоватьНесколькоНоменклатурныхГрупп</content>
+  <content>FunctionalOption.УчетПроизводстваПоНоменклатурнымГруппам</content>
+  <content>AccumulationRegister.ВыпускПродукцииУслуг</content>
+  <content>InformationRegister.МетодыРаспределенияКосвенныхРасходовОрганизаций</content>
+  <content>Enum.СостоянияЗаказовПоПроизводству</content>
+  <content>Enum.ВидыЗакрытияЗаказов</content>
+  <content>Enum.БазыРаспределенияКосвенныхРасходов</content>
+  <content>Constant.ФункциональнаяОпцияУчетПроизводстваПоНоменклатурнымГруппам</content>
+  <content>Constant.РаспределятьРасходыСобственныхПодразделений</content>
+  <content>CommonModule.УчетПроизводства</content>
+  <content>CommonModule.УправлениеПроизводством</content>
+  <content>AccumulationRegister.НезавершенноеПроизводство</content>
+  <content>Constant.БазаРаспределенияКорректировкиСебестоимости</content>
+  <content>DataProcessor.ПодборЗаказовНаПрозводство</content>
+  <content>FunctionalOption.ПроизводствоИзДавальческогоСырья</content>
+  <content>Constant.ФункциональнаяОпцияПроизводствоИзДавальческогоСырья</content>
+  <content>Constant.УчетПроизводстваПоНоменклатурнымГруппамПерепроведение</content>
+  <content>FunctionalOption.УчетПроизводстваПоЗаказам</content>
+  <content>FunctionalOption.ИспользоватьНесколькоНоменклатурныхГрупп</content>
+  <content>Constant.ФункциональнаяОпцияНесколькоСкладовВПроизводстве</content>
+  <content>FunctionalOption.НесколькоСкладовВПроизводстве</content>
+  <parentSubsystem>Subsystem.Производство</parentSubsystem>
+</mdclass:Subsystem>

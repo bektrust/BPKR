@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fd49737-a490-4938-8140-566653fc196f">
+  <producedTypes>
+    <selectionType typeId="a834dc7f-a8b7-4a6d-a256-3c96983a69b0" valueTypeId="6672962a-093d-4efd-a603-79b330777f90"/>
+    <listType typeId="58b7f346-a9bd-470b-aaac-4282214cee3a" valueTypeId="81d09a98-78f2-4f57-98d2-5757e215114e"/>
+    <managerType typeId="2b70271a-815b-4ed9-9db6-1e75a67c0de5" valueTypeId="e4e7a2dc-eb19-4f01-ae11-96bf45994492"/>
+  </producedTypes>
+  <name>РозничныеПродажи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Розничные продажи (рабочее место)</value>
+  </synonym>
+  <defaultForm>DocumentJournal.РозничныеПродажи.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.РозничнаяПродажа</registeredDocuments>
+  <registeredDocuments>Document.ОтчетОРозничныхПродажах</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="eadd5233-7ebb-43e1-945e-bae3a748f9d8">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <references>Document.ОтчетОРозничныхПродажах.Attribute.СуммаДокумента</references>
+    <references>Document.РозничнаяПродажа.Attribute.СуммаДокумента</references>
+  </columns>
+  <columns uuid="f3f575e6-abae-434d-9911-f6fce1d74d02">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <references>Document.ОтчетОРозничныхПродажах.Attribute.Комментарий</references>
+    <references>Document.РозничнаяПродажа.Attribute.Комментарий</references>
+  </columns>
+  <forms uuid="7dbe1699-fb69-4cca-bb24-193539497251">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

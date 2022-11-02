@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac41e69a-c998-49ff-96e3-8dc814589a43">
+  <producedTypes>
+    <refType typeId="eca6be8f-1f44-4269-82fd-186de89c5830" valueTypeId="c65a32d8-a134-4334-b350-1daeee88d643"/>
+    <listType typeId="e7f0654c-6f8f-4286-abaf-3c7d9573777d" valueTypeId="b8d4e389-db70-4da8-a1d4-ef7135dd33e9"/>
+    <managerType typeId="95a4e759-cd27-4be1-87de-f58ad449f55a" valueTypeId="9917bc48-621d-42aa-821b-bb40fb38485b"/>
+  </producedTypes>
+  <name>НалоговыеРежимы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Налоговые режимы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="9fda1efc-a8b4-4023-96af-d59e23d6f9eb">
+    <name>ОбщийНалоговыйРежим</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий налоговый режим (ОНР)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abfcafe5-6602-4558-85e7-1b4b04a8ef8f">
+    <name>НалогиНаОсновеНалоговогоКонтракт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Налоги на основе налогового контракта (НК)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="74d17885-e6a4-4f64-92b1-4b794729a649">
+    <name>УпрощеннаяСистемаНалогообложенияНаОсновеЕдиногоНалога</name>
+    <synonym>
+      <key>ru</key>
+      <value>Упрощенная система налогообложения на основе единого налога (ЕН)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68ff45b6-ee53-4bf8-896d-27487d55a2da">
+    <name>ПаркВысокихТехнологий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парк высоких технологий (ПВТ)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03906a56-9cac-4558-9673-073884b21747">
+    <name>ОбязательныйПатент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательный патент (ОП)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66262ee0-bb9b-43f7-8b85-7e0d94d00cd4">
+    <name>ДобровольныйПатент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добровольный патент (ДП)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

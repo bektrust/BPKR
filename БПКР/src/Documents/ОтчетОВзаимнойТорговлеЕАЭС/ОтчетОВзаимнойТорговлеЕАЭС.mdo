@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82a6a9c5-48d7-4eb7-a753-51a4e3fd4b57">
+  <producedTypes>
+    <objectType typeId="c63d968e-f2fa-4060-8f36-5fec67be69a1" valueTypeId="7b8f2258-d2a3-4c60-9dca-4121585dd6a2"/>
+    <refType typeId="cbea8017-238b-4bf9-a7e4-6a9812d4e4ec" valueTypeId="ae2f55a1-83a9-474a-8ca8-5807b504486b"/>
+    <selectionType typeId="fdf05e05-a370-4438-a8b1-f0f2d39f124d" valueTypeId="678c279c-f013-4c13-8829-3f51752f47e7"/>
+    <listType typeId="5ba26863-f78a-42c3-b136-c0f190ffa103" valueTypeId="9ad0eda1-6ec3-4885-b2fe-9ed4b2c1b754"/>
+    <managerType typeId="5d29b268-46f4-46e0-9714-07336ffa7dad" valueTypeId="a4016fa4-d95c-4109-aae8-e44b84d63394"/>
+  </producedTypes>
+  <name>ОтчетОВзаимнойТорговлеЕАЭС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о торговле с членами ЕАЭС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОтчетОВзаимнойТорговлеЕАЭС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Отчет о взаимной торговле с государствами членами ЕАЭС</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Отчеты о взаимной торговле с государствами членами ЕАЭС</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОтчетОВзаимнойТорговлеЕАЭС.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОтчетОВзаимнойТорговлеЕАЭС.Form.ФормаСписка</defaultListForm>
+  <posting>Deny</posting>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="27afebde-1805-4760-ad75-fe179d0a8282">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8951826f-a48d-4ae5-940b-9b3f5455f045">
+    <name>ДатаНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата начала по больничному листу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2fad4969-3291-4642-a675-047d2ab9316c">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата окончания по больничному листу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="642b9e95-1e5d-4bd6-9d35-84915537f011">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Указывается любая дополнительная информация к документу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d0d50084-a86e-41b5-91a7-5fd7a55e33a5">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь, создавший документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="a926501e-2e68-40d8-ba03-79f3da61a784">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9397707b-46b2-4557-8d15-4d40f9ab6d0b">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="02226d89-eab2-4d09-8596-c07348f1af3b">
+    <producedTypes>
+      <objectType typeId="3951de44-35ba-419c-97b2-e846134a66d1" valueTypeId="c4357623-53dd-4270-8763-7393f10aab9d"/>
+      <rowType typeId="b557e5ce-c7a7-4217-923c-0e049052ae15" valueTypeId="2afbfdb3-0bd7-4889-84c4-7c08b6ed05ec"/>
+    </producedTypes>
+    <name>ИнформацияОТорговле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация о торговле</value>
+    </synonym>
+    <attributes uuid="7f6c2b9b-d6d5-4747-bf67-f75291e920df">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8f0f7183-84d9-4d5e-b73f-cb879112d56a">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КлассификаторЕдиницИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3747a5c1-86bf-466c-8393-f72d9697248d">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f50c8f1-22a1-4137-8a5b-acbce9f28f2a">
+      <name>Количество</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bc36f9a7-4dcd-4ca9-96b9-370000ed6ed1">
+      <name>Сумма</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма, сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость номенклатурной позиции по данной строке.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fc31b1c6-395a-415f-9b9e-9edefa2a66b5">
+      <name>СуммаВДолларах</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма, USD</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Стоимость номенклатурной позиции по данной строке.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ed58b6f9-e40f-46f1-9b98-85cf2c110354">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>ДокументВладелец</name>
+        <field>Document.ОтчетОВзаимнойТорговлеЕАЭС.StandardAttribute.Ref</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c83ed5d9-d030-4259-962d-b2102a4bf557">
+      <name>КоммерческиеДокументы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коммерческие документы</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КоммерческиеДокументы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b5ba4d3e-b0c6-42db-bd43-7382994677a8">
+      <name>Транспортировка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Транспортировка</value>
+      </synonym>
+      <type>
+        <types>EnumRef.Транспортировка</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e4e93a5a-c48e-4f18-a087-888920926fba">
+      <name>ВидТранспорта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид транспорта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ВидыТранспортаПоказателиИмпорт</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6573746a-89db-4f2f-b178-ad1256079fbd">
+      <name>ДополнительнаяИнформация</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дополнительная информация</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3f88300a-e3f8-49cb-9656-02c38269d5a1">
+      <name>КодОсобенностиПеремещенияТоваров</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код особенности перемещения товаров</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КодыОсобенностейПеремещенияТоваров</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9812bcd5-66db-4322-95a9-85986933f531">
+      <name>КодУсловийПоставки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код условий поставки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КлассификаторУсловийПоставки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ac386f98-c852-44b6-a7dc-70a8a77ceb3a">
+      <name>НомерКонтракта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер контракта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dfbc514a-76fa-483d-bbae-6e80d9a36c06">
+      <name>ДатаКонтракта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата контракта</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dfec1010-e9fb-478f-b02f-def584160256">
+      <name>ХарактерСделки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Характер сделки</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КлассификаторХарактераСделки</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="68e4ae95-2474-4eaa-bc8e-e1da1874a741">
+    <name>ПФ_MXL_ОтчетОВзаимнойТорговлеЕАЭС</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL отчет о взаимной торговле ЕАЭС</value>
+    </synonym>
+  </templates>
+  <templates uuid="caed74f9-d1d7-422e-b561-a2d7f56b2823">
+    <name>ПФ_MXL_ТорговляЕАЭС_Раздел1</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL торговля ЕАЭС раздел1</value>
+    </synonym>
+  </templates>
+  <templates uuid="06f619df-ee90-406a-ab0e-e1c4715228a6">
+    <name>ПФ_MXL_ТорговляЕАЭС_Раздел2_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL торговля ЕАЭС раздел2 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="02a9dbfc-073c-49b9-bec7-efeb48de8233">
+    <name>ПФ_MXL_ТорговляЕАЭС_Раздел2_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL торговля ЕАЭС раздел2 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="500ab970-cedf-4b3a-be68-355a7bc0c276">
+    <name>ПФ_MXL_ТорговляЕАЭС_Раздел2_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>П ф MXL торговля ЕАЭС раздел2 3</value>
+    </synonym>
+  </templates>
+</mdclass:Document>

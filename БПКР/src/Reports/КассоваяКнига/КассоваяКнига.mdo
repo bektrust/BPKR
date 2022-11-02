@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3cdee266-95cc-48f4-88c0-d0ea5e2d0b24">
+  <producedTypes>
+    <objectType typeId="1ff039c3-d1bf-483f-b529-e89fa0921684" valueTypeId="0787696b-9763-40b0-9024-90268099f204"/>
+    <managerType typeId="26379cd0-31a2-4f57-91f6-b668732e5783" valueTypeId="2da08663-6aa1-480c-9260-cd251f185f3b"/>
+  </producedTypes>
+  <name>КассоваяКнига</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассовая книга</value>
+  </synonym>
+  <defaultForm>Report.КассоваяКнига.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="6bb9ed4c-2b0e-4cb6-ba8a-d98c37e8c708">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="9603647c-d99e-4ef0-9864-619535bfda7a">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Report.КассоваяКнига.Attribute.Организация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="81e8f8fb-3f1b-4d72-b799-619a22b56812">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f4da36f6-5fbc-485c-9eb6-485efe2d6c78">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="15b3e4d5-874c-41c5-93d4-48951dde90df">
+    <name>ВыводитьОснования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить основания кассовых ордеров</value>
+    </synonym>
+    <comment>При установке этого флажка в графе кассовой книги¶&quot;От кого получено или кому выдано&quot; будет ¶выводиться содержание полей &quot;Принято от&quot; и¶&quot;Основание&quot; приходного кассового ордера или¶&quot;Выдано&quot; и &quot;Основание&quot; расходного кассового ордера</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="202484fe-4f17-41a5-9447-f3d68e3782bb">
+    <name>ПересчитатьНомера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пересчитать номера листов с начала года</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bbeef2c4-9ffb-4958-81df-5b21e6968ddb">
+    <name>РежимРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим расшифровки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9b9df01a-5fd1-44da-9aa4-d0496de5e541">
+    <name>СписокСформированныхЛистов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список листов</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f87849ae-b285-4b70-9161-d5b75ddb10fe">
+    <name>ВыводитьНазваниеКассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить название кассы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7829b24f-2e24-4022-aaef-3786c6c998bb">
+    <name>ВыводитьНаименованиеОрганизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить наименование организации</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e9420d83-b9d6-49ed-add0-7a8aab9ebc70">
+    <name>ПечататьВкладнойЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать вкладной лист</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7fd28b4a-3f68-4a10-9e61-e1dc3776c9ee">
+    <name>ПечататьОтчетКассира</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печатать отчет кассира</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a11f3ccb-01ff-4888-9f0a-df4a868b4979">
+    <name>НомераДокументовПоПараметрамУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номера документов по параметрам учета</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5fb98d0b-9d0c-4370-870f-466a75b2618d">
+    <name>СортироватьПоВиду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировать документы по виду</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="07ba5ac9-d927-4501-9ed5-336851051944">
+    <name>СортироватьПоНомеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировать документы по номеру</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a6815a55-10d1-4bd1-867f-da408f150f33">
+    <name>РазбиватьЛистыПоДням</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разбивать листы по дням</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9f39c56-2966-4ca6-902f-3f63bddf0857">
+    <name>ПечататьТитульныйЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сформировать титульный лист</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="87ba8fd0-be5a-4b33-9451-a42f71f421c2">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="14fe2b4b-6c15-43de-b0ba-270476ef9a46">
+    <name>КассоваяКнига</name>
+    <synonym>
+      <key>ru</key>
+      <value>КассоваяКнига</value>
+    </synonym>
+  </templates>
+  <templates uuid="670802fb-650a-4628-b3a7-6bb62f1db759">
+    <name>Обложка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обложка</value>
+    </synonym>
+  </templates>
+  <commands uuid="f8ddc83f-a94c-40d7-a95e-490e06e15bc8">
+    <name>КассоваяКнига</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кассовая книга</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

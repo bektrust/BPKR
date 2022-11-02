@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4394eb3-0354-4cb1-be77-c8570be8332c">
+  <producedTypes>
+    <refType typeId="cabd4191-5774-4a56-b12a-6c169f631504" valueTypeId="f3bbc4ec-ff70-48d6-b672-dc5e0f74cacc"/>
+    <listType typeId="8a957ce7-a341-4fce-aad2-5045682be8cf" valueTypeId="9861c6ba-8536-4e1f-bf71-fb40422f6bf5"/>
+    <managerType typeId="a846d3ef-9334-420d-8ea5-d08449239874" valueTypeId="fd5a7453-f4dc-432c-b370-21da44b9429d"/>
+  </producedTypes>
+  <name>ВидыДеятельностиЕН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды деятельности (Единый налог)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Виды деятельности по единому налогу.</value>
+  </explanation>
+  <enumValues uuid="d686ce1a-54cb-462a-b317-f4495639ff87">
+    <name>ПереработкаПроизводствоТорговля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переработка, производство, торговля</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95857d35-f37f-4ee0-82d6-793093679ff9">
+    <name>Прочее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00a3747c-54ea-4a9e-8fe5-68bbbf273186">
+    <name>РежимУсловногоНачисленияНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим условного начисления НДС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="552cc711-2fd2-4c35-9fa9-dbddc84e82aa">
+    <name>ШвейноеТекстильноеПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Швейное и/или текстильное производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d310d77b-143b-4acb-a107-421d4003b86d">
+    <name>Услуги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги общественного питания</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5c7a8324-0678-4113-a97b-67fb9a76eae8">
+    <name>УслугиСаун</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги саун</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f75472aa-8187-40a0-9c51-45071ebe8096">
+    <name>УслугиБильярда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги бильярда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c62f222d-59f7-4daa-b7af-9df5e2ae7afd">
+    <name>УслугиБань</name>
+    <synonym>
+      <key>ru</key>
+      <value>Услуги бань </value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

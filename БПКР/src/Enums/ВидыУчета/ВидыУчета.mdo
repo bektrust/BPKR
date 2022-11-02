@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b8ac111-8742-496d-aeff-e49063290c47">
+  <producedTypes>
+    <refType typeId="53f4c2ff-476d-4c3a-a9a3-a46df64e7d6e" valueTypeId="6ddafaa7-d277-4f20-ba44-d8e83c41cf3c"/>
+    <listType typeId="63e6999e-9944-4418-af3a-b2de76266b63" valueTypeId="92e102da-0a7f-4cab-9b64-f644cb23ca6f"/>
+    <managerType typeId="628976ba-7184-4df1-a785-5927306ba764" valueTypeId="dad9255f-4e30-4032-a330-8880034e62a4"/>
+  </producedTypes>
+  <name>ВидыУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды учета</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="78ec292f-24c2-47b7-812e-9cb8acf7138b">
+    <name>ПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянные разницы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f66746e-4def-471f-9e53-554cb2bc84e3">
+    <name>ВР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временные разницы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

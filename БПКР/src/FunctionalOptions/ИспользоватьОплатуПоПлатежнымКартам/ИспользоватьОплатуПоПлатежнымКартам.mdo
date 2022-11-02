@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2f1eb64-8c69-4ccb-9cfb-cd2a20c0c2e5">
+  <name>ИспользоватьОплатуПоПлатежнымКартам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать оплату по платежным картам</value>
+  </synonym>
+  <location>Constant.ИспользоватьОплатуПоПлатежнымКартам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыОплатОрганизаций</content>
+  <content>Subsystem.ДенежныеСредства.Subsystem.ПлатежныеКарты</content>
+  <content>Document.ОплатаПлатежнойКартой</content>
+  <content>Document.РозничнаяПродажа.Attribute.БезналичныйРасчет</content>
+  <content>Document.РозничнаяПродажа.Attribute.ВидОплаты</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3eb9c15f-3407-4c4e-8f5b-53b566d5c101">
+  <name>Техноология1cFresh</name>
+  <synonym>
+    <key>ru</key>
+    <value>1cFresh</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>CommonForm.ЗагрузкаДанныхИзСервиса</content>
+  <content>CommonCommand.ПереносДанныхПриложения</content>
+  <content>CommonCommand.ПерейтиВОблачныйСервис</content>
+  <content>CommonCommand.ИнформацияИПоддержка</content>
+  <content>CommonModule.СообщенияШироковещательныйКаналБП</content>
+  <content>CommonForm.ВходВОбластьДанных</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

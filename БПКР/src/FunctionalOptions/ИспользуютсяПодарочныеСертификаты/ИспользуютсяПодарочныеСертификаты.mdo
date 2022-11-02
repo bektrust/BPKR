@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c72f637-cb88-45df-9777-164d583b5c99">
+  <name>ИспользуютсяПодарочныеСертификаты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Используются подарочные сертификаты</value>
+  </synonym>
+  <location>Constant.ИспользуютсяПодарочныеСертификаты</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВидыОплатОрганизаций</content>
+</mdclass:FunctionalOption>

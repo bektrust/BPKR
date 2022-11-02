@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e7aad593-4bdf-45b8-b4a4-b2b26f2d39c1">
+  <producedTypes>
+    <managerType typeId="93fb116e-7a96-4aa1-9d02-16eeb6dc2067" valueTypeId="9611e359-9be6-475c-b74d-56175e2e0da2"/>
+    <valueManagerType typeId="c76789a8-7768-4b5f-b8d5-b4963019c72e" valueTypeId="f64498cd-d4df-4111-9ddb-6638f51edb01"/>
+    <valueKeyType typeId="951d7a96-a088-4a00-84ac-72a795e2a3c9" valueTypeId="2cd1d497-1a1e-4a84-8862-acaf04bbe98b"/>
+  </producedTypes>
+  <name>УчетПроизводстваПоНоменклатурнымГруппамПерепроведение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет производства по номенклатурным группам перепроведение</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

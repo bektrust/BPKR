@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d83e855b-6b02-45ab-9c17-e76b3db915c7">
+  <name>ПерсональныеНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Персональные настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.ЗагрузкаДанныхИзФайла</content>
+  <content>DataProcessor.ПеренумерацияДокументов</content>
+  <content>DataProcessor.ПеренумерацияСправочников</content>
+  <content>CommonCommand.СменитьПароль</content>
+  <parentSubsystem>Subsystem.Администрирование</parentSubsystem>
+</mdclass:Subsystem>

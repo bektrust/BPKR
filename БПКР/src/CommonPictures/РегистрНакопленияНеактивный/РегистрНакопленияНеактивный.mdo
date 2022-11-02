@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="479a9773-31a9-47d3-814c-1aa4c9af2143">
+  <name>РегистрНакопленияНеактивный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистр накопления неактивный</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcea5335-8d6b-4ade-b105-199f7bf336e2">
+  <producedTypes>
+    <selectionType typeId="2ef6b48b-a5f5-45a6-96fb-d7e46c2f7bd5" valueTypeId="fc0ba503-2060-4367-a91c-abcbcb982765"/>
+    <listType typeId="ad7d0836-fc46-4044-9481-bb4d0ede150b" valueTypeId="2ac8ad92-2dee-4841-a597-a9405ccc124e"/>
+    <managerType typeId="03631ef5-140c-454f-ad20-27e9fa65ffdd" valueTypeId="ebb8d96e-c28c-436a-886d-daaf9ad60169"/>
+    <recordSetType typeId="2953bbc2-996a-4304-b41d-fd4c41adfec4" valueTypeId="9237478f-9215-4b72-8ffc-f6f6fd2e83e5"/>
+    <recordKeyType typeId="512bcef2-0229-4260-ace0-09d41122f9af" valueTypeId="7a324277-541c-4e0e-8b9b-7574779fbb3f"/>
+    <recordType typeId="ece29e94-2122-4521-9c72-714d20ea2811" valueTypeId="deca340a-8f24-4ad7-8499-b87ba37fb152"/>
+  </producedTypes>
+  <name>ВыработкаОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выработка ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="fcb2aba3-0f1b-4ec8-974a-b2b3d2e9378b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="e1166838-f2af-41ff-8ec7-fc6f01047fb8">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="07bfeb9c-59cb-40dc-a1cb-60fbb5976d7d">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="64a62abb-a511-42cd-8afd-758ead40cfd0">
+    <name>ПараметрВыработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметр выработки</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПараметрыВыработкиОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

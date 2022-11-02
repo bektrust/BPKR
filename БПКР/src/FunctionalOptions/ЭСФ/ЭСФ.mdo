@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cf1f488-6cd4-49aa-ad63-bf15fc1bed17">
+  <name>ЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЭСФ</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияЭСФ</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Subsystem.ЭСФ</content>
+  <content>Document.ЭлектронныйСчетФактураВыписанный</content>
+  <content>DataProcessor.ВыгрузкаСправочныхДанных</content>
+  <content>DataProcessor.МониторЭСФ</content>
+  <content>Catalog.Номенклатура.Attribute.ИдентификаторНоменклатурыЭСФ</content>
+  <content>InformationRegister.СоответствияНоменклатурыЭСФ</content>
+  <content>DataProcessor.ЗагрузкаЭСФ</content>
+  <content>Document.ЭлектронныйСчетФактураПолученный</content>
+  <content>Subsystem.ЭСФ.Subsystem.Документы</content>
+  <content>DocumentJournal.ДокументыПоЭСФ</content>
+  <content>Catalog.Организации.Attribute.ЭтоФилиал</content>
+  <content>Catalog.КодыПоставокНДС</content>
+  <content>Catalog.ДоговорыКонтрагентов.Attribute.КодПоставкиНДС</content>
+  <content>Document.ВозвратТоваровОтПокупателя.Attribute.КодПоставкиНДС</content>
+  <content>Document.РеализацияТоваровУслуг.Attribute.КодПоставкиНДС</content>
+  <content>Document.РеализацияУслугПоПереработке.Attribute.КодПоставкиНДС</content>
+  <content>Document.СчетФактураВыписанный.Attribute.КодПоставкиНДС</content>
+  <content>Document.ЭлектронныйСчетФактураВыписанный.Attribute.КодПоставкиНДС</content>
+  <content>InformationRegister.СчетаФактурыВыписанные.Resource.КодПоставкиНДС</content>
+  <content>Catalog.ВидыПоставокНДС</content>
+  <content>Document.АктОбОказанииПроизводственныхУслуг.Attribute.КодПоставкиНДС</content>
+  <content>Document.КорректировкаСтоимостиПоступления</content>
+</mdclass:FunctionalOption>

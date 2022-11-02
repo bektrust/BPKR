@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3ebf382-4721-45e9-8658-32e39898e11d">
+  <producedTypes>
+    <objectType typeId="704a526b-1d64-4636-a5fb-17f2eda12dc4" valueTypeId="ed9a9a98-7c16-4312-9765-c30d56754515"/>
+    <managerType typeId="33d5e2db-9171-40e6-9fc6-d96b4963de4d" valueTypeId="c2ade25f-81d4-41f7-ae43-5014a6ed7e3c"/>
+  </producedTypes>
+  <name>ВедомостьПередачиОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ведомость передачи ОС за год</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ВедомостьПередачиОС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="7cf98057-fcb4-496d-98ae-75527b739c8b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

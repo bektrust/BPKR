@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="701f3497-50f4-4733-b1ec-b15923c972b5">
+  <name>УказыватьПризнакЗачетаНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Указывать признак зачета НДС</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.УказыватьПризнакЗачетаНДСПриПоступлении</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ПоступлениеТоваровУслуг.TabularSection.Товары.Attribute.ЗачетНДС</content>
+  <content>Document.ПоступлениеТоваровУслуг.TabularSection.Услуги.Attribute.ЗачетНДС</content>
+  <content>Document.ПоступлениеТоваровУслуг.TabularSection.ОС.Attribute.ЗачетНДС</content>
+  <content>Document.ПоступлениеИзПереработки.TabularSection.Услуги.Attribute.ЗачетНДС</content>
+  <content>Document.КорректировкаСтоимостиПоступления.TabularSection.Товары.Attribute.ЗачетНДС</content>
+  <content>Document.КорректировкаСтоимостиПоступления.TabularSection.Услуги.Attribute.ЗачетНДС</content>
+  <content>Document.КорректировкаСтоимостиПоступления.TabularSection.ОС.Attribute.ЗачетНДС</content>
+</mdclass:FunctionalOption>

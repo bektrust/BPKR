@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="45299de6-f074-4639-9fec-b57bf56bc587">
+  <producedTypes>
+    <refType typeId="c0e0ba5c-0dd6-4f79-96bc-e9b68a4d8519" valueTypeId="89169dc3-a750-4a80-846a-28be74ac5d55"/>
+    <listType typeId="5d4ec27b-c771-4795-85e0-6f7455d2408d" valueTypeId="e17ee157-8079-4027-9bed-eb19e0676211"/>
+    <managerType typeId="17b95290-d927-47c7-8357-c88aabcf71fc" valueTypeId="f3213fa8-f9a9-4f12-91b6-c295b4c1391b"/>
+  </producedTypes>
+  <name>ВидыАвансаЗадолженности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды аванса задолженности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="273c05b1-ad85-405b-877a-3a485f62a809">
+    <name>ЗадолженностьПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15488724-93ff-4e00-99a6-f948f483d497">
+    <name>ЗадолженностьПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Задолженность поставщику</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bea2eef7-7d02-4bf2-b60d-7a9ceba81d6f">
+    <name>АвансыПокупателя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансы покупателя</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dcb4625f-3516-4d7c-b11d-626610c961a5">
+    <name>АвансыПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авансы поставщику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

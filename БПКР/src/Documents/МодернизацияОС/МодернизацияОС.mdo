@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6ab0e11f-6805-416f-9ce2-19b0fb9ef2d6">
+  <producedTypes>
+    <objectType typeId="98c4650e-9ae2-4149-9283-159030551c43" valueTypeId="33dca518-f133-4de0-9515-6231a19a8fcd"/>
+    <refType typeId="3fb18fd3-d472-4ddc-b789-6c40ce0c657b" valueTypeId="4391bfda-24cd-4f40-ae71-d0347f52368e"/>
+    <selectionType typeId="e25dde1d-70c6-4bbb-9d6e-a273a6a8d33a" valueTypeId="9fb4fb36-a7b5-43f0-9462-7f81afc6249a"/>
+    <listType typeId="b6dcdba4-3135-4ed6-b29f-26a1756f51c6" valueTypeId="248b846d-6969-476c-b5d4-300eb834a63c"/>
+    <managerType typeId="75ee1de5-37b8-48a7-9a07-6e5201645273" valueTypeId="91ba7460-e748-4011-aff0-35e1b5559249"/>
+  </producedTypes>
+  <name>МодернизацияОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Модернизация ОС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.МодернизацияОС.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>ru</key>
+    <value>Модернизации ОС</value>
+  </listPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.МодернизацияОС.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.МодернизацияОС.Form.ФормаСписка</defaultListForm>
+  <realTimePosting>Deny</realTimePosting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecords>InformationRegister.СведенияОбИмуществе</registerRecords>
+  <registerRecords>AccumulationRegister.ДвижениеОСНУ</registerRecords>
+  <registerRecords>InformationRegister.СведенияОТранспорте</registerRecords>
+  <registerRecords>InformationRegister.ПараметрыУчетаОС</registerRecords>
+  <registerRecords>InformationRegister.СобытияОС</registerRecords>
+  <registerRecords>AccumulationRegister.КорректировкиНУ</registerRecords>
+  <registerRecords>AccountingRegister.Хозрасчетный</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+  <attributes uuid="ad20dc17-8ad7-4939-ab45-ae6e95c641fc">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, от имени которой оформляется документ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c2f09b9-1b3e-4abe-8007-0f3a5f5e5d9e">
+    <name>ОсновноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОсновныеСредства</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Основное средство, для которого оформляется модернизация или вносятся изменения в параметры учета.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="148d1b53-a38c-4373-a384-22aef49371bb">
+    <name>СчетУчетаМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета модернизации</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfAccounts.Хозрасчетный.МодернизацияОС</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f8301c5-7b32-4d13-bae9-eaf5f2d36784">
+    <name>СтоимостьМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость модернизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Стоимость модернизации основного средства с момента предыдущей модернизации</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8787ca32-a2a7-49b5-9402-eac30b6cb1f7">
+    <name>АмортизацияЗаМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизация за месяц</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bba4248-8a97-4695-a8e4-d81c95130f6c">
+    <name>ОстаточнаяСтоимостьОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаточная стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="22157958-e4c9-4bdc-80d6-89cf9e68342a">
+    <name>СтоимостьПослеМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость после модернизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="90420082-0437-491e-96cb-38624c92ca0f">
+    <name>НакопленнаяАмортизация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопленная амортизация</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bb427e1-8934-42ea-b4d6-8c3b266bc1af">
+    <name>БазаАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>База амортизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="114e5943-5cbd-4247-816b-0fc42d3554ba">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыСобытийОС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="82d82852-c608-47fd-87f9-8b0b4ac3ad54">
+    <name>АмортизацияЗаМесяцПослеМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Амортизация за месяц после модернизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="95800340-3bed-4a30-a81b-ed5f51ba0651">
+    <name>БазаАмортизацииПослеМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>База амортизации после модернизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4bb39633-f42e-45d7-8bf0-bf0d8e6d589d">
+    <name>ОстаточнаяСтоимостьОСПослеМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаточная стоимость после модернизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4814fbb8-52c1-4f62-bb89-526e080a256e">
+    <name>НакопленнаяАмортизацияПослеМодернизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Накопленная амортизация после модернизации</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83715489-5ce6-49a8-ac4e-fd7c88c8d832">
+    <name>НеВключатьАмортизациюЗаМесяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не включать амортизацию за месяц</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dad3aaa2-a950-4a34-a1eb-6f017dc12d69">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Автор документа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ef8d11a9-50dd-4588-9a21-a7efe7cdcfb0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Любая доп. информация к документу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="c96c2c22-d8b1-46f6-9c2e-64aa1b50c1ef">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8742e54e-7f67-4084-9b29-b97f5d2727a8">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="1a6c1782-04d8-4a26-ab60-029b335a88c2">
+    <producedTypes>
+      <objectType typeId="718aae3e-e43d-4a83-898e-a13b270d3a4c" valueTypeId="2744ec72-1232-4cd1-b2d0-b5ccb452883d"/>
+      <rowType typeId="8c2d5a37-2041-45f3-a01c-3f8d70ff7602" valueTypeId="1e9e15f3-2952-489e-9115-0ab87dbf1e79"/>
+    </producedTypes>
+    <name>ПараметрыОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры ОС</value>
+    </synonym>
+    <attributes uuid="bcfc9652-88b2-4e50-9f44-eb3b7562c1ac">
+      <name>Параметр</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ПараметрыМодернизацииОС</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Изменяемый параметр учета ОС</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a8374ce4-0898-4487-b272-02eab7eeebbb">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыНачисленияАмортизацииОС</types>
+        <types>CatalogRef.КодыИмущества</types>
+        <types>CatalogRef.СпособыОтраженияРасходовПоАмортизации</types>
+        <types>Boolean</types>
+        <types>CatalogRef.ПараметрыВыработкиОС</types>
+        <types>CatalogRef.ГруппыНалоговогоУчетаОС</types>
+        <types>CatalogRef.РегиональныеКоэффициентыНалогНаИмущество</types>
+        <types>CatalogRef.ОтраслевыеКоэффициентыНалогНаИмущество</types>
+        <types>CatalogRef.ЗональныеКоэффициенты</types>
+        <types>String</types>
+        <types>Number</types>
+        <types>EnumRef.ПараметрыМодернизацииОС</types>
+        <types>ChartOfAccountsRef.Хозрасчетный</types>
+        <types>CatalogRef.ГруппыИмущества</types>
+        <types>CatalogRef.ВидыМатериаловСтенНалогНаИмущество</types>
+        <types>CatalogRef.КодыПользователейИмущества</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Новое значение параметра</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="81c34c54-cc01-4284-ba67-3b97b1dbb323">
+      <name>СтароеЗначение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Старое значение</value>
+      </synonym>
+      <type>
+        <types>EnumRef.СпособыНачисленияАмортизацииОС</types>
+        <types>CatalogRef.КодыИмущества</types>
+        <types>CatalogRef.СпособыОтраженияРасходовПоАмортизации</types>
+        <types>Boolean</types>
+        <types>CatalogRef.ПараметрыВыработкиОС</types>
+        <types>CatalogRef.ГруппыНалоговогоУчетаОС</types>
+        <types>CatalogRef.РегиональныеКоэффициентыНалогНаИмущество</types>
+        <types>CatalogRef.ОтраслевыеКоэффициентыНалогНаИмущество</types>
+        <types>CatalogRef.ЗональныеКоэффициенты</types>
+        <types>String</types>
+        <types>Number</types>
+        <types>EnumRef.ПараметрыМодернизацииОС</types>
+        <types>ChartOfAccountsRef.Хозрасчетный</types>
+        <types>CatalogRef.ГруппыИмущества</types>
+        <types>CatalogRef.ВидыМатериаловСтенНалогНаИмущество</types>
+        <types>CatalogRef.КодыПользователейИмущества</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Старое значение параметра</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76e363a6-25e7-4a3b-855d-1542e98e7fc2">
+  <producedTypes>
+    <selectionType typeId="5285a97d-a381-456e-86ed-0114fb5a20e0" valueTypeId="f1f0f503-5919-497e-a8a8-625083c1350c"/>
+    <listType typeId="787d4f72-1645-42ef-aab7-a095419fb0a9" valueTypeId="bcb0a206-8456-44d1-b57d-786725082daf"/>
+    <managerType typeId="fddf51d0-8980-47b9-b0b7-b32dc00a8e67" valueTypeId="ac5ada06-78b6-45ab-8f7b-772062d6fc57"/>
+    <recordSetType typeId="9a45357b-998c-4974-94d9-82bcee1f1782" valueTypeId="efb7c64f-8445-4758-b9da-d87f4657ac47"/>
+    <recordKeyType typeId="93c2e819-6f14-4cc9-818b-b03330ee4d05" valueTypeId="cc625f09-05de-46a4-a2df-0616cabe4305"/>
+    <recordType typeId="5e064d2a-7c1f-4783-b266-8a7dc7ab14cd" valueTypeId="f2596356-0b5c-4f04-b960-63269b65887c"/>
+  </producedTypes>
+  <name>НДСНаИмпорт</name>
+  <synonym>
+    <key>ru</key>
+    <value>НДС на импорт</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="8071188a-8d7b-4df1-947d-147ed2e334ef">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="d49b3e21-2413-4dfa-b007-f91c9fa6f5bd">
+    <name>СуммаНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b3728a68-b891-4d99-834e-9d717e613f4d">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="0a30e1d1-dde6-4ce4-9cf7-613734fb364e">
+    <name>ПоказательИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель импорта</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПоказателиИмпорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="4ce0c53b-f331-40e6-b33f-49fe0c6515a9">
+    <name>ИмпортОСвобожденныйОтНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Импорт о свобожденный от НДС</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ИмпортОсвобожденныйОтНДС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

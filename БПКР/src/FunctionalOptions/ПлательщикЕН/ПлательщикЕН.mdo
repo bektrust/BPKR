@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1c68a18-3a8b-4ec8-887c-42d80b79537f">
+  <name>ПлательщикЕН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Плательщик ЕН</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.ПлательщикЕН</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Enum.ВидыДеятельностиЕН</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.РасчетЕдиногоНалога</content>
+  <content>Document.ОтчетПоЕдиномуНалогу</content>
+  <content>Document.ЗакрытиеМесяца.Attribute.НадписьРасчетЕдиногоНалога</content>
+  <content>InformationRegister.СтавкиЕН</content>
+</mdclass:FunctionalOption>

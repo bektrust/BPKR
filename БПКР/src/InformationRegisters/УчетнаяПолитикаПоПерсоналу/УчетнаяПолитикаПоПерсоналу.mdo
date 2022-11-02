@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50218f60-6b4b-4e12-9377-34bbf347adbd">
+  <producedTypes>
+    <selectionType typeId="25d2737e-217e-4bf7-a9f2-5bf141112bda" valueTypeId="026e3a73-3853-40f7-b7af-f47bb61b114d"/>
+    <listType typeId="e89fe0bd-843e-4cc0-bc15-06f1f503bfc6" valueTypeId="ec644f34-9b48-4bdf-959d-81466c43637e"/>
+    <managerType typeId="11199e6f-5b49-46c6-9cd1-f97139c1ba49" valueTypeId="ec36a95b-2252-4e39-9fec-6ccc469e63a3"/>
+    <recordSetType typeId="68ef3c1a-bce0-4ba4-b55d-33153f727ad9" valueTypeId="6f358a34-a074-4089-944c-2f1e8eee0f63"/>
+    <recordKeyType typeId="0bcbc455-9998-4349-9b68-61303013b74a" valueTypeId="634daa19-69b3-4f2e-9d9b-7672dc023202"/>
+    <recordType typeId="42292d53-2e19-4ca8-8fab-1d53ef0646e0" valueTypeId="bec6711a-ea28-46b0-934b-4f5ce9611e7b"/>
+    <recordManagerType typeId="9c90febd-33cf-41bc-ab87-5e0dac9496c0" valueTypeId="d3d4d119-105b-41d1-9fd1-026fb0bb3f8e"/>
+  </producedTypes>
+  <name>УчетнаяПолитикаПоПерсоналу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учетная политика по персоналу</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.УчетнаяПолитикаПоПерсоналу.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.УчетнаяПолитикаПоПерсоналу.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Учетная политика по персоналу</value>
+  </explanation>
+  <resources uuid="b262b507-f37d-47f0-8665-f8a0bbe9edae">
+    <name>ВидТарифовСтраховыхВзносов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид тарифов страховых взносов</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыТарифовСтраховыхВзносов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="601b4c19-3549-45f7-9a28-68107f686d51">
+    <name>ПределыПоПодразделениям</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пределы по подразделениям</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак установки пределов по минимальному расчетному доходу (МРОД), среднемесячной заработной плате (СЗП) для каждого подразделения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d4a2c78f-c90a-4ff0-a28c-11ed496f0a6c">
+    <name>ВозвратОтрицательнойСуммой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат отрицательной суммой</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Сторно запись- формирование проводки по возврат от сотрудника с отрицательной суммой.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="26338bc9-d42b-44ba-bcf6-c20c6abaaca4">
+    <name>ДатаОграниченияНачисленияГНПФМужчины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ограничения начисления ГНПФ (мужчины)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="43d42275-07b0-4afa-95b0-f9173b499ee2">
+    <name>ДатаОграниченияНачисленияГНПФЖенщины</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата ограничения начисления ГНПФ (женщины)</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6a84472c-a792-4fdf-a491-8a4b94ff4ac7">
+    <name>МинимальныйРасчетныйДоход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минимальный расчетный доход</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Минимальный расчетный доход (МРД)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ed1cec07-a963-4a23-bedb-4b9e1a7b2c3a">
+    <name>ДоплатаПНЗаСчетФирмы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доплата ПН за счет фирмы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Доплата подоходного налога за счет фирмы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f7071274-8a5f-4d18-a5a8-617cffe7a535">
+    <name>СчетУчетаРасходовПоДоплатеПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расходов по доплате ПН</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расходов по доплачиваемому подоходному налогу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f6e4e49c-a7e0-4d39-a9f3-cfaf2c84a304">
+    <name>СтатьяПоДоплатеПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья по доплате ПН</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статья затрат по доплате подоходного налога</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e655787-03e7-4713-89a8-4f9e785318c9">
+    <name>СчетУчетаРасчетовПФФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расчетов ПФФ</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по пенсионному фонду с фирмы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a52c9bd3-7b3f-4d07-bd17-c035d232ca72">
+    <name>СчетУчетаРасчетовМСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расчетов МСФ</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по медицинскому страхованию с фирмы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9b6193a7-2737-4842-977d-89c17155488b">
+    <name>СчетУчетаРасчетовФОТФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расчетов ФОТФ</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по фонду оздоровления трудящихся с фирмы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="893d5fca-b527-4746-adc3-6afb2e36a326">
+    <name>СчетУчетаРасчетовПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расчетов ПФР</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по пенсионному фонду с сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d0f150c7-2bfe-4767-b0aa-c46e5b777e7a">
+    <name>СчетУчетаРасчетовГНПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расчетов ГНПФР</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по государственному накопительному пенсионному фонду с сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4f01ea25-611e-49ea-9e44-0eb26072e944">
+    <name>СреднемесячнаяЗПСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Среднемесячная заработная плата (СФ)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Среднемесячная заработная плата для расчетов по социальному фонду</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4cdd4bdd-b422-4511-aec5-f71e711342a5">
+    <name>ПроцентОтСЗПСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процент от СЗП (СФ)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Процент от среднемесячной заработной платы по социальному фонду</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="42990e78-2a53-4d57-a370-1290eb67ed40">
+    <name>СчетУчетаРасходовПоКорректировкеСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расходов по корректировке (СФ)</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расходов по корректировке пл социальному фонду.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d90d715-faae-4e1a-9239-5498c89dcd11">
+    <name>СтатьяПоКорректировкеСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья по корректировке (СФ)</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтатьиЗатрат</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Статья по корректировке по социальному фонду</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="85b70713-916c-476b-b70a-d5c2934a25cb">
+    <name>КоличествоСотрудниковДляОтчетаСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество сотрудников для отчета СФ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество сотрудников для отчета по социальному фонду (&quot;По начислениям&quot; или &quot;По приказам&quot;)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value>По начислениям</value>
+    </fillValue>
+  </resources>
+  <resources uuid="cc2b4eb5-b256-4f67-88f3-fd2e0511297b">
+    <name>СтавкаПрофВзнос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка проф.взносов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ставка взноса по отчислениям в профсоюз и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="af9d265f-6ac2-4cbd-95b2-9905305c4969">
+    <name>СчетУчетаРасчетовПрофВзнос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета расчетов (Проф.взнос)</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по отчислениям в профсоюз и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6cac106d-bb99-426a-aabf-792b6490d9e6">
+    <name>ПрофВзносЗаВычетомПН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проф.взнос за вычетом ПН</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расчет профсоюзных взносов за вычетом отчислений подоходного налога с сотрудника.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e3486f40-127c-4881-9d2f-05b8d979d100">
+    <name>ПрофВзносЗаВычетомПФРиГНПФР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проф взнос за вычетом ПФР и ГНПФР</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Расчет профсоюзных взносов за вычетом отчислений в пенсионный фонд с сотрудника и отчислений в государственный накопительный пенсионный фонд с сотрудника</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="88ce5a49-1534-4c01-af01-964736476a77">
+    <name>ВидУдержанияПоПрофВзнос</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид удержания по проф.взносу</value>
+    </synonym>
+    <type>
+      <types>ChartOfCalculationTypesRef.ВидыУдержаний</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Вид удержания для отражения отчислений по профсоюзным взносам</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d1069632-02b0-470b-a3cb-646a11cf4ffd">
+    <name>СчетУчетаШтрафыПениНеустойкиСФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета штрафы, пени, неустойки по СФ</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по отчислениям в профсоюз и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0a70ec3e-2680-49ea-ad81-a0eac56c5179">
+    <name>СчетУчетаПоПНДляПрочихФизическихЛиц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета по ПН для прочих физических лиц</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Счет учета расчетов по отчислениям в профсоюз и т.п.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Отбор.Забалансовый</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <choiceParameters>
+      <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+      <value xsi:type="core:BooleanValue"/>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3ae82927-05da-43f6-931f-14ec9c92e1b8">
+    <name>РасчетПНБезНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчет ПН без накопления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="4e0f3469-b04d-48b1-a80e-0cc9a7cd8045">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Организация, для которой утверждается учетная политика</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6e568dd5-1cc3-41b7-ae1c-a8237aaec9aa">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3e4c0664-50f0-411e-80c0-788d9e5f4f1e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="99980708-e560-4bfe-b628-c8c1934757ad">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:InformationRegister>

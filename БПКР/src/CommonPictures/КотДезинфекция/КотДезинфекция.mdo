@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="045a8769-71c1-44b1-a383-607a74bf41b0">
+  <name>КотДезинфекция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кот дезинфекция</value>
+  </synonym>
+</mdclass:CommonPicture>

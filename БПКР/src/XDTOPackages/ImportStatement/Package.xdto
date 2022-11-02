@@ -1,0 +1,378 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://sti.gov.kg:88/content/EFZoVT" elementFormQualified="true" attributeFormQualified="false">
+	<property xmlns:d2p1="http://sti.gov.kg:88/content/EFZoVT" name="declaration_file" type="d2p1:declaration_file"/>
+	<valueType name="CurrencyType" base="xs:string" variety="Atomic" length="3">
+		<pattern>[0-9]{3}</pattern>
+	</valueType>
+	<valueType name="DateType" base="xs:string" variety="Atomic" length="10">
+		<pattern>((000[1-9])|(00[1-9][0-9])|(0[1-9][0-9]{2})|([1-9][0-9]{3}))-((0[1-9])|(1[012]))-((0[1-9])|([12][0-9])|(3[01]))</pattern>
+	</valueType>
+	<valueType name="MeasureUnitType" base="xs:string" variety="Atomic" minLength="3" maxLength="4">
+		<pattern>[0-9]{3}</pattern>
+		<pattern>[0-9]{4}</pattern>
+		<pattern>FFFF</pattern>
+	</valueType>
+	<valueType name="STSDepType" base="xs:string" variety="Atomic" length="3">
+		<pattern>[0-9]{3}</pattern>
+	</valueType>
+	<valueType name="StateCodeType" base="xs:string" variety="Atomic" length="3">
+		<pattern>[0-9]{3}</pattern>
+	</valueType>
+	<valueType name="TinType" base="xs:string" variety="Atomic" length="14">
+		<pattern>[0-9]{14}</pattern>
+	</valueType>
+	<objectType name="declaration_file">
+		<property name="file_id" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="100"/>
+		</property>
+		<property name="file_ver" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="5">
+				<enumeration>2.0</enumeration>
+			</typeDef>
+		</property>
+		<property name="info_type" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="20">
+				<enumeration>DOCSTI136_00</enumeration>
+			</typeDef>
+		</property>
+		<property name="soft_ver" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="40"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="recipient_tax_insp" type="d3p1:STSDepType" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="declaration_document" type="d3p1:declaration_document"/>
+	</objectType>
+	<objectType name="declaration_document">
+		<property name="date_form" lowerBound="1" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" variety="List" itemType="d4p1:DateType"/>
+		</property>
+		<property name="f_type" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+			</typeDef>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="tp_info" type="d3p1:tp_info"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="decl_head" type="d3p1:decl_head"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="declaration_data" type="d3p1:declaration_data"/>
+	</objectType>
+	<objectType name="tp_info" ordered="false" sequenced="true">
+		<property name="tp_tin" lowerBound="1" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" variety="List" itemType="d4p1:TinType"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="tp_fio" type="d3p1:FioType" lowerBound="0"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="tp_name" type="d3p1:tp_name" upperBound="-1" form="Element"/>
+	</objectType>
+	<objectType name="decl_head">
+		<property name="decl_head_flag" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="1">
+				<enumeration>1</enumeration>
+				<enumeration>2</enumeration>
+				<enumeration>3</enumeration>
+				<enumeration>4</enumeration>
+			</typeDef>
+		</property>
+		<property name="decl_head_position" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" maxLength="128"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="decl_head_tin" type="d3p1:TinType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="decl_head_fio" type="d3p1:FioType"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="accountant_tin" type="d3p1:TinType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="accountant_fio" type="d3p1:FioType" lowerBound="0"/>
+	</objectType>
+	<objectType name="declaration_data">
+		<property name="decl_num" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="20"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="decl_date" type="d3p1:DateType" lowerBound="1" form="Attribute"/>
+		<property name="leasing_flag" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+			</typeDef>
+		</property>
+		<property name="processing_flag" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+			</typeDef>
+		</property>
+		<property name="excise_base_sum" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="21" fractionDigits="6"/>
+		</property>
+		<property name="vat_base_sum" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="excise_sum_sum" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16"/>
+		</property>
+		<property name="vat_sum_sum" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16"/>
+		</property>
+		<property name="version_reason_id" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="1">
+				<enumeration>1</enumeration>
+				<enumeration>4</enumeration>
+				<enumeration>5</enumeration>
+				<enumeration>6</enumeration>
+			</typeDef>
+		</property>
+		<property name="prev_mark_num" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="16" maxLength="18"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="prev_mark_date" type="d3p1:DateType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="spec_05" type="d3p1:spec_05"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="spec_07" type="d3p1:spec_07" lowerBound="0"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="Commodity" type="d3p1:Commodity" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="sect_3" type="d3p1:sect_3" lowerBound="0"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="price_increasing" type="d3p1:price_increasing" lowerBound="0"/>
+	</objectType>
+	<objectType name="spec_05">
+		<property name="id_seller" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="person_seller_flag" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+			</typeDef>
+		</property>
+		<property name="name_seller" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property name="country_seller" lowerBound="1" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" variety="List" itemType="d4p1:StateCodeType"/>
+		</property>
+		<property name="adress_seller" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property name="id_buyer" lowerBound="1" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" variety="List" itemType="d4p1:TinType"/>
+		</property>
+		<property name="name_buyer" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property name="country_buyer" lowerBound="1" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" variety="List" itemType="d4p1:StateCodeType"/>
+		</property>
+		<property name="adress_buyer" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="spec_05_det" type="d3p1:contract_inf"/>
+	</objectType>
+	<objectType name="spec_07">
+		<property name="id_consignee" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="name_consignee" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="country_consignee" type="d3p1:StateCodeType" lowerBound="1" form="Attribute"/>
+		<property name="adress_consignee" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="spec_07_det" type="d3p1:contract_inf"/>
+	</objectType>
+	<objectType name="Commodity">
+		<property name="comm_order" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:int" variety="Atomic" totalDigits="4"/>
+		</property>
+		<property name="comm_name" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="500"/>
+		</property>
+		<property name="tnved" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="10"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="unit_meas_id" type="d3p1:MeasureUnitType" lowerBound="1" form="Attribute"/>
+		<property name="comm_count" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" minExclusive="0" totalDigits="17" fractionDigits="6"/>
+		</property>
+		<property name="comm_price" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="currency" type="d3p1:CurrencyType" lowerBound="1" form="Attribute"/>
+		<property name="currency_rate" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="10" fractionDigits="4"/>
+		</property>
+		<property name="invoice_num" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="invoice_date" type="d3p1:DateType" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="accepting_date" type="d3p1:DateType" lowerBound="1" form="Attribute"/>
+		<property name="excise_base" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" minExclusive="0" totalDigits="21" fractionDigits="6"/>
+		</property>
+		<property name="excise_unit_meas" lowerBound="0" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" base="d4p1:MeasureUnitType" variety="Atomic">
+				<enumeration>112</enumeration>
+				<enumeration>168</enumeration>
+				<enumeration>796</enumeration>
+				<enumeration>798</enumeration>
+				<enumeration>166</enumeration>
+			</typeDef>
+		</property>
+		<property name="vat_base" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" minExclusive="0" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="excise_perc_st" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="excise_perc_ad" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="vat_perc" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="excise_sum" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" minExclusive="0" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="vat_sum" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:decimal" variety="Atomic" minExclusive="0" totalDigits="16" fractionDigits="2"/>
+		</property>
+		<property name="excise_exemption_flag" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>1</enumeration>
+				<enumeration>2</enumeration>
+				<enumeration>4</enumeration>
+			</typeDef>
+		</property>
+		<property name="vat_exemption_flag" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>1</enumeration>
+				<enumeration>2</enumeration>
+			</typeDef>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="transdocs" type="d3p1:transdocs" upperBound="-1"/>
+	</objectType>
+	<objectType name="transdocs">
+		<property name="transdoc_serie" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="transdoc_date" type="d3p1:DateType" lowerBound="1" form="Attribute"/>
+	</objectType>
+	<objectType name="sect_3">
+		<property name="type_seller_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+				<enumeration>2</enumeration>
+				<enumeration>6</enumeration>
+			</typeDef>
+		</property>
+		<property name="id_seller_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="8" maxLength="14"/>
+		</property>
+		<property name="name_seller_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property name="country_seller_s3" lowerBound="1" form="Attribute">
+			<typeDef xmlns:d4p1="http://sti.gov.kg:88/content/EFZoVT" xsi:type="ValueType" variety="List" itemType="d4p1:StateCodeType"/>
+		</property>
+		<property name="adress_seller_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property name="type_buyer_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>3</enumeration>
+				<enumeration>4</enumeration>
+				<enumeration>5</enumeration>
+				<enumeration>7</enumeration>
+			</typeDef>
+		</property>
+		<property name="id_buyer_s3" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="name_buyer_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="country_buyer_s3" type="d3p1:StateCodeType" lowerBound="1" form="Attribute"/>
+		<property name="adress_buyer_s3" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="sect_3_det" type="d3p1:contract_inf"/>
+	</objectType>
+	<objectType name="contract">
+		<property name="order_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="4"/>
+		</property>
+		<property name="type_seller_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+				<enumeration>2</enumeration>
+				<enumeration>3</enumeration>
+				<enumeration>4</enumeration>
+				<enumeration>5</enumeration>
+				<enumeration>6</enumeration>
+			</typeDef>
+		</property>
+		<property name="id_seller_pril" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="name_seller_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="country_seller_pril" type="d3p1:StateCodeType" lowerBound="1" form="Attribute"/>
+		<property name="adress_seller_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property name="type_buyer_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="1">
+				<enumeration>0</enumeration>
+				<enumeration>1</enumeration>
+				<enumeration>2</enumeration>
+				<enumeration>3</enumeration>
+				<enumeration>4</enumeration>
+				<enumeration>5</enumeration>
+				<enumeration>7</enumeration>
+			</typeDef>
+		</property>
+		<property name="id_buyer_pril" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property name="name_buyer_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="400"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="country_buyer_pril" type="d3p1:StateCodeType" lowerBound="1" form="Attribute"/>
+		<property name="adress_buyer_pril" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="200"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="contract_det" type="d3p1:contract_inf"/>
+	</objectType>
+	<objectType name="price_increasing">
+		<property name="pi_mark_num" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="18"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="pi_mark_date" type="d3p1:DateType" lowerBound="0" form="Attribute"/>
+		<property name="pi_month" type="xs:gMonth" lowerBound="0" form="Attribute"/>
+		<property name="pi_year" type="xs:gYear" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="contract_inf">
+		<property name="num_contract" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="date_contract" type="d3p1:DateType" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="SpecificationInf" type="d3p1:SpecificationInf" lowerBound="0" upperBound="1000"/>
+	</objectType>
+	<objectType name="SpecificationInf">
+		<property name="specification_order" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:integer" variety="Atomic" totalDigits="4"/>
+		</property>
+		<property name="num_spec" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="50"/>
+		</property>
+		<property xmlns:d3p1="http://sti.gov.kg:88/content/EFZoVT" name="date_spec" type="d3p1:DateType" lowerBound="1" form="Attribute"/>
+	</objectType>
+	<objectType name="FioType">
+		<property name="surname" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="name" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+		<property name="patronymic" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" minLength="1" maxLength="60"/>
+		</property>
+	</objectType>
+	<objectType name="tp_name">
+		<property name="Text" type="xs:string" upperBound="100" form="Text"/>
+	</objectType>
+</package>

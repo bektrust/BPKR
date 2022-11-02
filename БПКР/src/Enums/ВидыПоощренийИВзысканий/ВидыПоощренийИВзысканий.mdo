@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7f524ed-da77-4101-9db9-44fb5ad1ed69">
+  <producedTypes>
+    <refType typeId="caa4bb43-fef3-4d20-a406-15f190f1afb0" valueTypeId="91196683-c403-47d2-9617-1c49e65c715e"/>
+    <listType typeId="aecea573-76ca-4b75-ba95-80819cd51627" valueTypeId="a569b16c-e4ee-4141-a9ca-0ba3df68fd04"/>
+    <managerType typeId="01f785c9-6fe1-4678-add6-6d421f717c54" valueTypeId="5ad244af-6203-4ecf-81cc-b795282297b2"/>
+  </producedTypes>
+  <name>ВидыПоощренийИВзысканий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды поощрений и взысканий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fa474fd0-5971-4ad9-8c82-f3b3693b58d8">
+    <name>Поощрение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поощрение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe423163-13cd-4c27-be08-136deb148023">
+    <name>Взыскание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Взыскание</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

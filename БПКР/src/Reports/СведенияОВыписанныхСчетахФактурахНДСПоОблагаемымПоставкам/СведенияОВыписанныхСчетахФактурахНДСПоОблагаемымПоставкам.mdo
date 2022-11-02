@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9d9c65b1-310c-450e-ae0b-7125eddb0800">
+  <producedTypes>
+    <objectType typeId="cba2dce5-e25d-4d6b-9a2c-109f5c69a486" valueTypeId="e31394b5-9621-498e-8f96-2afa4817c7f7"/>
+    <managerType typeId="bb8da46c-1ba2-43fd-83a2-ed85f9f17e88" valueTypeId="9120102e-3dac-402d-8711-c6eb5c7e598b"/>
+  </producedTypes>
+  <name>СведенияОВыписанныхСчетахФактурахНДСПоОблагаемымПоставкам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о выписанных счетах-фактурах НДС</value>
+  </synonym>
+  <defaultForm>Report.СведенияОВыписанныхСчетахФактурахНДСПоОблагаемымПоставкам.Form.ФормаОтчета</defaultForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="4e937914-ec8b-4121-aa77-426ac07352e7">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="33da5079-60f3-493d-baaf-d1256fc91bb3">
+    <name>ПФ_MXL_ВыписанныеСчетаФактуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр поставок</value>
+    </synonym>
+  </templates>
+  <commands uuid="bb7bd6bd-bea0-47f8-bccc-c4c32c64ee38">
+    <name>СведенияОВыписанныхСчетахФактурахНДСПоОблагаемымПоставкам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сведения о выписанных (оформленных) счетах-фактурах НДС по облагаемым поставкам</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

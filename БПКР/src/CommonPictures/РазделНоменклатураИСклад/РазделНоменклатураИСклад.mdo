@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="872bd07f-5b73-48d7-8f60-c050a3ded0d2">
+  <name>РазделНоменклатураИСклад</name>
+  <synonym>
+    <key>ru</key>
+    <value>Раздел номенклатура и склад</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c337717-cd91-4a27-a467-ea3ea10ca749">
+  <producedTypes>
+    <selectionType typeId="0618b19d-4668-436d-ae3b-950244122a8d" valueTypeId="20568010-eb7c-4ca4-9e38-e24a3caa0cd5"/>
+    <listType typeId="28fc9b11-5402-4a17-8eaf-e376eafd3a40" valueTypeId="45db6646-d9ac-42ba-a137-8d7d35a3a8f7"/>
+    <managerType typeId="efe251f4-93c2-45a0-9d72-ae35b4ee55f9" valueTypeId="575f8090-0d3d-4b9d-a413-41cfd225af4d"/>
+    <recordSetType typeId="387ed617-3b15-4610-ac84-4bb65ca69eb9" valueTypeId="6c4003e9-8052-4c9a-969a-94b8b0347d3c"/>
+    <recordKeyType typeId="9bc07f97-a80c-4744-b094-6663e43dd460" valueTypeId="d5d2bc81-88a1-476a-a033-7e118df3952b"/>
+    <recordType typeId="97dec17a-74eb-4276-8dce-b6382c471577" valueTypeId="0e03366b-26d7-4a40-a9a7-fb33354a6a6d"/>
+    <recordManagerType typeId="b1f83fb7-8b4e-4134-b97c-23789832ba28" valueTypeId="dc1aaca7-a39c-4e16-9c13-7b886b52bfbb"/>
+  </producedTypes>
+  <name>ИсключенияПрайсЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исключения прайс листов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ИсключенияПрайсЛистов.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="eb09b965-1643-4d2e-91df-d7f18421c40b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="aa77d114-f498-4aaa-a170-aab3a2c11000">
+    <name>ПрайсЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прайс лист</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПрайсЛисты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="94be0ad9-d87e-4c93-973b-f0a38aaf2558">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

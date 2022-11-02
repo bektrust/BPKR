@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="713b73be-2009-4f3b-851b-0aba9f75d3c5">
+  <name>НСИ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники и настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ОсновныеСредства</content>
+  <content>DataProcessor.ПодборОС</content>
+  <content>Catalog.ОбъектыСтроительства</content>
+  <content>Catalog.СпособыОтраженияРасходовПоАмортизации</content>
+  <content>Catalog.ГруппыНалоговогоУчетаОС</content>
+  <content>Catalog.КодыИмущества</content>
+  <content>Catalog.КодыПользователейИмущества</content>
+  <content>Catalog.ПараметрыВыработкиОС</content>
+  <content>Catalog.Участки</content>
+  <content>InformationRegister.СтавкиЗемельногоНалога</content>
+  <content>InformationRegister.КорректировочныеКоэффициентыНалогаНаИмущество</content>
+  <parentSubsystem>Subsystem.ОсновныеСредства</parentSubsystem>
+</mdclass:Subsystem>

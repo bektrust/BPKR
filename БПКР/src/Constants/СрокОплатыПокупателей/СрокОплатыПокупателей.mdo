@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55f089ae-2758-4a0c-9777-60c04eac733a">
+  <producedTypes>
+    <managerType typeId="a5d030ae-adda-43c0-aeea-b703e3c71e78" valueTypeId="71dbf34c-35d1-4096-aca7-1d799bec0d4a"/>
+    <valueManagerType typeId="559dce9a-6891-4334-8cdf-fdedf40f1491" valueTypeId="defe04d5-7041-4b62-955d-b2fbb1a69d37"/>
+    <valueKeyType typeId="d58df9bb-e591-57b1-b060-7acadb114f8f" valueTypeId="cda50417-eb43-5821-b4db-826478a7fdeb"/>
+  </producedTypes>
+  <name>СрокОплатыПокупателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Срок оплаты покупателей</value>
+  </synonym>
+  <comment>Срок в днях, после которого долг покупателей считается просроченным, если другой срок не установлен в договоре</comment>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

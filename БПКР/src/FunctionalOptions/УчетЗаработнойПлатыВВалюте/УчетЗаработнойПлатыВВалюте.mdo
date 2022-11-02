@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea7e3bcc-9d2b-464b-a65e-147171a6bde2">
+  <name>УчетЗаработнойПлатыВВалюте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Учет заработной платы в валюте</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУчетЗаработнойПлатыВВалюте</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.КадровоеПеремещение.Attribute.Валюта</content>
+  <content>Document.КадровоеПеремещение.TabularSection.Начисления.Attribute.Валюта</content>
+  <content>Document.ПриемНаРаботу.Attribute.Валюта</content>
+  <content>Document.ПриемНаРаботу.TabularSection.Начисления.Attribute.Валюта</content>
+  <content>InformationRegister.КурсыВалютЗаработнаяПлата</content>
+  <content>Document.НачислениеЗарплаты.TabularSection.Начисления.Attribute.Валюта</content>
+  <content>Document.РаботаВВыходныеИПраздничныеДни.TabularSection.Сотрудники.Attribute.Валюта</content>
+  <content>InformationRegister.ПлановыеНачисленияНачало.Attribute.Валюта</content>
+  <content>Document.РаботаСверхурочно.TabularSection.Сотрудники.Attribute.Валюта</content>
+  <content>CalculationRegister.Начисления.Attribute.Валюта</content>
+  <content>Document.ВедомостьЗаработнойПлаты.Attribute.КурсВыплаты</content>
+  <content>Document.ВедомостьЗаработнойПлаты.Attribute.КратностьВыплаты</content>
+</mdclass:FunctionalOption>

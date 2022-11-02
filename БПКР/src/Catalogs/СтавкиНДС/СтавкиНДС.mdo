@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63543ea7-7e07-4af9-8002-bcb55ec0c088">
+  <producedTypes>
+    <objectType typeId="4c4be4e0-6107-41d5-8b38-ea2f1af9bd6c" valueTypeId="2ccf9880-b152-45bc-9a5e-b41e00e723e8"/>
+    <refType typeId="e6ebc71d-73d3-4841-b1cc-ea4bd9c4e8fa" valueTypeId="dbf54828-4444-419d-a900-ff84ffb3e727"/>
+    <selectionType typeId="26d6bd00-a84b-46f4-97db-ea5c37a8a138" valueTypeId="be9e08a4-9f03-4164-8357-6ac9cd98c0c3"/>
+    <listType typeId="4ca80f17-e52a-4a83-8857-32c4969d7aef" valueTypeId="b68d8523-930e-4e67-9f5c-505c0319ac89"/>
+    <managerType typeId="f54d999c-45c2-444a-9768-7189973bd179" valueTypeId="e1215791-6019-4ea3-95e4-f2a763e5dd9a"/>
+  </producedTypes>
+  <name>СтавкиНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ставки НДС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтавкиНДС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Ставка</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>15</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ae60b2fb-61ab-4d14-931e-4dafb9b03f12">
+      <name>Необлагаемая</name>
+      <description>Необлагаемая</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="db381870-8364-40be-bb25-89b4a9569e4a">
+      <name>Нулевая</name>
+      <description>Нулевая</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="71325a15-b724-4042-b6d9-26d27d985011">
+      <name>Освобожденная</name>
+      <description>Освобожденная</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="131b1c6c-b6da-4e2a-8fbf-cfc83a7a7675">
+      <name>Стандарт</name>
+      <description>Стандарт</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтавкиНДС.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтавкиНДС.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтавкиНДС.Form.ФормаВыбора</defaultChoiceForm>
+  <forms uuid="a73d735b-315e-44d4-877a-d16cb93997b8">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5cb2ff62-8fb2-4ca0-a24b-6fcc3a609ca1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="854307fe-ef04-43c3-8c1e-086be12d3e98">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

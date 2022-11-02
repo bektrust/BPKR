@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8fa787a2-1a19-4720-a4e6-54f8851a7b61">
+  <producedTypes>
+    <objectType typeId="64d747fd-62ad-47af-a00f-4410388c8398" valueTypeId="93e1d5e1-2fc4-434b-9449-335016e4c61c"/>
+    <managerType typeId="852a91ec-9888-4a93-b0bb-e063a397586d" valueTypeId="736d7053-9354-45bb-b9f2-142b05f7d5f8"/>
+  </producedTypes>
+  <name>ЖурналБанковскихДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал банковских документов</value>
+  </synonym>
+  <defaultForm>Report.ЖурналБанковскихДокументов.Form.ФормаОтчета</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="3e7b3207-9e46-4df6-a76d-48cb11d3826a">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="2ec6d462-695d-48d4-82d5-9f5bc7c2b60b">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Report.ЖурналБанковскихДокументов.Attribute.Организация</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="bc4e0c65-837d-4b73-9bcf-e95da956543f">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8641d664-5584-4e6c-b7c0-b9e3b716f8b3">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7040a3d6-4e7e-42f4-8b26-71f2442bc8f6">
+    <name>РежимРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим расшифровки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67baef79-740d-4f78-b1a7-0d0235912776">
+    <name>СписокСформированныхЛистов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список листов</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b42147ce-edc3-498c-927b-9c9b8c402bb8">
+    <name>СортироватьПоВиду</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировать документы по виду</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dcaea4a-3311-4be3-9bf5-464088259293">
+    <name>СортироватьПоНомеру</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сортировать документы по номеру</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0a9c6b7d-10b0-4807-9c8e-bd225c493e9f">
+    <name>ВыводитьКомментарииИзДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить комментарии из документа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="1de70ebf-d526-4f05-a754-c36f14d5dd88">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c0ef3718-ab55-49dd-860e-313749d8a90e">
+    <name>ЖурналБанковскихДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>КассоваяКнига</value>
+    </synonym>
+  </templates>
+  <commands uuid="4b292526-c7f3-4655-8307-657dd9217476">
+    <name>ЖурналБанковскихДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал банковских документов</value>
+    </synonym>
+    <group>ActionsPanelReports</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

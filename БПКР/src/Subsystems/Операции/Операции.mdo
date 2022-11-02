@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e2872d50-3d29-447b-adf8-4e9f95995c11">
+  <name>Операции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <explanation>
+    <key>ru</key>
+    <value>Операции ручного учета, регламентные операции</value>
+  </explanation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделОперации</picture>
+  </picture>
+  <content>DataProcessor.УдалениеПомеченныхОбъектов</content>
+  <content>InformationRegister.ДатыЗапретаИзменения</content>
+  <content>DataProcessor.ГрупповоеПерепроведениеДокументов</content>
+  <subsystems>БухгалтерскийУчет</subsystems>
+  <subsystems>ЗакрытиеПериода</subsystems>
+</mdclass:Subsystem>

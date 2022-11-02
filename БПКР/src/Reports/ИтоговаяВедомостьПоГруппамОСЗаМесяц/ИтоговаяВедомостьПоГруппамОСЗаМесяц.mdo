@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a45a9c7-5c0b-4378-a5c7-86280ed24b2c">
+  <producedTypes>
+    <objectType typeId="fd64ec66-6485-4e41-82f9-f473f401feba" valueTypeId="f12f0f38-56c6-48c9-8164-899f48de3228"/>
+    <managerType typeId="72e4e957-145a-4162-aaf4-4bfe42390c4b" valueTypeId="db872e3c-1f68-4bd8-8a76-c32b2de10c71"/>
+  </producedTypes>
+  <name>ИтоговаяВедомостьПоГруппамОСЗаМесяц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Итоговая ведомость по группам ОС за месяц</value>
+  </synonym>
+  <mainDataCompositionSchema>Report.ИтоговаяВедомостьПоГруппамОСЗаМесяц.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="e16016a1-2ba5-4bb8-a444-e43f68d77622">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

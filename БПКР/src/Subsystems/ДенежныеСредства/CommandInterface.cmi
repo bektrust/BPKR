@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>DataProcessor.ЗагрузкаКурсовВалют.StandardCommand.Open</commands>
+      <commands>CommonCommand.ДополнительныеОбработкиДенежныеСредства</commands>
+      <commands>DataProcessor.МониторВалютныхОпераций.StandardCommand.Open</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ДенежныеСредства.Subsystem.Банк</subsystems>
+    <subsystems>Subsystem.ДенежныеСредства.Subsystem.Касса</subsystems>
+    <subsystems>Subsystem.ДенежныеСредства.Subsystem.ПлатежныеКарты</subsystems>
+    <subsystems>Subsystem.ДенежныеСредства.Subsystem.Операции</subsystems>
+    <subsystems>Subsystem.ДенежныеСредства.Subsystem.НСИ</subsystems>
+    <subsystems>Subsystem.ДенежныеСредства.Subsystem.Анализ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

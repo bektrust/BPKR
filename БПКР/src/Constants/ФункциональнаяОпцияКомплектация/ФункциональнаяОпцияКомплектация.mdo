@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1ec4113f-30fa-4775-9862-b4e5d0508a5d">
+  <producedTypes>
+    <managerType typeId="e5cc5bb8-1850-4785-bcbe-9707afa50e5a" valueTypeId="9aee23fb-0737-44dd-941d-fcabd8a3b9c0"/>
+    <valueManagerType typeId="dd02b5fa-d9fa-4602-bae7-5690911e351a" valueTypeId="59178350-5488-4d51-aed4-1a92daff9833"/>
+    <valueKeyType typeId="375489ed-5dc7-43ac-8ef4-b34fce87ab0d" valueTypeId="578879d6-8f4c-4cdb-aa8b-4f00c14a21f0"/>
+  </producedTypes>
+  <name>ФункциональнаяОпцияКомплектация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектация</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf96bfd6-becb-4da7-89fd-8d2a23c279d9">
+  <name>ПроизводствоИзДавальческогоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство из давальческого сырья</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияПроизводствоИзДавальческогоСырья</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>InformationRegister.СчетаУчетаНоменклатуры.Resource.СчетУчетаЗабалансовый</content>
+  <content>InformationRegister.СчетаУчетаНоменклатуры.Resource.СчетУчетаПередачиЗабалансовый</content>
+  <content>Document.ТребованиеНакладная.TabularSection.МатериалыЗаказчика</content>
+  <content>Subsystem.Производство.Subsystem.Переработка</content>
+  <content>Document.ПоступлениеВПереработку</content>
+</mdclass:FunctionalOption>

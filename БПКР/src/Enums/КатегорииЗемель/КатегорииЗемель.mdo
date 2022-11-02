@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4b2fca47-227f-4385-b54e-a5ca155a3d17">
+  <producedTypes>
+    <refType typeId="d0301cf1-2252-47e4-ba77-c5c0f190d182" valueTypeId="e26cc1a6-ef9f-4b3e-aa30-fe1531346456"/>
+    <listType typeId="24948f98-bd8a-4dc6-be23-b18891f24c75" valueTypeId="76ae3c99-bb7c-4ed6-ab59-ed494f06f915"/>
+    <managerType typeId="42fa0582-b6dc-4529-ba8f-36b16a7f532c" valueTypeId="8d85bfe0-1cca-41c8-b76d-dffc2b15ec32"/>
+  </producedTypes>
+  <name>КатегорииЗемель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории земель</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8ca1f208-fe2c-4d34-96a2-2e7e51d6cb76">
+    <name>Сельхозугодья</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сельхозугодья</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2906a323-bd4e-4bcf-a2a0-0a3976f317f8">
+    <name>Несельскохозяйственные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Несельскохозяйственные</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91902acf-eadc-4963-a177-86524ee7ca1b">
+    <name>Приусадебные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приусадебные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

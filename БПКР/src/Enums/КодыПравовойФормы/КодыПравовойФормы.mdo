@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="95e8b42a-d48c-4b4a-b5eb-eb1ac42090d5">
+  <producedTypes>
+    <refType typeId="703e5491-c94b-4f44-9426-d26470ff20a6" valueTypeId="5ac9055f-aaff-4286-a054-9a7afc22a6cf"/>
+    <listType typeId="102e0669-7587-4f76-b6e5-fc35da32ce00" valueTypeId="9919dbcc-d9fd-4311-8ed1-e0dc0bbc306c"/>
+    <managerType typeId="9de4ad58-48ce-4b3f-bff7-366e58eddff0" valueTypeId="c8191046-1ea9-4a14-b60e-be1dee4bc1a7"/>
+  </producedTypes>
+  <name>КодыПравовойФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды правовой формы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dc250b36-9f43-4711-b859-9c1d97c7023c">
+    <name>ОсОО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОсОО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="43ce4eb1-3d9b-42c9-9c56-08220faa16a2">
+    <name>ОО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9891a37-ee2a-4164-98f7-7f34c10a8573">
+    <name>ОАО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОАО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="795d0ae8-92be-4d22-8881-274a466e9ed0">
+    <name>ЗАО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЗАО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95feb09a-ab36-4da8-9d03-aa509ee3bdef">
+    <name>ГП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32ed14fb-9097-4211-bb24-2622da297003">
+    <name>МКП</name>
+    <synonym>
+      <key>ru</key>
+      <value>МКП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="743ed059-a42e-4f38-8d0d-35e1f7a04acb">
+    <name>МП</name>
+    <synonym>
+      <key>ru</key>
+      <value>МП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b45fa4f7-fa90-4678-afef-b51ba8f3f85d">
+    <name>ОсДО</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОсДО</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="23afca17-76f4-4442-9809-9fd8458c610b">
+    <name>ОФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОФ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e70f500-38d8-4ce8-a43b-999fef511fb7">
+    <name>ТСЖ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТСЖ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b6b7e2f-4bb8-4bbc-af2c-4cded1f4e9c6">
+    <name>ИП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="07436951-d956-47e6-9790-72bd89302910">
+    <name>Учреждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учреждение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b95f625-a8a9-43dd-85e1-1f837a2a6c12">
+    <name>Филиал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Филиал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="968918cb-c2bc-4a17-bbed-439fddf3bf7d">
+    <name>СШ</name>
+    <synonym>
+      <key>ru</key>
+      <value>СШ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9163bf87-b574-4229-9942-5715758283b1">
+    <name>ОЮЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОЮЛ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5196c2f2-4eab-4de2-af52-3f9ab2fba503">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.АвансовыйОтчетПрисоединенныеФайлы</content>
+  <content>InformationRegister.НомераЛистовКассовойКниги</content>
+  <content>Constant.СтатьяДДСКурсоваяРазница</content>
+  <content>Constant.СтатьяЗатратКурсоваяРазница</content>
+  <content>FunctionalOption.ИспользоватьСтатьиДвиженияДенежныхСредств</content>
+  <content>Enum.ПечатныеФормыБанков</content>
+  <content>Enum.ВидыОперацийРКО</content>
+  <content>Enum.ВидыОперацийППИ</content>
+  <content>Enum.ВидыОперацийППВ</content>
+  <content>Enum.ВидыОперацийПКО</content>
+  <content>Catalog.ОперацияБухПрисоединенныеФайлы</content>
+  <content>Constant.НеИспользоватьСтатьиДвиженияДенежныхСредств</content>
+  <content>Constant.ИспользоватьСтатьиДвиженияДенежныхСредств</content>
+  <content>CommonModule.УчетДенежныхСредств</content>
+  <content>Constant.СтатьяДДСДляОплатыОтПокупателя</content>
+  <content>Constant.СтатьяДДСДляОплатыПоставщику</content>
+  <content>Constant.СтатьяДДСДляПрочихПоступлений</content>
+  <content>Constant.СтатьяДДСДляПрочихВыбытий</content>
+  <content>CommonModule.УчетДенежныхСредствКлиентСервер</content>
+  <content>Enum.ФормыОплаты</content>
+  <content>Constant.СтатьяДДСДляВнутреннихОборотов</content>
+  <content>Constant.УказыватьСтатьиДДСДляВнутреннихОборотов</content>
+  <content>Constant.ЗаполнятьОснованиеПоВидуОперации</content>
+  <content>FunctionalOption.ИспользоватьПрефиксКассыИБанковскогоСчета</content>
+  <parentSubsystem>Subsystem.ДенежныеСредства</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84591c9c-69d1-4714-b5fd-8e1b0e93ff47">
+  <name>НеПлательщикНДС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не плательщик НДС</value>
+  </synonym>
+  <location>InformationRegister.УчетнаяПолитикаОрганизаций.Resource.НеПлательщикНДС</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.ОбщийСчетФактураВыписанный</content>
+</mdclass:FunctionalOption>

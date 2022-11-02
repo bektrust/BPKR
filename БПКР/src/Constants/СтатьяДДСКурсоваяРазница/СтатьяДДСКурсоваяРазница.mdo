@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eed469f9-2713-46e7-b1a5-91bb340e2e08">
+  <producedTypes>
+    <managerType typeId="d5ee015e-3e80-4bc7-b587-d9cfbfdab70d" valueTypeId="e708eb57-22c2-458b-99d3-b69923896a0b"/>
+    <valueManagerType typeId="c2a7f003-a0e7-43fa-8875-763cc39a9398" valueTypeId="4b8f94e0-a62a-4602-8ef7-493800c7c085"/>
+    <valueKeyType typeId="55e31d6a-b4ea-5f7a-b175-b5272025af81" valueTypeId="920840ee-06cc-5d86-85ca-1bb8fa2eb47c"/>
+  </producedTypes>
+  <name>СтатьяДДСКурсоваяРазница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья ДДС (курсовая разница)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиДвиженияДенежныхСредств</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Статья движения денежных средств для проводок по курсовым разницам.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

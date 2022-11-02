@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c7e5c38-836d-4df7-aa27-b9f8d6f2796a">
+  <producedTypes>
+    <objectType typeId="aa506e6f-68b9-4d85-bf8a-5ebb04cbaec1" valueTypeId="2b82a016-08af-4742-bb7e-b5a5f8b5dc45"/>
+    <managerType typeId="59519628-6b0f-4f86-a3cd-9f3b517dd29b" valueTypeId="9ba31b9c-2a10-4f2d-a695-8306cb91acfc"/>
+  </producedTypes>
+  <name>ФормированиеПрайсЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать прайс-листов</value>
+  </synonym>
+  <defaultForm>DataProcessor.ФормированиеПрайсЛистов.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <extendedPresentation>
+    <key>ru</key>
+    <value>Печать прайс-листов</value>
+  </extendedPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Обработка предназначена для печати прайс-листов
+</value>
+  </explanation>
+  <tabularSections uuid="d70192f9-6f56-4b2f-8e0a-e4d774d761f4">
+    <producedTypes>
+      <objectType typeId="4ef4fde2-bdb7-4c83-bce7-dbe1894be0f9" valueTypeId="c7227afe-163f-45ba-baef-6a960569d441"/>
+      <rowType typeId="f6bc2216-5215-43d8-82fa-b163c465dfdb" valueTypeId="2f4fb910-2723-4a6d-867f-6b3d500b374c"/>
+    </producedTypes>
+    <name>ТипыЦен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы цен</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="04048e17-2c38-44e0-a56e-9537681ce08d">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид цен</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a68f5241-650d-4aa6-a0fa-c67fec9b4aa3">
+    <producedTypes>
+      <objectType typeId="e49de959-4ac1-4bbc-bb63-009fba5ec977" valueTypeId="664aca90-de73-4f2a-b3da-5a706ef2bdb3"/>
+      <rowType typeId="47d03d4b-e998-464e-96f1-9e510b7c8664" valueTypeId="038e3f61-221a-474c-820f-e66a7406348f"/>
+    </producedTypes>
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="172386b3-a6f0-4fb2-bec6-aecf9a5044aa">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceFoldersAndItems>FoldersAndItems</choiceFoldersAndItems>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9b6e9c38-1c89-4183-9318-0b67ae8cf884">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a98adcb0-8ec6-48f9-9b89-ab1a99245959">
+    <name>ПФ_MXL_Полотно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полотно</value>
+    </synonym>
+  </templates>
+  <templates uuid="0ed61465-794a-432c-b38f-764c5dc4daef">
+    <name>ПФ_MXL_ДвеКолонки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Две колонки</value>
+    </synonym>
+  </templates>
+  <templates uuid="edbae259-2061-4646-922e-0355ea95cc58">
+    <name>ПФ_MXL_Диафильм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диафильм (слайды)</value>
+    </synonym>
+  </templates>
+  <templates uuid="1cf882a5-5f5a-4e29-a8a7-2f29d277d987">
+    <name>ИерархияНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иерархия номенклатуры (номенклатура)</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:DataProcessor>

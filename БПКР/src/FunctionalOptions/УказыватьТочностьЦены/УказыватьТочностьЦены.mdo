@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb1b2a00-aa5c-47e2-9dec-3ad694419e07">
+  <name>УказыватьТочностьЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Указывать точность цены</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияУказыватьТочностьЦены</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Document.РеализацияТоваровУслуг.Attribute.ТочностьЦены</content>
+  <content>Document.УстановкаЦенНоменклатуры.Attribute.ТочностьЦены</content>
+  <content>InformationRegister.ЦеныНоменклатуры.Attribute.ТочностьЦены</content>
+  <content>Document.ПоступлениеТоваровУслуг.Attribute.ТочностьЦены</content>
+  <content>Document.ПоступлениеВПереработку.Attribute.ТочностьЦены</content>
+  <content>Document.РеализацияУслугПоПереработке.Attribute.ТочностьЦены</content>
+  <content>Document.ДополнительныеРасходы.Attribute.ТочностьЦены</content>
+  <content>Document.ВозвратТоваровОтПокупателя.Attribute.ТочностьЦены</content>
+  <content>Document.ВозвратТоваровПоставщику.Attribute.ТочностьЦены</content>
+  <content>Document.ЭлектронныйСчетФактураВыписанный.Attribute.ТочностьЦены</content>
+  <content>Document.ЭлектронныйСчетФактураПолученный.Attribute.ТочностьЦены</content>
+  <content>Document.ПоступлениеИзПереработки.Attribute.ТочностьЦены</content>
+  <content>Document.АктОбОказанииПроизводственныхУслуг.Attribute.ТочностьЦены</content>
+  <content>Document.КорректировкаСтоимостиПоступления.Attribute.ТочностьЦены</content>
+  <content>Document.КорректировкаСтоимостиРеализации.Attribute.ТочностьЦены</content>
+  <content>Document.КорректировкаСтоимостиДополнительныхРасходов.Attribute.ТочностьЦены</content>
+  <content>Document.СчетНаОплатуПокупателю.Attribute.ТочностьЦены</content>
+  <content>Document.РозничнаяПродажа.Attribute.ТочностьЦены</content>
+</mdclass:FunctionalOption>

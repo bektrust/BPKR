@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6882283-1500-4e80-ae34-0b7d545cf7cc">
+  <producedTypes>
+    <refType typeId="dd6f827d-94ce-4f24-864c-646f75db47d3" valueTypeId="8d552d34-cd54-4e09-af4f-a777a3417800"/>
+    <listType typeId="934fb28c-76a3-41f7-bd9e-0004e0d12f92" valueTypeId="6d4b1c64-4fa7-4db5-9bff-307dada0bcc6"/>
+    <managerType typeId="a5f363a9-2ac7-46b6-bd7e-9e463bd4c9f6" valueTypeId="66da0f95-6408-460b-bc75-374bb89e8abe"/>
+  </producedTypes>
+  <name>ВидыНалоговогоУчетаВГруппахОС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды налогового учета в группах ОС</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e7a6cd3-75a5-45e2-ba80-78fe81dcf6da">
+    <name>ПоОбъектам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По объектам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0854c44-ef18-4340-b60e-95634abfc6ff">
+    <name>ПоГруппе</name>
+    <synonym>
+      <key>ru</key>
+      <value>По группе</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

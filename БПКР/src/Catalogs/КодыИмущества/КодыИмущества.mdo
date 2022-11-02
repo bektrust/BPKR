@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1cb4ef9c-cbea-4c4d-95f5-354f88a7700a">
+  <producedTypes>
+    <objectType typeId="71281611-bf77-4dbb-9930-68bb58bff26d" valueTypeId="d7f322b7-6b45-47a5-97c7-6b7561242e05"/>
+    <refType typeId="24516828-3f8d-4019-8e97-092d72071479" valueTypeId="022973ba-3b98-4b72-a8f1-926b2fb05452"/>
+    <selectionType typeId="38c8ceff-d59a-4215-8347-be6e091b9c7e" valueTypeId="67a070e0-78af-4fdd-83de-31332d9c49bb"/>
+    <listType typeId="7df33309-8ceb-4d80-bdc3-b3c2153a0ff7" valueTypeId="8c9871f0-51c5-4e4d-a4bf-b5304c493205"/>
+    <managerType typeId="26dc0e6f-bbf5-401c-af82-35e8701c502e" valueTypeId="e02dad1a-b053-416b-97a6-20a22f5a9f19"/>
+  </producedTypes>
+  <name>КодыИмущества</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коды имущества</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КодыИмущества.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КодыИмущества.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа</value>
+    </synonym>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.КодыИмущества.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Код имущества</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="fc909b76-b7f9-425d-902b-ef0e87ec03b7">
+      <name>КодИмущества</name>
+      <description>Код имущества</description>
+      <code xsi:type="core:StringValue">
+        <value>000</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b6518f76-5d83-4442-a896-a77a9e798dcd">
+        <name>Административные</name>
+        <description>Административные</description>
+        <code xsi:type="core:StringValue">
+          <value>009</value>
+        </code>
+      </content>
+      <content id="defc8e90-5ef5-4a53-be74-581c0cf60229">
+        <name>ДачныйДом</name>
+        <description>Дачный дом</description>
+        <code xsi:type="core:StringValue">
+          <value>003</value>
+        </code>
+      </content>
+      <content id="8c630b11-9736-4814-8ef4-a7f52cf6e42a">
+        <name>ДомаОтдыха</name>
+        <description>Дома отдыха</description>
+        <code xsi:type="core:StringValue">
+          <value>005</value>
+        </code>
+      </content>
+      <content id="ada3afa2-e208-427c-87a8-3513fc6bcd39">
+        <name>ДругиеКапитальныеСтроения</name>
+        <description>Другие капитальные строения</description>
+        <code xsi:type="core:StringValue">
+          <value>011</value>
+        </code>
+      </content>
+      <content id="00d072b3-d5e3-44ea-b357-c171c9206f18">
+        <name>ЖилойДом</name>
+        <description>Жилой дом</description>
+        <code xsi:type="core:StringValue">
+          <value>001</value>
+        </code>
+      </content>
+      <content id="a51b1320-0206-4e4e-b7a8-3d1657dd000d">
+        <name>Квартира</name>
+        <description>Квартира</description>
+        <code xsi:type="core:StringValue">
+          <value>002</value>
+        </code>
+      </content>
+      <content id="e76f9b97-d3ff-42ce-835e-e3f5d618e24b">
+        <name>Киоски</name>
+        <description>Киоски</description>
+        <code xsi:type="core:StringValue">
+          <value>012</value>
+        </code>
+      </content>
+      <content id="2cfd8f8e-50a5-47c2-824c-aadb54741cb7">
+        <name>Контейнеры</name>
+        <description>Контейнеры</description>
+        <code xsi:type="core:StringValue">
+          <value>013</value>
+        </code>
+      </content>
+      <content id="3e8c933c-6931-46d6-a368-349c500000c0">
+        <name>Курорты</name>
+        <description>Курорты</description>
+        <code xsi:type="core:StringValue">
+          <value>007</value>
+        </code>
+      </content>
+      <content id="9f6cdf2c-4912-4b13-b987-0ef8d60e08c4">
+        <name>Пансионаты</name>
+        <description>Пансионаты</description>
+        <code xsi:type="core:StringValue">
+          <value>004</value>
+        </code>
+      </content>
+      <content id="34ffa0c5-02ec-41ad-8fce-175355baf1a3">
+        <name>Производственные</name>
+        <description>Производственные</description>
+        <code xsi:type="core:StringValue">
+          <value>008</value>
+        </code>
+      </content>
+      <content id="6fe6869e-7baa-4657-a1eb-e3798442b287">
+        <name>Промышленные</name>
+        <description>Промышленные</description>
+        <code xsi:type="core:StringValue">
+          <value>010</value>
+        </code>
+      </content>
+      <content id="de547b43-b61d-4d46-91d0-1d46f8b9b195">
+        <name>ПрочееВременноеПомещение</name>
+        <description>Прочее временное помещение</description>
+        <code xsi:type="core:StringValue">
+          <value>014</value>
+        </code>
+      </content>
+      <content id="5a5e6949-9704-4794-8a0a-b03566fa1421">
+        <name>Санатории</name>
+        <description>Санатории</description>
+        <code xsi:type="core:StringValue">
+          <value>006</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bef6081e-f377-41d6-83a1-b0e218a3fb46">
+  <producedTypes>
+    <containerType typeId="38cab6fc-a064-4995-9ab1-0e13c91bc34e" valueTypeId="af4be178-f85b-4a44-ab7a-db749c737979"/>
+  </producedTypes>
+  <name>ПрисоединенныйФайл</name>
+  <synonym>
+    <key>ru</key>
+    <value>Присоединенный файл</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.АвансовыйОтчетПрисоединенныеФайлы</types>
+    <types>CatalogRef.ДоговорыКонтрагентовПрисоединенныеФайлы</types>
+    <types>CatalogRef.НоменклатураПрисоединенныеФайлы</types>
+    <types>CatalogRef.ЗадачаИсполнителяПрисоединенныеФайлы</types>
+    <types>CatalogRef.СчетНаОплатуПоставщикаПрисоединенныеФайлы</types>
+    <types>CatalogRef.ОрганизацииПрисоединенныеФайлы</types>
+    <types>CatalogRef.Файлы</types>
+    <types>CatalogRef.ЭлектронныйСчетФактураПолученныйПрисоединенныеФайлы</types>
+    <types>CatalogRef.ВозвратТоваровПоставщикуПрисоединенныеФайлы</types>
+    <types>CatalogRef.ЭлектронныйСчетФактураВыписанныйПрисоединенныеФайлы</types>
+    <types>CatalogRef.ОперацияБухПрисоединенныеФайлы</types>
+    <types>CatalogRef.ИсторияПроверкиИКорректировкиДанныхПрисоединенныеФайлы</types>
+    <types>CatalogRef.ВозвратТоваровОтПокупателяПрисоединенныеФайлы</types>
+    <types>CatalogRef.СчетНаОплатуПокупателюПрисоединенныеФайлы</types>
+    <types>CatalogRef.ФизическиеЛицаПрисоединенныеФайлы</types>
+    <types>CatalogRef.ВерсииФайлов</types>
+    <types>CatalogRef.РеализацияТоваровУслугПрисоединенныеФайлы</types>
+    <types>CatalogRef.ПоступлениеТоваровУслугПрисоединенныеФайлы</types>
+  </type>
+</mdclass:DefinedType>

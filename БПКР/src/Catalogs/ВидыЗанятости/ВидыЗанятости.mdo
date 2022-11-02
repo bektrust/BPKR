@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e013ed6a-0c6b-4dc0-bb49-ec38f75550cd">
+  <producedTypes>
+    <objectType typeId="826023ca-5d1d-4d4e-a0b5-046f77f3b51d" valueTypeId="792f57fd-dbf5-42eb-9d4f-15c32f7a8d10"/>
+    <refType typeId="bafad314-77ea-4916-8978-0236ab901ec2" valueTypeId="e8ffc367-d7c4-457b-a6fb-a7ab68d58fd8"/>
+    <selectionType typeId="0c58c17b-1ab4-4ef0-a22a-bd04fa995cc3" valueTypeId="2b43e319-a566-492f-9cc6-69e2cff99e7b"/>
+    <listType typeId="e53fe5fe-3c9f-417d-b581-0489f6be2a01" valueTypeId="06cf3413-1d4c-4d86-95fe-f2d24a340d79"/>
+    <managerType typeId="59fc3d2f-42d4-4135-b9c3-ae6c2d07ac79" valueTypeId="bcf04583-f527-4e18-8e62-e40a9c09bcb0"/>
+  </producedTypes>
+  <name>ВидыЗанятости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды занятости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыЗанятости.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид занятости</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Видф занятости для формирования отчета по подоходному налогу</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="293354e4-4a96-4aeb-9a20-0153f6c1c1ad">
+      <name>Нерезиденты</name>
+      <description>Нерезиденты</description>
+      <code xsi:type="core:StringValue">
+        <value>01</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="ccb67c2a-cbfd-4880-97d2-187775750956">
+      <name>ОсновноеМестоРаботы</name>
+      <description>Основное место работы</description>
+      <code xsi:type="core:StringValue">
+        <value>02</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="f9222a58-9b48-4ce2-9f7f-cbb50615c6aa">
+        <name>Инвалиды</name>
+        <description>Инвалиды 1, 2, 3 группы</description>
+        <code xsi:type="core:StringValue">
+          <value>04</value>
+        </code>
+      </content>
+      <content id="2e30671e-2cab-46c4-b8ed-bdb1e5c54250">
+        <name>МОП</name>
+        <description>МОП</description>
+        <code xsi:type="core:StringValue">
+          <value>05</value>
+        </code>
+      </content>
+    </items>
+    <items id="1d5f2003-28f4-4c4c-8642-2c917b93eb81">
+      <name>Совместители</name>
+      <description>Совместители</description>
+      <code xsi:type="core:StringValue">
+        <value>03</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

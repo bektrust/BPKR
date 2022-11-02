@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="890be945-5711-4f68-99b4-c84b470a5f70">
+  <name>КоллекцияВидДокументаЭСФ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коллекция вид документа ЭСФ</value>
+  </synonym>
+</mdclass:CommonPicture>

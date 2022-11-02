@@ -1,0 +1,142 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://sti.gov.kg/reports/payroll/161" elementFormQualified="true" attributeFormQualified="false">
+	<property name="FORM">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://sti.gov.kg/reports/payroll/161" name="DATEREPORT" type="d4p1:DateType" lowerBound="1" form="Attribute"/>
+			<property name="NOMDOC" type="xs:int" lowerBound="1" form="Attribute"/>
+			<property name="IDFORM" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="VERSFORM" type="xs:string" lowerBound="0" form="Attribute"/>
+			<property name="CHECKSUM" type="xs:string" lowerBound="0"/>
+			<property name="PART1">
+				<typeDef xsi:type="ObjectType">
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="FTYPE" type="d6p1:ReportType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STARTDATE" type="d6p1:DateType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="ENDDATE" type="d6p1:DateType"/>
+				</typeDef>
+			</property>
+			<property name="PART2">
+				<typeDef xsi:type="ObjectType">
+					<property name="FULLNAME" type="xs:string"/>
+					<property name="ZIP">
+						<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="6">
+							<pattern>[0-9]{6}</pattern>
+						</typeDef>
+					</property>
+					<property name="ADDRESSSTREET" type="xs:string"/>
+					<property name="PHONE" type="xs:string"/>
+					<property name="ADDRESSOBL" type="xs:string"/>
+					<property name="MAIL" type="xs:string"/>
+					<property name="TIN">
+						<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+							<pattern>[0-9]{14}</pattern>
+						</typeDef>
+					</property>
+					<property name="RAYONCODE">
+						<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="3">
+							<pattern>[0-9]{3}</pattern>
+						</typeDef>
+					</property>
+					<property name="GOSKOMSTATCODE">
+						<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="8">
+							<pattern>[0-9]{8}</pattern>
+						</typeDef>
+					</property>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X215" type="d6p1:DecimalType"/>
+					<property name="STI161X301" type="xs:int"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X302" type="d6p1:DecimalType"/>
+					<property name="STI161X303" type="xs:int"/>
+					<property name="STI161X304" type="xs:int"/>
+					<property name="STI161X305" type="xs:int"/>
+					<property name="STI161X306" type="xs:int"/>
+					<property name="STI161X307" type="xs:int"/>
+					<property name="STI161X308" type="xs:int"/>
+					<property name="STI161X309" type="xs:int"/>
+					<property name="STI161X310" type="xs:int"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X311" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X312" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X313" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X314" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X401" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X402" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X403" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X404" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X405" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X406" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X407" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X408" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X409" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X410" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X120" type="d6p1:DecimalType"/>
+					<property name="STI161X117">
+						<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic" length="12">
+							<pattern>[0-9]{12}</pattern>
+						</typeDef>
+					</property>
+					<property name="STI161X118" type="xs:int"/>
+					<property name="STI161X119" type="xs:string"/>
+					<property name="STI161X130" type="xs:string"/>
+					<property name="STI161X131" type="xs:string"/>
+					<property name="STI161X132" type="xs:string"/>
+					<property name="STI161X133" type="xs:int"/>
+					<property name="STI161X134" type="xs:int"/>
+					<property name="STI161X203" type="xs:int"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X204" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X205" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X206" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X207" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X208" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X209" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X210" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X211" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X212" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X213" type="d6p1:DecimalType"/>
+					<property xmlns:d6p1="http://sti.gov.kg/reports/payroll/161" name="STI161X214" type="d6p1:DecimalType"/>
+					<property name="STI161DECLARATIONDETAIL" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType">
+							<property name="STI161_1X270" type="xs:int"/>
+							<property name="STI161_1X271" type="xs:int"/>
+							<property name="STI161_1X272" type="xs:int"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X273" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X274" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X275" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X276" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X277" type="d8p1:DecimalType"/>
+							<property name="STI161_1X278" type="xs:int"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X279" type="d8p1:DecimalType"/>
+							<property name="STI161_1X250" type="xs:int"/>
+							<property name="STI161_1X251" type="xs:string"/>
+							<property name="STI161_1X252" type="xs:string"/>
+							<property name="STI161_1X253" type="xs:string"/>
+							<property name="STI161_1X254" type="xs:string"/>
+							<property name="STI161_1X255" type="xs:int"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X256" type="d8p1:DateType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X257" type="d8p1:DateType"/>
+							<property name="STI161_1X258" type="xs:int"/>
+							<property name="STI161_1X259" type="xs:string"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X260" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X261" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X262" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X263" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X264" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X265" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X266" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X267" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X268" type="d8p1:DecimalType"/>
+							<property xmlns:d8p1="http://sti.gov.kg/reports/payroll/161" name="STI161_1X269" type="d8p1:DecimalType"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<valueType name="DateType" base="xs:string" variety="Atomic" length="10">
+		<pattern>(0[1-9]{1}|[1-2]{1}[0-9]{1}|3[0-1]{1})\.(0[1-9]{1}|1[0-2]{1})\.(1[0-9]{3}|20[0-9]{2})</pattern>
+	</valueType>
+	<valueType name="DecimalType" base="xs:decimal" variety="Atomic" whiteSpace="collapse" totalDigits="20" fractionDigits="2">
+		<pattern>[+-]?\d+(,\d+)?|[+-]?\d+(.\d+)?</pattern>
+	</valueType>
+	<valueType name="ReportType" base="xs:string" variety="Atomic">
+		<enumeration>0</enumeration>
+		<enumeration>1</enumeration>
+		<enumeration>2</enumeration>
+	</valueType>
+</package>

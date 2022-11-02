@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d147f2d3-0fa2-49f3-bd1b-a40cea040d49">
+  <name>Анализ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>DataProcessor.МониторОС</content>
+  <content>CommonCommand.ПанельОтчетовОсновныеСредства</content>
+  <content>Report.ВедомостьПередачиОС</content>
+  <content>Report.ВедомостьПеремещенияОС</content>
+  <content>Report.ВедомостьВыбытияОС</content>
+  <content>Report.ЖурналОС</content>
+  <content>Report.ИтоговаяВедомостьПоГруппамОСЗаМесяц</content>
+  <content>Report.ОтчетОНаличииОС</content>
+  <content>Report.ВедомостьПоступленияОС</content>
+  <content>Report.ВедомостьПринятияКУчетуОС</content>
+  <content>Report.СводПоОС</content>
+  <content>DataProcessor.МониторНалогаНаПрибыль</content>
+  <content>Report.ОборотнаяВедомостьОС</content>
+  <content>Report.ВедомостьСобытийОС</content>
+  <content>Report.ПереченьОСНаДатуКомплекты</content>
+  <content>Report.ВедомостьПоАмортизацииОС</content>
+  <content>Report.ВедомостьОС</content>
+  <content>Report.ОСВАренде</content>
+  <parentSubsystem>Subsystem.ОсновныеСредства</parentSubsystem>
+</mdclass:Subsystem>

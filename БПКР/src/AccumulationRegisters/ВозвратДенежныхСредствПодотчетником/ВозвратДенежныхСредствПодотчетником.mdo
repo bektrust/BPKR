@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a1ad884-21c9-4f41-b8cc-5e296496c3d0">
+  <producedTypes>
+    <selectionType typeId="a54386ee-5da1-4dfe-a27c-7a32ccbc382a" valueTypeId="3cce6bb8-8d66-4bc8-b06e-88f66b4b752b"/>
+    <listType typeId="b7307c18-ed3b-4b45-9085-666a7680ea1b" valueTypeId="5cad582d-4221-453c-a7d5-94f9ed0e0f0c"/>
+    <managerType typeId="41150969-624e-4163-bde9-1773b347908e" valueTypeId="81777832-f686-44a6-a7a7-e09726b99c3d"/>
+    <recordSetType typeId="09c66862-1072-4412-b6ad-2a0fd5953658" valueTypeId="0d3f4790-ff53-4dc5-9ec9-61ebf960d85a"/>
+    <recordKeyType typeId="c61b9fe9-cb2e-4626-b86f-b23a40fdccc9" valueTypeId="51c1d1d4-ed13-4c3f-900c-201e0c42540a"/>
+    <recordType typeId="ed4de095-aadc-49bc-9ea8-8dcf3ffe4e32" valueTypeId="7e866ff7-27f8-4273-bd53-ce111e8818ec"/>
+  </producedTypes>
+  <name>ВозвратДенежныхСредствПодотчетником</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат денежных средств подотчетником</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <explanation>
+    <key>ru</key>
+    <value>Возврат денежных средств подотчетником документом ПКО и ППВ вид операции ВозвратОтСотрудника</value>
+  </explanation>
+  <resources uuid="e9110fdd-bca1-4262-bac5-196ed32f1f64">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="36ff0070-f344-41eb-8644-cf82b07efee6">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="039e9865-2a66-47cb-861e-305fbc4d5d50">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

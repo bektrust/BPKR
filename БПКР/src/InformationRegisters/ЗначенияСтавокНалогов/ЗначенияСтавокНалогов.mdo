@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2c1e99a-019b-4c9e-94bc-90b794fc3910">
+  <producedTypes>
+    <selectionType typeId="d0467d6e-3db1-465c-9f1f-ba357060d3b0" valueTypeId="7723455c-b848-42d1-bfc2-a5fea2a91d47"/>
+    <listType typeId="da8486f9-2206-45d2-a922-2345be4ebefc" valueTypeId="622bd64a-1ef1-42f9-8a40-d961daeb4873"/>
+    <managerType typeId="679de15a-357f-47d5-ae92-b68d1f276a31" valueTypeId="128f4dbb-af5e-400c-9562-bf47fa9c7146"/>
+    <recordSetType typeId="fbcf25f9-4328-4200-a859-d32b33bc183c" valueTypeId="58e5f3de-c60b-4e14-9d53-597ef239e489"/>
+    <recordKeyType typeId="f5bc15a6-1197-4c85-a7ea-dcb08b9a55e0" valueTypeId="349d08d4-4425-4286-91c5-efa9a689adb6"/>
+    <recordType typeId="e3d38e5a-43ab-4cd8-a8a6-4942bce335c9" valueTypeId="c9d83b92-0afb-4411-87c5-603bfdc8a8bc"/>
+    <recordManagerType typeId="b3d9e569-a740-462b-bf9d-ae1e5e9bb922" valueTypeId="dd2a2c66-9af6-413f-9c26-b08ae1126b9d"/>
+  </producedTypes>
+  <name>ЗначенияСтавокНалогов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Значение ставок налогов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <explanation>
+    <key>ru</key>
+    <value>Регистр используется для автоматического заполнения ставок НДС в документах поступлениях.</value>
+  </explanation>
+  <resources uuid="7a6ebbd6-2b19-44ea-9a1d-1b4a6495a8ba">
+    <name>ЗначениеСтавкиНДС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ставки НДС</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Числовое значение ставки налога на добавленную стоимость.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6608b416-2b42-48e1-9f16-9b875ae47849">
+    <name>удалитьЗначениеСтавкиНСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить значение ставки НСП</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Числовое значение ставки налога с продаж.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ebb6e4a6-101c-4cae-bbc7-b8cc52f0bfe1">
+    <name>удалитьЗначениеСтавкиНСПДляОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение ставки НСП (ОС)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Числовое значение ставки налога с продаж.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="24e62127-5f55-48c0-8deb-fee1b38826ee">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,23 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.sample-package.org">
+	<objectType name="report" open="true">
+		<property name="id" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.sample-package.org" name="data" type="d3p1:data" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.sample-package.org" name="attachment" type="d3p1:attachment" upperBound="-1"/>
+	</objectType>
+	<objectType name="attachment">
+		<property name="id" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.sample-package.org" name="data" type="d3p1:data" upperBound="-1"/>
+	</objectType>
+	<objectType name="data">
+		<property name="id" type="xs:string" form="Attribute"/>
+		<property name="value" type="xs:string" form="Attribute"/>
+		<property xmlns:d3p1="http://www.sample-package.org" name="record" type="d3p1:record" upperBound="-1"/>
+	</objectType>
+	<objectType name="record">
+		<property xmlns:d3p1="http://www.sample-package.org" name="column" type="d3p1:column" upperBound="-1"/>
+	</objectType>
+	<objectType name="column">
+		<property name="id" type="xs:string" form="Attribute"/>
+		<property name="value" type="xs:string" form="Attribute"/>
+	</objectType>
+</package>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="36b8dd76-fdc0-4aad-ad90-8f810d74979c">
+  <producedTypes>
+    <objectType typeId="29e3b3d6-0b36-45a0-b30b-6dc7c398e6bb" valueTypeId="6d743f1d-47f9-4180-a170-01edaf47e29c"/>
+    <refType typeId="5c203f47-ee51-4c26-b8b0-e3ec434e49cb" valueTypeId="2a2ea0ff-b9f8-4f46-93ed-8a1e89ed459a"/>
+    <selectionType typeId="cd6182a9-42c1-40ba-a52c-ac0f0b6ec0cf" valueTypeId="30a6ad31-a781-42aa-982c-97d85ca9bfcb"/>
+    <listType typeId="74e98bd1-d2cd-479b-bd3b-9ad0b7bf59c7" valueTypeId="31fa84c1-8ad4-4881-8870-674bb6612a5f"/>
+    <managerType typeId="b207b97d-96c6-4a63-ab92-ffa356511106" valueTypeId="3d79bd86-7040-49b3-92a4-d9855c3099fc"/>
+  </producedTypes>
+  <name>СпособыОтраженияРасходовПоАмортизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способы отражения расходов по амортизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СпособыОтраженияРасходовПоАмортизации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Способ отражения</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СпособыОтраженияРасходовПоАмортизации.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="69cb462c-7d49-4b04-b65b-2f76ee740b57">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="2c30aabd-3aef-413d-8176-40cc4fb1e948">
+    <producedTypes>
+      <objectType typeId="ef9ff5af-e8d5-454e-bcbd-fadb094192fc" valueTypeId="660c7428-4abd-446c-880a-e7fa8884cdb9"/>
+      <rowType typeId="e1cadfbb-619a-4645-8cf0-a253525f4d96" valueTypeId="9cda49f9-cefa-41bb-960a-d92ac0813367"/>
+    </producedTypes>
+    <name>Способы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Способы</value>
+    </synonym>
+    <fillChecking>ShowError</fillChecking>
+    <attributes uuid="d317f125-96ca-4f93-90c9-dc7f6ae048ba">
+      <name>СчетЗатрат</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счет затрат</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.Хозрасчетный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameters>
+        <name>Отбор.Забалансовый</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <choiceParameters>
+        <name>Отбор.ЗапретитьИспользоватьВПроводках</name>
+        <value xsi:type="core:BooleanValue"/>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c81d25f8-97b1-4df0-946b-e0c9c74ef616">
+      <name>Субконто1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субконто1</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d7e7786a-78d9-4029-8add-76ce3e0cc779">
+      <name>Субконто2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субконто2</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="728287ba-bb84-4d6e-82e2-af0f073a8ba4">
+      <name>Субконто3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субконто3</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fe52292d-b0ec-434b-8f5a-ee99729d704f">
+      <name>Коэффициент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Коэффициент</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="401a7d14-9ed9-46ec-8722-1aa4c947fc6d">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="03244723-2733-4d33-ab98-13717a72c6cc">
+    <name>МакетЗаполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет заполнения</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+</mdclass:Catalog>

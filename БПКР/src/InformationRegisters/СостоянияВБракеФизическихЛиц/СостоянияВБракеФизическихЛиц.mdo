@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b80d7a-49aa-4941-8e49-68fb790ff1cd">
+  <producedTypes>
+    <selectionType typeId="2dda9d4b-90d6-4a0e-8840-43f918645245" valueTypeId="4f902a1c-0549-4033-b7f5-9f3969417788"/>
+    <listType typeId="8d58e17a-2f4c-480a-a1e4-56b74940b2c5" valueTypeId="90836f9d-a230-4e4a-803d-7f74386a9646"/>
+    <managerType typeId="02c67b17-9349-4f59-8e3f-ae252762bf4c" valueTypeId="e3f2606c-bd44-40ee-8d82-c116a069e223"/>
+    <recordSetType typeId="fc7b327a-de09-4a40-8037-20d640965532" valueTypeId="0d7ee6a4-5f11-4e0a-b103-c35c494902a0"/>
+    <recordKeyType typeId="3e577d07-8f45-4eb5-9586-7edcce3df089" valueTypeId="8de05d00-fa91-4034-ba84-48f0a19dc63e"/>
+    <recordType typeId="65f288c2-b4cf-479b-abad-8e50d9c11443" valueTypeId="6d5701b2-f9b4-4904-8d8b-0eca1a452fe6"/>
+    <recordManagerType typeId="7dd8d6f5-a3e9-4e06-b4a8-7ff486a9fd88" valueTypeId="046d3014-d73b-429f-b695-269ccaaa3e33"/>
+  </producedTypes>
+  <name>СостоянияВБракеФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния в браке физических лиц</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <resources uuid="4695946d-622e-4a80-b9bc-a2d78052358e">
+    <name>СостояниеВБраке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состояние в браке</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СостояниеВБраке</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1b340105-d2a0-4b10-b18c-2b1af51746ba">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физ лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="498faebb-70a1-4e62-b2b4-e94a266bf698">
+    <name>РедактированиеИстории</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование истории</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

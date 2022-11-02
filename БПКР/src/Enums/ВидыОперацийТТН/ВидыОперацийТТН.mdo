@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34767c41-a5ca-4931-aa9a-3697677704e1">
+  <producedTypes>
+    <refType typeId="0097b34a-5541-4d8a-bc7d-c6d1f3a521a2" valueTypeId="121973b6-43d5-4109-8d96-8008fbfce6ee"/>
+    <listType typeId="f3987658-fed3-4605-af0f-f5406a15d34a" valueTypeId="9fec132d-eb26-4eba-a678-6acad7e49d1b"/>
+    <managerType typeId="98ada833-870f-4afe-b293-60cb649f93a6" valueTypeId="aaa2ddd4-40b2-4063-9079-32ace1cccc82"/>
+  </producedTypes>
+  <name>ВидыОперацийТТН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций ТТН</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0bf13d7b-817d-4f66-a0d3-8a6f9ba88c26">
+    <name>Реализация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реализация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98542ad2-c8f5-494c-b413-5b194f988bd2">
+    <name>Перемещение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перемещение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="44e45613-5c22-4616-96d6-4ae1ea3ca80b">
+    <name>Списание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46b84c16-fd54-480b-9c3d-18a5f9f8b04f">
+    <name>Оприходование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оприходование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="551053d2-d7fc-4840-8047-8e341dfdb33d">
+    <name>Возврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63b283b7-5e2a-4dbd-a3c1-bba814c119cb">
+    <name>ВыгрузкаОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка остатков</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a5687af-ffcf-43e0-8107-1acc7e409102">
+  <producedTypes>
+    <managerType typeId="5ee67520-b4c8-42d0-b717-2a8f9d73cffe" valueTypeId="61cd8239-01c8-45a2-b740-12ac1d392a0a"/>
+    <valueManagerType typeId="2c6de42e-fa18-4f6f-80a4-5581eb934ff8" valueTypeId="7955ef55-55bf-4a28-9391-a8a7b9b369b0"/>
+    <valueKeyType typeId="35d66c13-21bc-580d-9693-b3620ffaa02b" valueTypeId="3e271b29-64e0-5541-82c1-473e813b30b0"/>
+  </producedTypes>
+  <name>СтатьяЗатратКурсоваяРазница</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статья затрат (курсовая разница)</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.СтатьиЗатрат</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <toolTip>
+    <key>ru</key>
+    <value>Статья затрат для проводок по курсовым разницам.</value>
+  </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

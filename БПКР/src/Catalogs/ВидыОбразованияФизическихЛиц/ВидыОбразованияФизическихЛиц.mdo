@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d6cf828d-a481-40ec-95b7-4ebf9bcab75d">
+  <producedTypes>
+    <objectType typeId="8cdd9925-a1f1-4fe2-956c-19345db783c5" valueTypeId="86f2b181-8896-49a3-b794-bea07c0e942c"/>
+    <refType typeId="64ca884f-0032-4ad3-8658-5342aabd1c46" valueTypeId="e741e63d-96fc-4059-903d-08e0e82f0e27"/>
+    <selectionType typeId="a8816e8c-21ea-4601-94d2-089fc2e1cef4" valueTypeId="60e3e6dd-6875-4eb9-8c1f-3c86c0d96079"/>
+    <listType typeId="66565ab5-5cf4-4018-a6eb-74aa3b48c9a0" valueTypeId="0dec6730-dd5a-4f4f-9717-068b2eeb0762"/>
+    <managerType typeId="38e88e22-eeae-4722-97df-e4bd6ef45895" valueTypeId="e6efc384-7f08-4f3d-88fc-a36fff5d2dfc"/>
+  </producedTypes>
+  <name>ВидыОбразованияФизическихЛиц</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды образования</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВидыОбразованияФизическихЛиц.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Вид образования</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9d2e14e6-cd75-42b0-b589-e1863cef9a72">
+      <name>АспирантураОрдинатураАдъюнктура</name>
+      <description>Аспирантура, ординатура, адъюнктура</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e55e3b58-60ef-4006-b0eb-a6fd3c5ec3a0">
+      <name>ВысшееОбразование</name>
+      <description>Высшее образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e86833aa-0a96-4b5f-8a32-326e9eca83ef">
+      <name>Докторантура</name>
+      <description>Докторантура</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="79024aa7-8687-4b35-9e56-4794f4c6eec3">
+      <name>КолледжТехникум</name>
+      <description>Колледж (техникум)</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="1807654f-dfc4-4521-b0e4-a45a0c6d0d06">
+      <name>НачальноеПрофессиональноеОбразование</name>
+      <description>Начальное профессиональное образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="18297093-ec1f-4a84-b75d-5bd7429504e2">
+      <name>НеполноеВысшееОбразование</name>
+      <description>Неполное высшее образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="e5e61b68-159e-4436-803c-c320620ea216">
+      <name>ОсновноеОбщееОбразование</name>
+      <description>Основное общее образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="247e1e51-ede5-45a9-8e1d-fd7f2f3a883c">
+      <name>ПослевузовскоеОбразование</name>
+      <description>Послевузовское образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="83ecc454-e5c8-4859-8cb9-0072ad24f0f7">
+      <name>СреднееПолноеОбщееОбразование</name>
+      <description>Среднее (полное) общее образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="5a2e6586-4202-47f7-8a2f-c98cf8f91801">
+      <name>СреднееПрофессиональноеОбразование</name>
+      <description>Среднее профессиональное образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="0fb761d9-0bcd-48eb-86ea-6193aa70cbfb">
+      <name>СреднееТехническоеОбразование</name>
+      <description>Среднее техническое образование</description>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+  </predefined>
+  <editType>BothWays</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

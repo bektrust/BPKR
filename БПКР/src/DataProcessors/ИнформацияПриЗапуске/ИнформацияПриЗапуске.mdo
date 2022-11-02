@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9704b20-c29c-4e7f-b777-0ac9080a5631">
+  <producedTypes>
+    <objectType typeId="de0e4b37-014a-4ad7-a061-d9a24e09a071" valueTypeId="5f569c60-f718-4365-894b-11a785b1e8e8"/>
+    <managerType typeId="ce9a27c2-bcc5-4091-9a0f-739f9434c764" valueTypeId="9904cc05-09bc-47bb-b0fd-e4e698bb8862"/>
+  </producedTypes>
+  <name>ИнформацияПриЗапуске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация при запуске</value>
+  </synonym>
+  <defaultForm>DataProcessor.ИнформацияПриЗапуске.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="c1372891-0f55-4868-ab97-906eff52be0e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="33e96bda-1708-4ee4-8d4d-3b919bda3e38">
+    <name>Описатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описатель</value>
+    </synonym>
+  </templates>
+  <templates uuid="2eb007e7-385b-48e8-a247-465b1a701ea0">
+    <name>Старт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старт</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="eb322afc-69bd-47e3-a405-a516fe99d3e9">
+    <name>ИТС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИТС</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7796532a-b6d9-4ffd-8f67-1ec414eb5f24">
+    <name>ИнтернетПоддержка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интернет поддержка</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="731f130a-c450-4270-86ba-cea1eda514fb">
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="f4b69f9c-0165-47a3-a271-2b83fd700be9">
+    <name>ЭлКниги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронные книги</value>
+    </synonym>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <commands uuid="53fb35a7-44ab-42e7-8dba-6fa08bf5ba2c">
+    <name>ИнформацияПриЗапуске</name>
+    <synonym>
+      <key>ru</key>
+      <value>Информация при запуске</value>
+    </synonym>
+    <group>CommandGroup.Информация</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

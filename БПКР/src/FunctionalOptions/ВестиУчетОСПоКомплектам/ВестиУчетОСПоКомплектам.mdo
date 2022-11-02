@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="548638be-64ed-42d2-8859-017cdb2cf823">
+  <name>ВестиУчетОСПоКомплектам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вести учет ОСПо комплектам</value>
+  </synonym>
+  <location>Constant.ФункциональнаяОпцияВестиУчетОСПоКомплектам</location>
+  <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ОсновныеСредства.Attribute.ЭтоКомплект</content>
+  <content>InformationRegister.СоставОС</content>
+  <content>Document.КомплектацияОС</content>
+  <content>Report.ПереченьОСНаДатуКомплекты</content>
+</mdclass:FunctionalOption>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bab10382-9205-4119-a5e8-de173a39a01f">
+  <name>Прочее</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прочее</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.ДанныеМонитораРуководителя</content>
+  <content>CommonTemplate.МониторРуководителя</content>
+  <content>CommonForm.НастройкаМонитораОсновныхПоказателей</content>
+  <content>CommonForm.МониторОсновныхПоказателей</content>
+  <content>CommonModule.МониторРуководителя</content>
+  <parentSubsystem>Subsystem.Руководителю</parentSubsystem>
+</mdclass:Subsystem>

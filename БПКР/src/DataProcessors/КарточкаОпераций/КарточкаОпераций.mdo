@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="db682230-d8d7-4ae5-b7b1-459943cc4af1">
+  <producedTypes>
+    <objectType typeId="539ee020-ce7c-465c-ae04-ab191b0b032f" valueTypeId="ceb79c21-b958-42ec-aab0-7630f948b97d"/>
+    <managerType typeId="c7b23ae6-73bf-4258-a9aa-ea6159c43868" valueTypeId="6217a68d-9721-41cd-9160-4ecb23968e29"/>
+  </producedTypes>
+  <name>КарточкаОпераций</name>
+  <synonym>
+    <key>ru</key>
+    <value>Карточка операций</value>
+  </synonym>
+  <defaultForm>DataProcessor.КарточкаОпераций.Form.Форма</defaultForm>
+  <attributes uuid="91b1e102-1c8c-4f25-8dde-383fa37150ad">
+    <name>Организация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организация</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Организации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8612947d-78d0-4913-aad9-d361d6246c46">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a1eb8160-2fd6-4c17-bc70-ddc2db2ca85c">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a6afe16a-f341-4475-b851-da84fc43ada4">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.Хозрасчетный</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="83287039-fac6-4e72-b285-e003db221eab">
+    <name>ПоказатьПроводкиВДокументах</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать проводки в документах</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1ebe8da6-7d9b-4b9b-b075-f42bba903d5c">
+    <name>ИспользоватьПарныйСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Парный счет</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3e1c35f3-e65a-4d18-950f-53f1fdda2201">
+    <name>Субконто1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто 1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>1</linkItem>
+      <field>DataProcessor.КарточкаОпераций.Attribute.Счет</field>
+    </linkByType>
+  </attributes>
+  <attributes uuid="09c728e5-cdb4-4fe3-859b-c8501aef349a">
+    <name>Субконто2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто 2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>2</linkItem>
+      <field>DataProcessor.КарточкаОпераций.Attribute.Счет</field>
+    </linkByType>
+  </attributes>
+  <attributes uuid="d8140f67-94f9-42b5-b0f2-cd399b126dea">
+    <name>Субконто3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субконто 3</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <linkItem>3</linkItem>
+      <field>DataProcessor.КарточкаОпераций.Attribute.Счет</field>
+    </linkByType>
+  </attributes>
+  <attributes uuid="9fa110a1-3fe2-4f4a-8270-7a1b97501e6a">
+    <name>ПоказатьСомы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показать сомы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="301a569d-e9b2-41c4-8bb0-64f11c3595b6">
+    <name>Заголовок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="9b3c0dbd-a568-4fc0-8ab6-328be8e6934e">
+    <producedTypes>
+      <objectType typeId="b6924e14-9922-47b8-9859-388f66f1985c" valueTypeId="b6328e02-484c-45a9-b81c-c904fcb2cce8"/>
+      <rowType typeId="c471f6d2-3eb6-4047-9c3a-eb0aa85cd45c" valueTypeId="4a41dbbf-79bc-4bb2-8c31-d08709220b4a"/>
+    </producedTypes>
+    <name>Оборотка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборотка</value>
+    </synonym>
+    <attributes uuid="b14e9ddd-4f4f-4c43-81c2-0c4d94119988">
+      <name>Счет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счет</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.Хозрасчетный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7519a57e-cca2-4ffc-a65a-53cea194eb91">
+      <name>Субконто1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субконто 1</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7ddf8268-2535-4cc6-9ea0-89ebdd695f71">
+      <name>Субконто2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субконто 2</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d22b4236-79f4-46dc-90ce-43ee3cc63e10">
+      <name>Субконто3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Субконто 3</value>
+      </synonym>
+      <type>
+        <types>Characteristic.ВидыСубконтоХозрасчетные</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="78ebf8ed-d88f-4069-aca1-43fa55211791">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ea196aeb-bd4a-4189-81fa-8c6468f26c22">
+      <name>ВалютнаяСуммаНачальныйОстатокДт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сальдо Н/Дт (вал)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c6cfd33b-23e5-4c51-b548-ffdd556d82b4">
+      <name>СуммаНачальныйОстатокДт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2e3cb11a-6ec6-4cc8-b440-45c0a3b194d1">
+      <name>ВалютнаяСуммаНачальныйОстатокКт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сальдо Н/Кт (вал)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="78da3a9c-d1a2-42f9-8dc9-bccda708f376">
+      <name>СуммаНачальныйОстатокКт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0fc2c2cf-9799-4467-9bf7-bfc512b6ba54">
+      <name>ВалютнаяСуммаОборотДт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма Дт (вал)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9e6185b7-3e6e-4fe4-8313-586ee0caf9fb">
+      <name>СуммаОборотДт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="470a560d-e024-4c19-a370-6352687f6e7e">
+      <name>ВалютнаяСуммаОборотКт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма Кт (вал)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ba7bf078-aee8-4bff-b61b-2ce4ca8b8b9e">
+      <name>СуммаОборотКт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3a0a6e61-b947-4823-a041-846f3c8371e8">
+      <name>ВалютнаяСуммаКонечныйОстатокДт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сальдо К/Дт (вал)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="24252edf-e849-40b3-a595-ec9021ac26cb">
+      <name>СуммаКонечныйОстатокДт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d9f8bbd4-9574-4025-85b4-a8653092c679">
+      <name>ВалютнаяСуммаКонечныйОстатокКт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сальдо К/Кт (вал)</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="51c3ea7e-ea88-4356-bc41-79e0e013ceba">
+      <name>СуммаКонечныйОстатокКт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сом</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="3d1ef430-a4e6-4739-9a6f-f3827d95d92a">
+    <producedTypes>
+      <objectType typeId="e8b4f2c6-806e-488b-bc63-8537a4e7f3ce" valueTypeId="4d71cc03-14d3-41f1-992e-5526a6f74fb0"/>
+      <rowType typeId="0256e425-7ce7-4b2c-9e9e-9368a10037e6" valueTypeId="2134d807-f0f1-4028-ba97-d6166b05e4dd"/>
+    </producedTypes>
+    <name>СписокСчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список счетов</value>
+    </synonym>
+    <attributes uuid="0b3f6450-6e0d-4e80-94dc-1f50b0144abb">
+      <name>Счет</name>
+      <synonym>
+        <key>ru</key>
+        <value>Счет</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.Хозрасчетный</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="aed694fd-3b2a-4f09-b6e8-b8ad34e230ba">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0c3125e7-359e-4a94-b7b1-905120b25a22">
+    <name>ПФ_MXL_Операции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции</value>
+    </synonym>
+  </templates>
+  <commands uuid="1c29b519-5c51-496f-aa65-ef54c8b9436e">
+    <name>КарточкаОпераций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Карточка операций</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

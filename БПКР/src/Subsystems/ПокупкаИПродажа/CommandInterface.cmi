@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsOrder>
+    <orderFragments>
+      <group>ActionsPanelTools</group>
+      <commands>CommonCommand.ДополнительныеОбработкиПокупкаИПродажа</commands>
+    </orderFragments>
+  </commandsOrder>
+  <subsystemsOrder>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.Покупка</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.Продажа</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.РозничныеПродажи</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.РасчетыСКонтрагентами</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.НСИ</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.СчетаФактуры</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.Прочее</subsystems>
+    <subsystems>Subsystem.ПокупкаИПродажа.Subsystem.Анализ</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>
